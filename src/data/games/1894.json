@@ -1,0 +1,1855 @@
+{
+  "info": {
+    "title": "1894",
+    "subtitle": "Rise and fall of railway companies (hopefully)",
+    "designer": "",
+    "background": "gray",
+    "width": 150,
+    "color_10": "orange",
+    "titleX": 50,
+    "titleY": -70,
+    "titleSize": 100,
+    "subTitleSize": 20,
+    "hexCoords": true,
+    "currency": "USD",
+    "orientation": "horizontal"
+  },
+  "links": {},
+  "tokens": [],
+  "ipo": true,
+  "bank": "$12,000",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 20,
+      "capital": "$800"
+    },
+    {
+      "number": 4,
+      "certLimit": 16,
+      "capital": "$600"
+    },
+    {
+      "number": 5,
+      "certLimit": 13,
+      "capital": "$480"
+    },
+    {
+      "number": 6,
+      "certLimit": 11,
+      "capital": "$400"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Belge",
+      "abbrev": "B",
+      "tokens": ["Free", "$40", "$100"],
+      "color": "green",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "CFL",
+      "abbrev": "CFL",
+      "tokens": ["Free", "$40", "$100"],
+      "color": "red",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Nederlandse Spoorwegen ",
+      "abbrev": "NS",
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Prinz-Wilhelm-Eisenbahn-Gesellschaft",
+      "abbrev": "PWE",
+      "tokens": ["Free", "$40", "$100"],
+      "color": "orange",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Société nationale des chemins de fer français",
+      "abbrev": "SNCF",
+      "tokens": ["Free", "$40", "$100"],
+      "color": "gray",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Chemins de fer du Nord",
+      "abbrev": "N",
+      "tokens": ["Free", "$40", "$100"],
+      "color": "yellow",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Rheinische Eisenbahn-Gesellschaft",
+      "abbrev": "RhE",
+      "tokens": ["Free", "$40", "$100"],
+      "color": "purple",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "abbrev": "1",
+      "token": {
+        "bar": true,
+        "stripe": "light_blue",
+        "color": "blue"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "2",
+      "abbrev": "2",
+      "token": {
+        "bar": true,
+        "stripe": "light_pink",
+        "color": "pink"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "3",
+      "abbrev": "3",
+      "token": {
+        "bar": true,
+        "stripe": "black",
+        "color": "yellow"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "4",
+      "abbrev": "4",
+      "token": {
+        "bar": true,
+        "stripe": "light_orange",
+        "color": "dark_orange"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "5",
+      "abbrev": "5",
+      "token": {
+        "bar": true,
+        "stripe": "black",
+        "color": "gray"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "6",
+      "abbrev": "6",
+      "token": {
+        "bar": true,
+        "stripe": "light_brown",
+        "color": "brown"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "7",
+      "abbrev": "7",
+      "token": {
+        "bar": true,
+        "stripe": "light_turquoise",
+        "color": "turquoise"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "8",
+      "abbrev": "8",
+      "token": {
+        "bar": true,
+        "stripe": "white",
+        "color": "black"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    },
+    {
+      "name": "9",
+      "abbrev": "9",
+      "token": {
+        "bar": true,
+        "stripe": "fluo_green",
+        "color": "green"
+      },
+      "tokens": ["Free", "$40", "$100"],
+      "color": "blue"
+    }
+  ],
+  "trains": [
+    {
+      "name": "2",
+      "quantity": 6,
+      "price": "$80",
+      "color": "yellow",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "quantity": 5,
+      "price": "$180",
+      "color": "green",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 6"
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "quantity": 4,
+      "price": "$300",
+      "color": "green",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by D"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "quantity": 3,
+      "price": "$450",
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "quantity": 2,
+      "price": "$630",
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "quantity": 6,
+      "price": "$1100",
+      "color": "brown",
+      "description": "Cost $800 when trading in a 4T, 5T or 6T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    }
+  ],
+  "privates": [
+    {
+      "name": "P1",
+      "price": "$20",
+      "revenue": "$5",
+      "description": ""
+    },
+    {
+      "name": "Industrialization of Łódź",
+      "price": "$40",
+      "revenue": "$10",
+      "description": ""
+    },
+    {
+      "name": "Construction of Gdynia",
+      "price": "$70",
+      "revenue": "$15",
+      "description": ""
+    },
+    {
+      "name": "Upper Silesian Railway",
+      "price": "$110",
+      "revenue": "$20",
+      "description": ""
+    },
+    {
+      "name": "P5",
+      "price": "$160",
+      "revenue": "$25",
+      "description": ""
+    },
+    {
+      "name": "Towarzystwo akcyjne drogi żelaznej Warszawsko-Wiedeńskiej",
+      "price": "$220",
+      "revenue": "$30",
+      "description": ""
+    }
+  ],
+  "phases": [
+    {
+      "name": "2",
+      "limit": "4",
+      "number": "6",
+      "tiles": "yellow"
+    },
+    {
+      "name": "3",
+      "limit": "4",
+      "number": "5",
+      "tiles": "green",
+      "notes": "Private companies may be purchased"
+    },
+    {
+      "name": "4",
+      "rust": "2",
+      "limit": "3",
+      "number": "4",
+      "tiles": "green"
+    },
+    {
+      "name": "5",
+      "limit": "2",
+      "number": "3",
+      "tiles": "brown",
+      "notes": "Private companies are closed"
+    },
+    {
+      "name": "6",
+      "limit": "2",
+      "number": "2",
+      "rust": "3",
+      "tiles": "brown",
+      "notes": "D Trains may be purchased"
+    },
+    {
+      "name": "D",
+      "limit": "2",
+      "number": "6",
+      "rust": "4",
+      "tiles": "brown"
+    }
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "OR3",
+      "color": "brown"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "yellow"
+    },
+    {
+      "name": "SR",
+      "color": "gray"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": [
+        "Sell any number of shares",
+        "Buy one share",
+        "Sell any number of shares"
+      ],
+      "ordered": true
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Lay or upgrade track",
+        "Purchase a station",
+        "Run trains",
+        "Pay dividends or withhold revenue",
+        "Purchase trains"
+      ],
+      "ordered": true,
+      "optional": ["Purchase private companies"]
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "par": {
+      "values": [100, 90, 82, 76, 71, 67]
+    },
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every share sold"],
+      "left": ["Withheld revenue"],
+      "right": ["Paid dividends"]
+    },
+    "market": [
+      [
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0,
+          "arrow": "down"
+        },
+        67,
+        71,
+        76,
+        82,
+        90,
+        {
+          "value": 100,
+          "label": 100,
+          "par": true
+        },
+        112,
+        126,
+        142,
+        160,
+        180,
+        200,
+        225,
+        250,
+        275,
+        300,
+        325,
+        350
+      ],
+      [
+        {
+          "value": 53,
+          "label": 53,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        66,
+        70,
+        76,
+        82,
+        {
+          "value": 90,
+          "label": 90,
+          "par": true
+        },
+        100,
+        112,
+        126,
+        142,
+        160,
+        180,
+        200,
+        220,
+        240,
+        260,
+        280,
+        {
+          "value": 300,
+          "label": 300,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 46,
+          "label": 46,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        65,
+        70,
+        76,
+        {
+          "value": 82,
+          "label": 82,
+          "par": true
+        },
+        90,
+        100,
+        111,
+        125,
+        140,
+        155,
+        170,
+        185,
+        {
+          "value": 200,
+          "label": 200,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 39,
+          "label": 39,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 48,
+          "label": 48,
+          "legend": 0
+        },
+        {
+          "value": 54,
+          "label": 54,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        66,
+        71,
+        {
+          "value": 76,
+          "label": 76,
+          "par": true
+        },
+        82,
+        90,
+        100,
+        110,
+        120,
+        {
+          "value": 130,
+          "label": 130,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 32,
+          "label": 32,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 41,
+          "label": 41,
+          "legend": 1
+        },
+        {
+          "value": 48,
+          "label": 48,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        62,
+        67,
+        {
+          "value": 71,
+          "label": 71,
+          "par": true
+        },
+        76,
+        82,
+        90,
+        {
+          "value": 100,
+          "label": 100,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 25,
+          "label": 25,
+          "legend": 2,
+          "arrow": "down"
+        },
+        {
+          "value": 34,
+          "label": 34,
+          "legend": 1
+        },
+        {
+          "value": 42,
+          "label": 42,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 58,
+          "label": 58,
+          "legend": 0
+        },
+        65,
+        {
+          "value": 67,
+          "label": 67,
+          "par": true
+        },
+        71,
+        75,
+        {
+          "value": 80,
+          "label": 80,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 18,
+          "label": 18,
+          "legend": 2,
+          "arrow": "down"
+        },
+        {
+          "value": 27,
+          "label": 27,
+          "legend": 2
+        },
+        {
+          "value": 36,
+          "label": 36,
+          "legend": 1
+        },
+        {
+          "value": 45,
+          "label": 45,
+          "legend": 1
+        },
+        {
+          "value": 54,
+          "label": 54,
+          "legend": 0
+        },
+        63,
+        67,
+        69,
+        {
+          "value": 70,
+          "label": 70,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 12,
+          "label": 12,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        67,
+        {
+          "value": 68,
+          "label": 68,
+          "arrow": "up"
+        }
+      ],
+      [
+        null,
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        null,
+        null,
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        null,
+        null,
+        null,
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 2
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 2
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1,
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "yellow",
+        "description": "Shares of this corporation do not count toward the certificate limit",
+        "icon": "certificate"
+      },
+      {
+        "color": "orange",
+        "description": "Players may own more than 60% of this corporation",
+        "icon": "percentage"
+      },
+      {
+        "color": "brown",
+        "description": "Players may purchase any number of shares of this corporation in one stock action",
+        "icon": "money-bill-wave"
+      }
+    ]
+  },
+  "tiles": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 2,
+    "5": 8,
+    "6": 8,
+    "7": 7,
+    "8": 10,
+    "9": 10,
+    "14": 7,
+    "15": 7,
+    "619": 7,
+    "16": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "23": 3,
+    "24": 3,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 1,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 1,
+    "45": 2,
+    "46": 2,
+    "47": 1,
+    "55": 1,
+    "56": 1,
+    "57": 8,
+    "58": 2,
+    "69": 1,
+    "70": 1,
+
+    "x941": 1,
+    "x942": 1,
+    "x943": 1,
+    "x944": 1,
+    "x945": 1,
+    "x946": 2,
+    "x947": 2,
+    "x948": 2,
+    "x949": 2,
+    "x9410": 3,
+    "x9411": 2,
+    "x9412": 2,
+    "x9413": 2,
+    "x9414": 2,
+    "x9415": 3,
+    "x9416": 2
+  },
+  "map": {
+    "hexes": [
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 6
+          }
+        ],
+        "removeBorders": [1],
+        "hexes": ["A5"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ],
+          "percent": -1.0
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [4],
+        "hexes": ["A7"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [4],
+        "hexes": ["A11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rouen"
+            },
+            "companies": ["5"]
+          }
+        ],
+        "hexes": ["B6"]
+      },
+      {
+        "copy": "B8",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Versailles",
+              "reverse": "true"
+            }
+          }
+        ],
+        "hexes": ["B10"]
+      },
+      {
+        "color": "yellow",
+        "values": [
+          {
+            "percent": 0,
+            "angle": 30,
+            "value": 40
+          }
+        ],
+        "labels": [
+          {
+            "label": "P",
+            "angle": 60,
+            "percent": 0.7
+          }
+        ],
+        "names": [
+          {
+            "name": "Paris",
+            "percent": 0.35
+          }
+        ],
+        "cities": [
+          {
+            "percent": 0.8
+          },
+          {
+            "angle": 120,
+            "percent": 0.8
+          },
+          {
+            "angle": 180,
+            "percent": 0.8
+          },
+          {
+            "angle": 240,
+            "percent": 0.8
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 283,
+            "width": 15,
+            "fontSize": 10,
+            "company": "SNCF",
+            "percent": 0.7,
+            "rotation": 0
+          },
+          {
+            "angle": 317,
+            "width": 15,
+            "fontSize": 10,
+            "company": "8",
+            "percent": 0.7
+          }
+        ],
+        "hexes": ["C11"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "straight",
+            "side": 6,
+            "cross": "over"
+          }
+        ],
+        "hexes": ["D6"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [6],
+        "hexes": ["D14"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "brown",
+              "cost": "70"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["E1"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Amiens"
+            }
+          }
+        ],
+        "hexes": ["E7"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "straight",
+            "side": 1,
+            "cross": "over"
+          },
+          {
+            "type": "gentle",
+            "side": 3,
+            "cross": "under"
+          },
+          {
+            "type": "gentle",
+            "side": 5
+          }
+        ],
+        "hexes": ["E5"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "straight",
+            "cross": "under"
+          },
+          {
+            "type": "straight",
+            "side": 2,
+            "cross": "over"
+          },
+          {
+            "type": "straight",
+            "side": 3,
+            "cross": "top"
+          }
+        ],
+        "hexes": ["E9"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Calais"
+            },
+            "companies": ["1"]
+          }
+        ],
+        "hexes": ["F2"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.45,
+            "name": {
+              "name": "",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 240,
+            "percent": 0.45,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "hexes": ["F6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Reims"
+            },
+            "companies": ["9"]
+          }
+        ],
+        "hexes": ["F12"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [2],
+        "hexes": ["F14"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "South"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 4
+          }
+        ],
+        "removeBorders": [3, 5],
+        "hexes": ["E15"]
+      },
+      {
+        "copy": "B8",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Dunkerque",
+              "reverse": "true"
+            }
+          }
+        ],
+        "hexes": ["G3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Lille"
+            },
+            "companies": ["N"]
+          }
+        ],
+        "hexes": ["G5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Bruges"
+            },
+            "companies": ["3"]
+          }
+        ],
+        "hexes": ["H4"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Gent"
+            }
+          }
+        ],
+        "hexes": ["H6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Mons"
+            },
+            "companies": ["6"]
+          }
+        ],
+        "hexes": ["H10"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "B",
+            "angle": 210,
+            "percent": 0.7
+          }
+        ],
+        "names": [
+          {
+            "name": "Bruxelles",
+            "x": -18
+          }
+        ],
+        "cities": [
+          {
+            "angle": 30,
+            "percent": 0.6,
+            "size": 1,
+            "companies": ["B"]
+          },
+          {
+            "angle": 150,
+            "percent": 0.6,
+            "size": 1
+          },
+          {
+            "angle": 270,
+            "percent": 0.6,
+            "size": 1
+          }
+        ],
+        "hexes": ["I7"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.45,
+            "name": {
+              "name": "",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 240,
+            "percent": 0.45,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "hexes": ["I9"]
+      },
+      {
+        "copy": "B8",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Metz",
+              "reverse": "true"
+            }
+          }
+        ],
+        "hexes": ["I17"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Antwerpen"
+            },
+            "companies": ["4"]
+          }
+        ],
+        "hexes": ["J4"]
+      },
+      {
+        "copy": "B8",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Mechelen",
+              "reverse": "true"
+            }
+          }
+        ],
+        "hexes": ["J6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Liège"
+            },
+            "companies": ["7"]
+          }
+        ],
+        "hexes": ["J10"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Luxembourg"
+            },
+            "companies": ["CFL"]
+          }
+        ],
+        "labels": [
+          {
+            "label": "AL",
+            "angle": 210,
+            "percent": 0.8
+          }
+        ],
+        "hexes": ["J16"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          }
+        ],
+        "hexes": ["J18"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rotterdam"
+            },
+            "companies": ["2"]
+          }
+        ],
+        "hexes": ["K3"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "straight",
+            "side": 5
+          },
+          {
+            "type": "sharp",
+            "side": 6
+          }
+        ],
+        "hexes": ["K15"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 3
+          }
+        ],
+        "hexes": ["K17"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.45,
+            "name": {
+              "name": "",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 240,
+            "percent": 0.45,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "hexes": ["L10"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["M1"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Amsterdam"
+            },
+            "companies": ["NS"]
+          }
+        ],
+        "labels": [
+          {
+            "label": "AL",
+            "angle": 210,
+            "percent": 0.8
+          }
+        ],
+        "hexes": ["M3"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 60,
+            "percent": 0.45,
+            "name": {
+              "name": "",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 240,
+            "percent": 0.45,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "hexes": ["M5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Köln"
+            },
+            "companies": ["RhE"]
+          }
+        ],
+        "hexes": ["M11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Bonn"
+            }
+          }
+        ],
+        "hexes": ["M13"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Koblenz",
+              "reverse": true
+            }
+          }
+        ],
+        "hexes": ["M15"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "10"
+            },
+            {
+              "color": "brown",
+              "cost": "70"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          }
+        ],
+        "hexes": ["N8"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Essen"
+            },
+            "companies": ["PWE"]
+          }
+        ],
+        "hexes": ["N10"]
+      },
+      {
+        "color": "gray",
+        "cities": [{}],
+        "names": [
+          {
+            "name": "Frankfurt am Main",
+            "percent": 0.5
+          }
+        ],
+        "values": [
+          {
+            "percent": 0.7,
+            "angle": 90,
+            "value": 80
+          }
+        ],
+        "track": [
+          {
+            "side": 4
+          }
+        ],
+        "hexes": ["N18"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "10"
+            },
+            {
+              "color": "brown",
+              "cost": "70"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          }
+        ],
+        "hexes": ["O9"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Dortmund"
+            }
+          }
+        ],
+        "hexes": ["O11"]
+      },
+
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "swamp",
+            "cost": "$100"
+          }
+        ],
+        "hexes": [
+          "E3",
+          "G7",
+          "G9",
+          "H12",
+          "I13",
+          "I15",
+          "L12",
+          "N12",
+          "O13",
+          "N16"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "$60"
+          }
+        ],
+        "hexes": ["I3", "J2", "K5", "L2", "N2"]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "A9",
+          "A11",
+          "B4",
+          "B8",
+          "B12",
+          "C5",
+          "C7",
+          "C9",
+          "C13",
+          "D4",
+          "D8",
+          "D10",
+          "D12",
+          "E11",
+          "E13",
+          "F4",
+          "F8",
+          "F10",
+          "G11",
+          "G13",
+          "H8",
+          "H14",
+          "H16",
+          "I5",
+          "I11",
+          "J8",
+          "J12",
+          "J14",
+          "K7",
+          "K9",
+          "K11",
+          "K13",
+          "L4",
+          "L6",
+          "L8",
+          "L14",
+          "L16",
+          "M7",
+          "M9",
+          "N4",
+          "N6"
+        ]
+      }
+    ],
+    "borders": [
+      {
+        "color": "water",
+        "coords": ["J4p0", "J4p1", "J4p2", "I3p3"]
+      },
+      {
+        "color": "water",
+        "coords": ["D10p1", "D10p2"]
+      }
+    ]
+  }
+}

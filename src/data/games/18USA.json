@@ -1,0 +1,1608 @@
+{
+  "info": {
+    "title": "18USA",
+    "designer": "Shawn Fox, Mark Hendrickson and Edward Reece",
+    "background": "gray",
+    "titleX": 340,
+    "titleY": 1180,
+    "titleSize": 120,
+    "subTitleSize": 17,
+    "currency": "USD",
+    "extraStationTokens": 1
+  },
+  "links": {
+    "bgg": "https://boardgamegeek.com/boardgame/63170/1817",
+    "rules": "https://drive.google.com/file/d/0B1SWz2pNe2eAbnI4NVhpQXV4V0k/view"
+  },
+  "colors": {
+    "short": "pink"
+  },
+  "wip": true,
+  "tokens": [
+    {
+      "icon": "bridge",
+      "label": "+10"
+    },
+    {
+      "icon": "bridge",
+      "label": "+10"
+    },
+    {
+      "icon": "bridge",
+      "label": "+10"
+    },
+    {
+      "icon": "bridge",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "icon": "coalcar",
+      "label": "+10"
+    },
+    {
+      "label": "+10",
+      "fontSize": 24
+    },
+    {
+      "label": "+10",
+      "color": "terrain_yellow",
+      "fontSize": 24
+    },
+    {
+      "label": "+20",
+      "color": "terrain_brown",
+      "fontSize": 24
+    },
+    {
+      "icon": "oil-derrick",
+      "color": "terrain_yellow",
+      "label": "+10"
+    },
+    {
+      "icon": "oil-derrick",
+      "color": "terrain_brown",
+      "label": "+20"
+    },
+    {
+      "icon": "oil-derrick",
+      "color": "terrain_yellow",
+      "label": "+10"
+    },
+    {
+      "icon": "oil-derrick",
+      "color": "terrain_brown",
+      "label": "+20"
+    },
+    {
+      "icon": "oil-derrick",
+      "color": "terrain_yellow",
+      "label": "+10"
+    },
+    {
+      "icon": "oil-derrick",
+      "color": "terrain_brown",
+      "label": "+20"
+    },
+    {
+      "icon": "mining",
+      "label": "+10"
+    },
+    {
+      "icon": "mining",
+      "label": "+20"
+    },
+    {
+      "icon": "mining",
+      "label": "+10"
+    },
+    {
+      "icon": "mining",
+      "label": "+20"
+    },
+    {
+      "icon": "mining",
+      "label": "+10"
+    },
+    {
+      "icon": "mining",
+      "label": "+20"
+    },
+    {
+      "icon": "mining",
+      "label": "+10"
+    },
+    {
+      "icon": "mining",
+      "label": "+20"
+    }
+  ],
+  "ipo": false,
+  "bank": "∞",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 21,
+      "capital": 420
+    },
+    {
+      "number": 4,
+      "certLimit": 16,
+      "capital": 315
+    },
+    {
+      "number": 5,
+      "certLimit": 16,
+      "capital": 300
+    },
+    {
+      "number": 6,
+      "certLimit": 13,
+      "capital": 250
+    },
+    {
+      "number": 7,
+      "certLimit": 11,
+      "capital": 225
+    }
+  ],
+  "tokenTypes": {
+    "default": [""]
+  },
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": "100/20/10",
+        "shares": 2
+      },
+      {
+        "quantity": 8,
+        "percent": "20/10",
+        "shares": 1
+      },
+      {
+        "quantity": 10,
+        "percent": 10,
+        "shares": 1
+      },
+      {
+        "quantity": 5,
+        "backgroundColor": "short",
+        "subtext": "Short",
+        "percent": "20/10",
+        "shares": 1
+      },
+      {
+        "quantity": 5,
+        "backgroundColor": "short",
+        "subtext": "Short",
+        "percent": 10,
+        "shares": 1
+      }
+    ]
+  },
+  "companies": [
+    {
+      "abbrev": "GNR",
+      "color": "offboard",
+      "labelColor": "white",
+      "logo": "",
+      "name": "Northwest Rebellion"
+    }
+  ],
+  "trains": [
+    {
+      "name": "2",
+      "quantity": 16,
+      "price": 100,
+      "color": "yellow",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4"
+        }
+      ]
+    },
+    {
+      "name": "2+",
+      "quantity": 4,
+      "price": 100,
+      "color": "yellow",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "quantity": 12,
+      "price": 250,
+      "color": "green",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 6"
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "quantity": 8,
+      "price": 400,
+      "color": "green",
+      "info": [
+        {
+          "color": "gray",
+          "note": "Rusted by 8"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "quantity": 5,
+      "price": 600,
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "quantity": 4,
+      "price": 750,
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "quantity": 3,
+      "price": 900,
+      "color": "gray",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "8",
+      "quantity": 16,
+      "price": 1100,
+      "color": "gray",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    }
+  ],
+  "phases": [],
+  "pools": [],
+  "rounds": [
+    {
+      "color": "gray",
+      "name": "SR"
+    },
+    {
+      "color": "yellow",
+      "name": "OR1"
+    },
+    {
+      "color": "white",
+      "name": "M&A"
+    },
+    {
+      "color": "yellow",
+      "name": "OR2"
+    },
+    {
+      "color": "white",
+      "name": "M&A"
+    }
+  ],
+  "turns": [],
+  "stock": {
+    "type": "1D",
+    "market": []
+  },
+  "tiles": {
+    "5": 2,
+    "6": 2,
+    "7": 3,
+    "8": 4,
+    "9": 4,
+    "14": 2,
+    "15": 2,
+    "57": 2,
+    "60": 3,
+    "63": 4,
+    "80": 3,
+    "81": 4,
+    "82": 4,
+    "83": 4,
+    "448": 1,
+    "544": 3,
+    "545": 3,
+    "546": 3,
+    "611": 3,
+    "619": 2,
+    "U01": 1,
+    "U02": 1,
+    "U03": 1,
+    "U04": 1,
+    "U05": 1,
+    "U06": 1,
+    "U07": 1,
+    "U08": 1,
+    "U09": 1,
+    "U10": 1,
+    "U11": 1,
+    "U12": 1,
+    "U13": 1,
+    "U14": 1,
+    "U15": 1,
+    "U16": 1,
+    "U17": 3,
+    "U18": 1,
+    "U19": 1,
+    "U20": 1,
+    "U21": 1,
+    "U22": 1,
+    "U23": 1
+  },
+  "map": {
+    "players": {
+      "x": 1980,
+      "y": 1080
+    },
+    "roundTracker": {
+      "type": "round",
+      "x": 2190,
+      "y": 1330
+    },
+    "hexes": [
+      {
+        "color": "offboard",
+        "towns": [
+          {
+            "angle": 0,
+            "percent": 0.57735,
+            "rotation": 90,
+            "name": {
+              "name": "Winnipeg",
+              "rotation": 180
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
+        "hexes": ["A15"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 5
+          },
+          {
+            "side": 6
+          }
+        ],
+        "names": [
+          {
+            "name": "Montréal"
+          }
+        ],
+        "hexes": ["A27"]
+      },
+      {
+        "color": "offboard",
+        "towns": [
+          {
+            "angle": 300,
+            "percent": 0.57735,
+            "rotation": 30,
+            "name": {
+              "name": "Seattle",
+              "rotation": 180
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 4
+          }
+        ],
+        "hexes": ["B2"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$10"
+        },
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["B4"]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "$15",
+          "size": "large",
+          "percent": -0.4
+        },
+        "icons": [
+          {
+            "type": "coalcar",
+            "percent": 0.15
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["B6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Helens"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["B8"]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "type": "coalcar",
+            "percent": -0.4
+          },
+          {
+            "type": "mining",
+            "percent": 0.15
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["B10"]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "type": "coalcar",
+            "percent": -0.4
+          },
+          {
+            "type": "oil-derrick",
+            "percent": 0.15
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["B12"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Fargo"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["B14"]
+      },
+      {
+        "color": "plain",
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["B16", "B18"]
+      },
+      {
+        "color": "plain",
+        "water": [
+          {
+            "cost": "$20"
+          }
+        ],
+        "hexes": ["B22"]
+      },
+      {
+        "color": "gray",
+        "track": [{ "type": "sharp", "side": 6 }],
+        "hexes": ["B30"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Portland"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["C3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Minneapolis"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["C17"]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "type": "mining"
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["C19"]
+      },
+      {
+        "color": "water",
+        "hexes": ["C21"]
+      },
+      {
+        "color": "gray",
+        "centerTowns": [{}],
+        "offBoardRevenue": {
+          "angle": 200,
+          "percent": 0.9,
+          "rows": 2,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "green",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "60"
+            }
+          ]
+        },
+        "names": [
+          {
+            "name": "Detroit",
+            "x": 35,
+            "y": 10
+          }
+        ],
+        "track": [
+          {
+            "side": 2
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["C23"]
+      },
+      {
+        "color": "gray",
+        "centerTowns": [{}],
+        "offBoardRevenue": {
+          "angle": 160,
+          "percent": 0.9,
+          "rows": 2,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "gray",
+              "cost": "40"
+            }
+          ]
+        },
+        "names": [
+          {
+            "name": "Toronto",
+            "x": -35,
+            "y": 10
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": ["C25"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Boston"
+            }
+          }
+        ],
+        "hexes": ["C29"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Boise"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["D6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Omaha"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["D14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Chicago"
+            }
+          }
+        ],
+        "tokens": [
+          {
+            "angle": 0,
+            "width": 15,
+            "fontSize": 10,
+            "company": "GNR",
+            "percent": 0.7,
+            "rotation": 0
+          }
+        ],
+        "hexes": ["D20"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Cleveland"
+            }
+          }
+        ],
+        "hexes": ["D24"]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "$15",
+          "size": "large",
+          "percent": -0.3
+        },
+        "icons": [
+          {
+            "type": "coalcar",
+            "percent": 0.4
+          }
+        ],
+        "offBoardTrack": [
+          {
+            "side": 4
+          }
+        ],
+        "hexes": ["D26"]
+      },
+      {
+        "color": "yellow",
+        "values": [
+          {
+            "angle": 150,
+            "percent": 0.7,
+            "value": 40
+          }
+        ],
+        "labels": [
+          {
+            "label": "NY",
+            "angle": -30,
+            "percent": 0.6
+          }
+        ],
+        "cities": [
+          {
+            "rotation": 120,
+            "size": 1,
+            "angle": -150,
+            "companies": [
+              {
+                "label": "M",
+                "fontSize": 30
+              }
+            ],
+            "percent": 0.3
+          },
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "companies": [
+              {
+                "label": "M",
+                "fontSize": 30
+              }
+            ]
+          }
+        ],
+        "track": [
+          {
+            "side": 3
+          },
+          {
+            "side": 6
+          },
+          {
+            "type": "sharpStop",
+            "side": 1
+          }
+        ],
+        "hexes": ["D28"]
+      },
+      {
+        "color": "offboard",
+        "centerTowns": [{}],
+        "names": [
+          {
+            "name": "San Francisco",
+            "angle": 120,
+            "percent": 0.25,
+            "rotation": -30
+          }
+        ],
+        "track": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": ["E1"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Sacramento"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["E3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Salt Lake City"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["E7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Denver"
+            }
+          }
+        ],
+        "hexes": ["E11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Kansas City"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["E15"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "St. Louis"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["E17"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Columbus"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["E23"]
+      },
+      {
+        "color": "plain",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "hexes": ["E27"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Louisville"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["F20"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Baltimore"
+            }
+          }
+        ],
+        "hexes": ["F26"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 6
+          }
+        ],
+        "removeBorders": [3, 4, 5],
+        "hexes": ["F28"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Los Angeles"
+            }
+          }
+        ],
+        "hexes": ["G3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Phoenix"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["G7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Santa Fe"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["G11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "Memphis"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["G17"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Norfolk"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["G27"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Tucson"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["H8"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Dallas"
+            }
+          }
+        ],
+        "hexes": ["H14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Birmingham"
+            }
+          }
+        ],
+        "hexes": ["H20"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Atlanta"
+            }
+          }
+        ],
+        "hexes": ["H22"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "San Antonio"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["I13"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Houston"
+            }
+          }
+        ],
+        "hexes": ["I15"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "size": 1,
+            "name": {
+              "name": "New Orleans"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "",
+                "icon": "bridge"
+              }
+            ],
+            "percent": -0.3
+          }
+        ],
+        "water": {
+          "cost": "$10",
+          "percent": 0.5
+        },
+        "hexes": ["I19"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Jacksonville"
+            },
+            "companies": [
+              {
+                "label": "",
+                "color": "subsidy"
+              }
+            ]
+          }
+        ],
+        "hexes": ["I25"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 2
+          }
+        ],
+        "names": [
+          {
+            "name": "Port of New Orleans"
+          }
+        ],
+        "hexes": ["J20"]
+      },
+      {
+        "color": "offboard",
+        "towns": [
+          {
+            "angle": 180,
+            "percent": 0.57735,
+            "rotation": 90,
+            "name": {
+              "name": "Florida",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 2
+          }
+        ],
+        "hexes": ["J24"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [4],
+        "hexes": ["I5"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1, 4],
+        "hexes": ["I7"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "offBoardRevenue": {
+          "x": -75,
+          "revenues": [
+            {
+              "cost": "No more than 2 trains",
+              "color": "white"
+            }
+          ]
+        },
+        "removeBorders": [1, 4],
+        "hexes": ["I9"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          }
+        ],
+        "names": [
+          {
+            "name": "Mexico"
+          }
+        ],
+        "removeBorders": [1, 5],
+        "hexes": ["I11"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          }
+        ],
+        "removeBorders": [2, 5],
+        "hexes": ["J12"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [2],
+        "hexes": ["K13"]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "B20",
+          "B26",
+          "C5",
+          "C11",
+          "C13",
+          "C15",
+          "D2",
+          "D4",
+          "D12",
+          "D22",
+          "E13",
+          "F2",
+          "F6",
+          "F12",
+          "F14",
+          "G9",
+          "G13",
+          "G19",
+          "G25",
+          "H10",
+          "H12",
+          "H16",
+          "H24",
+          "H26"
+        ]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "$15",
+          "size": "large"
+        },
+        "hexes": ["B28", "C27", "F4", "G5", "G23"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$10"
+        },
+        "hexes": ["D18", "E21", "F18", "H18"]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "$15",
+          "size": "large",
+          "percent": -0.3
+        },
+        "icons": [
+          {
+            "type": "coalcar",
+            "percent": 0.4
+          }
+        ],
+        "hexes": ["C9", "D8", "D10", "E25", "F8", "F10", "F22", "F24"]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "type": "mining"
+          }
+        ],
+        "hexes": ["D16", "E5", "H6"]
+      },
+      {
+        "color": "plain",
+        "mountain": {
+          "cost": "$15",
+          "size": "large",
+          "percent": -0.3
+        },
+        "icons": [
+          {
+            "type": "mining",
+            "percent": 0.4
+          }
+        ],
+        "hexes": ["C7", "E9", "G21"]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "type": "coalcar"
+          }
+        ],
+        "hexes": ["E19", "F16"]
+      },
+      {
+        "color": "plain",
+        "icons": [
+          {
+            "type": "oil-derrick"
+          }
+        ],
+        "hexes": ["G15", "H4", "I17", "I21", "I23", "J14"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1153 @@
+{
+  "info": {
+    "title": "18Brass",
+    "subtitle": "VERY EARLY PROTOTYPE",
+    "subtitleFontFamily": "Lato",
+    "designer": "Galatolol",
+    "background": "gray",
+    "orientation": "vertical",
+    "titleY": 1490,
+    "titleX": 20,
+    "currency": "GBP",
+    "titleSize": 80
+  },
+  "links": {},
+  "tokens": [],
+  "ipo": true,
+  "bank": "$7,500",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 13,
+      "capital": "$700"
+    },
+    {
+      "number": 4,
+      "certLimit": 10,
+      "capital": "$550"
+    },
+    {
+      "number": 5,
+      "certLimit": 8,
+      "capital": "$440"
+    }
+  ],
+  "companies": [
+    {
+      "name": "E",
+      "abbrev": "E",
+      "tokens": ["Free", "$30", "$70"],
+      "token": {
+        "bar": true,
+        "target": "black",
+        "color": "irepl_purple",
+        "fontSize": 15
+      }
+    },
+    {
+      "name": "A",
+      "abbrev": "A",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "bar": true,
+        "stripes": "white",
+        "color": "irepl_blue",
+        "fontSize": 15
+      }
+    },
+    {
+      "name": "C",
+      "abbrev": "C",
+      "tokens": ["Home", "40", "$100"],
+      "token": {
+        "color": "irepl_yellow",
+        "fontSize": 15
+      }
+    },
+    {
+      "name": "B",
+      "abbrev": "B",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "color": "irepl_green",
+        "fontSize": 15
+      }
+    },
+    {
+      "name": "D",
+      "abbrev": "D",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "bar": true,
+        "stripe": "black",
+        "color": "irepl_red",
+        "fontSize": 15
+      }
+    },
+    {
+      "name": "Mons Railway",
+      "abbrev": "TKG",
+      "tokens": ["Home", "$30", "$100"],
+      "color": "orange"
+    }
+  ],
+  "trains": [],
+  "privates": [],
+  "phases": [],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "SR",
+      "color": "white"
+    },
+    {
+      "name": "OR1",
+      "color": "par_gray"
+    },
+    {
+      "name": "OR2",
+      "color": "par_gray"
+    },
+    {
+      "name": "MR",
+      "color": "par_gray"
+    }
+  ],
+  "turns": [],
+  "stock": {
+    "type": "2D",
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every share sold"],
+      "left": ["Withheld revenue"],
+      "right": ["Paid dividends higher or equal to the current value"]
+    },
+    "market": [
+      [
+        {
+          "value": 62,
+          "label": 62,
+          "arrow": "down"
+        },
+        68,
+        76,
+        84,
+        92,
+        {
+          "value": 100,
+          "label": 100,
+          "legend": 1
+        },
+        110,
+        {
+          "value": 122,
+          "label": 122,
+          "legend": 2
+        },
+        134,
+        {
+          "value": 148,
+          "label": 148,
+          "legend": 3
+        },
+        170,
+        196,
+        225,
+        {
+          "value": 260,
+          "label": "260 Game end",
+          "legend": 4
+        }
+      ],
+      [
+        {
+          "value": 58,
+          "label": 58,
+          "arrow": "down"
+        },
+        64,
+        70,
+        78,
+        {
+          "value": 85,
+          "label": 85,
+          "legend": 1
+        },
+        94,
+        102,
+        112,
+        124,
+        136,
+        150,
+        172,
+        {
+          "value": 198,
+          "label": 198,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 55,
+          "label": 55,
+          "arrow": "down"
+        },
+        60,
+        65,
+        {
+          "value": 70,
+          "label": 70,
+          "legend": 1
+        },
+        78,
+        86,
+        95,
+        104,
+        114,
+        125,
+        {
+          "value": 138,
+          "label": 138,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 50,
+          "label": 50,
+          "arrow": "down",
+          "legend": 0
+        },
+        55,
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 1
+        },
+        66,
+        72,
+        80,
+        88,
+        96,
+        {
+          "value": 106,
+          "label": 106
+        },
+        {
+          "value": 116,
+          "label": 116,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 1
+        },
+        55,
+        60,
+        66,
+        72,
+        {
+          "value": 80,
+          "label": 80
+        },
+        {
+          "value": 89,
+          "label": 89
+        },
+        {
+          "value": 97,
+          "label": 97,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60
+        },
+        {
+          "value": 67,
+          "label": 67
+        },
+        {
+          "value": 74,
+          "label": 74
+        },
+        {
+          "value": 82,
+          "label": 82,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 24,
+          "label": 24,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0
+        },
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 0
+        },
+        {
+          "value": 24,
+          "label": 24,
+          "legend": 0
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0
+        },
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "yellow_very_light"
+      },
+      {
+        "color": "yellow"
+      },
+      {
+        "color": "green"
+      },
+      {
+        "color": "brown"
+      },
+      {
+        "color": "offboard"
+      }
+    ]
+  },
+  "tiles": {
+    "3": 2,
+    "4": 3,
+    "5": 3,
+    "6": 3,
+    "7": 2,
+    "8": 9,
+    "9": 7,
+    "55": 1,
+    "56": 1,
+    "57": 3,
+    "58": 4,
+    "69": 1,
+    "16": 2,
+    "17": 1,
+    "18": 1,
+    "19": 2,
+    "20": 2,
+    "21": 1,
+    "22": 1,
+    "23": 2,
+    "24": 2,
+    "25": 2,
+    "26": 2,
+    "27": 2,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 1,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 2,
+    "45": 2,
+    "46": 2,
+    "47": 2,
+    "448": 3,
+    "63": 3,
+    "G11": 2,
+    "G12": 2,
+    "G13": 1,
+    "G14": 1,
+    "G15": 1,
+    "G16": 1,
+    "G17": 1,
+    "G18": 1,
+    "G19": 4
+  },
+  "map": {
+    "hexes": [
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Scotland"
+          },
+          "revenues": [
+            {
+              "cost": "40",
+              "color": "yellow"
+            },
+            {
+              "cost": "60",
+              "color": "brown"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 6
+          },
+          {
+            "side": 1
+          }
+        ],
+        "hexes": ["A8"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Barrow-In-Furness"
+            }
+          }
+        ],
+        "labels": [
+          {
+            "label": "BF",
+            "angle": 0,
+            "percent": 0.7
+          }
+        ],
+        "hexes": ["B1"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 5
+          }
+        ],
+        "hexes": ["B3"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "XYZ"
+          },
+          "revenues": [
+            {
+              "cost": "0",
+              "color": "yellow"
+            },
+            {
+              "cost": "70",
+              "color": "brown"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 2
+          }
+        ],
+        "hexes": ["C2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Lancaster"
+            }
+          }
+        ],
+        "hexes": ["C4"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 6
+          }
+        ],
+        "removeBorders": [5],
+        "hexes": ["C12"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1],
+        "hexes": ["D3"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Yorkshire"
+          },
+          "revenues": [
+            {
+              "cost": "30",
+              "color": "yellow"
+            },
+            {
+              "cost": "50",
+              "color": "brown"
+            }
+          ],
+          "angle": 150,
+          "percent": 1
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "removeBorders": [2],
+        "hexes": ["D13"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Fleetwood"
+          },
+          "revenues": [
+            {
+              "cost": "30",
+              "color": "yellow"
+            },
+            {
+              "cost": "50",
+              "color": "brown"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["E2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Preston"
+            }
+          }
+        ],
+        "tokens": [
+          {
+            "company": "A",
+            "width": 16,
+            "fontSize": 25,
+            "percent": 0.65
+          }
+        ],
+        "hexes": ["F5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Blackburn"
+            }
+          }
+        ],
+        "tokens": [
+          {
+            "company": "B",
+            "width": 16,
+            "fontSize": 25,
+            "percent": 0.65
+          }
+        ],
+        "hexes": ["F9"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Burnley"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 2,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["E10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Colne"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 2,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["E12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Southport"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 2,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["G2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rochdale"
+            }
+          }
+        ],
+        "tokens": [
+          {
+            "company": "C",
+            "width": 16,
+            "fontSize": 25,
+            "percent": 0.65
+          }
+        ],
+        "hexes": ["G12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Wigan"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 3,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["H5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Bolton"
+            }
+          }
+        ],
+        "hexes": ["H9"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "x": -32,
+            "name": {
+              "name": "Bury"
+            }
+          },
+          {
+            "x": 32,
+            "name": {
+              "name": "XYZ"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 1,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "x": -32,
+            "percent": 0.5
+          },
+          {
+            "value": 1,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "x": 32,
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["H11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Liverpool"
+            },
+            "x": -30
+          },
+          {
+            "x": 30
+          }
+        ],
+        "labels": [
+          {
+            "label": "LM",
+            "angle": 0,
+            "percent": -0.7
+          }
+        ],
+        "tokens": [
+          {
+            "company": "D",
+            "width": 16,
+            "percent": 0.65
+          }
+        ],
+        "hexes": ["I2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Manchester"
+            },
+            "x": -30
+          },
+          {
+            "x": 30
+          }
+        ],
+        "labels": [
+          {
+            "label": "LM",
+            "angle": 0,
+            "percent": -0.7
+          }
+        ],
+        "tokens": [
+          {
+            "company": "E",
+            "width": 16,
+            "fontSize": 25,
+            "percent": 0.65
+          }
+        ],
+        "hexes": ["I10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Oldham"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 2,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["I12"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Birkenhead"
+          },
+          "revenues": [
+            {
+              "cost": "10",
+              "color": "yellow"
+            },
+            {
+              "cost": "70",
+              "color": "brown"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": ["J1"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "x": -32,
+            "name": {
+              "name": "Runcorn"
+            }
+          },
+          {
+            "x": 32,
+            "name": {
+              "name": "Warrington"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 1,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "x": -32,
+            "percent": 0.5
+          },
+          {
+            "value": 1,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "x": 32,
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["J7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Ellesmere Port"
+            }
+          }
+        ],
+        "hexes": ["K4"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Stockport"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 2,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["K12"]
+      },
+      {
+        "color": "plain",
+        "values": [
+          {
+            "value": 1,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0
+          }
+        ],
+        "hexes": ["L5"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Nortwich"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 2,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0.5
+          }
+        ],
+        "hexes": ["L7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Macclesfield"
+            }
+          }
+        ],
+        "hexes": ["L11"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [4],
+        "hexes": ["M8"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "The Midlands"
+          },
+          "revenues": [
+            {
+              "cost": "30",
+              "color": "yellow"
+            },
+            {
+              "cost": "50",
+              "color": "brown"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1, 4],
+        "hexes": ["M10"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1],
+        "hexes": ["M12"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$30"
+        },
+        "hexes": []
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "A2",
+          "A4",
+          "A6",
+          "B5",
+          "B7",
+          "C6",
+          "D5",
+          "D7",
+          "D11",
+          "E4",
+          "E6",
+          "F1",
+          "F3",
+          "F7",
+          "F11",
+          "F13",
+          "G4",
+          "G6",
+          "G8",
+          "G10",
+          "H1",
+          "H3",
+          "H7",
+          "H13",
+          "I4",
+          "I6",
+          "I8",
+          "J3",
+          "J5",
+          "J9",
+          "J11",
+          "J13",
+          "K2",
+          "K6",
+          "K8",
+          "K10",
+          "L3",
+          "L9",
+          "L13",
+          "M6"
+        ]
+      }
+    ],
+    "borders": [
+      {
+        "color": "water",
+        "width": 8,
+        "coords": ["G2p3", "G2p4"]
+      },
+      {
+        "color": "water",
+        "width": 8,
+        "coords": ["K2p4", "K2p5", "K4p4", "K4p5"]
+      }
+    ]
+  }
+}

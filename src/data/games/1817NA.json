@@ -1,0 +1,1011 @@
+{
+  "info": {
+    "title": "1817NA",
+    "designer": "Marc Voyer",
+    "background": "gray",
+    "titleX": 1500,
+    "titleY": 0,
+    "titleSize": 110,
+    "subTitleSize": 17,
+    "currency": "USD"
+  },
+  "links": {
+    "bgg": "",
+    "rules": ""
+  },
+  "wip": true,
+  "ipo": false,
+  "bank": "∞",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 21,
+      "capital": 420
+    },
+    {
+      "number": 4,
+      "certLimit": 16,
+      "capital": 315
+    },
+    {
+      "number": 5,
+      "certLimit": 13,
+      "capital": 252
+    },
+    {
+      "number": 6,
+      "certLimit": 11,
+      "capital": 210
+    },
+    {
+      "number": 7,
+      "certLimit": 9,
+      "capital": 180
+    }
+  ],
+  "tokens": [
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "bridge"
+    },
+    {
+      "icon": "bridge"
+    }
+  ],
+  "tokenTypes": {
+    "def": ["Home", 50, 50, 50, 50, 50, 50, 50]
+  },
+  "companies": [
+    {
+      "name": "URR",
+      "abbrev": "URR",
+      "color": "google_blue",
+      "tokens": "def"
+    },
+    {
+      "name": "RRR",
+      "abbrev": "RRR",
+      "color": "google_green",
+      "tokens": "def"
+    },
+    {
+      "name": "BA",
+      "abbrev": "BA",
+      "color": "red",
+      "tokens": "def"
+    },
+    {
+      "name": "HR",
+      "abbrev": "HR",
+      "color": "google_light_blue",
+      "tokens": "def"
+    },
+    {
+      "name": "ME",
+      "abbrev": "ME",
+      "color": "google_yellow",
+      "tokens": "def"
+    },
+    {
+      "name": "PLE",
+      "abbrev": "PLE",
+      "color": "black",
+      "tokens": "def"
+    },
+    {
+      "name": "GT",
+      "abbrev": "GT",
+      "logo": "false",
+      "color": "orange",
+      "tokens": "def"
+    },
+    {
+      "name": "WC",
+      "abbrev": "WC",
+      "color": "google_brown",
+      "tokens": "def"
+    },
+    {
+      "name": "ASR",
+      "abbrev": "ASR",
+      "color": "google_purple",
+      "tokens": "def"
+    },
+    {
+      "name": "PWR",
+      "abbrev": "PWR",
+      "color": "google_natural",
+      "tokens": "def"
+    },
+    {
+      "name": "PSN",
+      "abbrev": "PSN",
+      "color": "google_cyan",
+      "tokens": "def"
+    },
+    {
+      "name": "BRC",
+      "abbrev": "BRC",
+      "color": "google_gold",
+      "tokens": "def"
+    },
+    {
+      "name": "DLW",
+      "abbrev": "DLW",
+      "color": "google_gray",
+      "tokens": "def"
+    },
+    {
+      "name": "SR",
+      "abbrev": "SR",
+      "color": "google_magenta",
+      "tokens": "def"
+    },
+    {
+      "name": "NYS",
+      "abbrev": "NYS",
+      "color": "google_rotten_green",
+      "tokens": "def"
+    }
+  ],
+  "trains": [
+    {
+      "name": "2",
+      "quantity": 16,
+      "price": 100,
+      "color": "yellow",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4"
+        }
+      ]
+    },
+    {
+      "name": "2+",
+      "quantity": 4,
+      "price": 100,
+      "color": "yellow",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "quantity": 12,
+      "price": 250,
+      "color": "green",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 6"
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "quantity": 8,
+      "price": 400,
+      "color": "green",
+      "info": [
+        {
+          "color": "gray",
+          "note": "Rusted by 8"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "quantity": 5,
+      "price": 600,
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "quantity": 4,
+      "price": 750,
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "quantity": 3,
+      "price": 900,
+      "color": "gray",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "8",
+      "quantity": 16,
+      "price": 1100,
+      "color": "gray",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    }
+  ],
+  "phases": [],
+  "pools": [],
+  "rounds": [],
+  "turns": [],
+  "stock": {},
+  "tiles": {
+    "5": 6,
+    "6": 7,
+    "7": 5,
+    "8": 20,
+    "9": 20,
+    "14": 7,
+    "15": 7,
+    "54": 1,
+    "57": 7,
+    "62": 1,
+    "63": 8,
+    "80": 7,
+    "81": 7,
+    "82": 10,
+    "83": 10,
+    "448": 4,
+    "544": 5,
+    "545": 5,
+    "546": 5,
+    "592": 3,
+    "593": 3,
+    "597": 3,
+    "611": 2,
+    "619": 8,
+    "X00": 1,
+    "X30": 1
+  },
+  "map": {
+    "hexes": [
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [1, 2, 3, 6],
+        "hexes": ["A0"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Anchorage"
+            }
+          }
+        ],
+        "hexes": ["B1"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1, 2, 5, 6],
+        "hexes": ["C0"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Asia"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "green",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            },
+            {
+              "color": "gray",
+              "cost": "80"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "hexes": ["C2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Dawson City"
+            }
+          }
+        ],
+        "terrain": [
+          {
+            "cost": "$15",
+            "type": "mountain",
+            "size": "large",
+            "percent": 0.7
+          }
+        ],
+        "hexes": ["A6"]
+      },
+      {
+        "color": "gray",
+        "centerTowns": [
+          {
+            "name": {
+              "reverse": true,
+              "name": "Klondike"
+            }
+          }
+        ],
+        "offBoardRevenue": {
+          "percent": 0.57,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "50"
+            },
+            {
+              "color": "green",
+              "cost": "20"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "hexes": ["B5"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "straight",
+            "side": 4
+          }
+        ],
+        "hexes": ["B13", "C18"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "gentle",
+            "side": 5
+          }
+        ],
+        "hexes": ["B15", "C20"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": {
+            "name": "Arctic"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "60"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["B17"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Hazelton"
+            }
+          }
+        ],
+        "hexes": ["C8"]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "angle": 120,
+            "percent": 0.8,
+            "label": "B"
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "reverse": "true",
+              "name": "Edmonton"
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "angle": 240,
+            "percent": 0.8
+          }
+        ],
+        "track": [
+          {
+            "side": 2
+          },
+          {
+            "side": 4
+          }
+        ],
+        "hexes": ["D11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Winnipeg"
+            }
+          }
+        ],
+        "terrain": [
+          {
+            "cost": "$10",
+            "type": "river",
+            "size": "medium",
+            "percent": 0.7
+          }
+        ],
+        "hexes": ["D15"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Quebec"
+            }
+          }
+        ],
+        "hexes": ["D21"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "x": 20,
+          "name": {
+            "name": "Europe"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "green",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            },
+            {
+              "color": "gray",
+              "cost": "80"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["D25"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Seattle"
+            }
+          }
+        ],
+        "hexes": ["E8"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1, 2, 5, 6],
+        "hexes": ["F7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Denver"
+            }
+          }
+        ],
+        "hexes": ["F13"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Toronto"
+            }
+          }
+        ],
+        "hexes": ["F19"]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "angle": 150,
+            "percent": 0.6,
+            "label": "NY"
+          }
+        ],
+        "terrain": [
+          {
+            "cost": "$20",
+            "color": "red",
+            "angle": 285,
+            "percent": 0.6
+          }
+        ],
+        "cities": [
+          {
+            "angle": 230,
+            "percent": 0.6
+          },
+          {
+            "angle": 50,
+            "percent": 0.6
+          }
+        ],
+        "values": [
+          {
+            "value": 40
+          }
+        ],
+        "track": [
+          {
+            "type": "sharpStop",
+            "side": 3
+          },
+          {
+            "type": "sharpStop",
+            "side": 6
+          }
+        ],
+        "hexes": ["F21"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "x": -20,
+          "name": {
+            "name": "Hawaii"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "60"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          }
+        ],
+        "hexes": ["H7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Los Angeles"
+            }
+          }
+        ],
+        "hexes": ["H9"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "cost": "$10",
+            "type": "river",
+            "size": "medium",
+            "percent": 0.7
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "New Orleans"
+            }
+          }
+        ],
+        "hexes": ["H17"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1, 4, 5, 6],
+        "hexes": ["I8"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 4
+          }
+        ],
+        "removeBorders": [1, 5, 6],
+        "hexes": ["I10"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Guadalajara"
+            }
+          }
+        ],
+        "hexes": ["I12"]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "angle": 120,
+            "percent": 0.8,
+            "label": "B"
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Mexico City"
+            }
+          }
+        ],
+        "terrain": [
+          {
+            "cost": "$20",
+            "color": "red",
+            "angle": 285,
+            "percent": 0.6
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "angle": 240,
+            "percent": 0.8
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": ["I14"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "hexes": ["I16"]
+      },
+      {
+        "color": "gray",
+        "cities": [
+          {
+            "x": -10,
+            "name": {
+              "reverse": true,
+              "rotation": -38,
+              "name": "Miami"
+            }
+          }
+        ],
+        "offBoardRevenue": {
+          "x": 45,
+          "y": -30,
+          "rows": 2,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "60"
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["I20"]
+      },
+      {
+        "color": "white",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "removeBorders": [1, 2, 5, 6],
+        "hexes": ["J11"]
+      },
+      {
+        "cities": [
+          {
+            "name": {
+              "name": "Belize"
+            }
+          }
+        ],
+        "hexes": ["J17"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "x": 20,
+          "name": {
+            "name": "South America"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "60"
+            }
+          ]
+        },
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          }
+        ],
+        "hexes": ["K20"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "cost": "$15",
+            "type": "mountain",
+            "size": "large"
+          }
+        ],
+        "hexes": [
+          "A2",
+          "B3",
+          "B7",
+          "B9",
+          "D9",
+          "E10",
+          "E12",
+          "F11",
+          "G12",
+          "G18",
+          "H11",
+          "J13"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "cost": "$10",
+            "type": "river",
+            "size": "medium"
+          }
+        ],
+        "hexes": ["D13", "E14", "F15", "G16"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "cost": "$20",
+            "color": "red"
+          }
+        ],
+        "hexes": ["D7", "E24", "I18", "J19"]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "A4",
+          "A8",
+          "B11",
+          "C6",
+          "C10",
+          "C12",
+          "C14",
+          "C16",
+          "C22",
+          "D17",
+          "D19",
+          "D23",
+          "E16",
+          "E18",
+          "E20",
+          "E22",
+          "F9",
+          "F17",
+          "G8",
+          "G10",
+          "G14",
+          "G20",
+          "H13",
+          "H15",
+          "H19",
+          "J15",
+          "K16",
+          "K18"
+        ]
+      }
+    ],
+    "borders": [
+      {
+        "color": "water",
+        "coords": ["E18p3", "E18p2", "E18p1"]
+      },
+      {
+        "color": "water",
+        "coords": ["I18p2", "I18p1"]
+      }
+    ]
+  }
+}

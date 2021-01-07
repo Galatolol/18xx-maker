@@ -1,0 +1,1991 @@
+{
+  "info": {
+    "title": "18IrePL",
+    "subtitle": "",
+    "designer": "Galatolol",
+    "background": "gray",
+    "orientation": "horizontal",
+    "titleY": -70,
+    "titleX": 1000,
+    "currency": "EUR",
+    "titleSize": 120,
+    "titleFontFamily": "Adamina"
+  },
+  "links": {},
+  "tokens": [],
+  "ipo": true,
+  "bank": "$7,500",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 13,
+      "capital": "$700"
+    },
+    {
+      "number": 4,
+      "certLimit": 10,
+      "capital": "$550"
+    },
+    {
+      "number": 5,
+      "certLimit": 8,
+      "capital": "$440"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Luxembourg Railway",
+      "abbrev": "KKG",
+      "tokens": ["Free", "$30", "$70"],
+      "color": "purple",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Ostend Railway",
+      "abbrev": "PKP",
+      "tokens": ["Home", "$30", "$100"],
+      "color": "blue",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Antwerp Railway",
+      "abbrev": "MWW",
+      "tokens": ["Home", "40", "$100"],
+      "color": "yellow",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Mons Railway",
+      "abbrev": "LHS",
+      "tokens": ["Home", "$30", "$100"],
+      "color": "gray",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Mons Railway",
+      "abbrev": "CMK",
+      "tokens": ["Home", "$30", "$100"],
+      "color": "red",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Mons Railway",
+      "abbrev": "TKG",
+      "tokens": ["Home", "$30", "$100"],
+      "color": "orange",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "abbrev": "1",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "2",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "3",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "4",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "5",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "6",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "7",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "8",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "9",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "10",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "11",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "12",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "13",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "14",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "A",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "B",
+      "token": {
+        "fontSize": 30
+      },
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "+10",
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "+20",
+      "tokens": ["Home"]
+    },
+    {
+      "abbrev": "50",
+      "tokens": ["Home"]
+    }
+  ],
+  "trains": [],
+  "privates": [],
+  "phases": [],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "SR",
+      "color": "white"
+    },
+    {
+      "name": "OR1",
+      "color": "par_gray"
+    },
+    {
+      "name": "OR2",
+      "color": "par_gray"
+    },
+    {
+      "name": "MR",
+      "color": "par_gray"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": [
+        "Sell any number of shares",
+        "Buy one share",
+        "Sell any number of shares"
+      ],
+      "ordered": true
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Lay or upgrade track",
+        "Purchase a station",
+        "Run trains",
+        "Pay dividends or withhold revenue",
+        "Purchase trains"
+      ],
+      "ordered": true,
+      "optional": ["Purchase private companies"]
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every share sold"],
+      "left": ["Withheld revenue"],
+      "right": ["Paid dividends higher or equal to the current value"]
+    },
+    "market": [
+      [
+        {
+          "value": 62,
+          "label": 62,
+          "arrow": "down"
+        },
+        68,
+        76,
+        84,
+        92,
+        {
+          "value": 100,
+          "label": 100,
+          "legend": 1
+        },
+        110,
+        {
+          "value": 122,
+          "label": 122,
+          "legend": 2
+        },
+        134,
+        {
+          "value": 148,
+          "label": 148,
+          "legend": 3
+        },
+        170,
+        196,
+        225,
+        {
+          "value": 260,
+          "label": "260 Game end",
+          "legend": 4
+        }
+      ],
+      [
+        {
+          "value": 58,
+          "label": 58,
+          "arrow": "down"
+        },
+        64,
+        70,
+        78,
+        {
+          "value": 85,
+          "label": 85,
+          "legend": 1
+        },
+        94,
+        102,
+        112,
+        124,
+        136,
+        150,
+        172,
+        {
+          "value": 198,
+          "label": 198,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 55,
+          "label": 55,
+          "arrow": "down"
+        },
+        60,
+        65,
+        {
+          "value": 70,
+          "label": 70,
+          "legend": 1
+        },
+        78,
+        86,
+        95,
+        104,
+        114,
+        125,
+        {
+          "value": 138,
+          "label": 138,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 50,
+          "label": 50,
+          "arrow": "down",
+          "legend": 0
+        },
+        55,
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 1
+        },
+        66,
+        72,
+        80,
+        88,
+        96,
+        {
+          "value": 106,
+          "label": 106
+        },
+        {
+          "value": 116,
+          "label": 116,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 1
+        },
+        55,
+        60,
+        66,
+        72,
+        {
+          "value": 80,
+          "label": 80
+        },
+        {
+          "value": 89,
+          "label": 89
+        },
+        {
+          "value": 97,
+          "label": 97,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60
+        },
+        {
+          "value": 67,
+          "label": 67
+        },
+        {
+          "value": 74,
+          "label": 74
+        },
+        {
+          "value": 82,
+          "label": 82,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 24,
+          "label": 24,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0
+        },
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 0
+        },
+        {
+          "value": 24,
+          "label": 24,
+          "legend": 0
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0
+        },
+        {
+          "value": 38,
+          "label": 38,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "yellow_very_light"
+      },
+      {
+        "color": "yellow"
+      },
+      {
+        "color": "green"
+      },
+      {
+        "color": "brown"
+      },
+      {
+        "color": "offboard"
+      }
+    ]
+  },
+  "tiles": {
+    "3": 3,
+    "4": 5,
+    "5": 4,
+    "6": 4,
+    "7": 5,
+    "8": 11,
+    "9": 7,
+    "57": 4,
+    "58": 5,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "23": 3,
+    "24": 3,
+    "25": 2,
+    "26": 2,
+    "27": 2,
+    "28": 1,
+    "29": 1,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 2,
+    "43": 2,
+    "44": 1,
+    "45": 2,
+    "46": 2,
+    "47": 1,
+    "441": 3,
+    "442": 3,
+    "443": 3,
+    "444": 3,
+    "611": 8,
+
+    "IPL1": {
+      "color": "green",
+      "rotations": 3,
+      "values": [
+        {
+          "value": 50,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "label": "W",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "cities": [
+        {
+          "size": 2,
+          "name": {
+            "reverse": true
+          }
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "IPL2": {
+      "color": "green",
+      "rotations": 3,
+      "values": [
+        {
+          "value": 10,
+          "angle": 60,
+          "percent": 0.6
+        }
+      ],
+      "labels": [
+        {
+          "label": "R",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "towns": [
+        {
+          "angle": 180,
+          "percent": -0.6
+        }
+      ],
+      "track": [
+        {
+          "side": 1,
+          "type": "straight"
+        },
+        {
+          "side": 4,
+          "type": "gentle"
+        }
+      ]
+    },
+    "IPL3": {
+      "color": "green",
+      "rotations": 3,
+      "values": [
+        {
+          "value": 10,
+          "angle": 300,
+          "percent": 0.6
+        }
+      ],
+      "labels": [
+        {
+          "label": "R",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "towns": [
+        {
+          "angle": 180,
+          "percent": -0.6
+        }
+      ],
+      "track": [
+        {
+          "side": 1,
+          "type": "straight"
+        },
+        {
+          "side": 2,
+          "type": "gentle"
+        }
+      ]
+    },
+    "IPL4": {
+      "color": "brown",
+      "rotations": 1,
+      "values": [
+        {
+          "value": 80,
+          "angle": 210,
+          "percent": 0.8
+        }
+      ],
+      "labels": [
+        {
+          "label": "W",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "cities": [
+        {
+          "size": 2,
+          "name": {
+            "reverse": true
+          }
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "IPL5": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Germany"
+          },
+          "percent": 0.1
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": 0.65
+      },
+      "offBoardTrack": [
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "IPL6": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Czechia"
+          },
+          "percent": 0.1
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": 0.65
+      },
+      "offBoardTrack": [
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "IPL7": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Slovakia"
+          },
+          "percent": 0.1
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": 0.65
+      },
+      "offBoardTrack": [
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+      ]
+    },
+    "IPL8": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Ukraine"
+          },
+          "percent": 0.1
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": 0.65
+      },
+      "offBoardTrack": [
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+      ]
+    },
+    "IPL9": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Belarus"
+          }
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": -0.7
+      },
+      "offBoardTrack": [
+        {
+          "side": 3
+        },
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        }
+      ]
+    },
+    "IPL10": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Lithuania"
+          }
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": -0.7
+      },
+      "offBoardTrack": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "IPL11": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Russia"
+          }
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": -0.7
+      },
+      "offBoardTrack": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ]
+    }
+  },
+  "map": {
+    "hexes": [
+      {
+        "color": "gray",
+        "names": {
+          "fontSize": 14,
+          "name": "Germany"
+        },
+        "hexes": ["A13"]
+      },
+      {
+        "color": "gray",
+        "names": {
+          "fontSize": 14,
+          "name": "Czechia"
+        },
+        "hexes": ["C17"]
+      },
+      {
+        "color": "gray",
+        "names": {
+          "fontSize": 14,
+          "name": "Slovakia"
+        },
+        "hexes": ["I19"]
+      },
+      {
+        "color": "gray",
+        "names": {
+          "fontSize": 14,
+          "name": "Russia"
+        },
+        "hexes": ["G3"]
+      },
+      {
+        "color": "gray",
+        "names": {
+          "fontSize": 14,
+          "name": "Ukraine"
+        },
+        "hexes": ["K17"]
+      },
+      {
+        "color": "gray",
+        "names": {
+          "fontSize": 14,
+          "name": "Lithuania"
+        },
+        "hexes": ["I3"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "gentle",
+            "side": 6,
+            "cross": "over"
+          },
+          {
+            "type": "sharp",
+            "side": 1,
+            "cross": "over"
+          },
+          {
+            "type": "sharp",
+            "side": 6,
+            "cross": "over"
+          },
+          {
+            "type": "gentle",
+            "side": 3,
+            "cross": "under"
+          },
+          {
+            "type": "sharp",
+            "side": 4,
+            "cross": "under"
+          },
+          {
+            "type": "sharp",
+            "side": 3,
+            "cross": "under"
+          }
+        ],
+        "hexes": ["I13"]
+      },
+      {
+        "color": "gray",
+        "names": {
+          "fontSize": 14,
+          "name": "Belarus"
+        },
+        "hexes": ["K5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Szczecin"
+            },
+            "companies": [
+              {
+                "label": "3",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["A5"]
+      },
+      {
+        "color": "gray",
+        "names": [
+          {
+            "name": "Gorzów Wielkopolski",
+            "reverse": true,
+            "rotation": 270,
+            "angle": 85,
+            "percent": 0.4
+          }
+        ],
+        "towns": [{}],
+        "values": [
+          {
+            "value": 10,
+            "angle": 90,
+            "percent": 0.67
+          }
+        ],
+        "track": [
+          {
+            "type": "straight",
+            "side": 1
+          },
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
+        "hexes": ["A7"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Zielona Góra"
+            }
+          }
+        ],
+        "companies": [
+          {
+            "x": -50,
+            "label": "WOR"
+          }
+        ],
+        "hexes": ["B10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Wałbrzych"
+            }
+          }
+        ],
+        "companies": [
+          {
+            "x": -50,
+            "label": "WOR"
+          }
+        ],
+        "hexes": ["B14"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "straight",
+            "side": 6,
+            "cross": "under"
+          },
+          {
+            "type": "gentle",
+            "side": 6,
+            "cross": "under"
+          },
+          {
+            "type": "sharp",
+            "side": 2,
+            "cross": "under"
+          },
+          {
+            "type": "straight",
+            "side": 1,
+            "cross": "over"
+          },
+          {
+            "type": "gentle",
+            "side": 5,
+            "cross": "over"
+          },
+          {
+            "type": "sharp",
+            "side": 4,
+            "cross": "over"
+          }
+        ],
+        "hexes": ["C5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Poznań"
+            },
+            "companies": [
+              {
+                "label": "7",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["C9"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Wrocław"
+            },
+            "companies": [
+              {
+                "label": "10",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["C13"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Gdynia"
+            },
+            "companies": [
+              {
+                "label": "1"
+              }
+            ]
+          }
+        ],
+        "hexes": ["D2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Bydgoszcz"
+            },
+            "companies": [
+              {
+                "label": "5",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["D6"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Kalisz"
+            }
+          }
+        ],
+        "hexes": ["D10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Opole"
+            }
+          }
+        ],
+        "hexes": ["D14"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$30",
+          "percent": 0.65
+        },
+        "cities": [
+          {
+            "name": {
+              "name": "Gdańsk"
+            },
+            "companies": [
+              {
+                "label": "2",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["E3"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$30",
+          "percent": 0.6
+        },
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Toruń"
+            }
+          }
+        ],
+        "hexes": ["E7"]
+      },
+      {
+        "color": "gray",
+        "towns": [
+          {
+            "angle": 210,
+            "rotation": 120,
+            "percent": 0.6,
+            "name": {
+              "name": "Cieszyn",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 4
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 60,
+            "percent": 0.1
+          }
+        ],
+        "hexes": ["E19"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Ciechanów"
+            }
+          }
+        ],
+        "hexes": ["G7"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Łowicz"
+            }
+          }
+        ],
+        "hexes": ["G11"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Kutno"
+            }
+          }
+        ],
+        "hexes": ["F10"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Łódź"
+            },
+            "companies": [
+              {
+                "label": "9",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["F12"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Katowice"
+            },
+            "companies": [
+              {
+                "label": "12",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["F16"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "BIelsko-Biała"
+            }
+          }
+        ],
+        "companies": [
+          {
+            "x": -50,
+            "label": "WOR"
+          }
+        ],
+        "mountain": {
+          "size": "large",
+          "cost": "$30",
+          "percent": 0.6
+        },
+        "hexes": ["F18"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Olsztyn"
+            },
+            "companies": [
+              {
+                "label": "4",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["G5"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Kielce"
+            }
+          }
+        ],
+        "hexes": ["G15"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$30",
+          "percent": 0.65
+        },
+        "cities": [
+          {
+            "name": {
+              "name": "Kraków"
+            },
+            "companies": [
+              {
+                "label": "13",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["G17"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Zakopane"
+            }
+          }
+        ],
+        "companies": [
+          {
+            "x": -50,
+            "label": "WOR"
+          }
+        ],
+        "mountain": {
+          "size": "large",
+          "cost": "$30",
+          "percent": 0.6
+        },
+        "hexes": ["G19"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Tarnów"
+            }
+          }
+        ],
+        "hexes": ["H18"]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "label": "W",
+            "angle": 210,
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Warszawa"
+            },
+            "companies": [
+              {
+                "label": "8",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 90,
+            "percent": 0.67
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          }
+        ],
+        "hexes": ["H10"]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "label": "R",
+            "angle": 210,
+            "percent": 0.8
+          }
+        ],
+        "names": [
+          {
+            "name": "Radom",
+            "reverse": true,
+            "angle": 265,
+            "percent": 0.55
+          }
+        ],
+        "towns": [{}],
+        "values": [
+          {
+            "value": 10,
+            "angle": 90,
+            "percent": 0.67
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 4
+          }
+        ],
+        "hexes": ["H12"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$30",
+          "percent": 0.6
+        },
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Otwock"
+            }
+          }
+        ],
+        "hexes": ["I11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rzeszów"
+            },
+            "companies": [
+              {
+                "label": "14",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["I17"]
+      },
+      {
+        "color": "gray",
+        "towns": [
+          {
+            "angle": 150,
+            "rotation": 60,
+            "percent": 0.6,
+            "name": {
+              "name": "Przemyśl",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 3
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 300,
+            "percent": 0.1
+          }
+        ],
+        "hexes": ["J18"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Białystok"
+            },
+            "companies": [
+              {
+                "label": "6",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["K7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Lublin"
+            },
+            "companies": [
+              {
+                "label": "11",
+                "color": "white"
+              }
+            ]
+          }
+        ],
+        "hexes": ["K13"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Suwałki"
+            }
+          }
+        ],
+        "hexes": ["J4"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "gentle",
+            "side": 3,
+            "cross": "over"
+          },
+          {
+            "type": "gentle",
+            "side": 1,
+            "cross": "over"
+          },
+          {
+            "type": "gentle",
+            "side": 5,
+            "cross": "over"
+          },
+          {
+            "type": "gentle",
+            "side": 4,
+            "cross": "under"
+          },
+          {
+            "type": "gentle",
+            "side": 6,
+            "cross": "under"
+          },
+          {
+            "type": "gentle",
+            "side": 2,
+            "cross": "under"
+          }
+        ],
+        "hexes": ["J8"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Biała Podlaska"
+            }
+          }
+        ],
+        "hexes": ["K9"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Zamość"
+            }
+          }
+        ],
+        "hexes": ["K15"]
+      },
+      {
+        "color": "gray",
+        "towns": [
+          {
+            "angle": 30,
+            "rotation": 120,
+            "percent": 0.6,
+            "name": {
+              "name": "Sopot",
+              "rotation": 180
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 1
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 60,
+            "percent": -0.1
+          }
+        ],
+        "hexes": ["E1"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 90,
+            "percent": 0.5
+          }
+        ],
+        "icons": [
+          {
+            "type": "port",
+            "percent": 0
+          }
+        ],
+        "hexes": ["A3"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 90,
+            "percent": 0.5
+          }
+        ],
+        "icons": [
+          {
+            "type": "port",
+            "percent": 0
+          }
+        ],
+        "hexes": ["C1"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 270,
+            "percent": 0.5
+          }
+        ],
+        "icons": [
+          {
+            "type": "port",
+            "percent": 0
+          }
+        ],
+        "hexes": ["F2"]
+      },
+      {
+        "color": "plain",
+        "water": {
+          "cost": "$30"
+        },
+        "hexes": ["E5", "F8", "G9", "H4", "H6", "H16", "I5", "I15"]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "A9",
+          "A11",
+          "B4",
+          "B6",
+          "B8",
+          "B12",
+          "C3",
+          "C7",
+          "C11",
+          "C15",
+          "D4",
+          "D8",
+          "D12",
+          "D16",
+          "E9",
+          "E11",
+          "E13",
+          "E15",
+          "E17",
+          "F4",
+          "F6",
+          "F14",
+          "G13",
+          "H8",
+          "H14",
+          "I7",
+          "I9",
+          "J6",
+          "J10",
+          "J12",
+          "J14",
+          "J16",
+          "K11"
+        ]
+      }
+    ]
+  }
+}
