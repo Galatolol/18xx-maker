@@ -39,8 +39,8 @@
   },
   "plainMapCompanies": false,
   "straightCityNames": false,
-  "theme": "gmt",
-  "companiesTheme": "rob",
+  "theme": "galatolol",
+  "companiesTheme": "galatolol",
   "ipo": {
     "borderRadius": 11.811
   },
@@ -81,7 +81,7 @@
     "id": "right",
     "layout": "die",
     "width": 150,
-    "mapWidth": 150,
+    "mapWidth": 160,
     "gaps": true
   },
   "stock": {

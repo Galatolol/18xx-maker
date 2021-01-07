@@ -6,7 +6,7 @@ const Label = (props, rotation, fontSize) => {
   let { label } = props;
 
   if (!fontSize) {
-    fontSize = label.length > 2 ? 20 : 30;
+    fontSize = label.length > 2 ? 20 : 20;
     if (label.length > 8) {
       fontSize = 18;
     }
@@ -21,6 +21,7 @@ const Label = (props, rotation, fontSize) => {
   return (
           <Text
                 fontSize={fontSize}
+                fontStyle="bold"
                 {...props}
                 text={label}/>
   );

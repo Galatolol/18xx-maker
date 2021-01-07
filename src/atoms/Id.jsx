@@ -9,7 +9,7 @@ const Id = ({ id, extra, bgColor, noID }) => {
   const { config } = useContext(ConfigContext);
   const rotation = useOrientation();
 
-  let fontSize = (id && id.length > 4) ? "9" : (id && id.length > 3) ? "10" : "12";
+  let fontSize = (id && id.length > 4) ? "9" : (id && id.length > 3) ? "10" : "11";
   let extraFontSize = (extra && extra.length > 4) ? "9" : (extra && extra.length > 3) ? "10" : "12";
 
   if (noID || config.tiles.id === "none") {
@@ -19,7 +19,7 @@ const Id = ({ id, extra, bgColor, noID }) => {
   // Otherwise it's right or left
   let idAnchor = "end";
   let extraAnchor = "start";
-  let idX = 40;
+  let idX = 42;
   let extraX = -40;
   if(config.tiles.id === "left") {
     idAnchor = "start";

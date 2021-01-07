@@ -13,8 +13,8 @@ const Name = (props) => {
 
   let font = getFontProps(props,
     multiDefaultTo(11, fontSize, game.info.nameFontSize),
-    multiDefaultTo("bold", fontWeight, game.info.nameFontWeight),
-    multiDefaultTo("sans-serif", fontFamily, game.info.nameFontFamily));
+    multiDefaultTo("normal", fontWeight, game.info.nameFontWeight),
+    multiDefaultTo("serif", fontFamily, game.info.nameFontFamily));
 
   let nameNode;
 
