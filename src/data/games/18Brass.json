@@ -3,6 +3,7 @@
     "title": "18Brass",
     "subtitle": "VERY EARLY PROTOTYPE",
     "subtitleFontFamily": "Lato",
+    "subtitleColor": "red",
     "designer": "Galatolol",
     "background": "gray",
     "orientation": "vertical",

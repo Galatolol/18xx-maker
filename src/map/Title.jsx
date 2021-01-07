@@ -37,7 +37,7 @@ const Title = ({ game, variation, hexWidth }) => {
           transform={`translate(${x} ${y}) rotate(${rotate})`}
         >
           <text
-            fill={c("black")}
+            fill={game.info.titleColor || c("black")}
             fontFamily={titleFont}
             fontWeight={titleWeight}
             fontSize={titleSize}
@@ -50,7 +50,7 @@ const Title = ({ game, variation, hexWidth }) => {
           </text>
           {game.info.subtitle && (
             <text
-              fill={c("black")}
+            fill={game.info.subtitleColor || c("black")}
               fontFamily={subtitleFont}
               fontWeight={subtitleWeight}
               fontSize={subtitleSize}
@@ -63,7 +63,7 @@ const Title = ({ game, variation, hexWidth }) => {
             </text>
           )}
           <text
-            fill={c("black")}
+            fill={game.info.designerColor || c("black")}
             fontFamily={designerFont}
             fontWeight={designerWeight}
             fontSize={designerSize}
