@@ -139,13 +139,14 @@ games["1825"] = {
   minPlayers: 4,
   maxPlayers: 9,
 };
-games["1830PL"] = {
-  id: "1830PL",
-  slug: "1830PL",
-  file: "1830PL.json",
-  title: "1830PL",
-  subtitle: "Historically inaccurate railroading in Poland",
-  designer: "",
+games["1830"] = {
+  id: "1830",
+  slug: "1830",
+  file: "1830.json",
+  title: "1830",
+  subtitle: "Railways & Robber Barons",
+  designer: "Francis Tresham",
+  publisher: "lookout",
   minPlayers: 3,
   maxPlayers: 6,
 };
@@ -432,8 +433,7 @@ games["1894"] = {
   slug: "1894",
   file: "1894.json",
   title: "1894",
-  subtitle: "Rise and fall of railway companies (hopefully)",
-  designer: "",
+  designer: "Galatolol",
   minPlayers: 3,
   maxPlayers: 6,
 };

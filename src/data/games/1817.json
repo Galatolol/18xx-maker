@@ -7,7 +7,6 @@
     "titleY": 560,
     "titleSize": 165,
     "subTitleSize": 17,
-    "currency": "USD",
     "extraStationTokens": 4
   },
   "links": {
@@ -738,7 +737,7 @@
         "terrain": [
           {
             "cost": 20,
-            "type": "water",
+            "type": "swamp",
             "angle": 345,
             "percent": 0.7
           }
@@ -778,6 +777,10 @@
           },
           {
             "side": 3,
+            "type": "lawson"
+          },
+          {
+            "side": 5,
             "type": "lawson"
           }
         ],
@@ -1080,7 +1083,7 @@
         "terrain": [
           {
             "cost": 20,
-            "type": "water"
+            "type": "swamp"
           }
         ],
         "hexes": ["B9", "B27", "D25", "D27", "G20", "H17"]
