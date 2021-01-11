@@ -1,8 +1,9 @@
 {
   "info": {
     "title": "18Brass",
+    "titleFontFamily": "Libre Baskerville",
     "subtitle": "VERY EARLY PROTOTYPE",
-    "subtitleFontFamily": "Lato",
+    "subtitleFontFamily": "Oswald",
     "subtitleColor": "red",
     "designer": "Galatolol",
     "background": "gray",
@@ -35,14 +36,63 @@
   ],
   "companies": [
     {
-      "name": "E",
-      "abbrev": "E",
-      "tokens": ["Free", "$30", "$70"],
+      "name": "1",
+      "abbrev": "1",
+      "tokens": ["Home", "$30", "$100"],
       "token": {
-        "bar": true,
-        "target": "black",
-        "color": "irepl_purple",
-        "fontSize": 15
+        "bar": "black",
+        "quarters": ["light_blue", "black", "black", "light_blue"],
+        "fontSize": 20
+      }
+    },
+    {
+      "name": "2",
+      "abbrev": "2",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "bar": "black",
+        "quarters": ["light_green", "black", "black", "light_green"],
+        "fontSize": 20
+      }
+    },
+    {
+      "name": "3",
+      "abbrev": "3",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "bar": "black",
+        "quarters": ["yellow", "black", "black", "yellow"],
+        "fontSize": 20
+      }
+    },
+    {
+      "name": "4",
+      "abbrev": "4",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "bar": "black",
+        "quarters": ["red", "black", "black", "red"],
+        "fontSize": 20
+      }
+    },
+    {
+      "name": "5",
+      "abbrev": "5",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "bar": "black",
+        "quarters": ["purple_", "black", "black", "purple_"],
+        "fontSize": 20
+      }
+    },
+    {
+      "name": "6",
+      "abbrev": "6",
+      "tokens": ["Home", "$30", "$100"],
+      "token": {
+        "bar": "black",
+        "quarters": ["orange", "black", "black", "orange"],
+        "fontSize": 20
       }
     },
     {
@@ -50,19 +100,10 @@
       "abbrev": "A",
       "tokens": ["Home", "$30", "$100"],
       "token": {
-        "bar": true,
-        "stripes": "white",
-        "color": "irepl_blue",
-        "fontSize": 15
-      }
-    },
-    {
-      "name": "C",
-      "abbrev": "C",
-      "tokens": ["Home", "40", "$100"],
-      "token": {
-        "color": "irepl_yellow",
-        "fontSize": 15
+        "bar": "white",
+        "stripe": "white",
+        "color": "blue",
+        "fontSize": 20
       }
     },
     {
@@ -70,8 +111,21 @@
       "abbrev": "B",
       "tokens": ["Home", "$30", "$100"],
       "token": {
-        "color": "irepl_green",
-        "fontSize": 15
+        "bar": true,
+        "stripe": "white",
+        "color": "green",
+        "fontSize": 20
+      }
+    },
+    {
+      "name": "C",
+      "abbrev": "C",
+      "tokens": ["Home", "40", "$100"],
+      "token": {
+        "bar": true,
+        "stripe": "white",
+        "color": "yellow",
+        "fontSize": 20
       }
     },
     {
@@ -80,16 +134,32 @@
       "tokens": ["Home", "$30", "$100"],
       "token": {
         "bar": true,
-        "stripe": "black",
-        "color": "irepl_red",
-        "fontSize": 15
+        "stripe": "white",
+        "color": "red",
+        "fontSize": 20
       }
     },
     {
-      "name": "Mons Railway",
-      "abbrev": "TKG",
+      "name": "E",
+      "abbrev": "E",
+      "tokens": ["Free", "$30", "$70"],
+      "token": {
+        "bar": true,
+        "stripe": "white",
+        "color": "purple_",
+        "fontSize": 20
+      }
+    },
+    {
+      "name": "F",
+      "abbrev": "F",
       "tokens": ["Home", "$30", "$100"],
-      "color": "orange"
+      "token": {
+        "bar": true,
+        "stripe": "white",
+        "color": "dark_orange",
+        "fontSize": 20
+      }
     }
   ],
   "trains": [],
@@ -575,7 +645,7 @@
           },
           "revenues": [
             {
-              "cost": "30",
+              "cost": "20",
               "color": "yellow"
             },
             {
@@ -640,7 +710,6 @@
           {
             "company": "A",
             "width": 16,
-            "fontSize": 25,
             "percent": 0.65
           }
         ],
@@ -659,7 +728,6 @@
           {
             "company": "B",
             "width": 16,
-            "fontSize": 25,
             "percent": 0.65
           }
         ],
@@ -738,7 +806,6 @@
           {
             "company": "C",
             "width": 16,
-            "fontSize": 25,
             "percent": 0.65
           }
         ],
@@ -864,7 +931,6 @@
           {
             "company": "E",
             "width": 16,
-            "fontSize": 25,
             "percent": 0.65
           }
         ],
@@ -1026,6 +1092,13 @@
             }
           }
         ],
+        "tokens": [
+          {
+            "company": "F",
+            "width": 16,
+            "percent": 0.65
+          }
+        ],
         "hexes": ["L11"]
       },
       {
@@ -1052,7 +1125,7 @@
           },
           "revenues": [
             {
-              "cost": "30",
+              "cost": "20",
               "color": "yellow"
             },
             {
@@ -1136,6 +1209,43 @@
           "L13",
           "M6"
         ]
+      },
+      {
+        "color": "white",
+        "removeBorders": [4],
+        "values": [
+          {
+            "value": 1,
+            "shape": "square",
+            "color": "rob_brown",
+            "textColor": "white",
+            "percent": 0
+          }
+        ],
+        "hexes": ["A11"]
+      },
+      {
+        "color": "white",
+        "removeBorders": [1],
+        "names": [
+          {
+            "name": "If connected",
+            "percent": -0.65
+          },
+          {
+            "name": "to an offboard:",
+            "percent": -0.45
+          },
+          {
+            "name": "sell coal for 20",
+            "percent": -0.25
+          },
+          {
+            "name": "buy coal for 20/40",
+            "percent": -0.05
+          }
+        ],
+        "hexes": ["A13"]
       }
     ],
     "borders": [
@@ -1143,6 +1253,11 @@
         "color": "water",
         "width": 8,
         "coords": ["G2p3", "G2p4"]
+      },
+      {
+        "color": "water",
+        "width": 8,
+        "coords": ["E12p2", "E12p3"]
       },
       {
         "color": "water",
