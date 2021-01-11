@@ -14,11 +14,11 @@ const Value = ({ value, fontSize, fontWeight, fontFamily, color, textColor, shap
 
   let length = format(value, game, config.currency["value"]).length;
 
-  fontSize = multiDefaultTo(14, fontSize, game.info.valueFontSize);
+  fontSize = multiDefaultTo(15, fontSize, game.info.valueFontSize);
   fontWeight = multiDefaultTo("bold", fontWeight, game.info.valueFontWeight);
-  fontFamily = multiDefaultTo("display", fontFamily, game.info.valueFontFamily);
+  fontFamily = multiDefaultTo("sans-serif", fontFamily, game.info.valueFontFamily);
 
-  let ry = fontSize * 3 / 4 + 1.25;
+  let ry = fontSize * 3 / 4 + 1.5;
   let rx = length > 2 ? length * ry * 3 / 5 : ry;
   color = color || "white";
   textColor = textColor || "black";
