@@ -1,14 +1,16 @@
 {
   "info": {
     "title": "18IrePL",
-    "subtitle": "",
+    "subtitle": "PROTOTYPE",
+    "subtitleFontFamily": "Oswald",
     "designer": "Galatolol",
+    "designerFontFamily": "Libre Baskerville",
     "background": "gray",
     "orientation": "horizontal",
-    "titleY": -70,
-    "titleX": 1000,
+    "titleY": -100,
+    "titleX": 1150,
     "currency": "EUR",
-    "titleSize": 120,
+    "titleSize": 80,
     "titleFontFamily": "Adamina"
   },
   "links": {},
@@ -645,7 +647,7 @@
     "444": 3,
     "611": 8,
 
-    "IPL1": {
+    "G01": {
       "color": "green",
       "rotations": 3,
       "values": [
@@ -685,7 +687,7 @@
         }
       ]
     },
-    "IPL2": {
+    "G02": {
       "color": "green",
       "rotations": 3,
       "values": [
@@ -719,7 +721,7 @@
         }
       ]
     },
-    "IPL3": {
+    "G03": {
       "color": "green",
       "rotations": 3,
       "values": [
@@ -753,7 +755,7 @@
         }
       ]
     },
-    "IPL4": {
+    "G04": {
       "color": "brown",
       "rotations": 1,
       "values": [
@@ -799,7 +801,142 @@
         }
       ]
     },
-    "IPL5": {
+    "G05": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Russia"
+          },
+          "companies": [
+            {
+              "label": "A",
+              "color": "white"
+            }
+          ]
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": -0.7
+      },
+      "offBoardTrack": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "G06": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Lithuania"
+          },
+          "companies": [
+            {
+              "label": "A",
+              "color": "white"
+            }
+          ]
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": -0.7
+      },
+      "offBoardTrack": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "G07": {
+      "color": "offboard",
+      "rotations": 1,
+      "cities": [
+        {
+          "name": {
+            "name": "Belarus"
+          },
+          "companies": [
+            {
+              "label": "A",
+              "color": "white"
+            }
+          ]
+        }
+      ],
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "cost": "30",
+            "color": "yellow"
+          },
+          {
+            "cost": "40",
+            "color": "green"
+          },
+          {
+            "cost": "50",
+            "color": "brown"
+          }
+        ],
+        "percent": -0.7
+      },
+      "offBoardTrack": [
+        {
+          "side": 3
+        },
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        }
+      ]
+    },
+    "G08": {
       "color": "offboard",
       "rotations": 1,
       "cities": [
@@ -807,6 +944,12 @@
           "name": {
             "name": "Germany"
           },
+          "companies": [
+            {
+              "label": "B",
+              "color": "white"
+            }
+          ],
           "percent": 0.1
         }
       ],
@@ -839,7 +982,7 @@
         }
       ]
     },
-    "IPL6": {
+    "G09": {
       "color": "offboard",
       "rotations": 1,
       "cities": [
@@ -847,6 +990,12 @@
           "name": {
             "name": "Czechia"
           },
+          "companies": [
+            {
+              "label": "B",
+              "color": "white"
+            }
+          ],
           "percent": 0.1
         }
       ],
@@ -876,7 +1025,7 @@
         }
       ]
     },
-    "IPL7": {
+    "G10": {
       "color": "offboard",
       "rotations": 1,
       "cities": [
@@ -884,6 +1033,12 @@
           "name": {
             "name": "Slovakia"
           },
+          "companies": [
+            {
+              "label": "B",
+              "color": "white"
+            }
+          ],
           "percent": 0.1
         }
       ],
@@ -913,7 +1068,7 @@
         }
       ]
     },
-    "IPL8": {
+    "G11": {
       "color": "offboard",
       "rotations": 1,
       "cities": [
@@ -921,6 +1076,12 @@
           "name": {
             "name": "Ukraine"
           },
+          "companies": [
+            {
+              "label": "B",
+              "color": "white"
+            }
+          ],
           "percent": 0.1
         }
       ],
@@ -947,123 +1108,6 @@
         },
         {
           "side": 4
-        }
-      ]
-    },
-    "IPL9": {
-      "color": "offboard",
-      "rotations": 1,
-      "cities": [
-        {
-          "name": {
-            "name": "Belarus"
-          }
-        }
-      ],
-      "offBoardRevenue": {
-        "revenues": [
-          {
-            "cost": "30",
-            "color": "yellow"
-          },
-          {
-            "cost": "40",
-            "color": "green"
-          },
-          {
-            "cost": "50",
-            "color": "brown"
-          }
-        ],
-        "percent": -0.7
-      },
-      "offBoardTrack": [
-        {
-          "side": 3
-        },
-        {
-          "side": 1
-        },
-        {
-          "side": 2
-        }
-      ]
-    },
-    "IPL10": {
-      "color": "offboard",
-      "rotations": 1,
-      "cities": [
-        {
-          "name": {
-            "name": "Lithuania"
-          }
-        }
-      ],
-      "offBoardRevenue": {
-        "revenues": [
-          {
-            "cost": "30",
-            "color": "yellow"
-          },
-          {
-            "cost": "40",
-            "color": "green"
-          },
-          {
-            "cost": "50",
-            "color": "brown"
-          }
-        ],
-        "percent": -0.7
-      },
-      "offBoardTrack": [
-        {
-          "side": 1
-        },
-        {
-          "side": 2
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
-    "IPL11": {
-      "color": "offboard",
-      "rotations": 1,
-      "cities": [
-        {
-          "name": {
-            "name": "Russia"
-          }
-        }
-      ],
-      "offBoardRevenue": {
-        "revenues": [
-          {
-            "cost": "30",
-            "color": "yellow"
-          },
-          {
-            "cost": "40",
-            "color": "green"
-          },
-          {
-            "cost": "50",
-            "color": "brown"
-          }
-        ],
-        "percent": -0.7
-      },
-      "offBoardTrack": [
-        {
-          "side": 1
-        },
-        {
-          "side": 2
-        },
-        {
-          "side": 6
         }
       ]
     }
@@ -1460,6 +1504,17 @@
         "centerTowns": [
           {
             "name": {
+              "name": "Elbląg"
+            }
+          }
+        ],
+        "hexes": ["F4"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
               "name": "Kutno"
             }
           }
@@ -1679,15 +1734,8 @@
         "color": "plain",
         "water": {
           "cost": "$30",
-          "percent": 0.6
+          "percent": 0.0
         },
-        "centerTowns": [
-          {
-            "name": {
-              "name": "Otwock"
-            }
-          }
-        ],
         "hexes": ["I11"]
       },
       {
@@ -1946,7 +1994,7 @@
         "water": {
           "cost": "$30"
         },
-        "hexes": ["E5", "F8", "G9", "H4", "H6", "H16", "I5", "I15"]
+        "hexes": ["E5", "F8", "G9", "H4", "H6", "H16", "I15", "J6"]
       },
       {
         "color": "plain",
@@ -1970,15 +2018,14 @@
           "E13",
           "E15",
           "E17",
-          "F4",
           "F6",
           "F14",
           "G13",
           "H8",
           "H14",
+          "I5",
           "I7",
           "I9",
-          "J6",
           "J10",
           "J12",
           "J14",

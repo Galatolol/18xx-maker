@@ -556,7 +556,7 @@ const Token = ({
           if (fontSize) {
             fSize = fontSize * scaling;
           } else {
-            fSize = width * .9 * shapeMult;
+            fSize = width * .7 * shapeMult;
             if (label.length > 5) {
               fSize *= 0.6;
             } else if (label.length > 4) {
