@@ -322,12 +322,13 @@
     "display": {
       "par": {
         "x": 15,
-        "y": 5
+        "y": 3
       },
       "roundTracker": {
         "type": "col-reverse",
+        "size": 25,
         "x": 13,
-        "y": 5
+        "y": 4
       },
       "legend": {
         "reverse": true,
@@ -740,17 +741,17 @@
     "legend": [
       {
         "color": "yellow",
-        "description": "Shares of this company do not count toward the certificate limit",
+        "description": "",
         "icon": ""
       },
       {
         "color": "orange",
-        "description": "Players may own more than 60% of this company",
+        "description": "",
         "icon": ""
       },
       {
         "color": "brown",
-        "description": "Players may purchase any number of shares of this company in one stock action",
+        "description": "",
         "icon": ""
       }
     ]
@@ -807,11 +808,6 @@
     "players": {
       "x": 1230,
       "y": 1270
-    },
-    "roundTracker": {
-      "type": "row",
-      "x": 40,
-      "y": 250
     },
     "hexes": [
       {

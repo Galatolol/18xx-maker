@@ -217,7 +217,7 @@
     "values": [
       {
         "angle": 210,
-        "percent": 0.8,
+        "percent": 0.75,
         "value": 30
       }
     ],
@@ -308,7 +308,7 @@
     "values": [
       {
         "angle": 210,
-        "percent": 0.8,
+        "percent": 0.75,
         "value": 30
       }
     ],
@@ -688,7 +688,7 @@
     "values": [
       {
         "angle": 210,
-        "percent": 0.8,
+        "percent": 0.65,
         "value": 50
       }
     ],
@@ -754,13 +754,8 @@
     "color": "green",
     "values": [
       {
-        "angle": 325,
-        "percent": 0.6,
-        "value": 60
-      },
-      {
-        "angle": 215,
-        "percent": 0.6,
+        "angle": 90,
+        "percent": 0.7,
         "value": 60
       }
     ],
@@ -768,8 +763,8 @@
       {
         "label": "NY",
         "fontSize": 24,
-        "angle": 90,
-        "percent": 0.8
+        "angle": 240,
+        "percent": 0.5
       }
     ],
     "cities": [
@@ -840,8 +835,8 @@
     "color": "green",
     "values": [
       {
-        "angle": 225,
-        "percent": 0.6,
+        "angle": 60,
+        "percent": 0.7,
         "value": 30
       }
     ],
@@ -6293,7 +6288,7 @@
     "values": [
       {
         "angle": 210,
-        "percent": 0.8,
+        "percent": 0.75,
         "value": 30
       }
     ],

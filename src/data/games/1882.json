@@ -1611,45 +1611,24 @@
     "display": {
       "par": {
         "x": 12,
-        "y": 5
+        "y": 3
       },
       "roundTracker": {
         "type": "col-reverse",
-        "x": 9,
-        "y": 5
+        "size": 25,
+        "x": 10,
+        "y": 4
       },
       "legend": {
         "reverse": true,
         "verticalAlign": "bottom",
-        "x": 4,
+        "x": 7,
         "y": 11
       }
     },
     "par": {
       "values": [100, 90, 82, 76, 71, 67]
     },
-    "legend": [
-      {
-        "color": "yellow",
-        "description": "Shares of this company do not count toward the certificate limit",
-        "icon": "certificate"
-      },
-      {
-        "color": "orange",
-        "description": "Players may own more than 60% of this company",
-        "icon": "percentage"
-      },
-      {
-        "color": "brown",
-        "description": "Players may own buy any number of shares from the bank pool",
-        "icon": "money-bill-wave"
-      },
-      {
-        "color": "offboard",
-        "description": "Game end",
-        "icon": "money-bill-wave"
-      }
-    ],
     "market": [
       [
         {
@@ -1896,7 +1875,24 @@
       "left": ["Withheld revenue"],
       "right": ["Paid dividends"],
       "up": ["Sold out"]
-    }
+    },
+    "legend": [
+      {
+        "color": "yellow",
+        "description": "",
+        "icon": ""
+      },
+      {
+        "color": "orange",
+        "description": "",
+        "icon": ""
+      },
+      {
+        "color": "brown",
+        "description": "",
+        "icon": ""
+      }
+    ]
   },
   "tiles": {
     "1": 1,
