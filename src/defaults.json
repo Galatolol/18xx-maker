@@ -37,7 +37,7 @@
     "players": true,
     "roundTracker": true
   },
-  "plainMapCompanies": false,
+  "plainMapCompanies": true,
   "straightCityNames": false,
   "theme": "galatolol",
   "companiesTheme": "galatolol",

@@ -62,7 +62,6 @@ const Terrain = ({ type, size, cost, fontFamily, fontSize, color }) => {
           <text
             fill={p(color || "black")}
             strokeWidth={(!color || color === "black") ? 0 : 1}
-            stroke={c("black")}
             fontSize={fontSize}
             fontFamily={fontFamily}
             dominantBaseline="hanging"
