@@ -43,6 +43,28 @@
       "capital": 180
     }
   ],
+  "rounds": [
+    {
+      "color": "gray",
+      "name": "SR"
+    },
+    {
+      "color": "yellow",
+      "name": "OR1"
+    },
+    {
+      "color": "white",
+      "name": "M&A"
+    },
+    {
+      "color": "yellow",
+      "name": "OR2"
+    },
+    {
+      "color": "white",
+      "name": "M&A"
+    }
+  ],
   "tokens": [
     {
       "icon": "coal"
@@ -256,7 +278,6 @@
   ],
   "phases": [],
   "pools": [],
-  "rounds": [],
   "turns": [],
   "stock": {},
   "tiles": {
@@ -288,6 +309,15 @@
     "X30": 1
   },
   "map": {
+    "players": {
+      "x": 50,
+      "y": 1000
+    },
+    "roundTracker": {
+      "type": "round",
+      "x": 220,
+      "y": 1250
+    },
     "hexes": [
       {
         "color": "white",

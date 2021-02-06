@@ -18,7 +18,7 @@ const Value = ({ value, fontSize, fontWeight, fontFamily, color, textColor, shap
   fontWeight = multiDefaultTo("bold", fontWeight, game.info.valueFontWeight);
   fontFamily = multiDefaultTo("display", fontFamily, game.info.valueFontFamily);
 
-  let ry = fontSize * 3 / 4 + 1.25;
+  let ry = fontSize * 3 / 4 + 2;
   let rx = length > 2 ? length * ry * 3 / 5 : ry;
   color = color || "white";
   textColor = textColor || "black";

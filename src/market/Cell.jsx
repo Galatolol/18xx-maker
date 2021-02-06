@@ -71,7 +71,7 @@ const Cell = ({ cell, par, game, config, data }) => {
 
             let arrowNodes = addIndex(map)((arrow, i) => {
               let left = arrow === "down" || arrow === "left";
-              let arrowPadding = (arrow === "down" || arrow === "up") ? 10 : 5;
+              let arrowPadding = (arrow === "down" || arrow === "up") ? 7 : 5;
 
               return (
                 <text
@@ -167,11 +167,11 @@ const Cell = ({ cell, par, game, config, data }) => {
                     fontFamily="display"
                     fontStyle="bold"
                     fontSize="15"
-                    textAnchor={rotated ? "end" : "state"}
+                    textAnchor={rotated ? "end" : "middle"}
                     textDecoration={cell.underline ? "underline" : null}
                     dominantBaseline="hanging"
-                    x={rotated ? -5 : 5}
-                    y="5"
+                    x={rotated ? -5 : width/2}
+                    y={height - 18}
                   >
                     {text}
                   </text>
