@@ -10,6 +10,7 @@
 
     "plain": "#F5F5DC",
     "offboard": "#EC2126",
+    "offboard_light": "#ff9ea1",
     "mountain": "#795138",
     "water": "#67A7C4",
     "water_dark": "#2e5f76",
