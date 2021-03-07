@@ -1196,7 +1196,7 @@
             "cross": "under"
           }
         ],
-        "hexes": ["I13"]
+        "hexes": ["B6"]
       },
       {
         "color": "gray",
@@ -1234,7 +1234,7 @@
             "percent": 0.4
           }
         ],
-        "towns": [{}],
+        "towns": [{ "percent": -0.25 }],
         "values": [
           {
             "value": 10,
@@ -1248,7 +1248,8 @@
             "side": 1
           },
           {
-            "type": "sharp",
+            "type": "gentle",
+            "cross": "under",
             "side": 5
           }
         ],
@@ -1549,7 +1550,7 @@
         "centerTowns": [
           {
             "name": {
-              "name": "BIelsko-Biała"
+              "name": "Bielsko-Biała"
             }
           }
         ],
@@ -1581,6 +1582,10 @@
             ]
           }
         ],
+        "water": {
+          "cost": "$30",
+          "percent": 0.65
+        },
         "hexes": ["G5"]
       },
       {
@@ -1729,6 +1734,10 @@
       },
       {
         "color": "plain",
+        "water": {
+          "cost": "$30",
+          "percent": 0.65
+        },
         "cities": [
           {
             "name": {
@@ -1774,6 +1783,13 @@
       },
       {
         "color": "plain",
+        "terrain": [
+          {
+            "cost": "$30",
+            "type": "swamp",
+            "percent": 0.65
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -1804,7 +1820,7 @@
             ]
           }
         ],
-        "hexes": ["K13"]
+        "hexes": ["J14"]
       },
       {
         "color": "plain",
@@ -1983,7 +1999,7 @@
         "water": {
           "cost": "$30"
         },
-        "hexes": ["E5", "F8", "G9", "H4", "H6", "H16", "I15", "J6"]
+        "hexes": ["E5", "F8", "G9", "H4", "H6", "H16", "I13", "I15"]
       },
       {
         "color": "plain",
@@ -1991,7 +2007,6 @@
           "A9",
           "A11",
           "B4",
-          "B6",
           "B8",
           "B12",
           "C3",
@@ -2016,11 +2031,12 @@
           "I5",
           "I7",
           "I9",
+          "J6",
           "J10",
           "J12",
-          "J14",
           "J16",
-          "K11"
+          "K11",
+          "K13"
         ]
       },
       {

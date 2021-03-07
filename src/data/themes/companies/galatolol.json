@@ -53,6 +53,8 @@
     "irepl_green": "#068800",
     "irepl_orange": "#ff9966",
     "irepl_blue": "#0247fe",
+    "irepl_brown": "#87421f",
+    "irepl_stripe_blue": "#efebe7",
 
     "terrain_yellow": "#FFEB00",
     "terrain_brown": "#BF8156",
