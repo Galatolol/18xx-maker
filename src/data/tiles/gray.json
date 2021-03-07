@@ -2973,9 +2973,7 @@
     ],
     "cities": [
       {
-        "companies": [
-          "8"
-        ]
+        "companies": ["8"]
       }
     ],
     "track": [
@@ -3012,9 +3010,7 @@
     "cities": [
       {
         "size": 4,
-        "companies": [
-          "S"
-        ]
+        "companies": ["S"]
       }
     ],
     "track": [
@@ -3060,9 +3056,7 @@
         "value": 40
       }
     ],
-    "centerTowns": [
-      {}
-    ],
+    "centerTowns": [{}],
     "track": [
       {
         "side": 1
@@ -3690,6 +3684,42 @@
       },
       {
         "side": 6
+      }
+    ]
+  },
+  "X30": {
+    "color": "gray",
+    "labels": [
+      {
+        "label": "NY",
+        "angle": 90,
+        "percent": 0.9
+      }
+    ],
+    "values": [
+      {
+        "angle": 270,
+        "percent": 0.9,
+        "value": 100
+      }
+    ],
+    "cities": [
+      {
+        "size": 4
+      }
+    ],
+    "track": [
+      {
+        "side": 1
+      },
+      {
+        "side": 2
+      },
+      {
+        "side": 3
+      },
+      {
+        "side": 4
       }
     ]
   }

@@ -3570,5 +3570,68 @@
       }
     ],
     "cities": [{}]
+  },
+  "X00": {
+    "color": "yellow",
+    "values": [
+      {
+        "angle": 210,
+        "percent": 0.65,
+        "value": 30
+      }
+    ],
+    "labels": [
+      {
+        "label": "B",
+        "angle": 150,
+        "percent": 0.8
+      }
+    ],
+    "cities": [
+      {
+        "size": 1
+      }
+    ],
+    "track": [
+      {
+        "side": 1
+      },
+      {
+        "side": 3
+      },
+      {
+        "side": 5
+      }
+    ]
+  },
+  "G25": {
+    "color": "yellow",
+    "rotations": 1,
+    "labels": [
+      {
+        "label": "B",
+        "angle": 150,
+        "percent": 0.8
+      }
+    ],
+    "values": [
+      {
+        "angle": 210,
+        "percent": 0.75,
+        "value": 30
+      }
+    ],
+    "cities": [{ "size": 1 }],
+    "track": [
+      {
+        "side": 1
+      },
+      {
+        "side": 3
+      },
+      {
+        "side": 5
+      }
+    ]
   }
 }
