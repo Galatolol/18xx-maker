@@ -8718,33 +8718,29 @@
   },
   "G27": {
     "color": "brown",
-    "rotations": 1,
+    "rotations": 6,
     "labels": [
       {
         "label": "B",
-        "angle": 90,
-        "percent": 0.85
+        "angle": 150,
+        "percent": 0.8
       }
     ],
     "values": [
       {
-        "angle": 270,
-        "percent": 0.85,
+        "angle": 210,
+        "percent": 0.75,
         "value": 60
       }
     ],
     "cities": [
       {
-        "size": 3,
-        "rotation": 90
+        "size": 2
       }
     ],
     "track": [
       {
         "side": 1
-      },
-      {
-        "side": 2
       },
       {
         "side": 3
@@ -8754,9 +8750,6 @@
       },
       {
         "side": 5
-      },
-      {
-        "side": 6
       }
     ]
   }
