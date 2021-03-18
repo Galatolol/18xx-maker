@@ -47,7 +47,7 @@
     {
       "name": "Belge",
       "abbrev": "Belge",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100", "$100"],
       "color": "green",
       "shares": [
         {
@@ -66,7 +66,7 @@
     {
       "name": "Compagnie du chemin de fer d'Amiens à Boulogne",
       "abbrev": "CAB",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100", "$100"],
       "color": "irepl_brown",
       "shares": [
         {
@@ -85,7 +85,7 @@
     {
       "name": "Compagnie des chemins de fer de Paris à Lyon et à la Méditerranée / Paris-Lyon-Méditerranée",
       "abbrev": "PLM",
-      "tokens": ["Free", "$40", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100"],
       "color": "red",
       "token": {
         "target": "black",
@@ -109,7 +109,7 @@
     {
       "name": "Antwerp Railway",
       "abbrev": "AR",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100", "$100"],
       "color": "yellow",
       "shares": [
         {
@@ -128,7 +128,7 @@
     {
       "name": "Compagnie de l'Ouest",
       "abbrev": "Ouest",
-      "tokens": ["Free", "$40", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100"],
       "color": "irepl_blue",
       "token": {
         "bar": true,
@@ -151,7 +151,7 @@
     {
       "name": "Compagnie des chemins de fer de l'Est",
       "abbrev": "Est",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100", "$100"],
       "color": "gray",
       "token": {
         "target": "white",
@@ -175,7 +175,7 @@
     {
       "name": "Chemins de fer du Nord",
       "abbrev": "Nord",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100", "$100"],
       "color": "yellow",
       "token": {
         "bar": true,
@@ -199,7 +199,7 @@
     {
       "name": "Blocking",
       "abbrev": "",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "$40", "$100", "$100", "$100"],
       "color": "black",
       "shares": [
         {
@@ -1213,10 +1213,6 @@
         "color": "gray",
         "track": [
           {
-            "type": "gentle",
-            "side": 5
-          },
-          {
             "type": "straight",
             "side": 5
           }
@@ -1656,7 +1652,7 @@
             "cost": "$80"
           }
         ],
-        "hexes": ["C13", "G9", "H8", "H12", "I13", "J10", "J12", "J14"]
+        "hexes": ["C13", "G9", "H8", "H12", "I13", "J10", "J12"]
       },
       {
         "color": "plain",
@@ -1666,7 +1662,7 @@
             "cost": "$80"
           }
         ],
-        "hexes": ["B6", "B10", "C9", "E15", "F16"]
+        "hexes": ["B6", "B10", "E15", "F16"]
       },
       {
         "color": "plain",
@@ -1676,6 +1672,7 @@
           "C3",
           "C5",
           "C7",
+          "C9",
           "C15",
           "C17",
           "D2",
@@ -1704,7 +1701,8 @@
           "H18",
           "I5",
           "I7",
-          "I15"
+          "I15",
+          "J14"
         ]
       }
     ],
