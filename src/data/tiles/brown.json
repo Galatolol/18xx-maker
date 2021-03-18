@@ -8735,7 +8735,9 @@
     ],
     "cities": [
       {
-        "size": 2
+        "size": 3,
+        "rotation": -30,
+        "percent": 0.15
       }
     ],
     "track": [
