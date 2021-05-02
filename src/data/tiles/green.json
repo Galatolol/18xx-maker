@@ -10853,10 +10853,44 @@
         "side": 3
       },
       {
-        "side": 4
+        "side": 5
+      }
+    ]
+  },
+  "R1": {
+    "color": "green",
+    "values": [
+      {
+        "angle": 90,
+        "percent": 0.7,
+        "value": 60
+      }
+    ],
+    "labels": [
+      {
+        "angle": 240,
+        "percent": 0.5,
+        "label": "RE"
+      }
+    ],
+    "cities": [
+      {
+        "angle": 30,
+        "percent": 0.5
       },
       {
-        "side": 5
+        "angle": 150,
+        "percent": 0.5
+      }
+    ],
+    "track": [
+      {
+        "type": "sharp",
+        "side": 1
+      },
+      {
+        "type": "sharp",
+        "side": 3
       }
     ]
   }
