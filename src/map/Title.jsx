@@ -9,7 +9,7 @@ const Title = ({ game, variation, hexWidth }) => {
   let scale = hexWidth / 150.0;
 
   let titleFont = game.info.titleFontFamily || "display";
-  let titleWeight = game.info.titleFontWeight || "bold";
+  let titleWeight = game.info.titleFontWeight || "normal";
   let titleSize = (game.info.titleSize || 200) * scale;
 
   let subtitleFont = game.info.subtitleFontFamily || game.info.titleFontFamily || "display";

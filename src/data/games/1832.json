@@ -1,34 +1,65 @@
 {
   "info": {
     "title": "1832",
+    "titleFontFamily": "Mirage",
     "subtitle": "The South",
     "designer": "W.R. Dixon",
+    "publisher": "dtg",
     "background": "gray",
     "titleX": 50,
     "titleY": 1500,
-    "currency": "USD"
+    "currency": "$#"
   },
   "links": {
     "bgg": "https://www.boardgamegeek.com/boardgame/23421/1832-south",
     "rules": "https://sites.google.com/a/dl.deepthoughtgames.com/www/1832-rules.pdf?attredirects=0&d=1"
   },
   "tokens": [
-    "Round",
-    { "icon": "port" },
+    {
+      "icon": "port",
+      "label": "+$10/$20"
+    },
     "+$10",
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "coal" },
-    { "icon": "river", "label": "Key West" },
-    { "icon": "medium-city" },
-    { "icon": "medium-city" },
-    { "icon": "medium-city" },
-    { "icon": "medium-city" },
-    { "icon": "medium-city" },
-    { "icon": "medium-city" }
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "river",
+      "label": "+50"
+    },
+    {
+      "icon": "medium-city"
+    },
+    {
+      "icon": "medium-city"
+    },
+    {
+      "icon": "medium-city"
+    },
+    {
+      "icon": "medium-city"
+    },
+    {
+      "icon": "medium-city"
+    },
+    {
+      "icon": "medium-city"
+    }
   ],
   "ipo": ["default"],
   "bank": 12000,
@@ -36,7 +67,7 @@
     {
       "number": 2,
       "certLimit": 28,
-      "capital": 1050
+      "capital": "1050"
     },
     {
       "number": 3,
@@ -62,6 +93,11 @@
       "number": 7,
       "certLimit": 9,
       "capital": 300
+    },
+    {
+      "number": "",
+      "certLimit": "",
+      "capital": 2400
     }
   ],
   "tokenTypes": {
@@ -104,6 +140,7 @@
       "name": "Seaboard Coast Lines",
       "color": "red",
       "abbrev": "SCL",
+      "logo": "1832/SCL",
       "shares": "system",
       "tokens": "system"
     },
@@ -111,6 +148,7 @@
       "name": "Norfolk Southern",
       "color": "black",
       "abbrev": "NS",
+      "logo": "1832/NS",
       "shares": "system",
       "tokens": "system"
     },
@@ -118,6 +156,7 @@
       "name": "Illinois Central",
       "color": "green",
       "abbrev": "IC",
+      "logo": "1832/IC",
       "shares": "system",
       "tokens": "system"
     },
@@ -125,6 +164,7 @@
       "name": "Amtrak",
       "color": "blue",
       "abbrev": "AMTK",
+      "logo": "1832/AMTK",
       "shares": "system",
       "tokens": "system"
     },
@@ -132,62 +172,75 @@
       "name": "CSX Transportation",
       "color": "cyan",
       "abbrev": "CSX",
+      "logo": "1832/CSX",
       "shares": "system",
       "tokens": "system"
     },
     {
       "name": "Atlantic Coast Line Railroad",
       "abbrev": "ACL",
+      "logo": "1832/ACL",
       "color": "pink"
     },
     {
       "name": "Atlanta & West Point Railroad",
-      "abbrev": "A&WP",
-      "logo": "AWP",
+      "abbrev": "AWP",
+      "logo": "1832/AWP",
       "color": "purple",
       "tokens": "two"
     },
     {
       "name": "Seaboard Air Line Railway",
-      "abbrev": "SALR",
+      "abbrev": "SAL",
+      "logo": "1832/SALR",
       "color": "orange"
     },
     {
       "name": "Norfolk & Western Railway",
-      "abbrev": "N&W",
-      "logo": "NW",
+      "abbrev": "NW",
+      "logo": "1832/NW",
       "color": "black"
     },
     {
       "name": "Central of Georgia Railway",
-      "abbrev": "COG",
+      "abbrev": "CG",
+      "logo": "1832/COG",
       "color": "turquoise"
     },
     {
+      "name": "Key West",
+      "abbrev": "K.West",
+      "color": "green"
+    },
+    {
       "name": "Louisville & Nashville Railroad",
-      "abbrev": "L&N",
-      "logo": "LN",
+      "abbrev": "NW",
+      "logo": "1832/LN",
       "color": "blue"
     },
     {
       "name": "Georgia Railroad",
-      "abbrev": "GRR",
+      "abbrev": "GR",
+      "logo": "1832/GRR",
       "color": "cyan",
       "tokens": "two"
     },
     {
       "name": "Gulf, Mobile & Ohio Railroad",
       "abbrev": "GMO",
+      "logo": "1832/GMO",
       "color": "red"
     },
     {
       "name": "Southern Railway",
       "abbrev": "SOU",
+      "logo": "1832/SOU",
       "color": "green"
     },
     {
       "name": "Florida East Coast Railroad",
-      "abbrev": "FECR",
+      "abbrev": "FEC",
+      "logo": "1832/FECR",
       "tokens": ["Free", 40, "$100 (KW)"],
       "color": "yellow"
     }
@@ -198,96 +251,52 @@
       "quantity": 7,
       "price": 80,
       "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
+      "rust": "4"
     },
     {
       "name": "3",
       "quantity": 6,
       "price": 180,
       "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
+      "rust": "6"
     },
     {
       "name": "4",
       "quantity": 4,
       "price": 300,
       "color": "green",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 8"
-        }
-      ]
+      "rust": "8"
     },
     {
       "name": "5",
       "quantity": 3,
       "price": 450,
       "color": "brown",
-      "info": [
-        {
-          "color": "gray",
-          "note": "Rusted by 12"
-        }
-      ]
+      "rust": "12"
     },
     {
       "name": "6",
       "quantity": 3,
       "price": 630,
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "brown"
     },
     {
       "name": "8",
       "quantity": 3,
       "price": 800,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "10",
       "quantity": 2,
       "price": 950,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     },
     {
       "name": "12",
       "quantity": 6,
       "price": 1100,
-      "color": "gray",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
+      "color": "gray"
     }
   ],
   "privates": [
@@ -296,7 +305,10 @@
       "name": "Carolina Stage Coach",
       "price": 20,
       "revenue": 5,
-      "token": { "circle": "yellow", "label": "$" }
+      "token": {
+        "circle": "yellow",
+        "label": "$"
+      }
     },
     {
       "id": "P2",
@@ -347,65 +359,61 @@
       "name": "Central Railroad & Canal",
       "price": 200,
       "revenue": 30,
-      "company": "COG",
-      "description": "Comes with the president's share of the Central of Georgia Railway. The player buying this private company must immediately set the par value of the CoG. "
+      "company": "CG",
+      "description": "Comes with the president's share of the Central of Georgia Railway. The player buying this private company must immediately set the par value of the CG. "
     }
   ],
   "phases": [
     {
       "name": "2",
-      "limit": "4",
-      "number": "7",
+      "limit": 4,
+      "rounds": 1,
       "tiles": "yellow",
       "notes": "P5 may be purchased at 0.5-1x"
     },
     {
       "name": "3",
-      "limit": "4",
-      "number": "6",
+      "limit": 4,
+      "rounds": 2,
       "tiles": "green",
       "notes": "Private companies may be purchased 0.5-2x"
     },
     {
       "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
+      "limit": 3,
+      "rounds": 2,
       "tiles": "green"
     },
     {
       "name": "5",
-      "limit": "2",
-      "number": "3",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private companies except P6 are closed"
     },
     {
       "name": "6",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "brown",
       "notes": "Private company tokens removed"
     },
     {
       "name": "8",
-      "limit": "2",
-      "number": "2",
-      "rust": "4",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "gray"
     },
     {
       "name": "10",
-      "limit": "2",
-      "number": "2",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "gray"
     },
     {
       "name": "12",
-      "limit": "2",
-      "number": "inf",
-      "rust": "5",
+      "limit": 2,
+      "rounds": 3,
       "tiles": "gray"
     }
   ],
@@ -445,7 +453,11 @@
     },
     {
       "name": "SR",
-      "color": "gray"
+      "color": "white"
+    },
+    {
+      "name": "MR",
+      "color": "xxpaper_blue"
     }
   ],
   "turns": [
@@ -486,16 +498,16 @@
       "values": [
         {
           "label": 275,
-          "color": "yellow"
+          "color": "salmon"
         },
         {
           "label": 250,
-          "color": "yellow",
+          "color": "salmon",
           "width": "1.5in"
         },
         {
           "label": 225,
-          "color": "yellow",
+          "color": "salmon",
           "width": "1.5in"
         },
         {
@@ -550,6 +562,46 @@
         },
         {
           "label": 68,
+          "width": "1.5in"
+        },
+        {
+          "label": "64",
+          "color": "salmon",
+          "width": "1.5in"
+        },
+        {
+          "label": "60",
+          "color": "salmon",
+          "width": "1.5in"
+        },
+        {
+          "label": "55",
+          "color": "salmon",
+          "width": "1.5in"
+        },
+        {
+          "label": "50",
+          "color": "salmon",
+          "width": "1.5in"
+        },
+        {
+          "label": "40",
+          "color": "salmon",
+          "width": "1.5in"
+        },
+        {
+          "label": "30",
+          "color": "salmon",
+          "width": "1.5in"
+        },
+        {
+          "label": "20",
+          "color": "salmon",
+          "width": "1.5in"
+        },
+        {
+          "label": "10",
+          "color": "salmon",
           "width": "1.5in"
         }
       ]
@@ -1015,6 +1067,7 @@
     "3": 3,
     "4": 4,
     "5": 2,
+    "6": 2,
     "7": 7,
     "8": 20,
     "9": 20,
@@ -1058,7 +1111,76 @@
     "190": 1,
     "191": 1,
     "193": 1,
-    "611|JC": 2
+    "611": {
+      "quantity": 2,
+      "color": "brown",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 40
+        }
+      ],
+      "labels": [
+        {
+          "angle": 152,
+          "percent": 0.8,
+          "label": "JC"
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    }
+  },
+  "upgrades": {
+    "3": ["141", "142", "143"],
+    "4": ["141", "142"],
+    "5": ["14", "15"],
+    "6": ["14", "15"],
+    "7": ["18", "26", "27", "28", "29"],
+    "8": ["16", "17", "19", "23", "24", "25", "28", "29"],
+    "9": ["18", "19", "20", "23", "24", "26", "27"],
+    "14": ["63", "611"],
+    "15": ["63", "193", "611"],
+    "16": ["43", "70"],
+    "17": ["47"],
+    "18": ["43"],
+    "19": ["45", "46"],
+    "20": ["44", "47"],
+    "23": ["41", "43", "45", "47"],
+    "24": ["42", "43", "46", "47"],
+    "25": ["40", "45", "46"],
+    "26": ["42", "44", "45"],
+    "27": ["41", "44", "46"],
+    "28": ["39", "43", "46", "70"],
+    "29": ["39", "43", "45", "70"],
+    "57": ["14", "15"],
+    "58": ["141", "142", "143", "144"],
+    "141": ["145", "146", "147"],
+    "142": ["145", "146", "147"],
+    "143": ["146", "147"],
+    "144": ["147"],
+    "190": ["191"]
   },
   "map": {
     "players": {
@@ -1088,15 +1210,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A7"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A7"]
+        ]
       },
       {
         "color": "offboard",
@@ -1115,15 +1239,17 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["A21"],
+        "track": [
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           },
           {
-            "side": 6
+            "side": 6,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["A21"]
+        ]
       },
       {
         "color": "offboard",
@@ -1148,22 +1274,27 @@
             }
           ]
         },
-        "offBoardTrack": [
+        "hexes": ["B2"],
+        "track": [
           {
-            "side": 4
+            "side": 4,
+            "type": "offboard"
           },
           {
-            "side": 5
+            "side": 5,
+            "type": "offboard"
           }
-        ],
-        "hexes": ["B2"]
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "cost": 40
-        },
-        "hexes": ["B4"]
+        "hexes": ["B4"],
+        "terrain": [
+          {
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1175,17 +1306,23 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 60
-        },
-        "hexes": ["B10"]
+        "hexes": ["B10"],
+        "terrain": [
+          {
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 60
-        },
-        "hexes": ["B12"]
+        "hexes": ["B12"],
+        "terrain": [
+          {
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -1205,10 +1342,7 @@
         ],
         "offBoardRevenue": {
           "angle": 180,
-          "percent": 0.4,
-          "name": {
-            "name": "W. Va. Coalfields"
-          },
+          "percent": 0.35,
           "revenues": [
             {
               "color": "yellow",
@@ -1231,16 +1365,29 @@
           {
             "name": "$80",
             "percent": 0.55
+          },
+          {
+            "name": "West",
+            "angle": 180,
+            "percent": 0.7
+          },
+          {
+            "name": "Virginia Coalfields",
+            "angle": 180,
+            "percent": 0.55
           }
         ],
         "hexes": ["B14"]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 70
-        },
-        "hexes": ["B16"]
+        "hexes": ["B16"],
+        "terrain": [
+          {
+            "cost": 70,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1267,7 +1414,7 @@
           {
             "angle": 60,
             "percent": 0.6,
-            "companies": ["N&W"]
+            "companies": ["NW"]
           }
         ],
         "track": [
@@ -1308,11 +1455,6 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0.6,
-          "cost": 40
-        },
         "centerTowns": [
           {
             "name": {
@@ -1320,7 +1462,15 @@
             }
           }
         ],
-        "hexes": ["C3"]
+        "hexes": ["C3"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0.6,
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1333,25 +1483,23 @@
             "name": {
               "name": "Nashville"
             },
-            "companies": ["L&N"]
+            "companies": ["NW"]
           }
         ],
         "hexes": ["C7"]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 60
-        },
-        "hexes": ["C9"]
+        "hexes": ["C9"],
+        "terrain": [
+          {
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0.7,
-          "cost": 60
-        },
         "cities": [
           {
             "name": {
@@ -1360,21 +1508,35 @@
             "companies": ["SOU"]
           }
         ],
-        "hexes": ["C11"]
+        "hexes": ["C11"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0.7,
+            "cost": 60,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 80
-        },
-        "hexes": ["C13"]
+        "hexes": ["C13"],
+        "terrain": [
+          {
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "cost": 70
-        },
-        "hexes": ["C15"]
+        "hexes": ["C15"],
+        "terrain": [
+          {
+            "cost": 70,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1383,8 +1545,7 @@
             "x": -20,
             "y": -15,
             "name": {
-              "name": "Winston Salem",
-              "reverse": false
+              "name": "Winston Salem"
             }
           },
           {
@@ -1434,12 +1595,15 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 40
-        },
-        "hexes": ["D6"]
+        "hexes": ["D6"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1461,21 +1625,27 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 60
-        },
-        "hexes": ["D10"]
+        "hexes": ["D10"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["D12"]
+        "hexes": ["D12"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1503,7 +1673,7 @@
             "name": {
               "name": "Raleigh"
             },
-            "companies": ["SALR"]
+            "companies": ["SAL"]
           }
         ],
         "hexes": ["D20"]
@@ -1522,39 +1692,51 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 40
-        },
-        "hexes": ["E7"]
+        "hexes": ["E7"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 40
-        },
-        "hexes": ["E9"]
+        "hexes": ["E9"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 60
-        },
-        "hexes": ["E11"]
+        "hexes": ["E11"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 60,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 40
-        },
-        "hexes": ["E13"]
+        "hexes": ["E13"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1595,12 +1777,15 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["E23"]
+        "hexes": ["E23"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1623,34 +1808,42 @@
       },
       {
         "color": "plain",
-        "mountain": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 40
-        },
-        "hexes": ["F8"]
+        "hexes": ["F8"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 40,
+            "type": "mountain"
+          }
+        ]
       },
       {
         "color": "yellow",
         "track": [
           {
             "side": 2,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 4,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           },
           {
             "side": 6,
-            "type": "stop"
+            "type": "straight",
+            "end": 0.25
           }
         ],
-        "labels": {
-          "angle": 330,
-          "percent": 0.7,
-          "label": "A"
-        },
+        "labels": [
+          {
+            "angle": 330,
+            "percent": 0.7,
+            "label": "A"
+          }
+        ],
         "values": [
           {
             "angle": 210,
@@ -1665,7 +1858,7 @@
             "name": {
               "name": "Atlanta"
             },
-            "companies": ["A&WP"]
+            "companies": ["AWP"]
           },
           {
             "angle": 150,
@@ -1674,7 +1867,7 @@
           {
             "angle": 270,
             "percent": 0.5,
-            "companies": ["GRR"]
+            "companies": ["GR"]
           }
         ],
         "hexes": ["F10"]
@@ -1711,12 +1904,15 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["F20"]
+        "hexes": ["F20"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1765,12 +1961,15 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 60
-        },
-        "hexes": ["G15"]
+        "hexes": ["G15"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 60,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1800,12 +1999,15 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["G19"]
+        "hexes": ["G19"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -1870,7 +2072,7 @@
             "name": {
               "name": "Savannah"
             },
-            "companies": ["COG"]
+            "companies": ["CG"]
           }
         ],
         "hexes": ["H16"]
@@ -1926,12 +2128,15 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 60
-        },
-        "hexes": ["I15"]
+        "hexes": ["I15"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 60,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "gray",
@@ -2012,12 +2217,15 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["J6"]
+        "hexes": ["J6"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2066,28 +2274,34 @@
             "name": {
               "name": "Jacksonville"
             },
-            "companies": ["FECR"]
+            "companies": ["FEC"]
           }
         ],
         "hexes": ["J14"]
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["K9"]
+        "hexes": ["K9"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["K11"]
+        "hexes": ["K11"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2095,21 +2309,27 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 40
-        },
-        "hexes": ["K15"]
+        "hexes": ["K15"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["L12"]
+        "hexes": ["L12"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2124,12 +2344,15 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 40
-        },
-        "hexes": ["L16"]
+        "hexes": ["L16"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2140,11 +2363,6 @@
             "percent": 0.75
           }
         ],
-        "water": {
-          "angle": 0,
-          "percent": 0.75,
-          "cost": 40
-        },
         "cities": [
           {
             "name": {
@@ -2152,7 +2370,15 @@
             }
           }
         ],
-        "hexes": ["M13"]
+        "hexes": ["M13"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0.75,
+            "cost": 40,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
@@ -2161,8 +2387,7 @@
             "x": -20,
             "y": -15,
             "name": {
-              "name": "Lakeland",
-              "reverse": false
+              "name": "Lakeland"
             }
           },
           {
@@ -2188,31 +2413,33 @@
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 80
-        },
-        "hexes": ["N12"]
+        "hexes": ["N12"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 80,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "plain",
-        "water": {
-          "angle": 0,
-          "percent": 0,
-          "cost": 60
-        },
-        "hexes": ["N14"]
+        "hexes": ["N14"],
+        "terrain": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "cost": 60,
+            "type": "water"
+          }
+        ]
       },
       {
         "color": "offboard",
-        "cities": [
+        "tokens": [
           {
-            "name": {
-              "name": "Key West",
-              "offset": 75
-            },
-            "companies": ["FECR"]
+            "icon": "river"
           }
         ],
         "offBoardRevenue": {
@@ -2236,17 +2463,6 @@
             }
           ]
         },
-        "offBoardTrack": [
-          {
-            "side": 3
-          },
-          {
-            "side": 2
-          },
-          {
-            "side": 1
-          }
-        ],
         "icons": [
           {
             "type": "port",
@@ -2254,7 +2470,40 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["N16"]
+        "hexes": ["N16"],
+        "track": [
+          {
+            "side": 3,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 1,
+            "type": "offboard"
+          }
+        ]
+      },
+      {
+        "hexes": ["N18"],
+        "color": "white",
+        "names": [
+          {
+            "name": "worth $0 the first time",
+            "angle": 180,
+            "percent": 0.15
+          },
+          {
+            "name": "it is used before"
+          },
+          {
+            "name": "the first 5T is purchased",
+            "percent": 0.15
+          }
+        ],
+        "removeBorders": [3, 4, 5, 6]
       }
     ]
   }
