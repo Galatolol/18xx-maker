@@ -3628,9 +3628,29 @@
       },
       {
         "side": 3
-      },
+      }
+    ]
+  },
+  "G28": {
+    "color": "yellow",
+    "rotations": 6,
+    "values": [
       {
-        "side": 5
+        "angle": 210,
+        "percent": 0.75,
+        "value": 20
+      }
+    ],
+    "cities": [
+      {
+        "name": {
+          "name": "Amiens"
+        }
+      }
+    ],
+    "track": [
+      {
+        "side": 1
       }
     ]
   }

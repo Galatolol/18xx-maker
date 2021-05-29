@@ -1,8 +1,8 @@
 {
   "info": {
     "title": "1894",
-    "titleFontFamily": "Garamond",
-    "subtitle": "VERY EARLY PROTOTYPE",
+    "titleFontFamily": "EB Garamond",
+    "subtitle": "EARLY PROTOTYPE",
     "subtitleFontFamily": "Oswald",
     "designer": "Galatolol",
     "designerFontFamily": "Libre Baskerville",
@@ -20,34 +20,34 @@
   "links": {},
   "tokens": [],
   "ipo": true,
-  "bank": "$12,000",
+  "bank": "F12,000",
   "players": [
     {
       "number": 3,
       "certLimit": 20,
-      "capital": "$800"
+      "capital": "F800"
     },
     {
       "number": 4,
       "certLimit": 16,
-      "capital": "$600"
+      "capital": "F600"
     },
     {
       "number": 5,
       "certLimit": 13,
-      "capital": "$480"
+      "capital": "F480"
     },
     {
       "number": 6,
       "certLimit": 11,
-      "capital": "$400"
+      "capital": "F400"
     }
   ],
   "companies": [
     {
       "name": "Belge",
       "abbrev": "Belge",
-      "tokens": ["Free", "$40", "$100", "$100", "$100"],
+      "tokens": ["Free", "F40", "F100", "F100"],
       "color": "green",
       "shares": [
         {
@@ -66,7 +66,7 @@
     {
       "name": "Compagnie du chemin de fer d'Amiens à Boulogne",
       "abbrev": "CAB",
-      "tokens": ["Free", "$40", "$100", "$100", "$100"],
+      "tokens": ["Free", "F40", "F100", "F100"],
       "color": "irepl_brown",
       "shares": [
         {
@@ -85,7 +85,7 @@
     {
       "name": "Compagnie des chemins de fer de Paris à Lyon et à la Méditerranée / Paris-Lyon-Méditerranée",
       "abbrev": "PLM",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "F40", "F100"],
       "color": "red",
       "token": {
         "target": "black",
@@ -107,9 +107,9 @@
       ]
     },
     {
-      "name": "Antwerp Railway",
-      "abbrev": "AR",
-      "tokens": ["Free", "$40", "$100", "$100", "$100"],
+      "name": "Gent Railway",
+      "abbrev": "GR",
+      "tokens": ["Free", "F40", "F100", "F100", "F100"],
       "color": "yellow",
       "shares": [
         {
@@ -128,7 +128,7 @@
     {
       "name": "Compagnie de l'Ouest",
       "abbrev": "Ouest",
-      "tokens": ["Free", "$40", "$100", "$100"],
+      "tokens": ["Free", "F40", "F100", "F100"],
       "color": "irepl_blue",
       "token": {
         "bar": true,
@@ -151,7 +151,7 @@
     {
       "name": "Compagnie des chemins de fer de l'Est",
       "abbrev": "Est",
-      "tokens": ["Free", "$40", "$100", "$100", "$100"],
+      "tokens": ["Free", "F40", "F100", "F100", "F100"],
       "color": "gray",
       "token": {
         "target": "white",
@@ -175,7 +175,7 @@
     {
       "name": "Chemins de fer du Nord",
       "abbrev": "Nord",
-      "tokens": ["Free", "$40", "$100", "$100", "$100"],
+      "tokens": ["Free", "F40", "F100", "F100", "F100"],
       "color": "yellow",
       "token": {
         "bar": true,
@@ -199,7 +199,7 @@
     {
       "name": "Blocking",
       "abbrev": "",
-      "tokens": ["Free", "$40", "$100", "$100", "$100"],
+      "tokens": ["Free", "F40", "F100", "F100", "F100"],
       "color": "black",
       "shares": [
         {
@@ -220,7 +220,7 @@
     {
       "name": "2",
       "quantity": 6,
-      "price": "$80",
+      "price": "F80",
       "color": "yellow",
       "info": [
         {
@@ -232,7 +232,7 @@
     {
       "name": "3",
       "quantity": 5,
-      "price": "$180",
+      "price": "F180",
       "color": "green",
       "info": [
         {
@@ -244,7 +244,7 @@
     {
       "name": "4",
       "quantity": 4,
-      "price": "$300",
+      "price": "F300",
       "color": "green",
       "info": [
         {
@@ -256,7 +256,7 @@
     {
       "name": "5",
       "quantity": 3,
-      "price": "$450",
+      "price": "F450",
       "color": "brown",
       "info": [
         {
@@ -268,7 +268,7 @@
     {
       "name": "6",
       "quantity": 2,
-      "price": "$630",
+      "price": "F630",
       "color": "brown",
       "info": [
         {
@@ -280,9 +280,9 @@
     {
       "name": "D",
       "quantity": 6,
-      "price": "$1100",
+      "price": "F1100",
       "color": "brown",
-      "description": "Cost $800 when trading in a 4T, 5T or 6T",
+      "description": "Cost F800 when trading in a 4T, 5T or 6T",
       "info": [
         {
           "color": "yellow",
@@ -294,38 +294,38 @@
   "privates": [
     {
       "name": "P1",
-      "price": "$20",
-      "revenue": "$5",
+      "price": "F20",
+      "revenue": "F5",
       "description": ""
     },
     {
       "name": "Industrialization of Łódź",
-      "price": "$40",
-      "revenue": "$10",
+      "price": "F40",
+      "revenue": "F10",
       "description": ""
     },
     {
       "name": "Construction of Gdynia",
-      "price": "$70",
-      "revenue": "$15",
+      "price": "F70",
+      "revenue": "F15",
       "description": ""
     },
     {
       "name": "Upper Silesian Railway",
-      "price": "$110",
-      "revenue": "$20",
+      "price": "F110",
+      "revenue": "F20",
       "description": ""
     },
     {
       "name": "P5",
-      "price": "$160",
-      "revenue": "$25",
+      "price": "F160",
+      "revenue": "F25",
       "description": ""
     },
     {
       "name": "Towarzystwo akcyjne drogi żelaznej Warszawsko-Wiedeńskiej",
-      "price": "$220",
-      "revenue": "$30",
+      "price": "F220",
+      "revenue": "F30",
       "description": ""
     }
   ],
@@ -878,11 +878,12 @@
     "1": 1,
     "2": 1,
     "7": 4,
-    "8": 10,
-    "9": 10,
+    "8": 13,
+    "9": 13,
     "14": 5,
     "15": 5,
     "16": 1,
+    "17": 1,
     "18": 1,
     "19": 1,
     "20": 1,
@@ -908,6 +909,7 @@
     "69": 1,
     "70": 1,
     "619": 4,
+    "624": 1,
 
     "35": 2,
     "36": 2,
@@ -948,7 +950,7 @@
             {
               "color": "offboard",
               "textColor": "white",
-              "cost": "70"
+              "cost": "60"
             }
           ],
           "x": -75
@@ -978,7 +980,7 @@
         "color": "offboard_light",
         "routeBonus": [
           {
-            "value": "+$60",
+            "value": "+F60",
             "angle": 180,
             "percent": 0.6
           }
@@ -995,7 +997,7 @@
             {
               "color": "offboard",
               "textColor": "white",
-              "cost": "60"
+              "cost": "70"
             }
           ]
         },
@@ -1129,6 +1131,34 @@
         "hexes": ["C21"]
       },
       {
+        "color": "gray",
+        "values": [
+          {
+            "value": 10,
+            "angle": 90,
+            "percent": 0.3
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 0,
+            "angle": 270,
+            "percent": 0.26,
+            "name": {
+              "name": "Évreux",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "gentle",
+            "side": 3
+          }
+        ],
+        "hexes": ["D2"]
+      },
+      {
         "color": "plain",
         "cities": [
           {
@@ -1157,7 +1187,8 @@
           {
             "name": {
               "name": "Gent"
-            }
+            },
+            "companies": ["GR"]
           }
         ],
         "hexes": ["D18"]
@@ -1168,8 +1199,16 @@
           {
             "name": {
               "name": "Antwerpen"
-            },
-            "companies": ["AR"]
+            }
+          }
+        ],
+        "companies": [
+          {
+            "percent": 0.65,
+            "label": "P2",
+            "left": 10,
+            "right": 10,
+            "color": "offboard"
           }
         ],
         "hexes": ["D20"]
@@ -1210,11 +1249,15 @@
         "hexes": ["E19"]
       },
       {
-        "color": "gray",
+        "color": "green",
         "track": [
           {
             "type": "straight",
             "side": 5
+          },
+          {
+            "type": "sharp",
+            "side": 3
           }
         ],
         "hexes": ["F4"]
@@ -1302,15 +1345,15 @@
         "color": "gray",
         "cities": [
           {
-            "angle": 330,
-            "percent": 0.5,
+            "angle": 360,
+            "percent": 0.6,
             "rotation": -30,
-            "size": 2,
+            "size": 1,
             "companies": ["PLM"]
           },
           {
             "angle": 120,
-            "percent": 0.65,
+            "percent": 0.6,
             "rotation": -30,
             "size": 1
           }
@@ -1330,22 +1373,17 @@
               "cost": "80"
             }
           ],
-          "angle": 210,
+          "angle": 240,
           "percent": 0.5
         },
         "track": [
           {
-            "side": 2,
-            "type": "straight",
-            "start": 0.7
+            "side": 5,
+            "type": "sharp"
           },
           {
             "side": 1,
             "type": "sharp"
-          },
-          {
-            "side": 4,
-            "type": "gentle"
           }
         ],
         "hexes": ["G7"]
@@ -1373,8 +1411,11 @@
         ],
         "companies": [
           {
+            "label": "P3",
             "percent": 0.65,
-            "label": "P3"
+            "left": 10,
+            "right": 10,
+            "color": "green"
           }
         ],
         "hexes": ["G13"]
@@ -1389,6 +1430,16 @@
           }
         ],
         "hexes": ["G17"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 6,
+            "type": "gentle"
+          }
+        ],
+        "hexes": ["G21"]
       },
       {
         "color": "offboard_light",
@@ -1479,7 +1530,7 @@
         },
         "routeBonus": [
           {
-            "value": "+$60",
+            "value": "+F60",
             "angle": 198,
             "fillColor": "black",
             "strokeColor": "white",
@@ -1527,7 +1578,10 @@
         "color": "plain",
         "companies": [
           {
-            "label": "P1"
+            "label": "P1",
+            "left": 10,
+            "right": 10,
+            "color": "offboard"
           }
         ],
         "hexes": ["I19"]
@@ -1562,7 +1616,7 @@
         },
         "routeBonus": [
           {
-            "value": "+$60",
+            "value": "+F60",
             "fillColor": "black",
             "strokeColor": "white",
             "textColor": "white",
@@ -1594,7 +1648,7 @@
         ],
         "routeBonus": [
           {
-            "value": "+$60",
+            "value": "+F60",
             "fillColor": "black",
             "strokeColor": "white",
             "textColor": "white",
@@ -1623,22 +1677,25 @@
       },
       {
         "color": "offboard_light",
-        "names": [
-          {
-            "name": "Luxembourg",
-            "percent": -0.3
-          }
-        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Luxembourg"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "60"
+            },
+            {
+              "color": "offboard",
+              "textColor": "white",
+              "cost": "70"
+            }
+          ]
+        },
         "offBoardTrack": [
           {
             "side": 1
-          }
-        ],
-        "values": [
-          {
-            "angle": 210,
-            "percent": 0.0,
-            "value": 60
           }
         ],
         "hexes": ["J20"]
@@ -1649,33 +1706,40 @@
         "terrain": [
           {
             "type": "swamp",
-            "cost": "$80"
+            "cost": "F80"
           }
         ],
-        "hexes": ["C13", "G9", "H8", "H12", "I13", "J10", "J12"]
+        "hexes": ["C3", "E7", "G9", "H8", "H12", "I13", "J10", "J12"]
       },
       {
         "color": "plain",
         "terrain": [
           {
             "type": "water",
-            "cost": "$80"
+            "cost": "F80"
           }
         ],
-        "hexes": ["B6", "B10", "E15", "F16"]
+        "hexes": ["B6", "B10", "C9", "C13", "F14", "F16", "H18"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "river",
+            "cost": "F120"
+          }
+        ],
+        "hexes": []
       },
       {
         "color": "plain",
         "hexes": [
           "B2",
           "B12",
-          "C3",
           "C5",
           "C7",
-          "C9",
           "C15",
           "C17",
-          "D2",
           "D4",
           "D8",
           "D10",
@@ -1683,22 +1747,19 @@
           "D16",
           "E3",
           "E5",
-          "E7",
           "E11",
+          "E15",
           "E17",
           "E21",
           "F2",
           "F8",
           "F10",
-          "F14",
           "F20",
           "G11",
           "G15",
           "G19",
-          "G21",
           "H14",
           "H16",
-          "H18",
           "I5",
           "I7",
           "I15",

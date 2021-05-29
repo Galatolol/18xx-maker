@@ -157,8 +157,8 @@ games["1832"] = {
   title: "1832",
   subtitle: "The South",
   designer: "W.R. Dixon",
+  publisher: "dtg",
   minPlayers: 2,
-  maxPlayers: 7,
 };
 games["1834"] = {
   id: "1834",
@@ -321,6 +321,7 @@ games["1860"] = {
   title: "1860",
   subtitle: "Railways on the Isle of Wight",
   designer: "Mike Hutton",
+  publisher: "zman",
   minPlayers: 2,
   maxPlayers: 4,
 };
@@ -433,7 +434,7 @@ games["1894"] = {
   slug: "1894",
   file: "1894.json",
   title: "1894",
-  subtitle: "VERY EARLY PROTOTYPE",
+  subtitle: "EARLY PROTOTYPE",
   designer: "Galatolol",
   minPlayers: 3,
   maxPlayers: 6,
