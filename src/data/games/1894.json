@@ -9,7 +9,7 @@
     "background": "gray",
     "width": 150,
     "color_10": "orange",
-    "titleX": 1350,
+    "titleX": 1100,
     "titleY": -60,
     "titleSize": 120,
     "subTitleSize": 20,
@@ -231,163 +231,9 @@
       ]
     }
   ],
-  "trains": [
-    {
-      "name": "2",
-      "quantity": 6,
-      "price": "F80",
-      "color": "yellow",
-      "info": [
-        {
-          "color": "green",
-          "note": "Rusted by 4"
-        }
-      ]
-    },
-    {
-      "name": "3",
-      "quantity": 5,
-      "price": "F180",
-      "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by 6"
-        }
-      ]
-    },
-    {
-      "name": "4",
-      "quantity": 4,
-      "price": "F300",
-      "color": "green",
-      "info": [
-        {
-          "color": "brown",
-          "note": "Rusted by D"
-        }
-      ]
-    },
-    {
-      "name": "5",
-      "quantity": 3,
-      "price": "F450",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
-    },
-    {
-      "name": "6",
-      "quantity": 2,
-      "price": "F630",
-      "color": "brown",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
-    },
-    {
-      "name": "D",
-      "quantity": 6,
-      "price": "F1100",
-      "color": "brown",
-      "description": "Cost F800 when trading in a 4T, 5T or 6T",
-      "info": [
-        {
-          "color": "yellow",
-          "note": "Permanent"
-        }
-      ]
-    }
-  ],
-  "privates": [
-    {
-      "name": "P1",
-      "price": "F20",
-      "revenue": "F5",
-      "description": ""
-    },
-    {
-      "name": "Industrialization of Łódź",
-      "price": "F40",
-      "revenue": "F10",
-      "description": ""
-    },
-    {
-      "name": "Construction of Gdynia",
-      "price": "F70",
-      "revenue": "F15",
-      "description": ""
-    },
-    {
-      "name": "Upper Silesian Railway",
-      "price": "F110",
-      "revenue": "F20",
-      "description": ""
-    },
-    {
-      "name": "P5",
-      "price": "F160",
-      "revenue": "F25",
-      "description": ""
-    },
-    {
-      "name": "Towarzystwo akcyjne drogi żelaznej Warszawsko-Wiedeńskiej",
-      "price": "F220",
-      "revenue": "F30",
-      "description": ""
-    }
-  ],
-  "phases": [
-    {
-      "name": "2",
-      "limit": "4",
-      "number": "6",
-      "tiles": "yellow"
-    },
-    {
-      "name": "3",
-      "limit": "4",
-      "number": "5",
-      "tiles": "green",
-      "notes": "Private companies may be purchased"
-    },
-    {
-      "name": "4",
-      "rust": "2",
-      "limit": "3",
-      "number": "4",
-      "tiles": "green"
-    },
-    {
-      "name": "5",
-      "limit": "2",
-      "number": "3",
-      "tiles": "brown",
-      "notes": "Private companies are closed"
-    },
-    {
-      "name": "6",
-      "limit": "2",
-      "number": "2",
-      "rust": "3",
-      "tiles": "brown",
-      "notes": "D Trains may be purchased"
-    },
-    {
-      "name": "D",
-      "limit": "2",
-      "number": "6",
-      "rust": "4",
-      "tiles": "brown"
-    }
-  ],
+  "trains": [],
+  "privates": [],
+  "phases": [],
   "pools": [
     {
       "name": "Market",
@@ -896,7 +742,7 @@
     "8": 13,
     "9": 13,
     "14": 5,
-    "15": 5,
+    "15": 4,
     "16": 1,
     "17": 1,
     "18": 1,
@@ -920,7 +766,7 @@
     "47": 1,
     "55": 1,
     "56": 1,
-    "57": 8,
+    "57": 7,
     "69": 1,
     "70": 1,
     "619": 4,
@@ -928,13 +774,13 @@
 
     "35": 2,
     "36": 2,
-    "118": 1,
-    "G19": 1,
-    "G20": 1,
+    "118": 2,
+    "G19": 2,
+    "G20": 2,
     "G21": 2,
     "G22": 2,
     "G23": 2,
-    "G24": 1,
+    "G24": 2,
     "G25": 1,
     "G26": 1,
     "G27": 1
@@ -942,17 +788,17 @@
   "map": {
     "hexes": [
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardTrack": [
           {
             "side": 5
           }
         ],
         "removeBorders": [4],
-        "hexes": ["A3"]
+        "hexes": ["A2"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardRevenue": {
           "name": {
             "name": "Ireland"
@@ -960,11 +806,11 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": "40"
             },
             {
-              "color": "offboard",
-              "textColor": "white",
+              "color": "brown",
+              "textColor": "black",
               "cost": "50"
             }
           ],
@@ -990,20 +836,20 @@
           }
         ],
         "removeBorders": [1],
-        "hexes": ["A5"]
+        "hexes": ["A4"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardTrack": [
           {
             "side": 5
           }
         ],
         "removeBorders": [4],
-        "hexes": ["A9"]
+        "hexes": ["A8"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardRevenue": {
           "name": {
             "name": "England"
@@ -1014,9 +860,9 @@
               "cost": "40"
             },
             {
-              "color": "offboard",
-              "textColor": "white",
-              "cost": "60"
+              "color": "brown",
+              "textColor": "black",
+              "cost": "70"
             }
           ]
         },
@@ -1029,17 +875,17 @@
           }
         ],
         "removeBorders": [1, 4],
-        "hexes": ["A11"]
+        "hexes": ["A10"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardTrack": [
           {
             "side": 6
           }
         ],
         "removeBorders": [1],
-        "hexes": ["A13"]
+        "hexes": ["A12"]
       },
       {
         "color": "plain",
@@ -1050,14 +896,14 @@
             }
           }
         ],
-        "hexes": ["B4"]
+        "hexes": ["B3"]
       },
       {
         "color": "gray",
         "cities": [
           {
             "name": {
-              "name": "Dunkerque"
+              "name": "Calais"
             }
           }
         ],
@@ -1085,10 +931,10 @@
             "side": 6
           }
         ],
-        "hexes": ["B14"]
+        "hexes": ["B13"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardTrack": [
           {
             "side": 1
@@ -1110,8 +956,8 @@
               "cost": "30"
             },
             {
-              "color": "offboard",
-              "textColor": "white",
+              "color": "brown",
+              "textColor": "black",
               "cost": "50"
             }
           ]
@@ -1125,7 +971,7 @@
             "percent": -0.7
           }
         ],
-        "hexes": ["C19"]
+        "hexes": ["C18"]
       },
       {
         "color": "gray",
@@ -1153,7 +999,7 @@
             "side": 3
           }
         ],
-        "hexes": ["D2"]
+        "hexes": ["D1"]
       },
       {
         "color": "plain",
@@ -1165,7 +1011,7 @@
             "companies": ["Ouest"]
           }
         ],
-        "hexes": ["D6"]
+        "hexes": ["D5"]
       },
       {
         "color": "plain",
@@ -1177,7 +1023,7 @@
             "companies": ["Nord"]
           }
         ],
-        "hexes": ["D14"]
+        "hexes": ["D13"]
       },
       {
         "color": "plain",
@@ -1189,7 +1035,7 @@
             "companies": ["GR"]
           }
         ],
-        "hexes": ["D18"]
+        "hexes": ["D17"]
       },
       {
         "color": "green",
@@ -1225,7 +1071,7 @@
             "side": 6
           }
         ],
-        "hexes": ["D20"]
+        "hexes": ["D19"]
       },
       {
         "color": "plain",
@@ -1237,7 +1083,7 @@
             "companies": ["CAB"]
           }
         ],
-        "hexes": ["E9"]
+        "hexes": ["E8"]
       },
       {
         "color": "plain",
@@ -1257,7 +1103,7 @@
             "color": "offboard"
           }
         ],
-        "hexes": ["E13"]
+        "hexes": ["E12"]
       },
       {
         "color": "plain",
@@ -1268,7 +1114,7 @@
             }
           }
         ],
-        "hexes": ["E19"]
+        "hexes": ["E18"]
       },
       {
         "color": "green",
@@ -1282,7 +1128,7 @@
             "side": 3
           }
         ],
-        "hexes": ["F4"]
+        "hexes": ["F3"]
       },
       {
         "color": "plain",
@@ -1301,7 +1147,7 @@
             }
           }
         ],
-        "hexes": ["F6"]
+        "hexes": ["F5"]
       },
       {
         "color": "plain",
@@ -1320,7 +1166,7 @@
             }
           }
         ],
-        "hexes": ["F12"]
+        "hexes": ["F11"]
       },
       {
         "color": "plain",
@@ -1340,7 +1186,7 @@
             "companies": ["Belge"]
           }
         ],
-        "hexes": ["F18"]
+        "hexes": ["F17"]
       },
       {
         "color": "gray",
@@ -1350,7 +1196,7 @@
             "side": 2
           }
         ],
-        "hexes": ["G3"]
+        "hexes": ["G2"]
       },
       {
         "color": "plain",
@@ -1361,7 +1207,7 @@
             }
           }
         ],
-        "hexes": ["G5"]
+        "hexes": ["G4"]
       },
       {
         "color": "gray",
@@ -1390,8 +1236,8 @@
               "cost": "30"
             },
             {
-              "color": "offboard",
-              "textColor": "white",
+              "color": "brown",
+              "textColor": "black",
               "cost": "80"
             }
           ],
@@ -1408,19 +1254,7 @@
             "type": "sharp"
           }
         ],
-        "hexes": ["G7"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Amiens"
-            },
-            "companies": ["CAB"]
-          }
-        ],
-        "hexes": ["E9"]
+        "hexes": ["G6"]
       },
       {
         "color": "plain",
@@ -1440,7 +1274,7 @@
             "color": "green"
           }
         ],
-        "hexes": ["G13"]
+        "hexes": ["G12"]
       },
       {
         "color": "plain",
@@ -1459,7 +1293,7 @@
             }
           }
         ],
-        "hexes": ["G15"]
+        "hexes": ["G14"]
       },
       {
         "color": "plain",
@@ -1470,7 +1304,7 @@
             }
           }
         ],
-        "hexes": ["G17"]
+        "hexes": ["G16"]
       },
       {
         "color": "gray",
@@ -1480,10 +1314,10 @@
             "type": "gentle"
           }
         ],
-        "hexes": ["G21"]
+        "hexes": ["G20"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardTrack": [
           {
             "side": 3
@@ -1496,7 +1330,7 @@
           }
         ],
         "removeBorders": [6],
-        "hexes": ["H4"]
+        "hexes": ["H3"]
       },
       {
         "color": "gray",
@@ -1512,7 +1346,7 @@
             "side": 2
           }
         ],
-        "hexes": ["H6"]
+        "hexes": ["H5"]
       },
       {
         "color": "plain",
@@ -1531,7 +1365,7 @@
             }
           }
         ],
-        "hexes": ["H10"]
+        "hexes": ["H9"]
       },
       {
         "color": "plain",
@@ -1542,10 +1376,10 @@
             }
           }
         ],
-        "hexes": ["H20"]
+        "hexes": ["H19"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardTrack": [
           {
             "side": 4
@@ -1561,8 +1395,8 @@
               "cost": "30"
             },
             {
-              "color": "offboard",
-              "textColor": "white",
+              "color": "brown",
+              "textColor": "black",
               "cost": "50"
             }
           ],
@@ -1580,7 +1414,7 @@
           }
         ],
         "removeBorders": [3],
-        "hexes": ["I3"]
+        "hexes": ["I2"]
       },
       {
         "color": "yellow",
@@ -1590,7 +1424,7 @@
             "side": 1
           }
         ],
-        "hexes": ["I9"]
+        "hexes": ["I8"]
       },
       {
         "color": "plain",
@@ -1602,7 +1436,7 @@
             "companies": ["Est"]
           }
         ],
-        "hexes": ["I11"]
+        "hexes": ["I10"]
       },
       {
         "color": "plain",
@@ -1613,7 +1447,7 @@
             }
           }
         ],
-        "hexes": ["I17"]
+        "hexes": ["I16"]
       },
       {
         "color": "plain",
@@ -1625,7 +1459,7 @@
             "color": "offboard"
           }
         ],
-        "hexes": ["I19"]
+        "hexes": ["I18"]
       },
       {
         "color": "gray",
@@ -1635,10 +1469,10 @@
             "side": 1
           }
         ],
-        "hexes": ["I21"]
+        "hexes": ["I20"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardTrack": [
           {
             "side": 4
@@ -1665,7 +1499,7 @@
             "percent": -0.6
           }
         ],
-        "hexes": ["J8"]
+        "hexes": ["J7"]
       },
       {
         "color": "gray",
@@ -1675,10 +1509,10 @@
             "side": 1
           }
         ],
-        "hexes": ["J16"]
+        "hexes": ["J15"]
       },
       {
-        "color": "offboard_light",
+        "color": "offboard",
         "offBoardRevenue": {
           "name": {
             "name": "Luxembourg"
@@ -1689,9 +1523,9 @@
               "cost": "40"
             },
             {
-              "color": "offboard",
-              "textColor": "white",
-              "cost": "50"
+              "color": "brown",
+              "textColor": "black",
+              "cost": "60"
             }
           ]
         },
@@ -1712,7 +1546,7 @@
             "side": 3
           }
         ],
-        "hexes": ["J18"]
+        "hexes": ["J17"]
       },
 
       {
@@ -1723,7 +1557,7 @@
             "cost": "F80"
           }
         ],
-        "hexes": ["C3", "E7", "H8", "H12", "I13", "J10", "J12"]
+        "hexes": ["C16", "E6", "H7", "H11", "I12", "J9", "J11"]
       },
       {
         "color": "plain",
@@ -1733,7 +1567,7 @@
             "cost": "F80"
           }
         ],
-        "hexes": ["B6", "B10", "C11", "C13", "E15", "F16", "H18"]
+        "hexes": ["B5", "B9", "C10", "C12", "E14", "F15", "H17"]
       },
       {
         "color": "plain",
@@ -1748,44 +1582,44 @@
       {
         "color": "plain",
         "hexes": [
-          "B2",
-          "B12",
-          "C5",
-          "C7",
-          "C9",
-          "C15",
-          "C17",
-          "D4",
-          "D8",
-          "D10",
-          "D12",
-          "D16",
-          "E3",
-          "E5",
-          "E11",
-          "E17",
-          "E21",
-          "F2",
-          "F8",
-          "F10",
-          "F14",
-          "F20",
-          "G9",
-          "G11",
-          "G19",
-          "H14",
-          "H16",
-          "I5",
-          "I7",
-          "I15",
-          "J14"
+          "B1",
+          "B11",
+          "C2",
+          "C4",
+          "C6",
+          "C8",
+          "C14",
+          "D3",
+          "D7",
+          "D9",
+          "D11",
+          "D15",
+          "E2",
+          "E4",
+          "E10",
+          "E16",
+          "E20",
+          "F1",
+          "F7",
+          "F9",
+          "F13",
+          "F19",
+          "G8",
+          "G10",
+          "G18",
+          "H13",
+          "H15",
+          "I4",
+          "I6",
+          "I14",
+          "J13"
         ]
       }
     ],
     "borders": [
       {
         "color": "offboard",
-        "coords": ["I9p1", "I9p6"]
+        "coords": ["I8p1", "I8p6"]
       }
     ]
   }
