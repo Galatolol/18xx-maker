@@ -199,7 +199,22 @@
     {
       "name": "Blocking",
       "abbrev": "",
-      "tokens": ["Free", "F40", "F100", "F100", "F100"],
+      "tokens": [
+        "Free",
+        "F40",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100",
+        "F100"
+      ],
       "color": "black",
       "shares": [
         {
@@ -799,8 +814,19 @@
               "cost": "50"
             }
           ],
+          "percent": 0.3,
           "x": -75
         },
+        "routeBonus": [
+          {
+            "value": "+F50",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "percent": -0.35,
+            "x": -75
+          }
+        ],
         "offBoardTrack": [
           {
             "side": 5
@@ -831,7 +857,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": "40"
             },
             {
               "color": "brown",
@@ -885,7 +911,7 @@
           {
             "angle": 270,
             "percent": 0.65,
-            "value": 20
+            "value": 30
           }
         ],
         "track": [
@@ -920,11 +946,6 @@
             "side": 6
           }
         ],
-        "removeBorders": [4],
-        "hexes": ["C19"]
-      },
-      {
-        "color": "offboard_light",
         "offBoardRevenue": {
           "name": {
             "name": "Netherlands"
@@ -939,12 +960,15 @@
               "textColor": "black",
               "cost": "50"
             }
-          ],
-          "x": -75
+          ]
         },
-        "offBoardTrack": [
+        "routeBonus": [
           {
-            "side": 6
+            "value": "+F50",
+            "fillColor": "white",
+            "strokeColor": "black",
+            "textColor": "black",
+            "percent": -0.7
           }
         ],
         "hexes": ["C18"]
@@ -995,7 +1019,8 @@
           {
             "name": {
               "name": "Lille"
-            }
+            },
+            "companies": ["Nord"]
           }
         ],
         "hexes": ["D13"]
@@ -1013,21 +1038,20 @@
         "hexes": ["D17"]
       },
       {
-        "color": "plain",
+        "color": "green",
         "cities": [
           {
             "name": {
-              "name": "Antwerpen"
+              "name": "Antwerpen",
+              "rotation": 50
             }
           }
         ],
-        "companies": [
+        "values": [
           {
+            "angle": 305,
             "percent": 0.65,
-            "label": "P2",
-            "left": 10,
-            "right": 10,
-            "color": "offboard"
+            "value": 30
           }
         ],
         "track": [
@@ -1067,8 +1091,7 @@
           {
             "name": {
               "name": "Arras"
-            },
-            "companies": ["Nord"]
+            }
           }
         ],
         "companies": [
@@ -1382,19 +1405,19 @@
         },
         "routeBonus": [
           {
-            "value": "+F60",
-            "angle": 198,
-            "fillColor": "black",
-            "strokeColor": "white",
-            "textColor": "white",
-            "percent": 1.58
+            "value": "+F50",
+            "angle": 200,
+            "fillColor": "white",
+            "strokeColor": "black",
+            "textColor": "black",
+            "percent": 1.6
           }
         ],
         "removeBorders": [3],
         "hexes": ["I2"]
       },
       {
-        "color": "gray",
+        "color": "yellow",
         "track": [
           {
             "type": "gentle",
@@ -1420,7 +1443,7 @@
         "cities": [
           {
             "name": {
-              "name": ""
+              "name": "Longwy"
             }
           }
         ],
@@ -1468,12 +1491,12 @@
         },
         "routeBonus": [
           {
-            "value": "+F60",
-            "fillColor": "black",
-            "strokeColor": "white",
-            "textColor": "white",
+            "value": "+F50",
+            "fillColor": "white",
+            "strokeColor": "black",
+            "textColor": "black",
             "angle": 180,
-            "percent": -0.4
+            "percent": -0.6
           }
         ],
         "hexes": ["J7"]
@@ -1497,7 +1520,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "60"
+              "cost": "40"
             },
             {
               "color": "brown",
@@ -1506,9 +1529,21 @@
             }
           ]
         },
+        "routeBonus": [
+          {
+            "value": "+F50",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "percent": 0.6
+          }
+        ],
         "offBoardTrack": [
           {
-            "side": 1
+            "side": 2
+          },
+          {
+            "side": 3
           }
         ],
         "hexes": ["J17"]
