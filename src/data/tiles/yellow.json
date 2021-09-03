@@ -3636,21 +3636,39 @@
     "rotations": 6,
     "values": [
       {
-        "angle": 210,
+        "angle": 90,
         "percent": 0.75,
-        "value": 20
+        "value": 30
       }
     ],
     "cities": [
       {
-        "name": {
-          "name": "Amiens"
-        }
+        "angle": 30,
+        "percent": 0.6,
+        "companies": ["PLM"]
+      },
+      {
+        "angle": 180,
+        "percent": 0.6,
+        "size": 1
+      }
+    ],
+    "labels": [
+      {
+        "label": "P",
+        "angle": 270,
+        "percent": 0.8
       }
     ],
     "track": [
       {
-        "side": 1
+        "side": 1,
+        "type": "sharp"
+      },
+      {
+        "side": 4,
+        "type": "straight",
+        "end": 0.125
       }
     ]
   }
