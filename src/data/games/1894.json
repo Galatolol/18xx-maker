@@ -794,7 +794,7 @@
           }
         ],
         "removeBorders": [4],
-        "hexes": ["A2"]
+        "hexes": ["A1"]
       },
       {
         "color": "offboard",
@@ -824,7 +824,7 @@
           }
         ],
         "removeBorders": [1],
-        "hexes": ["A4"]
+        "hexes": ["A3"]
       },
       {
         "color": "gray",
@@ -854,7 +854,7 @@
           }
         ],
         "removeBorders": [4],
-        "hexes": ["A10"]
+        "hexes": ["A9"]
       },
       {
         "color": "gray",
@@ -887,7 +887,7 @@
           "y": -20
         },
         "removeBorders": [1],
-        "hexes": ["A12"]
+        "hexes": ["A11"]
       },
       {
         "color": "plain",
@@ -898,7 +898,7 @@
             }
           }
         ],
-        "hexes": ["B5"]
+        "hexes": ["B4"]
       },
       {
         "color": "plain",
@@ -909,7 +909,7 @@
             }
           }
         ],
-        "hexes": ["B11"]
+        "hexes": ["B10"]
       },
       {
         "color": "plain",
@@ -920,7 +920,7 @@
             }
           }
         ],
-        "hexes": ["B13"]
+        "hexes": ["B12"]
       },
       {
         "color": "plain",
@@ -939,7 +939,7 @@
             }
           }
         ],
-        "hexes": ["C8"]
+        "hexes": ["C7"]
       },
       {
         "color": "offboard",
@@ -955,7 +955,7 @@
           }
         ],
         "removeBorders": [4],
-        "hexes": ["C18"]
+        "hexes": ["C17"]
       },
       {
         "color": "offboard",
@@ -982,7 +982,7 @@
           "x": -75
         },
         "removeBorders": [1],
-        "hexes": ["C20"]
+        "hexes": ["C19"]
       },
       {
         "color": "plain",
@@ -994,7 +994,7 @@
             "companies": ["Ouest"]
           }
         ],
-        "hexes": ["D5"]
+        "hexes": ["D4"]
       },
       {
         "color": "plain",
@@ -1006,7 +1006,7 @@
             "companies": ["Nord"]
           }
         ],
-        "hexes": ["D13"]
+        "hexes": ["D12"]
       },
       {
         "color": "plain",
@@ -1018,7 +1018,7 @@
             "companies": ["GR"]
           }
         ],
-        "hexes": ["D17"]
+        "hexes": ["D16"]
       },
       {
         "color": "green",
@@ -1054,7 +1054,7 @@
             "side": 6
           }
         ],
-        "hexes": ["D19"]
+        "hexes": ["D18"]
       },
       {
         "color": "gray",
@@ -1082,7 +1082,7 @@
             "side": 4
           }
         ],
-        "hexes": ["E2"]
+        "hexes": ["E1"]
       },
       {
         "color": "plain",
@@ -1094,7 +1094,7 @@
             "companies": ["CAB"]
           }
         ],
-        "hexes": ["E8"]
+        "hexes": ["E7"]
       },
       {
         "color": "plain",
@@ -1114,7 +1114,7 @@
             "color": "offboard"
           }
         ],
-        "hexes": ["E12"]
+        "hexes": ["E11"]
       },
       {
         "color": "plain",
@@ -1125,7 +1125,7 @@
             }
           }
         ],
-        "hexes": ["E18"]
+        "hexes": ["E17"]
       },
       {
         "color": "plain",
@@ -1144,7 +1144,7 @@
             }
           }
         ],
-        "hexes": ["F7"]
+        "hexes": ["F6"]
       },
       {
         "color": "plain",
@@ -1163,7 +1163,7 @@
             }
           }
         ],
-        "hexes": ["F11"]
+        "hexes": ["F10"]
       },
       {
         "color": "plain",
@@ -1183,7 +1183,7 @@
             "companies": ["Belge"]
           }
         ],
-        "hexes": ["F17"]
+        "hexes": ["F16"]
       },
       {
         "color": "gray",
@@ -1193,7 +1193,7 @@
             "side": 3
           }
         ],
-        "hexes": ["G2"]
+        "hexes": ["G1"]
       },
       {
         "color": "plain",
@@ -1204,7 +1204,7 @@
             }
           }
         ],
-        "hexes": ["G4"]
+        "hexes": ["G3"]
       },
       {
         "color": "plain",
@@ -1236,7 +1236,7 @@
             "percent": 0.8
           }
         ],
-        "hexes": ["G6"]
+        "hexes": ["G5"]
       },
       {
         "color": "plain",
@@ -1256,7 +1256,7 @@
             "color": "green"
           }
         ],
-        "hexes": ["G12"]
+        "hexes": ["G11"]
       },
       {
         "color": "plain",
@@ -1267,7 +1267,7 @@
             }
           }
         ],
-        "hexes": ["G16"]
+        "hexes": ["G15"]
       },
       {
         "color": "gray",
@@ -1277,7 +1277,7 @@
             "type": "gentle"
           }
         ],
-        "hexes": ["G20"]
+        "hexes": ["G19"]
       },
       {
         "color": "gray",
@@ -1293,7 +1293,7 @@
             "side": 2
           }
         ],
-        "hexes": ["H5"]
+        "hexes": ["H4"]
       },
       {
         "color": "plain",
@@ -1312,7 +1312,7 @@
             }
           }
         ],
-        "hexes": ["H9"]
+        "hexes": ["H8"]
       },
       {
         "color": "plain",
@@ -1323,7 +1323,7 @@
             }
           }
         ],
-        "hexes": ["H19"]
+        "hexes": ["H18"]
       },
       {
         "color": "offboard",
@@ -1333,7 +1333,7 @@
           }
         ],
         "removeBorders": [4],
-        "hexes": ["I2"]
+        "hexes": ["I1"]
       },
       {
         "color": "offboard",
@@ -1364,7 +1364,7 @@
           "percent": 1
         },
         "removeBorders": [1],
-        "hexes": ["I4"]
+        "hexes": ["I3"]
       },
       {
         "color": "yellow",
@@ -1374,7 +1374,7 @@
             "side": 1
           }
         ],
-        "hexes": ["I8"]
+        "hexes": ["I7"]
       },
       {
         "color": "plain",
@@ -1386,7 +1386,7 @@
             "companies": ["Est"]
           }
         ],
-        "hexes": ["I10"]
+        "hexes": ["I9"]
       },
       {
         "color": "plain",
@@ -1397,7 +1397,7 @@
             }
           }
         ],
-        "hexes": ["I16"]
+        "hexes": ["I15"]
       },
       {
         "color": "plain",
@@ -1409,7 +1409,7 @@
             "color": "offboard"
           }
         ],
-        "hexes": ["I18"]
+        "hexes": ["I17"]
       },
       {
         "color": "gray",
@@ -1419,7 +1419,7 @@
             "side": 1
           }
         ],
-        "hexes": ["I20"]
+        "hexes": ["I19"]
       },
       {
         "color": "offboard",
@@ -1442,7 +1442,7 @@
             "side": 3
           }
         ],
-        "hexes": ["J17"]
+        "hexes": ["J16"]
       },
 
       {
@@ -1453,7 +1453,7 @@
             "cost": "F80"
           }
         ],
-        "hexes": ["C16", "E6", "H7", "H11", "I12", "J9", "J11"]
+        "hexes": ["C15", "E5", "H6", "H10", "I11", "J8", "J10"]
       },
       {
         "color": "plain",
@@ -1463,7 +1463,7 @@
             "cost": "F80"
           }
         ],
-        "hexes": ["B3", "B7", "B9", "C6", "C10", "C12", "E14", "F15", "H17"]
+        "hexes": ["B2", "B6", "B8", "C5", "C9", "C11", "E13", "F14", "H16"]
       },
       {
         "color": "plain",
@@ -1478,42 +1478,66 @@
       {
         "color": "plain",
         "hexes": [
-          "B15",
-          "C4",
-          "C14",
-          "D7",
-          "D9",
-          "D11",
-          "D15",
-          "E4",
-          "E10",
-          "E16",
-          "E20",
-          "F3",
-          "F5",
-          "F9",
-          "F13",
-          "F19",
-          "G8",
-          "G10",
-          "G14",
-          "G18",
-          "H3",
-          "H5",
-          "H13",
-          "H15",
-          "I6",
-          "I14",
-          "J7",
-          "J13",
-          "J15"
+          "B14",
+          "C3",
+          "C13",
+          "D6",
+          "D8",
+          "D10",
+          "D14",
+          "E3",
+          "E9",
+          "E15",
+          "E19",
+          "F2",
+          "F4",
+          "F8",
+          "F12",
+          "F18",
+          "G7",
+          "G9",
+          "G13",
+          "G17",
+          "H2",
+          "H4",
+          "H12",
+          "H14",
+          "I5",
+          "I13",
+          "J6",
+          "J12",
+          "J14"
         ]
       }
     ],
     "borders": [
       {
         "color": "water",
-        "coords": ["B7p6", "B7p5"]
+        "coords": ["B6p6", "B6p5"]
+      },
+      {
+        "color": "mountain",
+        "width": 4,
+        "dashArray": "10 24",
+        "offset": 0,
+        "dashed": true,
+        "coords": [
+          "I15p6",
+          "I15p5",
+          "I15p4",
+          "H14p5",
+          "H14p4",
+          "G13p5",
+          "G13p4",
+          "F12p5",
+          "E13p6",
+          "E13p5",
+          "E13p4",
+          "D12p5",
+          "C13p6",
+          "C13p5",
+          "B14p6"
+        ]
       }
     ]
   }
