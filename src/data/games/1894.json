@@ -109,7 +109,7 @@
     {
       "name": "Gent Railway",
       "abbrev": "GR",
-      "tokens": ["Free", "F40", "F100", "F100", "F100"],
+      "tokens": ["Free", "F40", "F100", "F100"],
       "color": "yellow",
       "shares": [
         {
@@ -151,7 +151,7 @@
     {
       "name": "Compagnie des chemins de fer de l'Est",
       "abbrev": "Est",
-      "tokens": ["Free", "F40", "F100", "F100", "F100"],
+      "tokens": ["Free", "F40", "F100", "F100"],
       "color": "gray",
       "token": {
         "target": "white",
@@ -175,7 +175,7 @@
     {
       "name": "Chemins de fer du Nord",
       "abbrev": "Nord",
-      "tokens": ["Free", "F40", "F100", "F100", "F100"],
+      "tokens": ["Free", "F40", "F100", "F100"],
       "color": "yellow",
       "token": {
         "bar": true,
@@ -755,6 +755,8 @@
     "27": 1,
     "28": 1,
     "29": 1,
+    "30": 1,
+    "31": 1,
     "39": 1,
     "40": 1,
     "41": 2,
@@ -1027,37 +1029,12 @@
         "hexes": ["D16"]
       },
       {
-        "color": "green",
+        "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Antwerpen",
-              "rotation": 50
+              "name": "Antwerpen"
             }
-          }
-        ],
-        "values": [
-          {
-            "angle": 305,
-            "percent": 0.65,
-            "value": 30
-          }
-        ],
-        "track": [
-          {
-            "type": "straight",
-            "end": 0.5,
-            "side": 1
-          },
-          {
-            "type": "straight",
-            "end": 0.5,
-            "side": 2
-          },
-          {
-            "type": "straight",
-            "end": 0.5,
-            "side": 6
           }
         ],
         "hexes": ["D18"]
@@ -1284,22 +1261,6 @@
           }
         ],
         "hexes": ["G19"]
-      },
-      {
-        "color": "gray",
-        "track": [
-          {
-            "type": "gentle",
-            "cross": "over",
-            "side": 1
-          },
-          {
-            "type": "gentle",
-            "cross": "under",
-            "side": 2
-          }
-        ],
-        "hexes": ["H4"]
       },
       {
         "color": "plain",
