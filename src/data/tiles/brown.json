@@ -8790,5 +8790,85 @@
         "side": 4
       }
     ]
+  },
+  "G31": {
+    "color": "brown",
+    "rotations": 6,
+    "values": [
+      {
+        "angle": 90,
+        "percent": 0.75,
+        "value": 80
+      }
+    ],
+    "cities": [
+      {
+        "angle": 30,
+        "percent": 0.6,
+        "companies": ["PLM"]
+      },
+      {
+        "angle": 180,
+        "percent": 0.6,
+        "size": 2
+      }
+    ],
+    "labels": [
+      {
+        "label": "P",
+        "angle": 270,
+        "percent": 0.8
+      }
+    ],
+    "track": [
+      {
+        "side": 1,
+        "type": "sharp"
+      },
+      {
+        "side": 4,
+        "type": "sharp"
+      }
+    ]
+  },
+  "G32": {
+    "color": "brown",
+    "rotations": 6,
+    "values": [
+      {
+        "angle": 90,
+        "percent": 0.75,
+        "value": 80
+      }
+    ],
+    "cities": [
+      {
+        "angle": 30,
+        "percent": 0.6,
+        "companies": ["PLM"]
+      },
+      {
+        "angle": 180,
+        "percent": 0.6,
+        "size": 2
+      }
+    ],
+    "labels": [
+      {
+        "label": "P",
+        "angle": 270,
+        "percent": 0.8
+      }
+    ],
+    "track": [
+      {
+        "side": 1,
+        "type": "sharp"
+      },
+      {
+        "side": 3,
+        "type": "sharp"
+      }
+    ]
   }
 }
