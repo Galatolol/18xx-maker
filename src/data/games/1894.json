@@ -820,8 +820,7 @@
               "textColor": "black",
               "cost": "70"
             }
-          ],
-          "x": -75
+          ]
         },
         "offBoardTrack": [
           {
@@ -831,8 +830,18 @@
             "side": 6
           }
         ],
-        "removeBorders": [1],
+        "removeBorders": [1, 4],
         "hexes": ["A3"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 6
+          }
+        ],
+        "removeBorders": [1],
+        "hexes": ["A5"]
       },
       {
         "color": "gray",
@@ -844,21 +853,6 @@
           {
             "side": 4,
             "type": "gentle"
-          }
-        ],
-        "cities": [
-          {
-            "name": {
-              "name": "Ferry: F80",
-              "reverse": false
-            },
-            "companies": [
-              {
-                "icon": "ferry"
-              }
-            ],
-            "angle": 280,
-            "percent": 0.6
           }
         ],
         "removeBorders": [4],
@@ -876,24 +870,37 @@
             "type": "gentle"
           }
         ],
-        "offBoardRevenue": {
-          "name": {
-            "name": "England"
-          },
-          "revenues": [
-            {
-              "color": "yellow",
-              "cost": "30"
+        "offBoardRevenue": [
+          {
+            "name": {
+              "name": "England"
             },
-            {
-              "color": "brown",
-              "textColor": "black",
-              "cost": "60"
-            }
-          ],
-          "x": -20,
-          "y": -20
-        },
+            "revenues": [
+              {
+                "color": "yellow",
+                "cost": "30"
+              },
+              {
+                "color": "brown",
+                "textColor": "black",
+                "cost": "60"
+              }
+            ],
+            "x": -75,
+            "y": -14.5
+          },
+          {
+            "revenues": [
+              {
+                "cost": "Ferry marker: F80",
+                "color": "white"
+              }
+            ],
+            "size": 14,
+            "x": -75,
+            "y": 5
+          }
+        ],
         "removeBorders": [1],
         "hexes": ["A11"]
       },
@@ -1420,17 +1427,33 @@
             "cost": "F80"
           }
         ],
-        "hexes": ["C15", "E5", "H6", "H10", "I11", "J8", "J10"]
+        "hexes": []
       },
       {
         "color": "plain",
         "terrain": [
           {
             "type": "water",
+            "size": "large",
             "cost": "F80"
           }
         ],
-        "hexes": ["B2", "B6", "B8", "C5", "C9", "C11", "E13", "F14", "H16"]
+        "hexes": [
+          "B2",
+          "B8",
+          "C5",
+          "C9",
+          "C11",
+          "C15",
+          "E5",
+          "E13",
+          "F14",
+          "G7",
+          "H10",
+          "H16",
+          "I11",
+          "J10"
+        ]
       },
       {
         "color": "plain",
@@ -1445,6 +1468,7 @@
       {
         "color": "plain",
         "hexes": [
+          "B6",
           "B14",
           "C3",
           "C13",
@@ -1461,15 +1485,16 @@
           "F8",
           "F12",
           "F18",
-          "G7",
           "G9",
           "G13",
           "G17",
           "H2",
           "H4",
+          "H6",
           "H12",
           "H14",
           "I5",
+          "J8",
           "I13",
           "J6",
           "J12",
@@ -1481,30 +1506,6 @@
       {
         "color": "water",
         "coords": ["B6p6", "B6p5"]
-      },
-      {
-        "color": "mountain",
-        "width": 4,
-        "dashArray": "10 24",
-        "offset": 0,
-        "dashed": true,
-        "coords": [
-          "I15p6",
-          "I15p5",
-          "I15p4",
-          "H14p5",
-          "H14p4",
-          "G13p5",
-          "G13p4",
-          "F12p5",
-          "E13p6",
-          "E13p5",
-          "E13p4",
-          "D12p5",
-          "C13p6",
-          "C13p5",
-          "B14p6"
-        ]
       }
     ]
   }

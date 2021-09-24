@@ -12,7 +12,7 @@ const Name = (props) => {
   let { name, fontSize, fontWeight, fontFamily, strokeColor, strokeWidth, color, bgColor, path, doRotation, rotation, reverse, offset, x, y, textLength } = props;
 
   let font = getFontProps(props,
-    multiDefaultTo(11, fontSize, game.info.nameFontSize),
+    multiDefaultTo(14, fontSize, game.info.nameFontSize),
     multiDefaultTo("normal", fontWeight, game.info.nameFontWeight),
     multiDefaultTo("serif", fontFamily, game.info.nameFontFamily));
 

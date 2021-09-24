@@ -14,7 +14,7 @@ export const Coordinate = ({x, y, label}) => (
         fill={c("black")}
         fontFamily="display"
         fontWeight="bold"
-        fontSize="16"
+        fontSize="18"
         dominantBaseline="central"
         textAnchor="middle"
         lengthAdjust="spacingAndGlyphs"
