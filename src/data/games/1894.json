@@ -817,7 +817,7 @@
             },
             {
               "color": "brown",
-              "textColor": "black",
+              "textColor": "white",
               "cost": "70"
             }
           ]
@@ -882,12 +882,12 @@
               },
               {
                 "color": "brown",
-                "textColor": "black",
+                "textColor": "white",
                 "cost": "60"
               }
             ],
             "x": -75,
-            "y": -13
+            "y": -15
           },
           {
             "revenues": [
@@ -990,7 +990,7 @@
             },
             {
               "color": "brown",
-              "textColor": "black",
+              "textColor": "white",
               "cost": "50"
             }
           ],
@@ -1321,7 +1321,7 @@
             },
             {
               "color": "brown",
-              "textColor": "black",
+              "textColor": "white",
               "cost": "40"
             }
           ],
@@ -1445,6 +1445,7 @@
           "C9",
           "C11",
           "C15",
+          "D2",
           "E5",
           "E13",
           "F14",
