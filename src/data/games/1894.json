@@ -817,7 +817,7 @@
             },
             {
               "color": "brown",
-              "textColor": "black",
+              "textColor": "white",
               "cost": "70"
             }
           ]
@@ -882,12 +882,12 @@
               },
               {
                 "color": "brown",
-                "textColor": "black",
+                "textColor": "white",
                 "cost": "60"
               }
             ],
             "x": -75,
-            "y": -14.5
+            "y": -15
           },
           {
             "revenues": [
@@ -990,7 +990,7 @@
             },
             {
               "color": "brown",
-              "textColor": "black",
+              "textColor": "white",
               "cost": "50"
             }
           ],
@@ -1093,15 +1093,6 @@
             "name": {
               "name": "Arras"
             }
-          }
-        ],
-        "companies": [
-          {
-            "percent": 0.65,
-            "label": "P2",
-            "left": 10,
-            "right": 10,
-            "color": "offboard"
           }
         ],
         "hexes": ["E11"]
@@ -1330,8 +1321,8 @@
             },
             {
               "color": "brown",
-              "textColor": "black",
-              "cost": "50"
+              "textColor": "white",
+              "cost": "40"
             }
           ],
           "angle": 90,
@@ -1369,6 +1360,15 @@
             "name": {
               "name": "Longwy"
             }
+          }
+        ],
+        "companies": [
+          {
+            "percent": 0.65,
+            "label": "P2",
+            "left": 10,
+            "right": 10,
+            "color": "offboard"
           }
         ],
         "hexes": ["I15"]
@@ -1445,10 +1445,12 @@
           "C9",
           "C11",
           "C15",
+          "D2",
           "E5",
           "E13",
           "F14",
           "G7",
+          "H6",
           "H10",
           "H16",
           "I11",
@@ -1490,7 +1492,6 @@
           "G17",
           "H2",
           "H4",
-          "H6",
           "H12",
           "H14",
           "I5",
@@ -1506,6 +1507,30 @@
       {
         "color": "water",
         "coords": ["B6p6", "B6p5"]
+      },
+      {
+        "color": "mountain",
+        "width": 4,
+        "dashArray": "10 24",
+        "offset": 0,
+        "dashed": true,
+        "coords": [
+          "I15p6",
+          "I15p5",
+          "I15p4",
+          "H14p5",
+          "H14p4",
+          "G13p5",
+          "G13p4",
+          "F12p5",
+          "E13p6",
+          "E13p5",
+          "E13p4",
+          "D12p5",
+          "C13p6",
+          "C13p5",
+          "B14p6"
+        ]
       }
     ]
   }
