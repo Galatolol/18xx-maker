@@ -6,7 +6,6 @@
     "brown": "#87421e",
     "cyan": "#8dd7f6",
     "green": "#068800",
-    "lime": "rgb(110,192,55)",
     "orange": "#ed9121",
     "pink": "#ff69b4",
     "purple": "#fff",
@@ -32,6 +31,8 @@
     "dark_gray": "#534b4f",
 
     "fluo_green": "#51fc07",
+    "yellow_green": "#e3ff00",
+    "lime": "#9acd32",
 
     "google_blue": "#1155cc",
     "google_brown": "#a61c00",

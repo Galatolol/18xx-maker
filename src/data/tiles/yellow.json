@@ -3671,5 +3671,29 @@
         "end": 0.125
       }
     ]
+  },
+  "G33": {
+    "color": "yellow",
+    "rotations": 3,
+    "values": [
+      {
+        "angle": 225,
+        "percent": 0.6,
+        "value": 10
+      }
+    ],
+    "cities": [
+      {
+        "name": {
+          "name": "Amiens",
+          "rotation": -90
+        }
+      }
+    ],
+    "track": [
+      {
+        "type": "straight"
+      }
+    ]
   }
 }

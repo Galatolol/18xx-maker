@@ -176,11 +176,102 @@
       "name": "Chemins de fer du Nord",
       "abbrev": "Nord",
       "tokens": ["Free", "F40", "F100", "F100"],
-      "color": "yellow",
+      "color": "irepl_red",
       "token": {
         "bar": true,
-        "stripe": "black",
-        "color": "irepl_red"
+        "stripes": "black"
+      },
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Belge 1",
+      "abbrev": "B1",
+      "tokens": ["Free", "F40"],
+      "color": "gray",
+      "token": {
+        "bar": "black",
+        "stripe": "black"
+      },
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "Belge 2",
+      "abbrev": "B2",
+      "tokens": ["Free", "F40"],
+      "color": "google_natural",
+      "token": {
+        "bar": "black",
+        "stripe": "black"
+      },
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "French 1",
+      "abbrev": "F1",
+      "tokens": ["Free", "F40"],
+      "color": "pink",
+      "token": {
+        "bar": "black",
+        "quarters": ["light_pink", "pink", "pink", "light_pink"]
+      },
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
+      "name": "French 2",
+      "abbrev": "F2",
+      "tokens": ["Free", "F40"],
+      "color": "lime",
+      "token": {
+        "bar": "black",
+        "quarters": ["yellow_green", "lime", "lime", "yellow_green"]
       },
       "shares": [
         {
@@ -768,10 +859,11 @@
     "47": 1,
     "55": 1,
     "56": 1,
-    "57": 7,
+    "57": 6,
     "69": 1,
     "70": 1,
     "619": 4,
+    "624": 1,
 
     "35": 2,
     "36": 2,
@@ -790,7 +882,8 @@
     "G29": 1,
     "G30": 1,
     "G31": 1,
-    "G32": 1
+    "G32": 1,
+    "G33": 1
   },
   "map": {
     "hexes": [
@@ -1036,12 +1129,27 @@
         "hexes": ["D16"]
       },
       {
-        "color": "plain",
+        "color": "yellow",
         "cities": [
           {
             "name": {
               "name": "Antwerpen"
             }
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "values": [
+          {
+            "angle": 270,
+            "percent": 0.65,
+            "value": 20
           }
         ],
         "hexes": ["D18"]
