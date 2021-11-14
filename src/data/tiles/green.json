@@ -10911,9 +10911,9 @@
         "companies": ["PLM"]
       },
       {
-        "angle": 180,
+        "angle": 210,
         "percent": 0.6,
-        "size": 2
+        "size": 1
       }
     ],
     "labels": [
@@ -10951,9 +10951,9 @@
         "companies": ["PLM"]
       },
       {
-        "angle": 180,
+        "angle": 150,
         "percent": 0.6,
-        "size": 2
+        "size": 1
       }
     ],
     "labels": [

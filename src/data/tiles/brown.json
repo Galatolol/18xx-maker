@@ -2215,7 +2215,7 @@
     ],
     "cities": [
       {
-        "size": "3Ferry",
+        "size": "3",
         "rotation": 180,
         "percent": 0.175
       }
@@ -8809,7 +8809,7 @@
       },
       {
         "angle": 180,
-        "percent": 0.6,
+        "percent": 0.55,
         "size": 2
       }
     ],
@@ -8849,7 +8849,7 @@
       },
       {
         "angle": 180,
-        "percent": 0.6,
+        "percent": 0.55,
         "size": 2
       }
     ],

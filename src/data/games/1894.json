@@ -288,6 +288,25 @@
       ]
     },
     {
+      "name": "+10",
+      "abbrev": "+10",
+      "tokens": ["Free", "F40"],
+      "color": "white",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 8,
+          "percent": 10,
+          "shares": 1
+        }
+      ]
+    },
+    {
       "name": "Blocking",
       "abbrev": "",
       "tokens": [
@@ -941,26 +960,49 @@
         "track": [
           {
             "side": 4,
-            "type": "sharp"
+            "type": "sharp",
+            "trackOffset": -7.5
           },
           {
             "side": 4,
-            "type": "gentle"
+            "type": "gentle",
+            "trackOffset": 7.5
           }
         ],
-        "removeBorders": [4],
         "hexes": ["A9"]
       },
       {
         "color": "gray",
         "track": [
           {
-            "side": 6,
-            "type": "sharp"
+            "type": "straight",
+            "end": 0.5,
+            "trackOffset": -7.5,
+            "side": 1
           },
           {
-            "side": 5,
-            "type": "gentle"
+            "type": "straight",
+            "end": 0.5,
+            "trackOffset": 7.5,
+            "side": 1
+          },
+          {
+            "side": 6
+          },
+          {
+            "side": 5
+          }
+        ],
+        "cities": [
+          {
+            "y": 0
+          }
+        ],
+        "tokens": [
+          {
+            "label": "ferry",
+            "color": "black",
+            "y": 0
           }
         ],
         "offBoardRevenue": [
@@ -979,22 +1021,10 @@
                 "cost": "60"
               }
             ],
-            "x": -75,
-            "y": -15
-          },
-          {
-            "revenues": [
-              {
-                "cost": "Ferry marker: F80",
-                "color": "white"
-              }
-            ],
-            "size": 14,
-            "x": -75,
-            "y": 5
+            "x": -0,
+            "y": -40
           }
         ],
-        "removeBorders": [1],
         "hexes": ["A11"]
       },
       {
