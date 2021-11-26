@@ -10823,7 +10823,7 @@
       }
     ]
   },
-  "G26": {
+  "X6": {
     "color": "green",
     "rotations": 6,
     "labels": [
@@ -10894,7 +10894,7 @@
       }
     ]
   },
-  "G29": {
+  "X4": {
     "color": "green",
     "rotations": 6,
     "values": [
@@ -10934,7 +10934,7 @@
       }
     ]
   },
-  "G30": {
+  "X5": {
     "color": "green",
     "rotations": 6,
     "values": [

@@ -8536,7 +8536,7 @@
     ],
     "cities": [{}]
   },
-  "G19": {
+  "X10": {
     "color": "brown",
     "values": [
       {
@@ -8547,7 +8547,8 @@
     ],
     "cities": [
       {
-        "percent": 0.57735
+        "angle": 5,
+        "percent": 0.55
       },
       {
         "angle": 210,
@@ -8565,7 +8566,7 @@
       }
     ]
   },
-  "G20": {
+  "X11": {
     "color": "brown",
     "values": [
       {
@@ -8594,12 +8595,12 @@
       }
     ]
   },
-  "G21": {
+  "X12": {
     "color": "brown",
     "values": [
       {
         "angle": 270,
-        "percent": 0.3,
+        "percent": 0.35,
         "value": 40
       }
     ],
@@ -8623,7 +8624,7 @@
       }
     ]
   },
-  "G22": {
+  "X13": {
     "color": "brown",
     "values": [
       {
@@ -8655,7 +8656,7 @@
       }
     ]
   },
-  "G23": {
+  "X14": {
     "color": "brown",
     "values": [
       {
@@ -8686,7 +8687,7 @@
       }
     ]
   },
-  "G24": {
+  "X15": {
     "color": "brown",
     "values": [
       {
@@ -8716,7 +8717,7 @@
       }
     ]
   },
-  "G27": {
+  "X9": {
     "color": "brown",
     "rotations": 6,
     "labels": [
@@ -8791,7 +8792,7 @@
       }
     ]
   },
-  "G31": {
+  "X7": {
     "color": "brown",
     "rotations": 6,
     "values": [
@@ -8831,7 +8832,7 @@
       }
     ]
   },
-  "G32": {
+  "X8": {
     "color": "brown",
     "rotations": 6,
     "values": [

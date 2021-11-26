@@ -3604,7 +3604,7 @@
       }
     ]
   },
-  "G25": {
+  "X2": {
     "color": "yellow",
     "rotations": 6,
     "labels": [
@@ -3631,7 +3631,7 @@
       }
     ]
   },
-  "G28": {
+  "X1": {
     "color": "yellow",
     "rotations": 6,
     "values": [
@@ -3672,7 +3672,7 @@
       }
     ]
   },
-  "G33": {
+  "X3": {
     "color": "yellow",
     "rotations": 3,
     "values": [
