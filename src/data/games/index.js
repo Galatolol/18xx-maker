@@ -434,7 +434,7 @@ games["1894"] = {
   slug: "1894",
   file: "1894.json",
   title: "1894",
-  subtitle: "EARLY PROTOTYPE",
+  subtitle: "PROTOTYPE",
   designer: "Galatolol",
   minPlayers: 3,
   maxPlayers: 6,

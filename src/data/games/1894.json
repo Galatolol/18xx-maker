@@ -2,7 +2,7 @@
   "info": {
     "title": "1894",
     "titleFontFamily": "EB Garamond",
-    "subtitle": "EARLY PROTOTYPE",
+    "subtitle": "PROTOTYPE",
     "subtitleFontFamily": "Oswald",
     "designer": "Galatolol",
     "designerFontFamily": "Libre Baskerville",
@@ -1233,6 +1233,15 @@
             }
           }
         ],
+        "companies": [
+          {
+            "percent": 0.65,
+            "label": "P2",
+            "left": 10,
+            "right": 10,
+            "color": "offboard"
+          }
+        ],
         "hexes": ["E11"]
       },
       {
@@ -1500,15 +1509,6 @@
             }
           }
         ],
-        "companies": [
-          {
-            "percent": 0.65,
-            "label": "P2",
-            "left": 10,
-            "right": 10,
-            "color": "offboard"
-          }
-        ],
         "hexes": ["I15"]
       },
       {
@@ -1579,11 +1579,11 @@
         "hexes": [
           "B2",
           "B8",
-          "C5",
+          "C3",
           "C9",
           "C11",
           "C15",
-          "D2",
+          "D6",
           "E5",
           "E13",
           "F14",
@@ -1610,9 +1610,9 @@
         "hexes": [
           "B6",
           "B14",
-          "C3",
+          "C5",
           "C13",
-          "D6",
+          "D2",
           "D8",
           "D10",
           "D14",
