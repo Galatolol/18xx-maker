@@ -67,7 +67,7 @@ const Terrain = ({ type, size, cost, fontFamily, fontSize, color }) => {
             dominantBaseline="hanging"
             textAnchor="middle"
             x="0"
-            y="10"
+            y={(size === "large") ? 10 : 0}
           >
             <Currency value={cost} type="terrain" />
           </text>
