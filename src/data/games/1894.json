@@ -1018,7 +1018,7 @@
               {
                 "color": "brown",
                 "textColor": "white",
-                "cost": "60"
+                "cost": "70"
               }
             ],
             "x": -0,
@@ -1037,6 +1037,16 @@
           }
         ],
         "hexes": ["B4"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 5,
+            "type": "gentle"
+          }
+        ],
+        "hexes": ["B6"]
       },
       {
         "color": "plain",
@@ -1534,6 +1544,16 @@
         "hexes": ["I19"]
       },
       {
+        "color": "gray",
+        "track": [
+          {
+            "type": "gentle",
+            "side": 1
+          }
+        ],
+        "hexes": ["J14"]
+      },
+      {
         "color": "offboard",
         "offBoardRevenue": {
           "name": {
@@ -1608,7 +1628,6 @@
       {
         "color": "plain",
         "hexes": [
-          "B6",
           "B14",
           "C5",
           "C13",
@@ -1636,15 +1655,14 @@
           "J8",
           "I13",
           "J6",
-          "J10",
-          "J14"
+          "J10"
         ]
       }
     ],
     "borders": [
       {
         "color": "water",
-        "coords": ["B6p6", "B6p5"]
+        "coords": []
       },
       {
         "color": "mountain",

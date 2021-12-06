@@ -39,287 +39,10 @@
   ],
   "companies": [
     {
-      "name": "Belge",
-      "abbrev": "Belge",
+      "name": "PLM",
+      "abbrev": "PLM",
       "tokens": ["Free", "F40", "F100", "F100"],
       "color": "green",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie du chemin de fer d'Amiens à Boulogne",
-      "abbrev": "CAB",
-      "tokens": ["Free", "F40", "F100", "F100"],
-      "color": "irepl_brown",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie des chemins de fer de Paris à Lyon et à la Méditerranée / Paris-Lyon-Méditerranée",
-      "abbrev": "PLM",
-      "tokens": ["Free", "F40", "F100"],
-      "color": "red",
-      "token": {
-        "target": "black",
-        "color": "irepl_purple",
-        "bar": true
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Gent Railway",
-      "abbrev": "GR",
-      "tokens": ["Free", "F40", "F100", "F100"],
-      "color": "yellow",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie de l'Ouest",
-      "abbrev": "Ouest",
-      "tokens": ["Free", "F40", "F100", "F100"],
-      "color": "irepl_blue",
-      "token": {
-        "bar": true,
-        "stripes": "yellow"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie des chemins de fer de l'Est",
-      "abbrev": "Est",
-      "tokens": ["Free", "F40", "F100", "F100"],
-      "color": "gray",
-      "token": {
-        "target": "white",
-        "color": "irepl_orange",
-        "bar": true
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Chemins de fer du Nord",
-      "abbrev": "Nord",
-      "tokens": ["Free", "F40", "F100", "F100"],
-      "color": "irepl_red",
-      "token": {
-        "bar": true,
-        "stripes": "black"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Belge 1",
-      "abbrev": "B1",
-      "tokens": ["Free", "F40"],
-      "color": "gray",
-      "token": {
-        "bar": "black",
-        "stripe": "black"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Belge 2",
-      "abbrev": "B2",
-      "tokens": ["Free", "F40"],
-      "color": "google_natural",
-      "token": {
-        "bar": "black",
-        "stripe": "black"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "French 1",
-      "abbrev": "F1",
-      "tokens": ["Free", "F40"],
-      "color": "pink",
-      "token": {
-        "bar": "black",
-        "quarters": ["light_pink", "pink", "pink", "light_pink"]
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "French 2",
-      "abbrev": "F2",
-      "tokens": ["Free", "F40"],
-      "color": "lime",
-      "token": {
-        "bar": "black",
-        "quarters": ["yellow_green", "lime", "lime", "yellow_green"]
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "+10",
-      "abbrev": "+10",
-      "tokens": ["Free", "F40"],
-      "color": "white",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Blocking",
-      "abbrev": "",
-      "tokens": [
-        "Free",
-        "F40",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100"
-      ],
-      "color": "black",
       "shares": [
         {
           "quantity": 1,
@@ -840,66 +563,149 @@
     ]
   },
   "tiles": {
-    "1": 1,
-    "2": 1,
-    "7": 4,
-    "8": 13,
-    "9": 13,
-    "14": 4,
-    "15": 4,
-    "16": 1,
-    "17": 1,
-    "18": 1,
-    "19": 1,
-    "20": 1,
-    "23": 3,
-    "24": 3,
-    "25": 2,
-    "26": 2,
-    "27": 2,
-    "28": 1,
-    "29": 1,
-    "30": 1,
-    "31": 1,
-    "39": 1,
-    "40": 1,
-    "41": 2,
-    "42": 2,
-    "43": 2,
-    "44": 1,
-    "45": 2,
-    "46": 2,
-    "47": 1,
-    "55": 1,
-    "56": 1,
-    "57": 6,
-    "69": 1,
-    "70": 1,
-    "619": 4,
-    "624": 1,
-
-    "35": 2,
-    "36": 2,
-    "118": 2,
-    "X10": 2,
-    "X11": 2,
-    "X12": 2,
-    "X13": 2,
-    "X14": 2,
-    "X15": 2,
-
+    "8": 2,
+    "9": 1,
+    "57": 2,
     "X1": 1,
-    "X2": 1,
-    "X3": 1,
+
+    "14": 1,
+    "29": 1,
+    "54": 1,
     "X4": 1,
     "X5": 1,
-    "X6": 1,
-    "X7": 1,
-    "X8": 1,
-    "X9": 1
+    "25": 1,
+    "26": 1,
+    "27": 1,
+
+    "40": 1,
+    "68": 1,
+    "63": 1,
+
+    "300": 1,
+    "595": 1,
+    "912": 1,
+
+    "1168": 2
   },
   "map": {
     "hexes": [
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "£40"
+          }
+        ],
+        "hexes": [
+          "C13",
+          "D12",
+          "D14",
+          "E3",
+          "E5",
+          "F8",
+          "F10",
+          "F12",
+          "F14",
+          "G3",
+          "G15",
+          "H4",
+          "H14",
+          "H16",
+          "H18",
+          "I5",
+          "I15",
+          "I19",
+          "I21",
+          "J14",
+          "K3",
+          "K5",
+          "K7",
+          "K11",
+          "L8",
+          "L10",
+          "L16",
+          "M3",
+          "M9",
+          "M11",
+          "N4",
+          "N6"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "cost": "£40"
+          }
+        ],
+        "hexes": ["B8", "B10", "B12", "C9", "D8", "E7", "E9"]
+      },
+      {
+        "color": "plain",
+        "hexes": [
+          "B14",
+          "B16",
+          "E11",
+          "E13",
+          "E15",
+          "E17",
+          "F2",
+          "F4",
+          "F6",
+          "F16",
+          "G5",
+          "G9",
+          "G11",
+          "G13",
+          "G19",
+          "H2",
+          "H6",
+          "H8",
+          "H10",
+          "H12",
+          "H20",
+          "H22",
+          "I3",
+          "I7",
+          "I9",
+          "I11",
+          "I13",
+          "I17",
+          "J4",
+          "J6",
+          "J8",
+          "J10",
+          "J12",
+          "J16",
+          "J18",
+          "J20",
+          "J22",
+          "K9",
+          "K13",
+          "K15",
+          "K17",
+          "K19",
+          "L2",
+          "L4",
+          "L6",
+          "L12",
+          "L14",
+          "M5",
+          "M7",
+          "N2",
+          "N10",
+          "N12",
+          "N14",
+          "N16",
+          "O3",
+          "O11",
+          "O13",
+          "O15"
+        ]
+      },
+
       {
         "color": "gray",
         "track": [
@@ -1081,27 +887,45 @@
             "percent": 0.8
           }
         ],
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 205,
+            "percent": 1
+          }
+        ],
         "hexes": ["C5"]
       },
       {
         "color": "plain",
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 90,
+            "percent": 1
+          }
+        ],
         "labels": [
           {
             "label": "OO",
-            "angle": 120,
+            "angle": 60,
             "percent": 0.75
           }
         ],
         "cities": [
           {
-            "angle": 50,
-            "percent": 0.55,
+            "angle": 120,
+            "percent": 0.5,
             "name": {
               "name": "Warrington"
             }
           },
           {
-            "angle": 260,
+            "angle": 300,
             "percent": 0.55,
             "name": {
               "name": "Bolton"
@@ -1228,7 +1052,7 @@
         "labels": [
           {
             "label": "OO",
-            "angle": 120,
+            "angle": 110,
             "percent": 0.75
           }
         ],
@@ -1253,6 +1077,22 @@
             "type": "water",
             "cost": "£40",
             "percent": 0.8
+          }
+        ],
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 150,
+            "percent": 0.8
+          },
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 205,
+            "percent": 1
           }
         ],
         "hexes": ["D4"]
@@ -1284,6 +1124,15 @@
             "type": "mountain",
             "cost": "£40",
             "percent": 0.8
+          }
+        ],
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 155,
+            "percent": 1
           }
         ],
         "hexes": ["D6"]
@@ -1343,6 +1192,15 @@
             "type": "water",
             "cost": "£40",
             "percent": 0.8
+          }
+        ],
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 155,
+            "percent": 1
           }
         ],
         "hexes": ["D16"]
@@ -1639,6 +1497,25 @@
         "hexes": ["K21"]
       },
       {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "£40"
+          }
+        ],
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 210,
+            "percent": 1
+          }
+        ],
+        "hexes": ["L18"]
+      },
+      {
         "color": "water",
         "offBoardTrack": [
           {
@@ -1758,6 +1635,43 @@
             "percent": 0.75
           }
         ],
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£40",
+            "color": "white",
+            "angle": 30,
+            "percent": 1
+          },
+          {
+            "type": "triangle",
+            "text": "£40",
+            "color": "white",
+            "angle": 90,
+            "percent": 1
+          },
+          {
+            "type": "triangle",
+            "text": "£40",
+            "color": "white",
+            "angle": 150,
+            "percent": 1
+          },
+          {
+            "type": "triangle",
+            "text": "£40",
+            "color": "white",
+            "angle": 210,
+            "percent": 1
+          },
+          {
+            "type": "triangle",
+            "text": "£40",
+            "color": "white",
+            "angle": 330,
+            "percent": 1
+          }
+        ],
         "hexes": ["M13"]
       },
       {
@@ -1784,6 +1698,12 @@
           }
         ],
         "cities": [{}],
+        "values": [
+          {
+            "value": 30,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["M15"]
       },
       {
@@ -1827,11 +1747,30 @@
         },
         "names": [
           {
-            "name": "🠔London",
+            "name": "⮜London",
             "percent": 0.3
           }
         ],
         "hexes": ["M17"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "£40"
+          }
+        ],
+        "shapes": [
+          {
+            "type": "triangle",
+            "text": "£80",
+            "color": "water",
+            "angle": 90,
+            "percent": 1
+          }
+        ],
+        "hexes": ["N8"]
       },
       {
         "color": "water",
@@ -1971,131 +1910,242 @@
         },
         "hexes": ["O5"]
       },
-
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 2
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Portsmouth"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "0"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "30"
+            },
+            {
+              "color": "gray",
+              "cost": "20"
+            }
+          ],
+          "percent": 0.25
+        },
+        "hexes": ["O9"]
+      },
       {
         "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Dover"
+            }
+          }
+        ],
+        "labels": [
+          {
+            "angle": 120,
+            "percent": 0.75,
+            "label": "B"
+          }
+        ],
         "terrain": [
           {
             "type": "water",
-            "cost": "£40"
+            "cost": "£40",
+            "percent": 0.8
           }
         ],
-        "hexes": [
-          "C13",
-          "D12",
-          "D14",
-          "E3",
-          "E5",
-          "F8",
-          "F10",
-          "F12",
-          "F14",
-          "G3",
-          "G15",
-          "H4",
-          "H14",
-          "H16",
-          "H18",
-          "I5",
-          "I15",
-          "I19",
-          "I21",
-          "J14",
-          "K3",
-          "K5",
-          "K7",
-          "K11",
-          "L8",
-          "L10",
-          "L16",
-          "L18",
-          "M3",
-          "M9",
-          "M11",
-          "N4",
-          "N6",
-          "N8"
-        ]
+        "hexes": ["O17"]
       },
-      {
-        "color": "plain",
-        "terrain": [
-          {
-            "type": "mountain",
-            "cost": "£40"
-          }
-        ],
-        "hexes": ["B8", "B10", "B12", "C9", "D8", "E7", "E9"]
-      },
-      {
-        "color": "plain",
-        "hexes": [
-          "B14",
-          "B16",
-          "E11",
-          "E13",
-          "E15",
-          "E17",
-          "F2",
-          "F4",
-          "F6",
-          "F16",
-          "G5",
-          "G9",
-          "G11",
-          "G13",
-          "G19",
-          "H2",
-          "H6",
-          "H8",
-          "H10",
-          "H12",
-          "H20",
-          "H22",
-          "I3",
-          "I7",
-          "I9",
-          "I11",
-          "I13",
-          "I17",
-          "J4",
-          "J6",
-          "J8",
-          "J10",
-          "J12",
-          "J16",
-          "J18",
-          "J20",
-          "J22",
-          "K9",
-          "K13",
-          "K15",
-          "K17",
-          "K19",
-          "L2",
-          "L4",
-          "L6",
-          "L12",
-          "L14",
-          "M5",
-          "M7",
-          "N2",
-          "N10",
-          "N12",
-          "N14",
-          "N16",
-          "O3",
-          "O11",
-          "O13",
-          "O15"
-        ]
-      }
-    ],
-    "borders": [
       {
         "color": "water",
-        "coords": ["B6p6", "B6p5"]
+        "track": [
+          {
+            "side": 2,
+            "type": "sharp"
+          }
+        ],
+        "offBoardTrack": [
+          {
+            "side": 1
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Dover"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "0"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "40"
+            },
+            {
+              "color": "gray",
+              "cost": "50"
+            }
+          ],
+          "percent": 0.25
+        },
+        "hexes": ["O19"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Poole"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "0"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "40"
+            },
+            {
+              "color": "gray",
+              "cost": "20"
+            }
+          ],
+          "percent": 0.25
+        },
+        "hexes": ["P2"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 2
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Bournemouth Pier"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "0"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "30"
+            },
+            {
+              "color": "gray",
+              "cost": "20"
+            }
+          ],
+          "percent": 0.25
+        },
+        "hexes": ["P4"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Brighton Pier"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "0"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "40"
+            },
+            {
+              "color": "gray",
+              "cost": "20"
+            }
+          ],
+          "percent": 0.25
+        },
+        "hexes": ["P12"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 3
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Brighton Pier"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "0"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "30"
+            },
+            {
+              "color": "gray",
+              "cost": "40"
+            }
+          ],
+          "percent": 0.25
+        },
+        "hexes": ["P16"]
       }
-    ]
+    ],
+    "borders": []
   }
 }
