@@ -18,6 +18,16 @@ games["1817NA"] = {
   minPlayers: 3,
   maxPlayers: 7,
 };
+games["1820"] = {
+  id: "1820",
+  slug: "1820",
+  file: "1820.json",
+  title: "1820OG",
+  subtitle: "Old iteration of 1820",
+  designer: "JCL",
+  minPlayers: 3,
+  maxPlayers: 5,
+};
 games["1824GoodsTime"] = {
   id: "1824GoodsTime",
   slug: "1824GoodsTime",
