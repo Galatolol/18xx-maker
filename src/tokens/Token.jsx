@@ -561,9 +561,12 @@ const Token = ({
               fSize *= 0.6;
             } else if (label.length > 4) {
               fSize *= 0.7;
-            } else if (label.length > 3) {
-              fSize *= 0.8;
+            } else {
+              fSize *= 0.7;
             }
+            // } else if (label.length > 3) {
+            //   fSize *= 0.8;
+            // }
             if (!isNaN(label)) {
               fSize *= numbersOnlyScaling;
             }
