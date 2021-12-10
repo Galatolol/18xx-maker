@@ -1565,7 +1565,7 @@
         "terrain": [
           {
             "type": "swamp",
-            "cost": "F80"
+            "cost": "F60"
           }
         ],
         "hexes": []
@@ -1576,7 +1576,7 @@
           {
             "type": "water",
             "size": "large",
-            "cost": "F80"
+            "cost": "F60"
           }
         ],
         "hexes": [
