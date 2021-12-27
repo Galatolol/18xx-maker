@@ -6395,7 +6395,7 @@
       {
         "angle": 322.5,
         "percent": 0.75,
-        "cost": "R40",
+        "cost": 40,
         "size": "tiny"
       }
     ],

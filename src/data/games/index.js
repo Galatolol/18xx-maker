@@ -335,6 +335,17 @@ games["1860"] = {
   minPlayers: 2,
   maxPlayers: 4,
 };
+games["1861"] = {
+  id: "1861",
+  slug: "1861",
+  file: "1861.json",
+  title: "1861",
+  subtitle: "The Railways of the Russian Empire",
+  designer: "Ian Wilson",
+  publisher: "gtg",
+  minPlayers: 3,
+  maxPlayers: 6,
+};
 games["1867"] = {
   id: "1867",
   slug: "1867",

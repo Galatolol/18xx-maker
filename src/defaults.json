@@ -30,12 +30,13 @@
     "treasury": true,
     "value": false
   },
-  "companySvgLogos": "none",
+  "companySvgLogos": "main",
   "overrideCompanies": "none",
   "overrideSelection": [],
   "maps": {
     "players": true,
-    "roundTracker": true
+    "roundTracker": true,
+    "market": true
   },
   "plainMapCompanies": true,
   "straightCityNames": false,
@@ -49,11 +50,15 @@
   },
   "charters": {
     "style": "color",
+    "layout": "free",
     "cutlines": 25,
     "bleed": 12.5,
     "halfWidth": false,
+    "smallerMinors": true,
     "border": 0,
-    "blackBand": false
+    "blackBand": false,
+    "showPhaseChart": true,
+    "showTurnOrder": true
   },
   "cards": {
     "shareStyle": "gmt",
@@ -79,6 +84,7 @@
   },
   "tiles": {
     "id": "right",
+    "colorblind": false,
     "layout": "die",
     "width": 150,
     "mapWidth": 160,
@@ -89,6 +95,8 @@
       "width": 70,
       "height": 85
     },
+    "value": "top",
+    "arrows": "bottom",
     "column": 4,
     "diag": 2,
     "par": 4,

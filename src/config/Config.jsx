@@ -8,7 +8,7 @@ import Input from "./Input";
 import File from "../util/File";
 
 import defaultConfig from "../defaults.json";
-import schema from "@18xx-maker/schemas/schemas/config.schema.json";
+import schema from "./../schemas/config.schema.json";
 
 import chain from "ramda/src/chain";
 import compose from "ramda/src/compose";
@@ -157,10 +157,12 @@ const Config = () => {
                description="Draw city names straight instead of curved along the city. None of the games included with this tool are meant to be drawn this way so layout issues might be present." />
         <Input name="plainMapCompanies" label="Plain Map Company Spaces"
                description="This sets all home/destination/token spots on maps to be empty white cities with black company text instead of colored or using logos." />
-        <Input name="maps.roundTracker" label="Display Map Round Tracker"
-               description="Whether or not to show the round tracker on maps. Requires the game file to specify the location." />
+        <Input name="maps.market" label="Display Map Market"
+               description="Whether or not to show the market on the map. Requires the game file to specify the location." />
         <Input name="maps.players" label="Display Map Players Table"
                description="Whether or not to show the player information table on maps. This includes bank and certificate limit information. Requires the game file to specify the location." />
+        <Input name="maps.roundTracker" label="Display Map Round Tracker"
+               description="Whether or not to show the round tracker on maps. Requires the game file to specify the location." />
         {/* This option isn't working yet, will add later */}
         {/* <Checkbox name="plainMapDestinations" label="Plain Map Destination Spaces" */}
         {/*           description="This sets all destination spots on maps to be empty white cities with black company text:" /> */}
@@ -172,6 +174,8 @@ const Config = () => {
         <Typography variant="h5">Tiles</Typography>
         <Input name="tiles.id" label="Tile ID Location"
                description="This determines where to render the tile id"/>
+        <Input name="tiles.colorblind" label="Colorblind IDs"
+               description="This adds a colorblind safe shape indicating the tile color to the ID section of the tile" />
         <Input name="tiles.layout" label="Tile Sheet Layout"
                description="This determines how to lay out the tiles on the tile sheet. Offset is the style that tries to make as few cuts as possible. Individual just has each tile separate from the others, and die is meant from the custom die cutters that Deep Thought Games uses. Setting either die option overrides page size and the tile size option below."/>
         <Input name="tiles.width" label="Tile Width" dimension={true}
@@ -190,6 +194,10 @@ const Config = () => {
                description="This determines the default width of one stock market cell."/>
         <Input name="stock.cell.height" label="Cell Height" dimension={true}
                description="This determines the default height of one stock market cell."/>
+        <Input name="stock.value" label="Value Location"
+               description="This determines if the value of a cell is drawn at the top of borrom."/>
+        <Input name="stock.arrows" label="Arrow Location"
+               description="This determines if the arrows in a cell are positioned at the top, middle or bottom."/>
         <Input name="stock.column" label="Column Height"
                description="This determines how many cells make up a 1D market column height. The default is 4. Decimals are allowed."/>
         <Input name="stock.diag" label="Diag Height"
@@ -210,14 +218,22 @@ const Config = () => {
         <Typography variant="h5">Charters</Typography>
         <Input name="charters.style" label="Charter Style"
                description="This lets you choose between two styles for charters. One is simular to Carth's style while the other includes more color at the top."/>
+        <Input name="charters.layout" label="Charter Layout"
+               description="Free tries to fill your page with two charters per page (by default, half width charters will change this). 3x1 and 3x2 are both designs that fit common die layouts. Either die option overrides the page size as well as the width, height and cutlines option below."/>
         <Input name="charters.halfWidth" label="Half Width Charters"
                description="This draws all charters (major and minor) as half width. They will take up half of the width of your page (minus cutlines)."/>
+        <Input name="charters.smallerMinors" label="Smaller Minors"
+               description="This draws minor charters smaller (height wise)."/>
         <Input name="charters.cutlines" label="Charter Cutlines Size" dimension={true}
                description="Set to 0 to disable any cutlines and have the charters next to each other"/>
         <Input name="charters.bleed" label="Charter Bleed Size" dimension={true}
                description="Set to 0 to disable any bleed, or set to a value to have a margin of this amount used as the bleed amount for printing."/>
         <Input name="charters.border" label="Charter Border Size"
                description="Set to 0 to disable any border, or set to a value to have a border of that many pixels drawn around the charter."/>
+        <Input name="charters.showPhaseChart" label="Show Phase Chart"
+               description="Whether or not to show the phase chart on charters."/>
+        <Input name="charters.showTurnOrder" label="Show Turn Order"
+               description="Whether or not to show the turn order on charters."/>
         <Input name="charters.blackBand" label="Charter Black Band"
                description="Whether or not to put a black border against the color section of the charter. Only relevent to &quot;color&quot; charters. Always put on white color charters."/>
       </Box>

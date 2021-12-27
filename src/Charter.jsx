@@ -15,6 +15,7 @@ import map from "ramda/src/map";
 
 const Charter = ({
   name,
+  subtext,
   abbrev,
   logo,
   minor,
@@ -31,18 +32,24 @@ const Charter = ({
   fontFamily,
   fontSize,
   fontStyle,
-  fontWeight
+  fontWeight,
+  halfWidth
 }) => {
   const { config } = useContext(ConfigContext);
   const charterStyle = config.charters.style;
-  const halfWidthCharters = config.charters.halfWidth;
+  const showPhaseChart = config.charters.showPhaseChart;
+  const showTurnOrder = config.charters.showTurnOrder;
   const blackBand = config.charters.blackBand;
   fontFamily = multiDefaultTo("display", fontFamily);
   fontSize = multiDefaultTo(20, fontSize);
   fontWeight = multiDefaultTo("bold", fontWeight);
   fontStyle = multiDefaultTo("normal", fontStyle);
   let lineHeight = fontSize * 1.1;
- 
+
+  // Hide section labels for things we don't want on a company
+  const showTrains = company.trains !== false;
+  const showTreasury = company.treasury !== false;
+
   let tokenSpots = [];
   if (tokens) {
     tokenSpots = addIndex(map)((label, index) => {
@@ -58,10 +65,10 @@ const Charter = ({
             <ColorContext.Provider value="companies">
               {companyToken}
             </ColorContext.Provider>
-            <g transform={`${halfWidthCharters ? "rotate(-90) " : ""}translate(0 39)`}>
+            <g transform={`${halfWidth ? "rotate(-90) " : ""}translate(0 39)`}>
               <Color context="companies">
                 {(c, t) => (
-                  <text fill={(charterStyle === "color" && !halfWidthCharters) ? t(c(color)) : c("black")}
+                  <text fill={(charterStyle === "color" && !halfWidth) ? t(c(color)) : c("black")}
                         fontSize="11" fontWeight="normal" textAnchor="middle">
                     <Currency value={label} type="token"/>
                   </text>
@@ -100,8 +107,8 @@ const Charter = ({
   return (
     <Color context="companies">
       {(c, t, _, p) => (
-        <div className={`cutlines${minor ? " cutlines--minor" : ""}${halfWidthCharters ? " cutlines--half" : ""}`}>
-          <div className={`charter ${minor ? "charter--minor " : ""}charter--${charterStyle}${halfWidthCharters ? " charter--half" : ""}`}>
+        <div className={`cutlines${minor ? " cutlines--minor" : ""}${halfWidth ? " cutlines--half" : ""}`}>
+          <div className={`charter ${minor ? "charter--minor " : ""}charter--${charterStyle}${halfWidth ? " charter--half" : ""}`}>
             <div className="charter__bleed"
                  style={{
                    backgroundColor: p(backgroundColor || "white")
@@ -115,7 +122,7 @@ const Charter = ({
               />
               <div className="charter__body">
                 <div style={{ color: t(c(charterStyle === "color" ? color : "white")),
-                              paddingRight: halfWidthCharters ? null : unitsToCss(12.5 + (65 * tokens.length)) }}
+                              paddingRight: halfWidth ? null : unitsToCss(12.5 + (65 * tokens.length)) }}
                      className="charter__name">
                      <div style={{ fontFamily:`${fontFamily}`,
                                    fontSize:`${fontSize}pt`,
@@ -125,6 +132,16 @@ const Charter = ({
                      }}>
                        {name}
                      </div>
+                     {subtext && (
+                       <div style={{ fontFamily:`${fontFamily}`,
+                                     fontSize:`${fontSize/2}pt`,
+                                     lineHeight:`${lineHeight}pt`,
+                                     fontWeight:`${fontWeight}`,
+                                     fontStyle:`${fontStyle}`
+                                   }}>
+                         {subtext}
+                       </div>
+                     )}
                 </div>
                 {charterStyle === "color" && (
                   <div className="charter__logo">
@@ -138,36 +155,44 @@ const Charter = ({
                   </div>
                 )}
                 {false && <div className="charter__game">{game}</div>}
-                <div className="charter__tokens">
-                  {halfWidthCharters && "Tokens"}
-                  {tokenSpots}
-                </div>
-                {halfWidthCharters && (
+                {(tokenSpots.length > 0) && (
+                  <div className="charter__tokens">
+                    {halfWidth && "Tokens"}
+                    {tokenSpots}
+                  </div>
+                )}
+                {halfWidth && (
                   <div className="charter__assets">
                     Assets
-                    <dl>{minor || turnNodes}</dl>
+                    {showTurnOrder && (
+                      <dl>{minor || turnNodes}</dl>
+                    )}
                   </div>
                 )}
-                {halfWidthCharters || (
+                {halfWidth || (
                   <div className="charter__trains">
-                    Trains
-                    <div className="charter__phase">
-                      <Phase phases={phases}
-                             trains={trains}
-                             minor={!!minor}
-                             company={company.abbrev} />
-                    </div>
+                    {showTrains && "Trains"}
+                    {showPhaseChart && (
+                      <div className="charter__phase">
+                        <Phase phases={phases}
+                               trains={trains}
+                               minor={!!minor}
+                               company={company.abbrev} />
+                      </div>
+                    )}
                   </div>
                 )}
-                {halfWidthCharters || (
+                {halfWidth || (
                   <div className="charter__treasury">
-                    Treasury
+                    {showTreasury && "Treasury"}
                     {company.capital && (
                       <div className="charter__capital">
                         <Currency value={company.capital} type="treasury"/>
                       </div>
                     )}
-                    <dl>{minor || turnNodes}</dl>
+                    {showTurnOrder && (
+                      <dl>{minor || turnNodes}</dl>
+                    )}
                   </div>
                 )}
                 {variant && <div className="charter__variant">{variant}</div>}
