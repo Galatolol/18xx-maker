@@ -1241,6 +1241,45 @@
       }
     ]
   },
+  " 290": {
+    "color": "gray",
+    "cities": [
+      {
+        "size": 2
+      }
+    ],
+    "values": [
+      {
+        "angle": 210,
+        "percent": 0.8,
+        "value": 70
+      }
+    ],
+    "labels": [
+      {
+        "label": "B",
+        "angle": 90,
+        "percent": 0.85
+      }
+    ],
+    "track": [
+      {
+        "side": 1
+      },
+      {
+        "side": 2
+      },
+      {
+        "side": 3
+      },
+      {
+        "side": 4
+      },
+      {
+        "side": 5
+      }
+    ]
+  },
   "300": {
     "color": "gray",
     "labels": [
@@ -3499,6 +3538,93 @@
       },
       {
         "side": 6
+      }
+    ]
+  },
+  " 804": {
+    "color": "gray",
+    "labels": [
+      {
+        "label": "OO",
+        "angle": 90,
+        "percent": 0.8
+      }
+    ],
+    "values": [
+      {
+        "angle": 270,
+        "percent": 0.4,
+        "value": 60
+      }
+    ],
+    "cities": [
+      {
+        "angle": 4,
+        "percent": 0.57735
+      },
+      {
+        "angle": 174,
+        "percent": 0.57735
+      }
+    ],
+    "track": [
+      {
+        "type": "gentle",
+        "side": 1,
+        "cross": "over"
+      },
+      {
+        "type": "gentle",
+        "side": 2,
+        "cross": "under"
+      },
+      {
+        "type": "straight",
+        "side": 1
+      },
+      {
+        "type": "sharp",
+        "side": 4
+      },
+      {
+        "type": "sharp",
+        "side": 6
+      }
+    ]
+  },
+  "M4": {
+    "color": "gray",
+    "rotations": 1,
+    "values": [
+      {
+        "angle": 270,
+        "percent": 0.9,
+        "value": 80
+      }
+    ],
+    "labels": [
+      {
+        "label": "M",
+        "angle": 90,
+        "percent": 0.9
+      }
+    ],
+    "cities": [
+      {
+        "size": 4
+      }
+    ],
+    "track": [
+      {
+        "type": "straight"
+      },
+      {
+        "type": "straight",
+        "side": 2
+      },
+      {
+        "type": "straight",
+        "side": 3
       }
     ]
   },
