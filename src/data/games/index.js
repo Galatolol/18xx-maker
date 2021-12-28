@@ -23,8 +23,8 @@ games["1820"] = {
   slug: "1820",
   file: "1820.json",
   title: "1820OG",
-  subtitle: "Old iteration of 1820",
-  designer: "JCL",
+  subtitle: "An old iteration of 1820",
+  designer: "clearclaw",
   minPlayers: 3,
   maxPlayers: 5,
 };

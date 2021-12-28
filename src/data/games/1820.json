@@ -2,9 +2,9 @@
   "info": {
     "title": "1820OG",
     "titleFontFamily": "Times",
-    "subtitle": "Old iteration of 1820",
+    "subtitle": "An old iteration of 1820",
     "subtitleFontFamily": "Libre Baskerville",
-    "designer": "JCL",
+    "designer": "clearclaw",
     "designerFontFamily": "Libre Baskerville",
     "background": "gray",
     "width": 150,
@@ -563,10 +563,22 @@
     ]
   },
   "tiles": {
-    "8": 2,
-    "9": 1,
-    "57": 2,
-    "X1": 1,
+    "3": 5,
+    "4": 10,
+    "5": 10,
+    "6": 10,
+    "7": 6,
+    "8": 15,
+    "9": 15,
+    "57": 10,
+    "58": 10,
+    " 148": 7,
+    " 149": 7,
+    " 150": 7,
+    " 248": 2,
+    " 802": 2,
+    " 803": 2,
+    "M01": 1,
 
     "14": 1,
     "29": 1,
@@ -732,6 +744,7 @@
         ],
         "values": [
           {
+            "percent": 0,
             "value": 20
           }
         ],
@@ -1871,6 +1884,7 @@
         ],
         "values": [
           {
+            "percent": 0,
             "value": 20
           }
         ],
