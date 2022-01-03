@@ -12,6 +12,11 @@ import is from "ramda/src/is";
 import map from "ramda/src/map";
 import propEq from "ramda/src/propEq";
 
+import Position from "../Position";
+import ColorContext from "../context/ColorContext";
+import GameMapCompanyToken from "../tokens/GameMapCompanyToken";
+import Token from "../tokens/Token";
+
 const arrows = {
   up: "↑",
   down: "↓",
@@ -69,9 +74,21 @@ const Cell = ({ cell, par, game, config, data }) => {
               subRotated = true;
             }
 
+            let width = (cell.width || 1) * data.width;
+            let height = (cell.height || 1) * data.height;
+
             let arrowNodes = addIndex(map)((arrow, i) => {
               let left = arrow === "down" || arrow === "left";
               let arrowPadding = (arrow === "down" || arrow === "up") ? 7 : 5;
+              let arrowY = height - arrowPadding;
+              let arrowBaseline = "baseline";
+              if (config.stock.arrows === "top") {
+                arrowY = 5;
+                arrowBaseline = "hanging";
+              } else if (config.stock.arrows === "middle") {
+                arrowY = height / 2;
+                arrowBaseline = "middle";
+              }
 
               return (
                 <text
@@ -83,9 +100,9 @@ const Cell = ({ cell, par, game, config, data }) => {
                   fontStyle="bold"
                   fontSize="15"
                   textAnchor={left ? "start" : "end"}
-                  dominantBaseline="baseline"
+                  dominantBaseline={arrowBaseline}
                   x={left ? 5 : data.width - 5}
-                  y={data.height - arrowPadding}
+                  y={arrowY}
                 >
                   {arrows[arrow] || "↻"}
                 </text>
@@ -116,39 +133,97 @@ const Cell = ({ cell, par, game, config, data }) => {
                    (data.type === "1D" ? 21 : 13));
               return <Color key={`company-${company.row}`}
                             context="companies">
-             {c => (
-               <g>
-                 <rect
-                   x="5"
-                   y={y}
-                   rx="2"
-                   ry="2"
-                   width={data.width - 10}
-                   height={data.type === "1D" ? 16 : 8}
-                   fill={c(companyData.color)}
-                   stroke="black"
-                   strokeWidth="1"
-                 />
-                 {data.type === "1D" && (
-                   <text
-                     x={data.width / 2}
-                     y={y + 9}
-                     fontSize="12"
-                     textAnchor="middle"
-                     dominantBaseline="middle"
-                     stroke="none"
-                     fill={t(c(companyData.color))}>
-                     {companyData.abbrev}
-                   </text>)}
-               </g>
-             )}
-    </Color>;
+                       {c => (
+                         <g>
+                           <rect
+                             x="5"
+                             y={y}
+                             rx="2"
+                             ry="2"
+                             width={data.width - 10}
+                             height={data.type === "1D" ? 16 : 8}
+                             fill={c(companyData.color)}
+                             stroke="black"
+                             strokeWidth="1"
+                           />
+                           {data.type === "1D" && (
+                             <text
+                               x={data.width / 2}
+                               y={y + 9}
+                               fontSize="12"
+                               textAnchor="middle"
+                               dominantBaseline="middle"
+                               stroke="none"
+                               fill={t(c(companyData.color))}>
+                               {companyData.abbrev}
+                             </text>)}
+                         </g>
+                       )}
+                     </Color>;
             }, cell.companies || []);
 
             let text = "value" in cell ? <Currency value={cell.value} type="market"/> : cell.label;
 
-            let width = (cell.width || 1) * data.width;
-            let height = (cell.height || 1) * data.height;
+            let text_x = 5;
+            let text_y = 5;
+            let text_anchor = "start";
+            let text_baseline = "hanging"
+            let sub_x = width - 5;
+            let sub_y = height - 5;
+            let sub_anchor = "end";
+            let sub_baseline = "baseline"
+
+            if (config.stock.value === "bottom") {
+              // Swap the x/y for sub and text
+              [text_x, text_y, text_baseline, text_anchor, sub_x, sub_y, sub_baseline, sub_anchor] =
+                [sub_x, sub_y, sub_baseline, sub_anchor, text_x, text_y, text_baseline, text_anchor];
+
+              if (rotated) {
+                text_x = -height + 5;
+                text_anchor = "start";
+                text_y = width - 5;
+              }
+
+              if (subRotated) {
+                sub_x = -5;
+                sub_anchor = "end";
+              }
+            } else {
+              if (rotated) {
+                text_x = -5;
+                text_y = 5;
+                text_anchor = "end";
+              }
+
+              if (subRotated) {
+                sub_x = -height + 5;
+                sub_y = width - 5;
+                sub_anchor = "start";
+              }
+            }
+
+            if (cell.tokens) {
+              for (var i = 0; i < cell.tokens.length; i++) {
+                if (cell.tokens[i].x === undefined)
+                  cell.tokens[i].x = width / 2;
+                if (cell.tokens[i].y === undefined)
+                  cell.tokens[i].y = height / 2 + 2;
+              }
+            }
+
+            let tokens = (
+              <ColorContext.Provider value="companies">
+                <Position data={cell.tokens}>
+                {t => {
+                  if (t.company) {
+                    return <GameMapCompanyToken {...t} abbrev={t.company} />;
+                  } else {
+                    return <Token {...t} />;
+                  }
+                }}
+                </Position>
+              </ColorContext.Provider>
+            );
 
             return (
               <g>
@@ -183,16 +258,17 @@ const Cell = ({ cell, par, game, config, data }) => {
                     fontFamily="display"
                     fontStyle="bold"
                     fontSize="15"
-                    textAnchor="start"
-                    dominantBaseline={subRotated ? (cell.right ? "baseline" : "hanging") : "baseline"}
-                    x={subRotated ? (-height + 5) : 5}
-                    y={subRotated ? (cell.right ? (width - 5) : 5) : (height - 5)}
+                    textAnchor={sub_anchor}
+                    dominantBaseline={sub_baseline}
+                    x={sub_x}
+                    y={sub_y}
                   >
                     {cell.subLabel}
                   </text>
                 )}
                 {arrowNodes}
                 {companyNodes}
+                {tokens}
               </g>
             );
           }}

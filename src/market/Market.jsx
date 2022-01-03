@@ -10,6 +10,7 @@ import MarketRoundTracker from "./MarketRoundTracker";
 import Legend from "../Legend";
 
 import { getParData } from "./util";
+import { multiDefaultTo } from "../util";
 
 import addIndex from "ramda/src/addIndex";
 import chain from "ramda/src/chain";
@@ -17,7 +18,7 @@ import concat from "ramda/src/concat";
 import map from "ramda/src/map";
 import reverse from "ramda/src/reverse";
 
-const Market = ({data, game, config, title}) => {
+const Market = ({data, game, config, title, displayTitle}) => {
   let cells = [];
   let market = [];
   let bottomMarket = [];
@@ -190,18 +191,21 @@ const Market = ({data, game, config, title}) => {
     }
   }
 
+  var titleFont = multiDefaultTo("display", game.info.titleFontFamily);
   return (
     <g>
-      <text
-        fontFamily="display"
-        fontStyle="bold"
-        fontSize="25"
-        dominantBaseline="hanging"
-        x="0"
-        y="12.5"
-      >
-        {title} Stock Market
-      </text>
+      {displayTitle === false || (
+        <text
+          fontFamily={titleFont}
+          fontStyle="bold"
+          fontSize="25"
+          dominantBaseline="hanging"
+          x="0"
+          y="12.5"
+        >
+          {title} Stock Market
+        </text>
+      )}
       {roundTracker}
       {cells}
       {par}

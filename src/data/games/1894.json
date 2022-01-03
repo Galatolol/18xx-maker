@@ -341,9 +341,145 @@
       ]
     }
   ],
-  "trains": [],
-  "privates": [],
-  "phases": [],
+  "trains": [
+    {
+      "name": "2",
+      "quantity": 6,
+      "price": 80,
+      "color": "yellow",
+      "image": "2T",
+      "rust": "4"
+    },
+    {
+      "name": "3",
+      "quantity": 5,
+      "price": 180,
+      "color": "green",
+      "image": "3T",
+      "rust": "6"
+    },
+    {
+      "name": "4",
+      "quantity": 4,
+      "price": 300,
+      "color": "green",
+      "image": "4T",
+      "rust": "D"
+    },
+    {
+      "name": "5",
+      "quantity": 3,
+      "price": 450,
+      "color": "brown",
+      "image": "5T"
+    },
+    {
+      "name": "6",
+      "quantity": 2,
+      "price": 630,
+      "color": "brown",
+      "image": "6T"
+    },
+    {
+      "name": "D",
+      "quantity": "∞",
+      "print": 9,
+      "price": 1100,
+      "color": "brown",
+      "description": "Cost $800 when trading in a 4T, 5T or 6T",
+      "available": "6",
+      "discount": {
+        "4": 300,
+        "5": 300,
+        "6": 300
+      }
+    }
+  ],
+  "privates": [
+    {
+      "name": "Schuylkill Valley",
+      "price": 20,
+      "revenue": 5,
+      "hex": "G15",
+      "description": ""
+    },
+    {
+      "name": "Champlain & St.Lawrence",
+      "price": 40,
+      "revenue": 10,
+      "hex": "B20",
+      "description": "A corporation owning the C&StL may lay a tile on the C&StL's hex even if this hex is not connected to the corporations's railhead. This free tile placement is in addition to the corporation's normal tile placement."
+    },
+    {
+      "name": "Delaware & Hudson",
+      "price": 70,
+      "revenue": 15,
+      "hex": "F16",
+      "description": "A corporation owning the Delaware & Hudson may establish a railhead on the D&H hex by laying a station tile and a token. The station does not have to be connected to the remainder of the corporation's route. The tile laid is the owning corporation's one tile placement for the turn."
+    },
+    {
+      "name": "Mohawk & Hudson",
+      "price": 110,
+      "revenue": 20,
+      "company": "NYC",
+      "description": "A player owning the M&H may exhange it for a 10% share of the NYC if he does not already hold 60% of the NYC and there is NYC stock available in the Bank or the Pool. The exchange may be made during the player's turn of a stock round or between the turns of other players or corporations in either stock or operating rounds. This action closes the M&H."
+    },
+    {
+      "name": "Camden & Amboy",
+      "price": 160,
+      "revenue": 25,
+      "company": "PRR",
+      "description": "The initial purchaser of the C&A immediately receives a 10% share of PRR stock without further payment. This action does not close the C&A. The PRR corporation will not be running at this point, but the stock may be retained or sold subject to the ordinary rules of the game."
+    },
+    {
+      "name": "Baltimore & Ohio",
+      "price": 220,
+      "revenue": 30,
+      "company": "B&O",
+      "description": "The owner of the B&O private company immediately receives the President's certificate of the B&O without further payment. The B&O private company may not be sold to any corporation, and does not exchange hands if the owning player loses the Presidency of the B&O. When the B&O purchases its first train the private company is closed down."
+    }
+  ],
+  "phases": [
+    {
+      "name": "2",
+      "limit": 4,
+      "rounds": 1,
+      "tiles": "yellow"
+    },
+    {
+      "name": "3",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "green",
+      "notes": ["Private companies may be purchased."]
+    },
+    {
+      "name": "4",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "name": "5",
+      "limit": 2,
+      "rounds": 3,
+      "tiles": "brown",
+      "notes": ["Private companies are closed."]
+    },
+    {
+      "name": "6",
+      "limit": 2,
+      "rounds": 3,
+      "tiles": "brown",
+      "notes": ["D Trains may be purchased."]
+    },
+    {
+      "name": "D",
+      "limit": 2,
+      "rounds": 3,
+      "tiles": "brown"
+    }
+  ],
   "pools": [
     {
       "name": "Market",
@@ -896,7 +1032,6 @@
 
     "X1": 1,
     "X2": 1,
-    "X3": 1,
     "X4": 1,
     "X5": 1,
     "X6": 1,
@@ -909,9 +1044,6 @@
       {
         "color": "offboard",
         "offBoardTrack": [
-          {
-            "side": 5
-          },
           {
             "side": 6
           }
@@ -997,26 +1129,24 @@
             "y": 0
           }
         ],
-        "offBoardRevenue": [
-          {
-            "name": {
-              "name": "England"
+        "offBoardRevenue": {
+          "name": {
+            "name": "England"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
             },
-            "revenues": [
-              {
-                "color": "yellow",
-                "cost": "30"
-              },
-              {
-                "color": "brown",
-                "textColor": "white",
-                "cost": "70"
-              }
-            ],
-            "x": -0,
-            "y": -40
-          }
-        ],
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "70"
+            }
+          ],
+          "x": 0,
+          "y": -40
+        },
         "hexes": ["A10"]
       },
       {
@@ -1128,7 +1258,7 @@
         "color": "gray",
         "values": [
           {
-            "value": 20,
+            "value": 30,
             "angle": 90,
             "percent": 0.4
           }
@@ -1436,6 +1566,25 @@
       },
       {
         "color": "plain",
+        "centerTowns": [
+          {
+            "percent": 0.45,
+            "name": {
+              "name": "",
+              "reverse": true
+            }
+          },
+          {
+            "percent": -0.45,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "hexes": ["H13"]
+      },
+      {
+        "color": "plain",
         "cities": [
           {
             "name": {
@@ -1565,7 +1714,7 @@
         "terrain": [
           {
             "type": "swamp",
-            "cost": "F80"
+            "cost": "F60"
           }
         ],
         "hexes": []
@@ -1576,7 +1725,7 @@
           {
             "type": "water",
             "size": "large",
-            "cost": "F80"
+            "cost": "F60"
           }
         ],
         "hexes": [
@@ -1631,7 +1780,6 @@
           "H1",
           "H3",
           "H11",
-          "H13",
           "I4",
           "I12"
         ]

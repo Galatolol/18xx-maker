@@ -23,8 +23,8 @@ games["1820"] = {
   slug: "1820",
   file: "1820.json",
   title: "1820OG",
-  subtitle: "Old iteration of 1820",
-  designer: "JCL",
+  subtitle: "An old iteration of 1820",
+  designer: "clearclaw",
   minPlayers: 3,
   maxPlayers: 5,
 };
@@ -334,6 +334,17 @@ games["1860"] = {
   publisher: "zman",
   minPlayers: 2,
   maxPlayers: 4,
+};
+games["1861"] = {
+  id: "1861",
+  slug: "1861",
+  file: "1861.json",
+  title: "1861",
+  subtitle: "The Railways of the Russian Empire",
+  designer: "Ian Wilson",
+  publisher: "gtg",
+  minPlayers: 3,
+  maxPlayers: 6,
 };
 games["1867"] = {
   id: "1867",

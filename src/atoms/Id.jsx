@@ -5,16 +5,27 @@ import { useOrientation } from "../context/OrientationContext";
 
 import Color from "../util/Color";
 
-const Id = ({ id, extra, bgColor, noID }) => {
+const colorblindSymbols = {
+  "yellow": "▼",
+  "green": "◼",
+  "brown": "●",
+  "gray": "✱"
+}
+
+const Id = ({ id, displayID, extra, bgColor, noID }) => {
   const { config } = useContext(ConfigContext);
   const rotation = useOrientation();
-
-  let fontSize = (id && id.length > 4) ? "9" : (id && id.length > 3) ? "10" : "11";
-  let extraFontSize = (extra && extra.length > 4) ? "9" : (extra && extra.length > 3) ? "10" : "12";
 
   if (noID || config.tiles.id === "none") {
     return null;
   }
+
+  if (config.tiles.colorblind) {
+    id = id + colorblindSymbols[bgColor];
+  }
+
+  let fontSize = (id && id.length > 4) ? "9" : (id && id.length > 3) ? "10" : "11";
+  let extraFontSize = (extra && extra.length > 4) ? "9" : (extra && extra.length > 3) ? "10" : "12";
 
   // Otherwise it's right or left
   let idAnchor = "end";
@@ -35,7 +46,7 @@ const Id = ({ id, extra, bgColor, noID }) => {
           <g transform={`rotate(${rotation}) translate(${idX} 70)`}>
             <text
               fontFamily="sans-serif"
-              fill={bgColor ? t(c(bgColor)) : c("black")}
+              fill={c("black")}
               stroke="none"
               strokeLinecap="round"
               strokeLinejoin="bevel"
@@ -46,7 +57,7 @@ const Id = ({ id, extra, bgColor, noID }) => {
               x="0"
               y="0"
             >
-              {id}
+              {displayID || id}
             </text>
           </g>
           {extra && (
