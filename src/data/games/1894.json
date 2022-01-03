@@ -1045,9 +1045,6 @@
         "color": "offboard",
         "offBoardTrack": [
           {
-            "side": 5
-          },
-          {
             "side": 6
           }
         ],
@@ -1261,7 +1258,7 @@
         "color": "gray",
         "values": [
           {
-            "value": 20,
+            "value": 30,
             "angle": 90,
             "percent": 0.4
           }
@@ -1569,6 +1566,25 @@
       },
       {
         "color": "plain",
+        "centerTowns": [
+          {
+            "percent": 0.45,
+            "name": {
+              "name": "",
+              "reverse": true
+            }
+          },
+          {
+            "percent": -0.45,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "hexes": ["H13"]
+      },
+      {
+        "color": "plain",
         "cities": [
           {
             "name": {
@@ -1764,7 +1780,6 @@
           "H1",
           "H3",
           "H11",
-          "H13",
           "I4",
           "I12"
         ]
