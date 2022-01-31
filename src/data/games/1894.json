@@ -47,7 +47,7 @@
     {
       "name": "Belge",
       "abbrev": "Belge",
-      "tokens": ["Free", "F40", "F100", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80", "F100"],
       "color": "green",
       "shares": [
         {
@@ -66,7 +66,7 @@
     {
       "name": "Compagnie du chemin de fer d'Amiens à Boulogne",
       "abbrev": "CAB",
-      "tokens": ["Free", "F40", "F100", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80", "F100"],
       "color": "irepl_brown",
       "shares": [
         {
@@ -85,7 +85,7 @@
     {
       "name": "Compagnie des chemins de fer de Paris à Lyon et à la Méditerranée / Paris-Lyon-Méditerranée",
       "abbrev": "PLM",
-      "tokens": ["Free", "F40", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80"],
       "color": "red",
       "token": {
         "target": "black",
@@ -109,7 +109,7 @@
     {
       "name": "Gent Railway",
       "abbrev": "GR",
-      "tokens": ["Free", "F40", "F100", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80", "F100"],
       "color": "yellow",
       "shares": [
         {
@@ -128,7 +128,7 @@
     {
       "name": "Compagnie de l'Ouest",
       "abbrev": "Ouest",
-      "tokens": ["Free", "F40", "F100", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80", "F100"],
       "color": "irepl_blue",
       "token": {
         "bar": true,
@@ -151,7 +151,7 @@
     {
       "name": "Compagnie des chemins de fer de l'Est",
       "abbrev": "Est",
-      "tokens": ["Free", "F40", "F100", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80", "F100"],
       "color": "gray",
       "token": {
         "target": "white",
@@ -175,7 +175,7 @@
     {
       "name": "Chemins de fer du Nord",
       "abbrev": "Nord",
-      "tokens": ["Free", "F40", "F100", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80", "F100"],
       "color": "irepl_red",
       "token": {
         "bar": true,
@@ -563,7 +563,8 @@
       }
     },
     "par": {
-      "values": [100, 90, 82, 76, 71, 67]
+      "values": [100, 90, 82, 76, 71, 67],
+      "color": "offboard_light"
     },
     "movement": {
       "up": ["Sold out"],
@@ -576,7 +577,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 0,
+          "legend": 3,
           "arrow": "down"
         },
         67,
@@ -596,11 +597,11 @@
         180,
         200,
         225,
-        250,
-        275,
-        300,
+        255,
+        285,
         325,
-        350
+        375,
+        425
       ],
       [
         {
@@ -612,7 +613,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 0
+          "legend": 3
         },
         66,
         70,
@@ -630,13 +631,13 @@
         160,
         180,
         200,
-        220,
-        240,
-        260,
-        280,
+        225,
+        250,
+        275,
+        300,
         {
-          "value": 300,
-          "label": 300,
+          "value": 330,
+          "label": 330,
           "arrow": "up"
         }
       ],
@@ -655,7 +656,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 0
+          "legend": 3
         },
         65,
         70,
@@ -672,10 +673,10 @@
         140,
         155,
         170,
-        185,
+        190,
         {
-          "value": 200,
-          "label": 200,
+          "value": 210,
+          "label": 210,
           "arrow": "up"
         }
       ],
@@ -699,7 +700,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 0
+          "legend": 3
         },
         66,
         71,
@@ -863,7 +864,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 0
+          "legend": 3
         },
         67,
         {
@@ -902,7 +903,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 0,
+          "legend": 3,
           "arrow": "up"
         }
       ],
@@ -965,17 +966,22 @@
     ],
     "legend": [
       {
-        "color": "yellow",
+        "color": "gray",
         "description": "",
         "icon": ""
       },
       {
-        "color": "orange",
+        "color": "gray",
         "description": "",
         "icon": ""
       },
       {
-        "color": "brown",
+        "color": "gray",
+        "description": "",
+        "icon": ""
+      },
+      {
+        "color": "plain",
         "description": "",
         "icon": ""
       }
@@ -1032,6 +1038,7 @@
 
     "X1": 1,
     "X2": 1,
+    "X3": 1,
     "X4": 1,
     "X5": 1,
     "X6": 1,
@@ -1258,7 +1265,7 @@
         "color": "gray",
         "values": [
           {
-            "value": 30,
+            "value": 20,
             "angle": 90,
             "percent": 0.4
           }
@@ -1363,15 +1370,6 @@
             "name": {
               "name": "Arras"
             }
-          }
-        ],
-        "companies": [
-          {
-            "percent": 0.65,
-            "label": "P2",
-            "left": 10,
-            "right": 10,
-            "color": "offboard"
           }
         ],
         "hexes": ["E10"]
@@ -1514,6 +1512,15 @@
             }
           }
         ],
+        "companies": [
+          {
+            "percent": 0.65,
+            "label": "P2",
+            "left": 10,
+            "right": 10,
+            "color": "red"
+          }
+        ],
         "hexes": ["G14"]
       },
       {
@@ -1602,6 +1609,9 @@
           },
           {
             "side": 3
+          },
+          {
+            "side": 4
           }
         ],
         "offBoardRevenue": {
@@ -1623,11 +1633,34 @@
         "hexes": ["I2"]
       },
       {
-        "color": "yellow",
+        "color": "gray",
+        "towns": [
+          {
+            "angle": 270,
+            "percent": 0.25,
+            "rotation": 90,
+            "name": {
+              "name": "Châlons-sur-Marne",
+              "reverse": true
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "angle": 345,
+            "percent": 0.7
+          }
+        ],
         "track": [
           {
             "type": "gentle",
             "side": 1
+          },
+          {
+            "type": "straight",
+            "side": 4,
+            "end": 0.4
           }
         ],
         "hexes": ["I6"]
@@ -1654,7 +1687,7 @@
         "values": [
           {
             "value": 20,
-            "angle": 90,
+            "angle": 330,
             "percent": 0.65
           }
         ],
@@ -1667,7 +1700,7 @@
             "label": "P1",
             "left": 10,
             "right": 10,
-            "color": "offboard"
+            "color": "red"
           }
         ],
         "hexes": ["I14"]
@@ -1742,8 +1775,7 @@
           "G6",
           "H5",
           "H9",
-          "H15",
-          "I10"
+          "H15"
         ]
       },
       {
@@ -1781,6 +1813,7 @@
           "H3",
           "H11",
           "I4",
+          "I10",
           "I12"
         ]
       }
