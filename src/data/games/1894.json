@@ -1633,34 +1633,16 @@
         "hexes": ["I2"]
       },
       {
-        "color": "gray",
-        "towns": [
-          {
-            "angle": 270,
-            "percent": 0.25,
-            "rotation": 90,
-            "name": {
-              "name": "Châlons-sur-Marne",
-              "reverse": true
-            }
-          }
-        ],
-        "values": [
-          {
-            "value": 30,
-            "angle": 345,
-            "percent": 0.7
-          }
-        ],
+        "color": "yellow",
         "track": [
           {
             "type": "gentle",
             "side": 1
           },
           {
+            "side": 2,
             "type": "straight",
-            "side": 4,
-            "end": 0.4
+            "end": 0.125
           }
         ],
         "hexes": ["I6"]
