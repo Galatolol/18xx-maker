@@ -1077,7 +1077,7 @@
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "70"
+              "cost": "60"
             }
           ],
           "angle": 90,
@@ -1471,7 +1471,7 @@
         "names": [
           {
             "name": "Paris",
-            "fontSize": 14
+            "fontSize": 11
           }
         ],
         "labels": [
@@ -1614,19 +1614,26 @@
             "side": 4
           }
         ],
+        "names": [
+          {
+            "name": "Le Sud",
+            "fontSize": 11,
+            "percent": -0.21
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "percent": 0.1
+          }
+        ],
         "offBoardRevenue": {
-          "name": {
-            "name": "Le Sud"
-          },
+          "size": 11,
+          "percent": 0.5,
           "revenues": [
             {
-              "color": "yellow",
-              "cost": "30"
-            },
-            {
-              "color": "brown",
-              "textColor": "white",
-              "cost": "40"
+              "cost": "Est: +20",
+              "color": "white"
             }
           ]
         },
