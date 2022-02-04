@@ -1714,6 +1714,7 @@
           "name": {
             "name": "Luxembourg"
           },
+          "size": 15,
           "revenues": [
             {
               "cost": "x2",
