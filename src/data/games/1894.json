@@ -577,7 +577,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 3,
+          "legend": 0,
           "arrow": "down"
         },
         67,
@@ -613,7 +613,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 3
+          "legend": 0
         },
         66,
         70,
@@ -656,7 +656,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 3
+          "legend": 0
         },
         65,
         70,
@@ -700,7 +700,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 3
+          "legend": 0
         },
         66,
         71,
@@ -864,7 +864,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 3
+          "legend": 0
         },
         67,
         {
@@ -903,7 +903,7 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 3,
+          "legend": 0,
           "arrow": "up"
         }
       ],
@@ -1248,7 +1248,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": "20"
             },
             {
               "color": "brown",
@@ -1661,6 +1661,9 @@
             "side": 2
           },
           {
+            "side": 3
+          },
+          {
             "side": 4
           }
         ],
@@ -1668,14 +1671,14 @@
           {
             "name": {
               "name": "Reims",
-              "rotation": 30
+              "rotation": -100
             },
             "companies": ["Est"]
           }
         ],
         "values": [
           {
-            "value": 20,
+            "value": 10,
             "angle": 330,
             "percent": 0.65
           }
