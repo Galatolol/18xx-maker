@@ -47,7 +47,7 @@
     {
       "name": "Belge",
       "abbrev": "Belge",
-      "tokens": ["Free", "F40", "F100", "F100"],
+      "tokens": ["Free", "F40", "F60", "F80"],
       "color": "green",
       "shares": [
         {
@@ -985,8 +985,8 @@
     "1": 1,
     "2": 1,
     "7": 4,
-    "8": 13,
-    "9": 13,
+    "8": 10,
+    "9": 10,
     "14": 4,
     "15": 4,
     "16": 1,
@@ -1065,7 +1065,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "40"
+              "cost": "50"
             },
             {
               "color": "brown",
@@ -1339,7 +1339,7 @@
           {
             "angle": 270,
             "percent": 0.65,
-            "value": 20
+            "value": 10
           }
         ],
         "hexes": ["D17"]
@@ -1405,6 +1405,24 @@
           }
         ],
         "hexes": ["F5"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 2,
+            "type": "gentle"
+          },
+          {
+            "side": 4,
+            "type": "gentle"
+          },
+          {
+            "side": 6,
+            "type": "gentle"
+          }
+        ],
+        "hexes": ["F11"]
       },
       {
         "color": "plain",
@@ -1767,13 +1785,12 @@
           "D13",
           "E2",
           "E8",
+          "E12",
           "E14",
           "E18",
           "F1",
-          "F3",
           "F7",
           "F9",
-          "F11",
           "F17",
           "G8",
           "G12",
