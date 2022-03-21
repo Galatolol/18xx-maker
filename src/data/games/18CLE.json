@@ -1,7 +1,7 @@
 {
   "info": {
     "title": "18CLE",
-    "subtitle": "Trolly Car Compaines of Cleveland, Ohio",
+    "subtitle": "Trolley Car Compaines of Cleveland, Ohio",
     "designer": " Richard McGuire",
     "background": "gray",
     "titleX": 50,
@@ -14,27 +14,27 @@
   },
   "tokens": ["Round", "+$10", "+20"],
   "ipo": true,
-  "bank": 12000,
+  "bank": "$12000",
   "players": [
     {
       "number": 3,
       "certLimit": 21,
-      "capital": 700
+      "capital": "$700"
     },
     {
       "number": 4,
       "certLimit": 18,
-      "capital": 500
+      "capital": "$550"
     },
     {
       "number": 5,
       "certLimit": 15,
-      "capital": 500
+      "capital": "$500"
     },
     {
       "number": 6,
       "certLimit": 12,
-      "capital": 450
+      "capital": "$450"
     }
   ],
   "tokenTypes": {
@@ -404,6 +404,18 @@
     "type": "2D",
     "par": {
       "values": [100, 90, 82, 76, 72, 68]
+    },
+    "display": {
+      "par": {
+        "x": 17,
+        "y": 4
+      },
+      "roundTracker": {
+        "type": "col-reverse",
+        "size": 25,
+        "x": 15,
+        "y": 7
+      }
     },
     "movement": {
       "up": ["Sold out"],
@@ -839,6 +851,10 @@
     "OE34": 2
   },
   "map": {
+    "players": {
+      "x": 50,
+      "y": 250
+    },
     "hexes": [
       {
         "color": "offboard",
@@ -846,8 +862,7 @@
           {
             "companies": [
               {
-                "label": "CLE",
-                "color": "orange"
+                "label": "CLE"
               }
             ],
             "name": {
@@ -1013,9 +1028,9 @@
           "name": {
             "name": "Mansfield, OH"
           },
-          "angle": 120,
-          "percent": 0.5,
-          "rows": 4,
+          "angle": 60,
+          "percent": 0.3,
+          "rows": 1,
           "revenues": [
             {
               "color": "yellow",
@@ -1061,8 +1076,7 @@
           {
             "companies": [
               {
-                "label": "RTA",
-                "color": "red"
+                "label": "RTA"
               }
             ],
             "name": {
@@ -1096,8 +1110,7 @@
           {
             "companies": [
               {
-                "label": "CSC",
-                "color": "tan"
+                "label": "CSC"
               }
             ],
             "name": {
@@ -1135,8 +1148,7 @@
           {
             "companies": [
               {
-                "label": "LSE",
-                "color": "turquoise"
+                "label": "LSE"
               }
             ],
             "name": {
@@ -1268,8 +1280,7 @@
           {
             "companies": [
               {
-                "label": "WW",
-                "color": "brown"
+                "label": "WWS"
               }
             ],
             "name": {
@@ -1368,8 +1379,21 @@
         ],
         "cities": [
           {
-            "angle": 0,
-            "percent": 0.6,
+            "angle": 30,
+            "percent": 0.7
+          },
+          {
+            "angle": 90,
+            "percent": 0.7,
+            "companies": [
+              {
+                "label": "RTA"
+              }
+            ]
+          },
+          {
+            "angle": 210,
+            "percent": 0.7,
             "companies": [
               {
                 "label": "TT",
@@ -1378,20 +1402,12 @@
             ]
           },
           {
-            "angle": 72,
-            "percent": 0.6
+            "angle": 270,
+            "percent": 0.7
           },
           {
-            "angle": 144,
-            "percent": 0.6
-          },
-          {
-            "angle": 216,
-            "percent": 0.6
-          },
-          {
-            "angle": 288,
-            "percent": 0.6
+            "angle": 330,
+            "percent": 0.7
           }
         ],
         "removeBorders": [2],
@@ -1418,20 +1434,12 @@
             "dashed": true
           }
         ],
-        "names": {
-          "name": "Cuyahoga River",
-          "x": -15
-        },
         "companies": [
           {
             "label": "CV",
-            "percent": -0.8,
-            "color": "blue",
-            "rotate": 60,
-            "left": 40,
-            "right": 45,
-            "x": 35,
-            "y": 35
+            "left": 15,
+            "right": 15,
+            "bottom": true
           }
         ],
         "hexes": ["H17"]
@@ -1453,9 +1461,18 @@
         ],
         "values": [
           {
-            "angle": 180,
+            "angle": 90,
             "percent": 0.7,
             "value": 30
+          }
+        ],
+        "companies": [
+          {
+            "percent": -0.667,
+            "left": 15,
+            "right": 15,
+            "bottom": true,
+            "label": "UD"
           }
         ],
         "hexes": ["E18"]
@@ -1473,8 +1490,7 @@
           {
             "companies": [
               {
-                "label": "CMV",
-                "color": "gray"
+                "label": "CMV"
               }
             ],
             "name": {
@@ -1643,14 +1659,22 @@
             }
           ]
         },
-        "labels": [
-          {
-            "label": "*ABC",
-            "y": -65,
-            "size": "small"
-          }
-        ],
+        "removeBorders": [4],
         "hexes": ["O20"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "size": 11,
+          "revenues": [
+            {
+              "cost": "ABC: x2",
+              "color": "white"
+            }
+          ]
+        },
+        "removeBorders": [1],
+        "hexes": ["O22"]
       },
       {
         "color": "plain",
@@ -1758,8 +1782,7 @@
           {
             "companies": [
               {
-                "label": "C&E",
-                "color": "green"
+                "label": "C&E"
               }
             ],
             "name": {
@@ -1827,6 +1850,7 @@
           {
             "name": {
               "name": "Euclid",
+              "rotation": -20,
               "reverse": true
             }
           }
@@ -2026,8 +2050,7 @@
             },
             "companies": [
               {
-                "label": "SHR",
-                "color": "natural"
+                "label": "SHR"
               }
             ]
           }
@@ -2059,8 +2082,7 @@
           {
             "companies": [
               {
-                "label": "ABC",
-                "color": "yellow"
+                "label": "ABC"
               }
             ],
             "name": {

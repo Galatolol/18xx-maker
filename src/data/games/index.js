@@ -502,7 +502,7 @@ games["18CLE"] = {
   slug: "18CLE",
   file: "18CLE.json",
   title: "18CLE",
-  subtitle: "Trolly Car Compaines of Cleveland, Ohio",
+  subtitle: "Trolley Car Compaines of Cleveland, Ohio",
   designer: " Richard McGuire",
   minPlayers: 3,
   maxPlayers: 6,
