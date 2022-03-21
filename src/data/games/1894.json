@@ -1248,7 +1248,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": "30"
             },
             {
               "color": "brown",
@@ -1840,13 +1840,15 @@
         "dashArray": "10 24",
         "offset": 0,
         "dashed": true,
+        "coords": ["I14p5", "I14p4", "H13p5", "H13p4", "G12p5", "G12p4"]
+      },
+      {
+        "color": "mountain",
+        "width": 4,
+        "dashArray": "10 24",
+        "offset": 0,
+        "dashed": true,
         "coords": [
-          "I14p5",
-          "I14p4",
-          "H13p5",
-          "H13p4",
-          "G12p5",
-          "G12p4",
           "F11p5",
           "E12p6",
           "E12p5",
