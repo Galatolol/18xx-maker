@@ -876,15 +876,6 @@
           "side": 1
         }
       ]
-    },
-    "BL-A5": {
-      "color": "gray"
-    },
-    "BL-A7": {
-      "color": "gray"
-    },
-    "BL-E11": {
-      "color": "gray"
     }
   },
   "map": {
@@ -986,7 +977,8 @@
         "terrain": [
           {
             "cost": 60,
-            "type": "water"
+            "type": "water",
+            "size": "large"
           }
         ]
       },
@@ -1022,7 +1014,7 @@
       },
       {
         "color": "plain",
-        "hexes": ["E3", "K7", "D8"]
+        "hexes": ["E3", "K7", "D8", "E11"]
       },
       {
         "color": "plain",
@@ -1085,7 +1077,8 @@
         "terrain": [
           {
             "cost": 60,
-            "type": "water"
+            "type": "water",
+            "size": "large"
           }
         ]
       },
@@ -1268,7 +1261,8 @@
         ],
         "terrain": [
           {
-            "type": "mountain",
+            "type": "water",
+            "size": "large",
             "angle": 270,
             "percent": 0.4,
             "cost": 60
@@ -1304,7 +1298,8 @@
         "terrain": [
           {
             "cost": 60,
-            "type": "mountain"
+            "type": "mountain",
+            "size": "large"
           }
         ]
       },
@@ -1353,6 +1348,7 @@
         "terrain": [
           {
             "type": "mountain",
+            "size": "large",
             "angle": 270,
             "percent": 0.4,
             "cost": 60
@@ -1374,6 +1370,7 @@
         "terrain": [
           {
             "type": "mountain",
+            "size": "large",
             "angle": 270,
             "percent": 0.4,
             "cost": 60
@@ -1395,6 +1392,7 @@
         "terrain": [
           {
             "type": "mountain",
+            "size": "large",
             "angle": 270,
             "percent": 0.4,
             "cost": 60
@@ -1473,7 +1471,7 @@
         "labels": [
           {
             "label": "B",
-            "angle": 180,
+            "angle": 270,
             "percent": 0.667
           }
         ],
@@ -1493,7 +1491,7 @@
         "labels": [
           {
             "label": "B",
-            "angle": 180,
+            "angle": 270,
             "percent": 0.667
           }
         ],
@@ -1563,16 +1561,20 @@
     ],
     "borders": [
       {
-        "color": "mountain",
+        "color": "red",
         "coords": ["F2p3", "F2p4", "F2p5", "F4p4"]
       },
       {
-        "color": "mountain",
+        "color": "red",
         "coords": ["I7p2", "I7p3"]
       },
       {
-        "color": "mountain",
+        "color": "red",
         "coords": ["I11p2", "I11p3"]
+      },
+      {
+        "color": "red",
+        "coords": ["A5p3", "A5p4"]
       }
     ]
   }
