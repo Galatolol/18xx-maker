@@ -784,7 +784,7 @@
           {
             "name": {
               "name": "Milazzo",
-              "rotation": 30
+              "y": -30
             }
           }
         ],
@@ -803,7 +803,6 @@
       },
       {
         "color": "gray",
-        "divides": [{}],
         "track": [
           {
             "type": "sharp",
@@ -812,6 +811,17 @@
           }
         ],
         "hexes": ["O2"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "straight",
+            "gauge": "double",
+            "side": 1
+          }
+        ],
+        "hexes": ["O4"]
       },
       {
         "color": "plain",
@@ -877,15 +887,15 @@
           "percent": 0.65,
           "revenues": [
             {
-              "color": "white",
+              "color": "xxpaper_yellow",
               "cost": 20
             },
             {
-              "color": "gray",
+              "color": "xxpaper_blue",
               "cost": 30
             },
             {
-              "color": "white",
+              "color": "xxpaper_red",
               "cost": 40
             }
           ]
@@ -1008,19 +1018,19 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 180,
+          "angle": 0,
           "percent": 0.65,
           "revenues": [
             {
-              "color": "white",
+              "color": "xxpaper_yellow",
               "cost": 10
             },
             {
-              "color": "gray",
+              "color": "xxpaper_blue",
               "cost": 30
             },
             {
-              "color": "white",
+              "color": "xxpaper_red",
               "cost": 90
             }
           ]
@@ -1031,7 +1041,7 @@
             "gauge": "double"
           }
         ],
-        "hexes": ["O4"]
+        "hexes": ["O6"]
       },
       {
         "color": "plain",
@@ -1082,19 +1092,20 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 180,
-          "percent": 0.65,
+          "angle": 112,
+          "percent": 0.8,
+          "rows": 3,
           "revenues": [
             {
-              "color": "white",
+              "color": "xxpaper_yellow",
               "cost": 20
             },
             {
-              "color": "gray",
+              "color": "xxpaper_blue",
               "cost": 30
             },
             {
-              "color": "white",
+              "color": "xxpaper_red",
               "cost": 40
             }
           ]
@@ -1180,7 +1191,7 @@
               "name": "Taormina",
               "reverse": true,
               "rotation": -60,
-              "y": 24
+              "y": -35
             }
           }
         ],
@@ -1439,15 +1450,15 @@
         "values": [
           {
             "value": 10,
-            "angle": 210,
-            "percent": 0.667
+            "angle": 60,
+            "percent": 0.6
           }
         ],
         "centerTowns": [
           {
             "name": {
               "name": "Augusta",
-              "rotation": 30
+              "y": -30
             }
           }
         ],
@@ -1519,19 +1530,19 @@
           }
         ],
         "offBoardRevenue": {
-          "angle": 180,
-          "percent": 0.65,
+          "angle": 0,
+          "percent": 0.7,
           "revenues": [
             {
-              "color": "white",
+              "color": "xxpaper_yellow",
               "cost": 20
             },
             {
-              "color": "gray",
+              "color": "xxpaper_blue",
               "cost": 30
             },
             {
-              "color": "white",
+              "color": "xxpaper_red",
               "cost": 40
             }
           ]
@@ -1642,10 +1653,6 @@
       }
     ],
     "borders": [
-      {
-        "color": "water",
-        "coords": ["B3p1", "B3p6"]
-      },
       {
         "color": "water",
         "coords": ["D3p1", "D3p6"]

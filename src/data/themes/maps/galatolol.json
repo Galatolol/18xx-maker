@@ -1,15 +1,15 @@
 {
   "name": "Galatolol",
   "colors": {
-    "yellow": "#FFEB00",
-    "green": "#71BF44",
-    "brown": "#BF8156",
+    "yellow": "#ffd800",
+    "green": "#4f9923",
+    "brown": "#b76c31",
     "gray": "#A9AFB2",
 
     "par_gray": "#d4d7d8",
 
     "plain": "#F5F5DC",
-    "offboard": "#EC2126",
+    "offboard": "#ff465b",
     "offboard_light": "#ff9ea1",
     "mountain": "#795138",
     "water": "#67A7C4",
