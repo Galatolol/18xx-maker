@@ -876,6 +876,56 @@
           "side": 1
         }
       ]
+    },
+    "X16": {
+      "quantity": 1,
+      "color": "yellow",
+      "rotations": 3,
+      "values": [
+        {
+          "angle": 225,
+          "percent": 0.6,
+          "value": 30
+        }
+      ],
+      "cities": [
+        {
+          "name": {
+            "name": "Rouen",
+            "rotation": -90
+          }
+        }
+      ],
+      "track": [
+        {
+          "type": "straight"
+        }
+      ]
+    },
+    "X17": {
+      "quantity": 1,
+      "color": "yellow",
+      "rotations": 3,
+      "values": [
+        {
+          "angle": 225,
+          "percent": 0.6,
+          "value": 10
+        }
+      ],
+      "cities": [
+        {
+          "name": {
+            "name": "Saint-Quentin",
+            "rotation": -90
+          }
+        }
+      ],
+      "track": [
+        {
+          "type": "straight"
+        }
+      ]
     }
   },
   "map": {
