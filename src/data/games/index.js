@@ -502,7 +502,7 @@ games["18CLE"] = {
   slug: "18CLE",
   file: "18CLE.json",
   title: "18CLE",
-  subtitle: "Trolly Car Compaines of Cleveland, Ohio",
+  subtitle: "Trolley Car Compaines of Cleveland, Ohio",
   designer: " Richard McGuire",
   minPlayers: 3,
   maxPlayers: 6,
@@ -741,6 +741,16 @@ games["FourthAge"] = {
   designer: "Rick Dutton",
   minPlayers: 2,
   maxPlayers: 6,
+};
+games["TheOldPrince1871"] = {
+  id: "TheOldPrince1871",
+  slug: "TheOldPrince1871",
+  file: "TheOldPrince1871.json",
+  title: "The Old Prince 1871",
+  subtitle: "Prototype",
+  designer: "Lucas Boyd",
+  minPlayers: 3,
+  maxPlayers: 4,
 };
 
 export default games;
