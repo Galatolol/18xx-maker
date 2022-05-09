@@ -1117,7 +1117,7 @@
         ],
         "names": [
           {
-            "name": "Ireland",
+            "name": "Great Britain",
             "fontSize": 11,
             "percent": -0.21
           }
@@ -1183,7 +1183,7 @@
         ],
         "offBoardRevenue": {
           "name": {
-            "name": "England"
+            "name": "London"
           },
           "revenues": [
             {

@@ -115,6 +115,7 @@
     "chokidar": "^3.4.0",
     "electron-is-dev": "^1.2.0",
     "electron-updater": "^4.3.1",
+    "node": "^17.7.2",
     "onchange": "^7.0.2"
   },
   "devDependencies": {
