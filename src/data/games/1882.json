@@ -97,6 +97,10 @@
     }
   ],
   "map": {
+    "players": {
+      "x": 25,
+      "y": 1070
+    },
     "borders": [
       {
         "color": "water",
@@ -1572,24 +1576,6 @@
       "name": "Canadian Pacific",
       "price": 180,
       "revenue": 25
-    }
-  ],
-  "rounds": [
-    {
-      "color": "brown",
-      "name": "OR3"
-    },
-    {
-      "color": "green",
-      "name": "OR2"
-    },
-    {
-      "color": "yellow",
-      "name": "OR1"
-    },
-    {
-      "color": "gray",
-      "name": "SR"
     }
   ],
   "shareTypes": {
