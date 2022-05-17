@@ -15,7 +15,7 @@ const Value = ({ value, fontSize, fontWeight, fontFamily, color, textColor, shap
   let length = format(value, game, config.currency["value"]).length;
   let ry_default = (fontSize === undefined);
 
-  fontSize = multiDefaultTo(15, fontSize, game.info.valueFontSize);
+  fontSize = multiDefaultTo(17, fontSize, game.info.valueFontSize);
   fontWeight = multiDefaultTo("bold", fontWeight, game.info.valueFontWeight);
   // fontFamily = multiDefaultTo("sans-serif", fontFamily, game.info.valueFontFamily);
 
