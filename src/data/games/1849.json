@@ -5,7 +5,7 @@
     "designer": "Federico Vellani",
     "background": "water",
     "orientation": "horizontal",
-    "titleY": 900,
+    "titleY": 880,
     "titleX": 25,
     "marketTokens": 2,
     "currency": "L.#"
@@ -65,7 +65,7 @@
     },
     {
       "number": 4,
-      "certLimit": "9/11",
+      "certLimit": "11",
       "capital": 375
     },
     {
@@ -218,6 +218,32 @@
       "left": ["Withheld"],
       "right": ["Paid out"]
     },
+    "display": {
+      "roundTracker": {
+        "type": "col-reverse",
+        "size": 25,
+        "x": 15,
+        "y": 3
+      },
+      "legend": {
+        "reverse": true,
+        "verticalAlign": "bottom",
+        "x": 13,
+        "y": 5
+      }
+    },
+    "legend": [
+      {
+        "color": "water",
+        "description": "Phase 16",
+        "icon": ""
+      },
+      {
+        "color": "offboard",
+        "description": "Game end",
+        "icon": ""
+      }
+    ],
     "market": [
       [
         {
@@ -245,7 +271,7 @@
           "label": 340
         },
         {
-          "color": "water",
+          "legend": 1,
           "label": 377
         }
       ],
@@ -726,6 +752,10 @@
   ],
   "map": {
     "print": "landscape",
+    "players": {
+      "x": 25,
+      "y": 1140
+    },
     "hexes": [
       {
         "color": "water",
@@ -806,7 +836,7 @@
         "track": [
           {
             "type": "sharp",
-            "gauge": "double",
+            "gauge": "dual",
             "side": 1
           }
         ],
@@ -817,7 +847,7 @@
         "track": [
           {
             "type": "straight",
-            "gauge": "double",
+            "gauge": "dual",
             "side": 1
           }
         ],
@@ -903,11 +933,11 @@
         "track": [
           {
             "side": 1,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 6,
-            "gauge": "double"
+            "gauge": "dual"
           }
         ],
         "hexes": ["A4"]
@@ -1038,7 +1068,7 @@
         "track": [
           {
             "side": 4,
-            "gauge": "double"
+            "gauge": "dual"
           }
         ],
         "hexes": ["O6"]
@@ -1113,19 +1143,19 @@
         "track": [
           {
             "side": 1,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 4,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 5,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 6,
-            "gauge": "double"
+            "gauge": "dual"
           }
         ],
         "hexes": ["A6"]
@@ -1225,6 +1255,11 @@
       },
       {
         "color": "gray",
+        "names": [
+          {
+            "name": "Etna"
+          }
+        ],
         "hexes": ["L7"]
       },
       {
@@ -1511,7 +1546,7 @@
         "track": [
           {
             "side": 2,
-            "gauge": "double"
+            "gauge": "dual"
           },
           {
             "side": 3
@@ -1623,6 +1658,7 @@
         "track": [
           {
             "type": "offboard",
+            "gauge": "dual",
             "side": 5
           }
         ],
