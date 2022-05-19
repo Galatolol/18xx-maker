@@ -1020,9 +1020,9 @@
     "47": 1,
     "55": 1,
     "56": 1,
-    "57": 6,
+    "57": 7,
     "69": 1,
-    "70": 1,
+    "70": 2,
     "619": 4,
     "624": 1,
 
@@ -1046,7 +1046,7 @@
     "X8": 1,
     "X9": 1,
     "X16": {
-      "quantity": 1,
+      "quantity": 0,
       "color": "yellow",
       "rotations": 3,
       "values": [
@@ -1071,7 +1071,7 @@
       ]
     },
     "X17": {
-      "quantity": 1,
+      "quantity": 0,
       "color": "yellow",
       "rotations": 3,
       "values": [
@@ -1099,18 +1099,25 @@
   "map": {
     "hexes": [
       {
-        "color": "offboard",
-        "offBoardTrack": [
+        "color": "gray",
+        "track": [
           {
-            "side": 6
+            "side": 5,
+            "type": "sharp"
+          },
+          {
+            "side": 4,
+            "type": "gentle"
           }
         ],
-        "removeBorders": [4],
         "hexes": ["A2"]
       },
       {
         "color": "offboard",
         "offBoardTrack": [
+          {
+            "side": 1
+          },
           {
             "side": 6
           }
@@ -1128,7 +1135,6 @@
             "percent": 0.1
           }
         ],
-        "removeBorders": [1],
         "hexes": ["A4"]
       },
       {
@@ -1278,6 +1284,9 @@
             "side": 1
           },
           {
+            "side": 4
+          },
+          {
             "side": 5
           },
           {
@@ -1297,43 +1306,42 @@
             "percent": 0.1
           }
         ],
-        "removeBorders": [4],
         "hexes": ["C16"]
       },
       {
-        "color": "offboard",
-        "offBoardTrack": [
+        "color": "gray",
+        "track": [
           {
+            "type": "sharp",
             "side": 6
           }
         ],
-        "removeBorders": [1],
         "hexes": ["C18"]
       },
       {
         "color": "gray",
         "values": [
           {
-            "value": 20,
-            "angle": 90,
-            "percent": 0.4
+            "value": 10,
+            "angle": 120,
+            "percent": 0.1
           }
         ],
         "towns": [
           {
+            "angle": -60,
+            "percent": 0.57735,
+            "rotation": 30,
             "name": {
               "name": "Évreux",
-              "reverse": false
-            },
-            "rotation": 180,
-            "angle": 270,
-            "percent": 0.27
+              "rotation": 180
+            }
           }
         ],
         "track": [
           {
-            "type": "gentle",
-            "side": 3
+            "type": "sharp",
+            "side": 4
           }
         ],
         "hexes": ["D1"]
@@ -1399,6 +1407,51 @@
           }
         ],
         "hexes": ["D17"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 2,
+            "type": "gentle"
+          }
+        ],
+        "towns": [
+          {
+            "name": {
+              "name": ""
+            },
+            "rotation": -60,
+            "angle": 210,
+            "percent": 0.275
+          }
+        ],
+        "names": [
+          {
+            "name": "extra",
+            "fontFamily": "Libre Baskerville Italic",
+            "fontSize": 16,
+            "percent": 0.6
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "10"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "30"
+            }
+          ],
+          "percent": 0.2
+        },
+        "hexes": ["E4"]
       },
       {
         "color": "plain",
@@ -1712,11 +1765,6 @@
           {
             "type": "gentle",
             "side": 1
-          },
-          {
-            "side": 2,
-            "type": "straight",
-            "end": 0.125
           }
         ],
         "hexes": ["I6"]
@@ -1787,10 +1835,11 @@
           "size": 15,
           "revenues": [
             {
-              "cost": "Largest",
+              "cost": "Largest +10",
               "color": "white"
             }
-          ]
+          ],
+          "percent": 0.3
         },
         "offBoardTrack": [
           {
@@ -1825,14 +1874,14 @@
           "B1",
           "B7",
           "C2",
+          "C8",
           "C10",
           "C14",
-          "D7",
-          "D9",
-          "E4",
+          "E8",
           "E12",
           "F13",
           "G6",
+          "G12",
           "H5",
           "H9",
           "H15"
@@ -1853,12 +1902,12 @@
         "hexes": [
           "B13",
           "C4",
-          "C8",
           "C12",
           "D5",
+          "D7",
+          "D9",
           "D13",
           "E2",
-          "E8",
           "E12",
           "E14",
           "E18",
@@ -1868,7 +1917,6 @@
           "F9",
           "F17",
           "G8",
-          "G12",
           "H1",
           "H3",
           "H11",

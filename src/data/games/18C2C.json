@@ -1259,17 +1259,153 @@
     "125": 5,
     "131": 1,
     "170": 5,
-    "171": 1,
-    "172": 1,
     "448": 6,
     "590": 1,
     "591": 1,
     "592": 7,
     "593": 5,
-    "594": { "tile": 597, "quantity": 5 },
+    "594": 8,
     "595": { "tile": 172, "quantity": 32 },
     "596": 4,
-    "619": 12
+    "619": 12,
+    "X1": {
+      "quantity": 1,
+      "color": "offboard",
+      "offBoardTrack": [
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "offBoardRevenue": {
+        "reverse": "true",
+        "x": -15,
+        "name": {
+          "name": "Southwest"
+        },
+        "revenues": [
+          {
+            "color": "white",
+            "cost": 30
+          },
+          {
+            "color": "gray",
+            "cost": 40,
+            "phase": 5,
+            "phaseColor": "black"
+          },
+          {
+            "color": "white",
+            "cost": 60,
+            "phase": 8,
+            "phaseColor": "black"
+          },
+          {
+            "color": "gray",
+            "cost": 80,
+            "phase": 12,
+            "phaseColor": "black"
+          }
+        ]
+      }
+    },
+    "X2": {
+      "quantity": 1,
+      "color": "offboard",
+      "offBoardTrack": [
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "offBoardRevenue": {
+        "reverse": "true",
+        "x": -15,
+        "name": {
+          "name": "Denver"
+        },
+        "revenues": [
+          {
+            "color": "white",
+            "cost": 40
+          },
+          {
+            "color": "gray",
+            "cost": 50,
+            "phase": 5,
+            "phaseColor": "black"
+          },
+          {
+            "color": "white",
+            "cost": 60,
+            "phase": 8,
+            "phaseColor": "black"
+          },
+          {
+            "color": "gray",
+            "cost": 80,
+            "phase": 12,
+            "phaseColor": "black"
+          }
+        ]
+      }
+    },
+    "X3": {
+      "quantity": 1,
+      "color": "offboard",
+      "offBoardTrack": [
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "offBoardRevenue": {
+        "reverse": "true",
+        "x": -15,
+        "name": {
+          "name": "Northwest"
+        },
+        "revenues": [
+          {
+            "color": "white",
+            "cost": 30
+          },
+          {
+            "color": "gray",
+            "cost": 40,
+            "phase": 5,
+            "phaseColor": "black"
+          },
+          {
+            "color": "white",
+            "cost": 50,
+            "phase": 8,
+            "phaseColor": "black"
+          },
+          {
+            "color": "gray",
+            "cost": 60,
+            "phase": 12,
+            "phaseColor": "black"
+          }
+        ]
+      }
+    }
   },
   "map": {}
 }

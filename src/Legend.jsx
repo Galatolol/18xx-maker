@@ -10,11 +10,11 @@ const Legend = ({ game, color, borderColor, borderWidth, description, right, bot
     <Color>
       {(c,t) => (
         <g>
-          <circle r="12" cx={right ? -20 : 20} cy={bottom ? -20 : 20}
+          {/* <circle r="12" cx={right ? -20 : 20} cy={bottom ? -20 : 20}
                   stroke={c(borderColor || "black")}
                   strokeWidth={borderWidth || 2}
                   fill={c(color || "orange")}
-          />
+          /> */}
           <text
             fontSize="14"
             fontWeight="bold"
