@@ -5,7 +5,7 @@
     "subtitle": "PROTOTYPE",
     "subtitleFontFamily": "Oswald",
     "designer": "Galatolol",
-    "designerFontFamily": "Libre Baskerville",
+    "designerFontFamily": "display",
     "background": "gray",
     "width": 150,
     "color_10": "orange",
@@ -1142,13 +1142,11 @@
         "track": [
           {
             "side": 4,
-            "type": "sharp",
-            "trackOffset": -7.5
+            "type": "sharp"
           },
           {
             "side": 4,
-            "type": "gentle",
-            "trackOffset": 7.5
+            "type": "gentle"
           }
         ],
         "hexes": ["A8"]
@@ -1159,13 +1157,6 @@
           {
             "type": "straight",
             "end": 0.5,
-            "trackOffset": -7.5,
-            "side": 1
-          },
-          {
-            "type": "straight",
-            "end": 0.5,
-            "trackOffset": 7.5,
             "side": 1
           },
           {
@@ -1429,8 +1420,8 @@
         "names": [
           {
             "name": "extra",
-            "fontFamily": "Libre Baskerville Italic",
-            "fontSize": 16,
+            "fontFamily": "display",
+            "fontSize": 18,
             "percent": 0.6
           }
         ],
@@ -1591,7 +1582,7 @@
         "names": [
           {
             "name": "Paris",
-            "fontSize": 11
+            "fontSize": 12
           }
         ],
         "labels": [
@@ -1832,7 +1823,7 @@
           "name": {
             "name": "Luxembourg"
           },
-          "size": 15,
+          "size": 11,
           "revenues": [
             {
               "cost": "Largest +10",
