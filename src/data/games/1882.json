@@ -24,21 +24,21 @@
       "tokens": "three"
     },
     {
-      "abbrev": "HB",
+      "abbrev": "HBR",
       "color": "white",
       "logo": "HB",
       "name": "Hudson Bay Railway",
       "tokens": "three"
     },
     {
-      "abbrev": "CP",
+      "abbrev": "CPR",
       "color": "white",
       "logo": "CPR",
       "name": "Canadian Pacific Railway",
       "tokens": "four"
     },
     {
-      "abbrev": "GT",
+      "abbrev": "GTP",
       "color": "white",
       "logo": "GT",
       "name": "Grand Trunk Pacific",
@@ -772,7 +772,7 @@
             "name": {
               "name": "Swift Current"
             },
-            "companies": ["CP"]
+            "companies": ["CPR"]
           }
         ],
         "color": "plain",
@@ -979,7 +979,7 @@
             "name": {
               "name": "Assiniboia"
             },
-            "companies": ["GT"]
+            "companies": ["GTP"]
           }
         ],
         "color": "plain",
@@ -1212,7 +1212,7 @@
             "name": {
               "name": "Wadena"
             },
-            "companies": ["HB"]
+            "companies": ["HBR"]
           }
         ],
         "color": "plain",
