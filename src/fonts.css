@@ -1,34 +1,39 @@
+@import url(//db.onlinewebfonts.com/c/d40bbce8f4b00a569beac2454b69231e?family=Oswald);
+@import url(//db.onlinewebfonts.com/c/d7e353f139e1963cd4bb508a3b7773c0?family=Libre+Baskerville);
+@import url(//db.onlinewebfonts.com/c/2fe5fb7f37535452bc6a61d52d61660a?family=Libre+Baskerville);
+@import url(//db.onlinewebfonts.com/c/f0e4cffc21b760f689cda8d27d38f325?family=Libre+Baskerville);
+
 /* latin-ext */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
 }
 /* latin */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxM.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
 }
 /* latin-ext */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 700;
-  src: local('Libre Baskerville Bold'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY5KcCsww.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
 }
 /* latin */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 700;
-  src: local('Libre Baskerville Bold'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
 }
 
 /* latin-ext */
@@ -36,32 +41,32 @@
   font-family: 'serif';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
 }
 /* latin */
 @font-face {
   font-family: 'serif';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxM.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
 }
 /* latin-ext */
 @font-face {
   font-family: 'serif';
   font-style: normal;
   font-weight: 700;
-  src: local('Libre Baskerville Bold'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY5KcCsww.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
 }
 /* latin */
 @font-face {
   font-family: 'serif';
   font-style: normal;
   font-weight: 700;
-  src: local('Libre Baskerville Bold'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
 }
 
 /* latin-ext */
@@ -69,30 +74,72 @@
   font-family: 'sans-serif';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxMICA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
 }
 /* latin */
 @font-face {
   font-family: 'sans-serif';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxM.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
 }
 /* latin-ext */
 @font-face {
   font-family: 'sans-serif';
   font-style: normal;
   font-weight: 700;
-  src: local('Libre Baskerville Bold'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY5KcCsww.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
 }
 /* latin */
 @font-face {
   font-family: 'sans-serif';
   font-style: normal;
   font-weight: 700;
-  src: local('Libre Baskerville Bold'), url(https://fonts.gstatic.com/s/librebaskerville/v9/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
+  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
+}
+
+/* italic */
+@font-face {
+  font-family: "Libre Baskerville Italic";
+  src: url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.eot");
+  src: url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.woff") format("woff"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.svg#Libre Baskerville") format("svg");
+} 
+
+/* oswald */
+@font-face {
+  font-family: "Oswald"; 
+  src: url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.woff") format("woff"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.svg#Oswald") format("svg"); 
+} 
+
+/* eb-garamond-regular - latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/eb-garamond-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/eb-garamond-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/eb-garamond-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/eb-garamond-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/eb-garamond-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/eb-garamond-v25-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
+}
+
+/* eb-garamond-700 - latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/eb-garamond-v25-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/eb-garamond-v25-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/eb-garamond-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/eb-garamond-v25-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/eb-garamond-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/eb-garamond-v25-latin-700.svg#EBGaramond') format('svg'); /* Legacy iOS */
 }
