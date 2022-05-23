@@ -504,7 +504,8 @@
   "rounds": [
     {
       "name": "OR3",
-      "color": "brown"
+      "color": "brown",
+      "textColor": "white"
     },
     {
       "name": "OR2",
@@ -546,14 +547,14 @@
     "type": "2D",
     "display": {
       "par": {
-        "x": 15,
+        "x": 12,
         "y": 3
       },
       "roundTracker": {
-        "type": "col-reverse",
+        "type": "row",
         "size": 25,
-        "x": 13,
-        "y": 4
+        "x": 12,
+        "y": 10
       },
       "legend": {
         "reverse": true,
@@ -575,14 +576,10 @@
     "market": [
       [
         {
-          "value": 60,
-          "label": 60,
-          "legend": 0,
+          "value": 76,
+          "label": 76,
           "arrow": "down"
         },
-        67,
-        71,
-        76,
         82,
         90,
         {
@@ -601,22 +598,18 @@
         285,
         325,
         375,
-        425
+        {
+          "value": 425,
+          "label": 425,
+          "color": "offboard"
+        }
       ],
       [
         {
-          "value": 53,
-          "label": 53,
-          "legend": 0,
+          "value": 70,
+          "label": 70,
           "arrow": "down"
         },
-        {
-          "value": 60,
-          "label": 60,
-          "legend": 0
-        },
-        66,
-        70,
         76,
         82,
         {
@@ -643,22 +636,10 @@
       ],
       [
         {
-          "value": 46,
-          "label": 46,
-          "legend": 0,
+          "value": 65,
+          "label": 65,
           "arrow": "down"
         },
-        {
-          "value": 55,
-          "label": 55,
-          "legend": 0
-        },
-        {
-          "value": 60,
-          "label": 60,
-          "legend": 0
-        },
-        65,
         70,
         76,
         {
@@ -682,25 +663,10 @@
       ],
       [
         {
-          "value": 39,
-          "label": 39,
-          "legend": 1,
-          "arrow": "down"
-        },
-        {
-          "value": 48,
-          "label": 48,
-          "legend": 0
-        },
-        {
-          "value": 54,
-          "label": 54,
-          "legend": 0
-        },
-        {
           "value": 60,
           "label": 60,
-          "legend": 0
+          "legend": 0,
+          "arrow": "down"
         },
         66,
         71,
@@ -722,25 +688,10 @@
       ],
       [
         {
-          "value": 32,
-          "label": 32,
-          "legend": 1,
-          "arrow": "down"
-        },
-        {
-          "value": 41,
-          "label": 41,
-          "legend": 1
-        },
-        {
-          "value": 48,
-          "label": 48,
-          "legend": 0
-        },
-        {
           "value": 55,
           "label": 55,
-          "legend": 0
+          "legend": 0,
+          "arrow": "down"
         },
         62,
         67,
@@ -760,25 +711,10 @@
       ],
       [
         {
-          "value": 25,
-          "label": 25,
-          "legend": 2,
-          "arrow": "down"
-        },
-        {
-          "value": 34,
-          "label": 34,
-          "legend": 1
-        },
-        {
-          "value": 42,
-          "label": 42,
-          "legend": 1
-        },
-        {
           "value": 50,
           "label": 50,
-          "legend": 0
+          "legend": 0,
+          "arrow": "down"
         },
         {
           "value": 58,
@@ -801,25 +737,10 @@
       ],
       [
         {
-          "value": 18,
-          "label": 18,
-          "legend": 2,
-          "arrow": "down"
-        },
-        {
-          "value": 27,
-          "label": 27,
-          "legend": 2
-        },
-        {
-          "value": 36,
-          "label": 36,
-          "legend": 1
-        },
-        {
           "value": 45,
           "label": 45,
-          "legend": 1
+          "legend": 1,
+          "arrow": "down"
         },
         {
           "value": 54,
@@ -837,24 +758,10 @@
       ],
       [
         {
-          "value": 10,
-          "label": 10,
-          "legend": 2
-        },
-        {
-          "value": 20,
-          "label": 20,
-          "legend": 2
-        },
-        {
-          "value": 30,
-          "label": 30,
-          "legend": 2
-        },
-        {
           "value": 40,
           "label": 40,
-          "legend": 1
+          "legend": 1,
+          "arrow": "down"
         },
         {
           "value": 50,
@@ -874,21 +781,11 @@
         }
       ],
       [
-        null,
-        {
-          "value": 10,
-          "label": 10,
-          "legend": 2
-        },
-        {
-          "value": 20,
-          "label": 20,
-          "legend": 2
-        },
         {
           "value": 30,
           "label": 30,
-          "legend": 2
+          "legend": 2,
+          "arrow": "down"
         },
         {
           "value": 40,
@@ -908,17 +805,11 @@
         }
       ],
       [
-        null,
-        null,
-        {
-          "value": 10,
-          "label": 10,
-          "legend": 2
-        },
         {
           "value": 20,
           "label": 20,
-          "legend": 2
+          "legend": 2,
+          "arrow": "down"
         },
         {
           "value": 30,
@@ -938,9 +829,6 @@
         }
       ],
       [
-        null,
-        null,
-        null,
         {
           "value": 10,
           "label": 10,
@@ -1826,7 +1714,7 @@
           "size": 11,
           "revenues": [
             {
-              "cost": "Largest +10",
+              "cost": "Largest+10",
               "color": "white"
             }
           ],
