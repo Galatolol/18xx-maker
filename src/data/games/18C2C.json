@@ -1297,19 +1297,19 @@
             "color": "gray",
             "cost": 40,
             "phase": 5,
-            "phaseColor": "black"
+            "phaseColor": "white"
           },
           {
             "color": "white",
             "cost": 60,
             "phase": 8,
-            "phaseColor": "black"
+            "phaseColor": "white"
           },
           {
             "color": "gray",
             "cost": 80,
             "phase": 12,
-            "phaseColor": "black"
+            "phaseColor": "white"
           }
         ]
       }
@@ -1343,19 +1343,19 @@
             "color": "gray",
             "cost": 50,
             "phase": 5,
-            "phaseColor": "black"
+            "phaseColor": "white"
           },
           {
             "color": "white",
             "cost": 60,
             "phase": 8,
-            "phaseColor": "black"
+            "phaseColor": "white"
           },
           {
             "color": "gray",
             "cost": 80,
             "phase": 12,
-            "phaseColor": "black"
+            "phaseColor": "white"
           }
         ]
       }
@@ -1389,19 +1389,19 @@
             "color": "gray",
             "cost": 40,
             "phase": 5,
-            "phaseColor": "black"
+            "phaseColor": "white"
           },
           {
             "color": "white",
             "cost": 50,
             "phase": 8,
-            "phaseColor": "black"
+            "phaseColor": "white"
           },
           {
             "color": "gray",
             "cost": 60,
             "phase": 12,
-            "phaseColor": "black"
+            "phaseColor": "white"
           }
         ]
       }
