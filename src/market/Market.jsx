@@ -191,7 +191,7 @@ const Market = ({data, game, config, title, displayTitle}) => {
     }
   }
 
-  var titleFont = multiDefaultTo("display", game.info.titleFontFamily);
+  var titleFont = multiDefaultTo("display");
   return (
     <g>
       {displayTitle === false || (
