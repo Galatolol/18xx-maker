@@ -89,6 +89,9 @@ const Cell = ({ cell, par, game, config, data }) => {
                 arrowY = height / 2;
                 arrowBaseline = "middle";
               }
+              if (arrow === "right") {
+                arrowY = 20
+              }
 
               return (
                 <text

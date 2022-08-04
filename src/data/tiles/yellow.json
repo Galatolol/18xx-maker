@@ -3883,8 +3883,8 @@
     "rotations": 6,
     "values": [
       {
-        "angle": 90,
-        "percent": 0.75,
+        "angle": 110,
+        "percent": 0.7,
         "value": 30
       }
     ],

@@ -559,8 +559,8 @@
       "legend": {
         "reverse": true,
         "verticalAlign": "bottom",
-        "x": 7,
-        "y": 11
+        "x": 13,
+        "y": 4
       }
     },
     "par": {
@@ -578,29 +578,83 @@
         {
           "value": 76,
           "label": 76,
-          "arrow": "down"
+          "arrow": ["down", "right"]
         },
-        82,
-        90,
+        {
+          "value": 82,
+          "label": 82,
+          "arrow": "right"
+        },
+        {
+          "value": 90,
+          "label": 90,
+          "arrow": "right"
+        },
         {
           "value": 100,
           "label": 100,
-          "par": true
+          "par": true,
+          "arrow": "right"
         },
-        112,
-        126,
-        142,
-        160,
-        180,
-        200,
-        225,
-        255,
-        285,
-        325,
-        375,
+        {
+          "value": 112,
+          "label": 112,
+          "arrow": "right"
+        },
+        {
+          "value": 126,
+          "label": 126,
+          "arrow": "right"
+        },
+        {
+          "value": 142,
+          "label": 142,
+          "arrow": "right"
+        },
+        {
+          "value": 160,
+          "label": 160,
+          "arrow": "right"
+        },
+        {
+          "value": 180,
+          "label": 180,
+          "arrow": "right"
+        },
+        {
+          "value": 200,
+          "label": 200,
+          "arrow": "right"
+        },
+        {
+          "value": 225,
+          "label": 225,
+          "arrow": "right"
+        },
+        {
+          "value": 255,
+          "label": 255,
+          "arrow": "right"
+        },
+        {
+          "value": 285,
+          "label": 285,
+          "arrow": "right"
+        },
+        {
+          "value": 325,
+          "label": 325,
+          "arrow": "right"
+        },
+        {
+          "value": 375,
+          "label": 375,
+          "arrow": "right"
+        },
         {
           "value": 425,
           "label": 425,
+          "labelColor": "black",
           "color": "offboard"
         }
       ],
@@ -855,17 +909,17 @@
     "legend": [
       {
         "color": "gray",
-        "description": "",
+        "description": "Certificate limit: 22 / 18",
         "icon": ""
       },
       {
         "color": "gray",
-        "description": "",
+        "description": "Starting capital: 650 / 550",
         "icon": ""
       },
       {
         "color": "gray",
-        "description": "",
+        "description": "Unlimited bank",
         "icon": ""
       },
       {
@@ -1026,7 +1080,7 @@
         "hexes": ["A4"]
       },
       {
-        "color": "gray",
+        "color": "water",
         "track": [
           {
             "side": 4,
@@ -1040,7 +1094,7 @@
         "hexes": ["A8"]
       },
       {
-        "color": "gray",
+        "color": "water",
         "track": [
           {
             "type": "straight",
@@ -1116,12 +1170,31 @@
         "hexes": ["B5"]
       },
       {
-        "color": "plain",
+        "color": "green",
         "cities": [
           {
             "name": {
-              "name": "Calais"
-            }
+              "name": "Calais",
+              "x": -15
+            },
+            "size": 2
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "percent": 0.7
+          }
+        ],
+        "track": [
+          {
+            "side": 3
+          },
+          {
+            "side": 5
+          },
+          {
+            "side": 6
           }
         ],
         "hexes": ["B9"]
@@ -1412,13 +1485,26 @@
             "percent": 0.8
           }
         ],
+        "track": [
+          {
+            "side": 3
+          }
+        ],
         "cities": [
           {
             "size": 1,
             "name": {
-              "name": "Bruxelles"
+              "name": "Bruxelles",
+              "reverse": true
             },
             "companies": ["Belge"]
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 270,
+            "percent": 0.65
           }
         ],
         "hexes": ["F15"]
@@ -1746,16 +1832,15 @@
           {
             "type": "water",
             "size": "large",
-            "cost": "F60"
+            "cost": "F50"
           }
         ],
         "hexes": [
-          "B1",
-          "B7",
           "C2",
           "C8",
           "C10",
           "C14",
+          "E2",
           "E8",
           "E12",
           "F13",
@@ -1771,6 +1856,17 @@
         "terrain": [
           {
             "type": "river",
+            "size": "large",
+            "cost": "F80"
+          }
+        ],
+        "hexes": ["C2", "C8"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "river",
             "cost": "F120"
           }
         ],
@@ -1779,6 +1875,8 @@
       {
         "color": "plain",
         "hexes": [
+          "B1",
+          "B7",
           "B13",
           "C4",
           "C12",
@@ -1786,7 +1884,6 @@
           "D7",
           "D9",
           "D13",
-          "E2",
           "E12",
           "E14",
           "E18",

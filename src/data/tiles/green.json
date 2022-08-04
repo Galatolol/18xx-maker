@@ -11490,8 +11490,8 @@
     "rotations": 6,
     "values": [
       {
-        "angle": 90,
-        "percent": 0.75,
+        "angle": 120,
+        "percent": 0.6,
         "value": 30
       }
     ],
