@@ -723,6 +723,13 @@ games["18USA"] = {
   minPlayers: 3,
   maxPlayers: 7,
 };
+games["18XYZ"] = {
+  id: "18XYZ",
+  slug: "18XYZ",
+  file: "18XYZ.json",
+  title: "18XYZ",
+  designer: "Galatolol",
+};
 games["21Moon"] = {
   id: "21Moon",
   slug: "21Moon",
