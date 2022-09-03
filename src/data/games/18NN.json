@@ -1,6 +1,6 @@
 {
   "info": {
-    "title": "18XYZ",
+    "title": "18NN",
     "designer": "Galatolol",
     "background": "mountain",
     "orientation": "vertical",
@@ -557,6 +557,13 @@
       {
         "color": "plain",
         "hexes": [
+          "C3",
+          "C5",
+          "C7",
+          "C9",
+          "C11",
+          "C13",
+          "C15",
           "D2",
           "D4",
           "D6",
@@ -571,24 +578,20 @@
           "F10",
           "F12",
           "F14",
-          "C3",
-          "C5",
-          "C7",
-          "C9",
-          "C11",
-          "C13",
           "E3",
           "E5",
           "E7",
           "E9",
           "E11",
           "E13",
+          "E15",
           "G3",
           "G5",
           "G7",
           "G9",
           "G11",
-          "G13"
+          "G13",
+          "G15"
         ]
       },
       {
@@ -602,10 +605,6 @@
         "track": [
           {
             "type": "offboard",
-            "side": 2
-          },
-          {
-            "type": "offboard",
             "side": 3
           }
         ],
@@ -615,10 +614,6 @@
         "color": "offboard",
         "removeBorders": [1],
         "track": [
-          {
-            "type": "offboard",
-            "side": 2
-          },
           {
             "type": "offboard",
             "side": 3
@@ -693,7 +688,7 @@
           "revenues": [
             {
               "color": "xxpaper_yellow",
-              "cost": "50"
+              "cost": "40"
             },
             {
               "color": "xxpaper_blue",
@@ -711,23 +706,6 @@
       },
 
       {
-        "color": "gray",
-        "track": [
-          {
-            "side": 3,
-            "type": "gentle"
-          }
-        ],
-        "icons": [
-          {
-            "type": "coal",
-            "angle": 270,
-            "percent": 0.25
-          }
-        ],
-        "hexes": ["C1"]
-      },
-      {
         "color": "water",
         "track": [
           {
@@ -736,7 +714,34 @@
           },
           {
             "type": "offboard",
-            "side": 4
+            "side": 5
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "20"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "30"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "40"
+            }
+          ]
+        },
+        "hexes": ["C1"]
+      },
+      {
+        "color": "water",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
           },
           {
             "type": "offboard",
@@ -756,7 +761,7 @@
             },
             {
               "color": "xxpaper_gray",
-              "cost": "60"
+              "cost": "70"
             }
           ]
         },
@@ -798,7 +803,7 @@
           {
             "rotation": 90,
             "angle": 0,
-            "percent": -0.59
+            "percent": -0.58
           }
         ],
         "values": [
@@ -879,7 +884,7 @@
           {
             "rotation": 90,
             "angle": 0,
-            "percent": 0.59
+            "percent": 0.58
           }
         ],
         "values": [
@@ -959,11 +964,11 @@
           "revenues": [
             {
               "color": "xxpaper_yellow",
-              "cost": "40"
+              "cost": "30"
             },
             {
               "color": "xxpaper_blue",
-              "cost": "50"
+              "cost": "40"
             },
             {
               "color": "xxpaper_gray",
@@ -977,12 +982,7 @@
       },
       {
         "color": "offboard",
-        "removeBorders": [5],
         "track": [
-          {
-            "type": "offboard",
-            "side": 1
-          },
           {
             "type": "offboard",
             "side": 2
@@ -990,17 +990,6 @@
           {
             "type": "offboard",
             "side": 6
-          }
-        ],
-        "hexes": ["C15"]
-      },
-      {
-        "color": "offboard",
-        "removeBorders": [2, 6],
-        "track": [
-          {
-            "type": "offboard",
-            "side": 1
           }
         ],
         "offBoardRevenue": {
@@ -1012,7 +1001,7 @@
             },
             {
               "color": "xxpaper_blue",
-              "cost": "40"
+              "cost": "50"
             },
             {
               "color": "xxpaper_gray",
@@ -1024,23 +1013,31 @@
         "hexes": ["D16"]
       },
       {
-        "color": "offboard",
-        "removeBorders": [3],
+        "color": "gray",
         "track": [
           {
-            "type": "offboard",
-            "side": 1
-          },
-          {
-            "type": "offboard",
-            "side": 2
-          },
-          {
-            "type": "offboard",
-            "side": 6
+            "side": 6,
+            "type": "gentle"
           }
         ],
-        "hexes": ["E15"]
+        "icons": [
+          {
+            "type": "coal",
+            "angle": 90,
+            "percent": 0.25
+          }
+        ],
+        "hexes": ["F16"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 3
+          }
+        ],
+        "hexes": ["H14"]
       },
       {
         "color": "gray",
@@ -1050,7 +1047,21 @@
             "side": 1
           }
         ],
-        "hexes": ["G15"]
+        "towns": [
+          {
+            "rotation": 30,
+            "angle": 120,
+            "percent": 0.58
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 0,
+            "percent": 0
+          }
+        ],
+        "hexes": ["H16"]
       }
     ]
   }

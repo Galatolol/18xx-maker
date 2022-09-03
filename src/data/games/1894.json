@@ -196,8 +196,8 @@
       ]
     },
     {
-      "name": "Belge 1",
-      "abbrev": "B1",
+      "name": "Late Belgian",
+      "abbrev": "LB",
       "tokens": ["Free", "F40"],
       "color": "gray",
       "token": {
@@ -219,32 +219,9 @@
       ]
     },
     {
-      "name": "Belge 2",
-      "abbrev": "B2",
-      "tokens": ["Free", "F40"],
-      "color": "google_natural",
-      "token": {
-        "bar": "black",
-        "stripe": "black"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "French 1",
-      "abbrev": "F1",
-      "tokens": ["Free", "F40"],
+      "name": "Late French",
+      "abbrev": "LF",
+      "tokens": ["Free", "F40", "F80"],
       "color": "pink",
       "token": {
         "bar": "black",
@@ -263,122 +240,49 @@
           "shares": 1
         }
       ]
-    },
-    {
-      "name": "French 2",
-      "abbrev": "F2",
-      "tokens": ["Free", "F40"],
-      "color": "lime",
-      "token": {
-        "bar": "black",
-        "quarters": ["yellow_green", "lime", "lime", "yellow_green"]
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "+10",
-      "abbrev": "+10",
-      "tokens": ["Free", "F40"],
-      "color": "white",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Blocking",
-      "abbrev": "",
-      "tokens": [
-        "Free",
-        "F40",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100",
-        "F100"
-      ],
-      "color": "black",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
     }
   ],
   "trains": [
     {
       "name": "2",
-      "quantity": 6,
-      "price": 80,
-      "color": "yellow",
-      "image": "2T",
+      "quantity": 8,
+      "price": "F80",
+      "color": "xxpaper_yellow",
+      "description": "Upgrade cost: F100",
       "rust": "4"
     },
     {
       "name": "3",
       "quantity": 5,
-      "price": 180,
-      "color": "green",
-      "image": "3T",
-      "rust": "6"
+      "price": "F140",
+      "color": "xxpaper_green",
+      "description": "Upgrade cost: F230",
+      "rust": "5+"
     },
     {
       "name": "4",
       "quantity": 4,
-      "price": 300,
-      "color": "green",
-      "image": "4T",
-      "rust": "D"
+      "price": "F300",
+      "color": "xxpaper_blue",
+      "rust": "7"
     },
     {
-      "name": "5",
+      "name": "5+",
       "quantity": 3,
       "price": 450,
-      "color": "brown",
-      "image": "5T"
+      "color": "brown"
     },
     {
       "name": "6",
+      "quantity": 3,
+      "price": 630,
+      "color": "brown"
+    },
+    {
+      "name": "7",
       "quantity": 2,
       "price": 630,
-      "color": "brown",
-      "image": "6T"
+      "color": "brown"
     },
     {
       "name": "D",
@@ -386,13 +290,7 @@
       "print": 9,
       "price": 1100,
       "color": "brown",
-      "description": "Cost $800 when trading in a 4T, 5T or 6T",
-      "available": "6",
-      "discount": {
-        "4": 300,
-        "5": 300,
-        "6": 300
-      }
+      "description": "Cost $800 when trading in a 4T, 5T or 6T"
     }
   ],
   "privates": [
@@ -914,12 +812,12 @@
       },
       {
         "color": "gray",
-        "description": "Starting capital: 650 / 550",
+        "description": "Starting money: 580 / 440",
         "icon": ""
       },
       {
         "color": "gray",
-        "description": "Unlimited bank",
+        "description": "Bank size: unlimited",
         "icon": ""
       },
       {

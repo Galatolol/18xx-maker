@@ -59,6 +59,15 @@
     "terrain_yellow": "#FFEB00",
     "terrain_brown": "#BF8156",
 
-    "subsidy": "#f8ce0c"
+    "subsidy": "#f8ce0c",
+
+    "xxpaper_yellow": "#f0e68c",
+    "xxpaper_green": "#a4d3a6",
+    "xxpaper_blue": "#93ccea",
+    "xxpaper_red": "#e66771",
+    "xxpaper_purple": "#c9a0dc",
+    "xxpaper_orange": "#ffae42",
+    "xxpaper_brown": "#cba98f",
+    "xxpaper_gray": "#b3b3b3"
   }
 }

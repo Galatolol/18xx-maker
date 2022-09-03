@@ -626,6 +626,13 @@ games["18NK"] = {
   subtitle: "Nagaokakyo City",
   designer: "CTDA",
 };
+games["18NN"] = {
+  id: "18NN",
+  slug: "18NN",
+  file: "18NN.json",
+  title: "18NN",
+  designer: "Galatolol",
+};
 games["18Scan"] = {
   id: "18Scan",
   slug: "18Scan",
@@ -722,13 +729,6 @@ games["18USA"] = {
   designer: "Shawn Fox, Mark Hendrickson and Edward Reece",
   minPlayers: 3,
   maxPlayers: 7,
-};
-games["18XYZ"] = {
-  id: "18XYZ",
-  slug: "18XYZ",
-  file: "18XYZ.json",
-  title: "18XYZ",
-  designer: "Galatolol",
 };
 games["21Moon"] = {
   id: "21Moon",
