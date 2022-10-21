@@ -68,3 +68,12 @@
        url('fonts/eb-garamond-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('fonts/eb-garamond-v25-latin-700.svg#EBGaramond') format('svg'); /* Legacy iOS */
 }
+
+/* times */
+@font-face {
+  font-family: 'Times';
+  font-style: normal;
+  font-weight: 400;
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
+} 

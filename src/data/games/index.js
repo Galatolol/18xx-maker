@@ -24,7 +24,7 @@ games["1820"] = {
   file: "1820.json",
   title: "1820OG",
   subtitle: "An old iteration of 1820",
-  designer: "clearclaw",
+  designer: "JCL",
   minPlayers: 3,
   maxPlayers: 5,
 };
@@ -458,7 +458,7 @@ games["1894"] = {
   subtitle: "PROTOTYPE",
   designer: "Galatolol",
   minPlayers: 3,
-  maxPlayers: 6,
+  maxPlayers: 4,
 };
 games["1899"] = {
   id: "1899",

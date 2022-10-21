@@ -40,8 +40,9 @@
     "red_light": "#e0474e",
     "black_light": "#4d4d4d",
     "gray_light": "#dcdfe0",
-
     "red": "#ff0000",
+    "pink": "#ff69b4",
+    "pink_light": "#ffe4e1",
 
     "xxpaper_yellow": "#f0e68c",
     "xxpaper_green": "#a4d3a6",

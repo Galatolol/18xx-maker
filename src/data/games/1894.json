@@ -14,391 +14,30 @@
     "titleSize": 120,
     "subTitleSize": 20,
     "hexCoords": true,
-    "currency": "USD",
+    "currency": "F",
     "orientation": "vertical"
   },
   "links": {},
   "tokens": [],
   "ipo": true,
-  "bank": "F12,000",
+  "bank": "Unlimited",
   "players": [
     {
       "number": 3,
-      "certLimit": 20,
-      "capital": "F800"
+      "certLimit": 22,
+      "capital": "F580"
     },
     {
       "number": 4,
-      "certLimit": 16,
-      "capital": "F600"
-    },
-    {
-      "number": 5,
-      "certLimit": 13,
-      "capital": "F480"
-    },
-    {
-      "number": 6,
-      "certLimit": 11,
-      "capital": "F400"
+      "certLimit": 18,
+      "capital": "F440"
     }
   ],
-  "companies": [
-    {
-      "name": "Belge",
-      "abbrev": "Belge",
-      "tokens": ["Free", "F40", "F60", "F80"],
-      "color": "green",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie du chemin de fer d'Orléans à Rouen",
-      "abbrev": "CFOR",
-      "tokens": ["Free", "F40", "F60", "F80", "F100"],
-      "color": "irepl_brown",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie des chemins de fer de Paris à Lyon et à la Méditerranée / Paris-Lyon-Méditerranée",
-      "abbrev": "PLM",
-      "tokens": ["Free", "F40", "F60", "F80"],
-      "color": "red",
-      "token": {
-        "target": "black",
-        "color": "irepl_purple",
-        "bar": true
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Gent Railway",
-      "abbrev": "GR",
-      "tokens": ["Free", "F40", "F60", "F80", "F100"],
-      "color": "yellow",
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie de l'Ouest",
-      "abbrev": "Ouest",
-      "tokens": ["Free", "F40", "F60", "F80", "F100"],
-      "color": "irepl_blue",
-      "token": {
-        "bar": true,
-        "stripes": "yellow"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Compagnie des chemins de fer de l'Est",
-      "abbrev": "Est",
-      "tokens": ["Free", "F40", "F60", "F80", "F100"],
-      "color": "gray",
-      "token": {
-        "target": "white",
-        "color": "irepl_orange",
-        "bar": true
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Chemins de fer du Nord",
-      "abbrev": "Nord",
-      "tokens": ["Free", "F40", "F60", "F80", "F100"],
-      "color": "irepl_red",
-      "token": {
-        "bar": true,
-        "stripes": "black"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Late Belgian",
-      "abbrev": "LB",
-      "tokens": ["Free", "F40"],
-      "color": "gray",
-      "token": {
-        "bar": "black",
-        "stripe": "black"
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    },
-    {
-      "name": "Late French",
-      "abbrev": "LF",
-      "tokens": ["Free", "F40", "F80"],
-      "color": "pink",
-      "token": {
-        "bar": "black",
-        "quarters": ["light_pink", "pink", "pink", "light_pink"]
-      },
-      "shares": [
-        {
-          "quantity": 1,
-          "label": "President Share",
-          "percent": 20,
-          "shares": 2
-        },
-        {
-          "quantity": 8,
-          "percent": 10,
-          "shares": 1
-        }
-      ]
-    }
-  ],
-  "trains": [
-    {
-      "name": "2",
-      "quantity": 8,
-      "price": "F80",
-      "color": "xxpaper_yellow",
-      "description": "Upgrade cost: F100",
-      "rust": "4"
-    },
-    {
-      "name": "3",
-      "quantity": 5,
-      "price": "F140",
-      "color": "xxpaper_green",
-      "description": "Upgrade cost: F230",
-      "rust": "5+"
-    },
-    {
-      "name": "4",
-      "quantity": 4,
-      "price": "F300",
-      "color": "xxpaper_blue",
-      "rust": "7"
-    },
-    {
-      "name": "5+",
-      "quantity": 3,
-      "price": 450,
-      "color": "brown"
-    },
-    {
-      "name": "6",
-      "quantity": 3,
-      "price": 630,
-      "color": "brown"
-    },
-    {
-      "name": "7",
-      "quantity": 2,
-      "price": 630,
-      "color": "brown"
-    },
-    {
-      "name": "D",
-      "quantity": "∞",
-      "print": 9,
-      "price": 1100,
-      "color": "brown",
-      "description": "Cost $800 when trading in a 4T, 5T or 6T"
-    }
-  ],
-  "privates": [
-    {
-      "name": "Schuylkill Valley",
-      "price": 20,
-      "revenue": 5,
-      "hex": "G15",
-      "description": ""
-    },
-    {
-      "name": "Champlain & St.Lawrence",
-      "price": 40,
-      "revenue": 10,
-      "hex": "B20",
-      "description": "A corporation owning the C&StL may lay a tile on the C&StL's hex even if this hex is not connected to the corporations's railhead. This free tile placement is in addition to the corporation's normal tile placement."
-    },
-    {
-      "name": "Delaware & Hudson",
-      "price": 70,
-      "revenue": 15,
-      "hex": "F16",
-      "description": "A corporation owning the Delaware & Hudson may establish a railhead on the D&H hex by laying a station tile and a token. The station does not have to be connected to the remainder of the corporation's route. The tile laid is the owning corporation's one tile placement for the turn."
-    },
-    {
-      "name": "Mohawk & Hudson",
-      "price": 110,
-      "revenue": 20,
-      "company": "NYC",
-      "description": "A player owning the M&H may exhange it for a 10% share of the NYC if he does not already hold 60% of the NYC and there is NYC stock available in the Bank or the Pool. The exchange may be made during the player's turn of a stock round or between the turns of other players or corporations in either stock or operating rounds. This action closes the M&H."
-    },
-    {
-      "name": "Camden & Amboy",
-      "price": 160,
-      "revenue": 25,
-      "company": "PRR",
-      "description": "The initial purchaser of the C&A immediately receives a 10% share of PRR stock without further payment. This action does not close the C&A. The PRR corporation will not be running at this point, but the stock may be retained or sold subject to the ordinary rules of the game."
-    },
-    {
-      "name": "Baltimore & Ohio",
-      "price": 220,
-      "revenue": 30,
-      "company": "B&O",
-      "description": "The owner of the B&O private company immediately receives the President's certificate of the B&O without further payment. The B&O private company may not be sold to any corporation, and does not exchange hands if the owning player loses the Presidency of the B&O. When the B&O purchases its first train the private company is closed down."
-    }
-  ],
-  "phases": [
-    {
-      "name": "2",
-      "limit": 4,
-      "rounds": 1,
-      "tiles": "yellow"
-    },
-    {
-      "name": "3",
-      "limit": 4,
-      "rounds": 2,
-      "tiles": "green",
-      "notes": ["Private companies may be purchased."]
-    },
-    {
-      "name": "4",
-      "limit": 3,
-      "rounds": 2,
-      "tiles": "green"
-    },
-    {
-      "name": "5",
-      "limit": 2,
-      "rounds": 3,
-      "tiles": "brown",
-      "notes": ["Private companies are closed."]
-    },
-    {
-      "name": "6",
-      "limit": 2,
-      "rounds": 3,
-      "tiles": "brown",
-      "notes": ["D Trains may be purchased."]
-    },
-    {
-      "name": "D",
-      "limit": 2,
-      "rounds": 3,
-      "tiles": "brown"
-    }
-  ],
-  "pools": [
-    {
-      "name": "Market",
-      "notes": [
-        {
-          "color": "orange",
-          "note": "Shares in the market pay dividends to the corporation"
-        },
-        {
-          "color": "brown",
-          "icon": "exclamation",
-          "note": "No more than 50% of a corporation's shares may be in the market at any time"
-        },
-        {
-          "color": "red",
-          "icon": "times",
-          "note": "Shares cannot be sold during the first stock round"
-        }
-      ]
-    }
-  ],
+  "companies": [],
+  "trains": [],
+  "privates": [],
+  "phases": [],
+  "pools": [],
   "rounds": [
     {
       "name": "OR3",
@@ -418,29 +57,7 @@
       "color": "gray"
     }
   ],
-  "turns": [
-    {
-      "name": "Stock Round",
-      "steps": [
-        "Sell any number of shares",
-        "Buy one share",
-        "Sell any number of shares"
-      ],
-      "ordered": true
-    },
-    {
-      "name": "Operating Round",
-      "steps": [
-        "Lay or upgrade track",
-        "Purchase a station",
-        "Run trains",
-        "Pay dividends or withhold revenue",
-        "Purchase trains"
-      ],
-      "ordered": true,
-      "optional": ["Purchase private companies"]
-    }
-  ],
+  "turns": [],
   "stock": {
     "type": "2D",
     "display": {
@@ -884,7 +501,7 @@
         {
           "angle": 30,
           "percent": 0.6,
-          "companies": ["PLM"]
+          "companies": [{ "label": "PLM" }]
         },
         {
           "angle": 180,
@@ -953,7 +570,7 @@
         {
           "angle": 30,
           "percent": 0.6,
-          "companies": ["PLM"]
+          "companies": [{ "label": "PLM" }]
         },
         {
           "angle": 210,
@@ -993,7 +610,7 @@
         {
           "angle": 30,
           "percent": 0.6,
-          "companies": ["PLM"]
+          "companies": [{ "label": "PLM" }]
         },
         {
           "angle": 150,
@@ -1068,7 +685,7 @@
         {
           "angle": 30,
           "percent": 0.6,
-          "companies": ["PLM"]
+          "companies": [{ "label": "PLM" }]
         },
         {
           "angle": 180,
@@ -1108,7 +725,7 @@
         {
           "angle": 30,
           "percent": 0.6,
-          "companies": ["PLM"]
+          "companies": [{ "label": "PLM" }]
         },
         {
           "angle": 180,
@@ -1482,7 +1099,7 @@
             "name": {
               "name": "Le Havre"
             },
-            "companies": ["Ouest"]
+            "companies": [{ "label": "Ouest" }]
           }
         ],
         "hexes": ["B3"]
@@ -1619,7 +1236,7 @@
             "name": {
               "name": "Rouen"
             },
-            "companies": ["CFOR"]
+            "companies": [{ "label": "CFOR" }]
           }
         ],
         "hexes": ["D3"]
@@ -1642,7 +1259,7 @@
             "name": {
               "name": "Gent"
             },
-            "companies": ["GR"]
+            "companies": [{ "label": "AG" }]
           }
         ],
         "hexes": ["D15"]
@@ -1654,7 +1271,7 @@
             "name": {
               "name": "Antwerpen"
             },
-            "companies": ["Belge"]
+            "companies": [{ "label": "Belge" }]
           }
         ],
         "track": [
@@ -1726,7 +1343,7 @@
             "name": {
               "name": "Amiens"
             },
-            "companies": ["Ouest"]
+            "companies": [{ "label": "Ouest" }]
           }
         ],
         "hexes": ["E6"]
@@ -1738,7 +1355,7 @@
             "name": {
               "name": "Arras"
             },
-            "companies": ["Nord"]
+            "companies": [{ "label": "Nord" }]
           }
         ],
         "hexes": ["E10"]
@@ -1847,7 +1464,7 @@
             "percent": 0.6,
             "rotation": -30,
             "size": 1,
-            "companies": ["PLM"]
+            "companies": [{ "label": "PLM" }]
           },
           {
             "angle": 180,
@@ -1898,7 +1515,7 @@
             "name": {
               "name": "Charleroi"
             },
-            "companies": ["Nord"]
+            "companies": [{ "label": "Nord" }]
           }
         ],
         "hexes": ["G14"]
@@ -1940,7 +1557,7 @@
               "name": "Chartres",
               "rotation": -40
             },
-            "companies": ["CFOR"]
+            "companies": [{ "label": "CFOR" }]
           }
         ],
         "track": [
@@ -2080,7 +1697,7 @@
               "name": "Reims",
               "rotation": -100
             },
-            "companies": ["Est"]
+            "companies": [{ "label": "Est" }]
           }
         ],
         "values": [

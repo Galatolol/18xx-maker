@@ -600,20 +600,35 @@
       },
 
       {
-        "color": "offboard",
-        "removeBorders": [4],
+        "color": "gray",
         "track": [
           {
-            "type": "offboard",
-            "side": 3
+            "side": 2
+          }
+        ],
+        "cities": [
+          {
+            "rotation": 90,
+            "angle": 0,
+            "percent": 0
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 90,
+            "percent": 0.6
           }
         ],
         "hexes": ["H4"]
       },
       {
         "color": "offboard",
-        "removeBorders": [1],
         "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
           {
             "type": "offboard",
             "side": 3
@@ -636,7 +651,7 @@
             }
           ],
           "angle": 90,
-          "percent": 1
+          "percent": 0
         },
         "hexes": ["H6"]
       },
@@ -722,15 +737,15 @@
           "revenues": [
             {
               "color": "xxpaper_yellow",
-              "cost": "20"
-            },
-            {
-              "color": "xxpaper_blue",
               "cost": "30"
             },
             {
-              "color": "xxpaper_gray",
+              "color": "xxpaper_blue",
               "cost": "40"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "50"
             }
           ]
         },
@@ -817,40 +832,11 @@
       },
 
       {
-        "color": "gray",
-        "towns": [
-          {
-            "angle": 330,
-            "percent": 0.55,
-            "rotation": 150
-          }
-        ],
-        "track": [
-          {
-            "side": 5,
-            "type": "straight",
-            "end": 0.25
-          }
-        ],
-        "values": [
-          {
-            "angle": 0,
-            "percent": 0,
-            "value": 10
-          }
-        ],
-        "hexes": ["A1"]
-      },
-      {
         "color": "water",
         "track": [
           {
             "type": "offboard",
             "side": 5
-          },
-          {
-            "type": "offboard",
-            "side": 6
           }
         ],
         "offBoardRevenue": {
@@ -870,7 +856,7 @@
             }
           ]
         },
-        "hexes": ["A3"]
+        "hexes": ["A1"]
       },
       {
         "color": "gray",
@@ -914,7 +900,7 @@
         ],
         "values": [
           {
-            "value": 30,
+            "value": 20,
             "angle": 180,
             "percent": 0.1
           }
@@ -957,6 +943,10 @@
           {
             "type": "offboard",
             "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 6
           }
         ],
         "offBoardRevenue": {
@@ -964,11 +954,11 @@
           "revenues": [
             {
               "color": "xxpaper_yellow",
-              "cost": "30"
+              "cost": "40"
             },
             {
               "color": "xxpaper_blue",
-              "cost": "40"
+              "cost": "50"
             },
             {
               "color": "xxpaper_gray",
