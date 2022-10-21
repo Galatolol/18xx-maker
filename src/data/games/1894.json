@@ -69,7 +69,7 @@
         "type": "row",
         "size": 25,
         "x": 12,
-        "y": 10
+        "y": 9
       },
       "legend": {
         "reverse": true,
@@ -79,7 +79,7 @@
       }
     },
     "par": {
-      "values": [100, 90, 82, 76, 71, 67],
+      "values": [100, 90, 82, 76, 67],
       "color": "offboard_light"
     },
     "movement": {
@@ -91,80 +91,67 @@
     "market": [
       [
         {
-          "value": 76,
-          "label": 76,
-          "arrow": ["down", "right"]
-        },
-        {
           "value": 82,
           "label": 82,
-          "arrow": "right"
+          "arrow": ["down"]
         },
         {
           "value": 90,
           "label": 90,
-          "arrow": "right"
+          "par": true
+        },
+        {
+          "value": 94,
+          "label": 94
         },
         {
           "value": 100,
           "label": 100,
-          "par": true,
-          "arrow": "right"
+          "legend": 3
         },
         {
-          "value": 112,
-          "label": 112,
-          "arrow": "right"
+          "value": 110,
+          "label": 110
         },
         {
-          "value": 126,
-          "label": 126,
-          "arrow": "right"
+          "value": 121,
+          "label": 121
         },
         {
-          "value": 142,
-          "label": 142,
-          "arrow": "right"
+          "value": 134,
+          "label": 134
         },
         {
-          "value": 160,
-          "label": 160,
-          "arrow": "right"
+          "value": 148,
+          "label": 145
         },
         {
-          "value": 180,
-          "label": 180,
-          "arrow": "right"
+          "value": 165,
+          "label": 165
         },
         {
-          "value": 200,
-          "label": 200,
-          "arrow": "right"
+          "value": 188,
+          "label": 188
         },
         {
           "value": 225,
-          "label": 225,
-          "arrow": "right"
+          "label": 225
         },
         {
           "value": 255,
-          "label": 255,
-          "arrow": "right"
+          "label": 255
         },
         {
           "value": 285,
-          "label": 285,
-          "arrow": "right"
+          "label": 285
         },
         {
           "value": 325,
-          "label": 325,
-          "arrow": "right"
+          "label": 325
         },
         {
           "value": 375,
-          "label": 375,
-          "arrow": "right"
+          "label": 375
         },
         {
           "value": 425,
@@ -175,53 +162,50 @@
       ],
       [
         {
-          "value": 70,
-          "label": 70,
+          "value": 77,
+          "label": 77,
           "arrow": "down"
         },
-        76,
         82,
-        {
-          "value": 90,
-          "label": 90,
-          "par": true
-        },
+        88,
+        95,
         100,
         112,
-        126,
-        142,
-        160,
-        180,
+        125,
+        139,
+        154,
+        176,
         200,
-        225,
+        220,
         250,
-        275,
-        300,
+        285,
+        320,
         {
-          "value": 330,
-          "label": 330,
+          "value": 360,
+          "label": 360,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 65,
-          "label": 65,
+          "value": 70,
+          "label": 70,
+          "legend": 0,
           "arrow": "down"
         },
-        70,
-        76,
+        75,
         {
           "value": 82,
           "label": 82,
           "par": true
         },
-        90,
+        87,
+        93,
         100,
-        111,
-        125,
-        140,
-        155,
+        109,
+        120,
+        132,
+        150,
         170,
         190,
         {
@@ -232,20 +216,16 @@
       ],
       [
         {
-          "value": 60,
+          "value": 66,
           "label": 60,
           "legend": 0,
           "arrow": "down"
         },
-        66,
-        71,
-        {
-          "value": 76,
-          "label": 76,
-          "par": true
-        },
-        82,
-        90,
+        70,
+        75,
+        80,
+        85,
+        92,
         100,
         110,
         120,
@@ -257,57 +237,57 @@
       ],
       [
         {
-          "value": 55,
-          "label": 55,
+          "value": 63,
+          "label": 63,
           "legend": 0,
           "arrow": "down"
         },
-        62,
-        67,
         {
-          "value": 71,
-          "label": 71,
+          "value": 66,
+          "label": 66,
+          "legend": 0
+        },
+        70,
+        {
+          "value": 76,
+          "label": 76,
           "par": true
         },
-        76,
-        82,
-        90,
+        81,
+        88,
+        97,
         {
-          "value": 100,
-          "label": 100,
+          "value": 107,
+          "label": 107,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 50,
-          "label": 50,
+          "value": 59,
+          "label": 59,
           "legend": 0,
           "arrow": "down"
         },
         {
-          "value": 58,
-          "label": 58,
+          "value": 62,
+          "label": 62,
           "legend": 0
         },
         65,
+        69,
+        74,
+        80,
         {
-          "value": 67,
-          "label": 67,
-          "par": true
-        },
-        71,
-        75,
-        {
-          "value": 80,
-          "label": 80,
+          "value": 88,
+          "label": 88,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 45,
-          "label": 45,
+          "value": 44,
+          "label": 44,
           "legend": 1,
           "arrow": "down"
         },
@@ -316,36 +296,20 @@
           "label": 54,
           "legend": 0
         },
-        63,
-        67,
-        69,
         {
-          "value": 70,
-          "label": 70,
-          "arrow": "up"
-        }
-      ],
-      [
-        {
-          "value": 40,
-          "label": 40,
-          "legend": 1,
-          "arrow": "down"
-        },
-        {
-          "value": 50,
-          "label": 50,
+          "value": 61,
+          "label": 61,
           "legend": 0
         },
+        64,
         {
-          "value": 60,
-          "label": 60,
-          "legend": 0
+          "value": 67,
+          "label": 67,
+          "par": true
         },
-        67,
         {
-          "value": 68,
-          "label": 68,
+          "value": 74,
+          "label": 74,
           "arrow": "up"
         }
       ],
@@ -353,23 +317,22 @@
         {
           "value": 30,
           "label": 30,
-          "legend": 2,
+          "legend": 1,
           "arrow": "down"
         },
         {
           "value": 40,
           "label": 40,
-          "legend": 1
-        },
-        {
-          "value": 50,
-          "label": 50,
           "legend": 0
         },
         {
-          "value": 60,
-          "label": 60,
-          "legend": 0,
+          "value": 53,
+          "label": 53,
+          "legend": 0
+        },
+        {
+          "value": 54,
+          "label": 54,
           "arrow": "up"
         }
       ],
@@ -383,12 +346,12 @@
         {
           "value": 30,
           "label": 30,
-          "legend": 2
+          "legend": 1
         },
         {
           "value": 40,
           "label": 40,
-          "legend": 1
+          "legend": 0
         },
         {
           "value": 50,
@@ -401,7 +364,8 @@
         {
           "value": 10,
           "label": 10,
-          "legend": 2
+          "legend": 2,
+          "arrow": "down"
         },
         {
           "value": 20,
@@ -411,12 +375,12 @@
         {
           "value": 30,
           "label": 30,
-          "legend": 2
+          "legend": 1
         },
         {
           "value": 40,
           "label": 40,
-          "legend": 1,
+          "legend": 0,
           "arrow": "up"
         }
       ]
@@ -424,7 +388,7 @@
     "legend": [
       {
         "color": "gray",
-        "description": "Certificate limit: 22 / 18",
+        "description": "Certificate limit: 18 / 14",
         "icon": ""
       },
       {
@@ -438,7 +402,7 @@
         "icon": ""
       },
       {
-        "color": "plain",
+        "color": "offboard_very_light",
         "description": "",
         "icon": ""
       }

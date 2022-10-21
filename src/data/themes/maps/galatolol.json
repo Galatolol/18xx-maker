@@ -11,6 +11,7 @@
     "plain": "#F5F5DC",
     "offboard": "#ff465b",
     "offboard_light": "#ff9ea1",
+    "offboard_very_light": "#ffd1d2",
     "mountain": "#795138",
     "water": "#67A7C4",
     "water_dark": "#2e5f76",
