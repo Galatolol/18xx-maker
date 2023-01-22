@@ -633,6 +633,15 @@ games["18NN"] = {
   title: "18NN",
   designer: "Galatolol",
 };
+games["18pl"] = {
+  id: "18pl",
+  slug: "18pl",
+  file: "18pl.json",
+  title: "18PL",
+  designer: "Andrzej Komala",
+  minPlayers: 2,
+  maxPlayers: 5,
+};
 games["18Scan"] = {
   id: "18Scan",
   slug: "18Scan",

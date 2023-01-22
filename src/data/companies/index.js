@@ -12,8 +12,8 @@ const companies = {
   lotr,
   owl,
   webdev,
-  "1830": game_1830,
-  "1830-Mayfair": game_1830_Mayfair
-}
+  1830: game_1830,
+  "1830-Mayfair": game_1830_Mayfair,
+};
 
 export default companies;

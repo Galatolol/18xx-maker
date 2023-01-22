@@ -1,0 +1,2139 @@
+{
+  "info": {
+    "title": "18PL",
+    "titleX": 1100,
+    "titleY": 700,
+    "subtitle": "",
+    "designer": "Andrzej Komala",
+    "orientation": "horizontal",
+    "titleFontFamily": "Oswald",
+    "titleSize": 100,
+    "subTitleSize": 18,
+    "designerSize": 18,
+    "background": "gray",
+    "currency": "#zł"
+  },
+  "links": {
+    "bgg": "https://boardgamegeek.com/boardgame/202264/1859"
+  },
+  "tokens": [
+    "OPEN",
+    { "icon": "round3" },
+    { "label": "+20zł", "icon": "port" },
+    { "label": "+20zł", "icon": "pig" },
+    { "icon": "stagecoach" }
+  ],
+  "ipo": true,
+  "bank": 9000,
+  "players": [
+    {
+      "number": 2,
+      "certLimit": 19,
+      "capital": 675
+    },
+    {
+      "number": 3,
+      "certLimit": 15,
+      "capital": 450
+    },
+    {
+      "number": 4,
+      "certLimit": 13,
+      "capital": 337
+    },
+    {
+      "number": 5,
+      "certLimit": 11,
+      "capital": 270
+    }
+  ],
+  "tokenTypes": {
+    "minor": ["Home"],
+    "three": ["Home", 40, 70],
+    "four": ["Home", 40, 70, 100]
+  },
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": 20,
+        "shares": 2
+      },
+      {
+        "quantity": 8,
+        "percent": 10,
+        "shares": 1
+      }
+    ],
+    "WB": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": "40/20",
+        "shares": 2
+      },
+      {
+        "quantity": 3,
+        "label": "Preferred Share",
+        "labelColor": "green",
+        "percent": "20/10",
+        "shares": 1
+      },
+      {
+        "quantity": 5,
+        "percent": 10,
+        "shares": 1
+      }
+    ],
+    "KD": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": "40/20",
+        "shares": 2
+      },
+      {
+        "quantity": 3,
+        "label": "Preferred Share",
+        "labelColor": "green",
+        "percent": "20/10",
+        "shares": 1
+      },
+      {
+        "quantity": 5,
+        "percent": 10,
+        "shares": 1
+      }
+    ],
+    "minor": []
+  },
+  "companies": [
+    {
+      "name": "Warsaw-Vienna Iron Road Society",
+      "abbrev": "WAW",
+      "color": "red",
+      "token": {
+        "bar": true
+      },
+      "tokens": ["Home", 40, 70],
+      "tokenType": "three",
+      "shareType": "default"
+    },
+    {
+      "name": "Polish State Railways",
+      "abbrev": "PKP",
+      "color": "white",
+      "token": {
+        "bar": true
+      },
+      "tokens": ["Home", 40, 70, 100],
+      "tokenType": "three",
+      "shareType": "default"
+    },
+    {
+      "name": "St. Petersburg-Warsaw Iron Road",
+      "abbrev": "PW",
+      "color": "yellow",
+      "token": {
+        "bar": true
+      },
+      "tokens": ["Home", 40, 70],
+      "tokenType": "three",
+      "shareType": "default"
+    },
+    {
+      "name": "Warsaw-Bydgoszcz Iron Road",
+      "abbrev": "WB",
+      "color": "black",
+      "token": {
+        "bar": true
+      },
+      "tokens": ["Home", 40, 70],
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": "40/20",
+          "shares": 2
+        },
+        {
+          "quantity": 3,
+          "label": "Preferred Share",
+          "labelColor": "green",
+          "percent": "20/10",
+          "shares": 1
+        },
+        {
+          "quantity": 5,
+          "percent": 10,
+          "shares": 1
+        }
+      ],
+      "tokenType": "three",
+      "shareType": "WB"
+    },
+    {
+      "name": "Societies of the Lviv-Cherniakov Railway",
+      "abbrev": "LC",
+      "color": "violet",
+      "token": {
+        "bar": true
+      },
+      "tokens": ["Home", 40, 70, 100],
+      "tokenType": "four",
+      "shareType": "default"
+    },
+    {
+      "name": "Cracovian and Upper Silesian Railway Society",
+      "abbrev": "KG",
+      "color": "green",
+      "token": {
+        "bar": true
+      },
+      "tokens": ["Home", 40, 70],
+      "tokenType": "three",
+      "shareType": "default"
+    },
+    {
+      "name": "The Lower Silesian-March Railway Society",
+      "abbrev": "KD",
+      "color": "blue",
+      "token": {
+        "bar": true
+      },
+      "tokens": ["Home", 40, 70],
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "President's Certificate",
+          "percent": "40/20",
+          "shares": 2
+        },
+        {
+          "quantity": 3,
+          "label": "Preferred Share",
+          "labelColor": "green",
+          "percent": "20/10",
+          "shares": 1
+        },
+        {
+          "quantity": 5,
+          "percent": 10,
+          "shares": 1
+        }
+      ],
+      "tokenType": "three",
+      "shareType": "KD"
+    },
+    {
+      "name": "Vistula Railway",
+      "minor": true,
+      "abbrev": "M1",
+      "color": "turquoise",
+      "capital": 200
+    },
+    {
+      "name": "Warsaw-Terespol Railway",
+      "minor": true,
+      "abbrev": "M2",
+      "color": "turquoise",
+      "capital": 160
+    }
+  ],
+  "trains": [
+    {
+      "name": "1+1",
+      "quantity": 9,
+      "price": 80,
+      "color": "yellow",
+      "image": "10T",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4/4+1"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "quantity": 9,
+      "price": 100,
+      "color": "yellow",
+      "image": "Pullman",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 4/4+1"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "quantity": 9,
+      "price": 180,
+      "color": "green",
+      "image": "9T",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 6/5+1D"
+        }
+      ]
+    },
+    {
+      "name": "3+1",
+      "quantity": 9,
+      "price": 200,
+      "color": "green",
+      "image": "1T",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 6/5+1D"
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "quantity": 9,
+      "price": 280,
+      "color": "green",
+      "image": "2T",
+      "info": [
+        {
+          "color": "gray",
+          "note": "Rusted by 8"
+        }
+      ]
+    },
+    {
+      "name": "4+1",
+      "quantity": 9,
+      "price": 300,
+      "color": "green",
+      "image": "5T",
+      "info": [
+        {
+          "color": "gray",
+          "note": "Rusted by 8"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "quantity": 9,
+      "price": 450,
+      "color": "brown",
+      "image": "3T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "5+2",
+      "quantity": 9,
+      "price": 500,
+      "color": "brown",
+      "image": "7T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "quantity": 9,
+      "price": 630,
+      "color": "brown",
+      "image": "6T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "5+1D",
+      "quantity": 9,
+      "price": 700,
+      "color": "brown",
+      "image": "4T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "quantity": 1,
+      "price": "",
+      "color": "brown",
+      "image": "0T",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "8",
+      "quantity": 8,
+      "price": 1100,
+      "color": "gray",
+      "image": "Diesel",
+      "description": "Cost $800 when trading in a 4T≤",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    }
+  ],
+  "privates": [
+    {
+      "name": "Silesia Steam Engine",
+      "price": 120,
+      "revenue": 15,
+      "icon": "train"
+    },
+    {
+      "name": "Wilhelm Railway Societies",
+      "price": 200,
+      "revenue": 30,
+      "icon": "share",
+      "company": "WAW"
+    },
+    {
+      "name": "Tczew Bridge",
+      "price": 70,
+      "revenue": 10,
+      "icon": "bridge",
+      "hex": "E5"
+    },
+    {
+      "name": "Southern Railway",
+      "price": 80,
+      "revenue": 10,
+      "token": { "icon": "pig" }
+    },
+    {
+      "name": "Port of Gdynia",
+      "price": 90,
+      "revenue": 15,
+      "icon": "port",
+      "token": { "icon": "meat" }
+    },
+    {
+      "name": "Imperial Royal Privileged Joint-Stock Society",
+      "price": 100,
+      "revenue": "",
+      "company": "KG"
+    },
+    {
+      "name": "Upper Silesian Railway",
+      "price": 50,
+      "revenue": 5,
+      "icon": "mountain"
+    },
+    {
+      "name": "Kasprowy Cable Car",
+      "price": 30,
+      "revenue": 5
+    },
+    {
+      "name": "Lviv Railway",
+      "price": 100,
+      "revenue": 10,
+      "tile": "53"
+    },
+    {
+      "name": "Tczew Bridge",
+      "description": "Allows the owning corporation to place a second tile on its turn for free. This action immediately closes the Private. This can be purchased by a corporation during the yellow or green phase, and closes when the first 5T is purchased."
+    },
+    {
+      "name": "Wilhelm Railway Societies",
+      "description": "Provides the winner with the Director's share of the Warsaw-Vienna Iron Road Society. Closes when WVIRS buys the first train or at the beginning of phase 5."
+    },
+    {
+      "name": "Silesia Steam Engine",
+      "description": "It can be exchanged for a pernament 2 train. It is closed when the exchange occurs or at the beginning of phase 5."
+    },
+    {
+      "name": "Imperial Royal Privileged Joint-Stock Society",
+      "description": "Provides the winner with the 10% share of the Cracovian and Upper Silesian Railway Society."
+    },
+    {
+      "name": "Port of Gdynia",
+      "description": "The owning corporation can place a +20 token on the hex of the port to add 20zł to all its routes routed to that location, and also has a 50% discount for construction on the river"
+    },
+    {
+      "name": "Southern Railway",
+      "description": "The owning corporation may place a +20 token in any City, to add 20zł to all of its routes run to this location. Or provides an additional station marker (free to place) to corporation that buys this private from a player. The company at the time of purchase must decide which option it is going for."
+    },
+    {
+      "name": "Lviv Railway",
+      "description": "The owning corporation can upgrade the yellow town or city tile to a green tile B."
+    },
+    {
+      "name": "Kasprowy Cable Car",
+      "description": "It gives income of 5zł in phase 2-4. From phase 5, the income increases to 20zł. It never closes."
+    },
+    {
+      "name": "Upper Silesian Railway",
+      "description": "It gives a 50% discount on tracks built in mountainous terrain. Closes at the beginning of phase 5."
+    },
+    {
+      "name": "Vistula Railway",
+      "bid": 100,
+      "company": "1",
+      "hex": "C17"
+    },
+    {
+      "name": "Warsaw-Terespol Railway",
+      "bid": 80,
+      "company": "2",
+      "hex": "I7"
+    },
+    {
+      "name": "FABLOK company",
+      "price": 100,
+      "revenue": 5,
+      "icon": "train"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "FABLOK company",
+      "description": "A discount of 200zl for the purchase of a train. Company closed after use or when the first 8T train is purchased."
+    },
+    {
+      "name": "Warsaw-Terespol Railway",
+      "description": "Starts in Terespol (I7) with 160zł in the treasury. It pays out 50/50 to the owner and the minor company. At the beginning of Phase 5, it is closed and can be exchanged for 10% of the PKP company's shares or a 50% discount on train purchases. They can only own one train, they can discard it on the bank pool to make a purchase of a better train."
+    },
+    {
+      "name": "Vistula Railway",
+      "description": "Starts in Wien (C17) with 200zł in the treasury. It pays out 50/50 to the owner and the minor company. At the beginning of Phase 5, it is closed and can be exchanged for 10% of the PKP company's shares or a 50% discount on train purchases. They can only own one train, they can discard it on the bank pool to make a purchase of a better train."
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    },
+    {
+      "name": "Wilhelm Mines"
+    }
+  ],
+  "phases": [
+    {
+      "name": "2",
+      "train": ["1+1", "2"],
+      "number": "6",
+      "limit": 4,
+      "tiles": "yellow",
+      "price": ["80zł", "100zł"]
+    },
+    {
+      "name": "3",
+      "train": ["3", "3+1"],
+      "number": "5",
+      "limit": 4,
+      "tiles": "green",
+      "notes": "Private companies may be purchased.",
+      "price": ["180zł", "200zł"]
+    },
+    {
+      "name": "4",
+      "train": ["4", "4+1"],
+      "number": "4",
+      "limit": 4,
+      "rust": "2 / 2+1",
+      "tiles": "green",
+      "notes": "PKP shares available for sale. PKP may be started. Private companies are closed, except for the Kasprowy Cable Car. Minors are closed - they can be exchanged for a 10% PKP share or a 50% discount on the train.",
+      "price": ["280zł", "300zł"]
+    },
+    {
+      "name": "5",
+      "train": ["5", "5+2"],
+      "number": "3",
+      "limit": 3,
+      "tiles": "brown",
+      "notes": "",
+      "price": ["450zł", "500zł"]
+    },
+    {
+      "name": "6",
+      "train": ["6", "5+1D"],
+      "number": "2",
+      "limit": 2,
+      "rust": "3 / 3+1",
+      "tiles": "brown",
+      "notes": "",
+      "price": ["630zł", "680zł"]
+    },
+    {
+      "name": "8",
+      "train": "8",
+      "limit": "2",
+      "number": "6",
+      "price": 1100,
+      "rust": "4 / 4+1",
+      "tiles": "grey"
+    },
+    {
+      "company": "PKP",
+      "name": "5",
+      "train": ["5", "5+2"],
+      "limit": "3",
+      "number": "3",
+      "tiles": "brown",
+      "notes": [
+        "Private companies are closed, except for the Kasprowy Cable Car. Minors are closed - they can be exchanged for a 10% PKP share or a 50% discount on the train. PKP may be started."
+      ],
+      "price": ["450zł", "500zł"]
+    },
+    {
+      "company": "PKP",
+      "name": "6",
+      "train": ["6", "5+1D"],
+      "number": "2",
+      "limit": "2",
+      "tiles": "brown",
+      "rust": "3 / 3+1",
+      "price": ["630zł", "680zł"]
+    },
+    {
+      "company": "PKP",
+      "name": "8",
+      "train": "8",
+      "number": "6",
+      "price": 1100,
+      "limit": "2",
+      "tiles": "grey",
+      "rust": "4 / 4+1"
+    },
+    {
+      "minor": true,
+      "name": "2",
+      "train": ["1+1", "2"],
+      "number": "6",
+      "limit": "1",
+      "tiles": "yellow",
+      "price": ["80zł", "100zł"]
+    },
+    {
+      "minor": true,
+      "name": "3",
+      "train": ["3", "3+1"],
+      "number": "5",
+      "limit": "1",
+      "tiles": "green",
+      "notes": "Private companies may be purchased.",
+      "price": ["180zł", "200zł"]
+    },
+    {
+      "minor": true,
+      "name": "4",
+      "train": ["4", "4+1"],
+      "number": "4",
+      "limit": "1",
+      "tiles": "green",
+      "rust": "1+1 / 2",
+      "notes": "PKP shares available for sale",
+      "price": ["280zł", "300zł"]
+    }
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "orange",
+          "note": "Shares in the market pay dividends to the corporation"
+        },
+        {
+          "color": "brown",
+          "icon": "exclamation",
+          "note": "No more than 50% of a corporation's shares may be in the market at any time"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "OR3",
+      "color": "brown"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "yellow"
+    },
+    {
+      "name": "SR",
+      "color": "gray"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": ["Sell any number of shares", "Buy one share"],
+      "ordered": true
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Lay or upgrade track",
+        "Purchase a station",
+        "Run trains",
+        "Pay dividends or withhold revenue",
+        "Purchase trains"
+      ],
+      "ordered": true,
+      "optional": ["Purchase private companies"]
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "par": {
+      "values": [100, 90, 82, 76, 71, 67]
+    },
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every share sold"],
+      "left": ["Withheld revenue"],
+      "right": ["Paid dividends"]
+    },
+    "ledges": [
+      {
+        "color": "red",
+        "coords": ["4 0", "4 1", "4 6", "5 6", "5 0", "4 0"]
+      },
+      {
+        "color": "red",
+        "coords": ["9 1", "9 2", "9 2", "10 2", "10 2", "10 1", "10 1", "9 1"]
+      }
+    ],
+    "market": [
+      [
+        {
+          "arrow": "down",
+          "label": "70"
+        },
+        76,
+        82,
+        90,
+        {
+          "label": "100",
+          "par": true
+        },
+        112,
+        126,
+        142,
+        160,
+        180,
+        200,
+        225,
+        250,
+        275,
+        300,
+        325,
+        350,
+        400
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "65"
+        },
+        70,
+        76,
+        82,
+        {
+          "label": "90",
+          "par": true
+        },
+        100,
+        112,
+        126,
+        142,
+        {
+          "value": 160,
+          "label": 160,
+          "color": "brown"
+        },
+        180,
+        200,
+        220,
+        240,
+        260,
+        280,
+        {
+          "arrow": "up",
+          "label": "300"
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "60",
+          "legend": 0
+        },
+        65,
+        70,
+        76,
+        {
+          "label": "82",
+          "par": true
+        },
+        90,
+        100,
+        111,
+        125,
+        140,
+        155,
+        170,
+        185,
+        200,
+        {
+          "arrow": "up",
+          "label": "220"
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "55",
+          "legend": 0
+        },
+        {
+          "label": "60",
+          "legend": 0
+        },
+        66,
+        71,
+        {
+          "label": "76",
+          "par": true
+        },
+        82,
+        90,
+        100,
+        110,
+        120,
+        130,
+        {
+          "arrow": "up",
+          "label": "140"
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "50",
+          "legend": 0
+        },
+        {
+          "label": "55",
+          "legend": 0
+        },
+        62,
+        67,
+        {
+          "label": "71",
+          "par": true
+        },
+        76,
+        82,
+        90,
+        {
+          "arrow": "up",
+          "label": "100"
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "45",
+          "legend": 0
+        },
+        {
+          "label": "50",
+          "legend": 0
+        },
+        {
+          "label": "58",
+          "legend": 0
+        },
+        65,
+        {
+          "label": "67",
+          "par": true
+        },
+        71,
+        75,
+        {
+          "arrow": "up",
+          "label": "80"
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "35",
+          "legend": 1
+        },
+        {
+          "label": "45",
+          "legend": 1
+        },
+        {
+          "label": "54",
+          "legend": 0
+        },
+        63,
+        67,
+        69,
+        {
+          "arrow": "up",
+          "label": "70"
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "30",
+          "legend": 1
+        },
+        {
+          "label": "40",
+          "legend": 1
+        },
+        {
+          "label": "50",
+          "legend": 0
+        },
+        {
+          "label": "60",
+          "legend": 0
+        },
+        67,
+        {
+          "arrow": "up",
+          "label": "68"
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "20",
+          "legend": 2
+        },
+        {
+          "label": "30",
+          "legend": 2
+        },
+        {
+          "label": "40",
+          "legend": 1
+        },
+        {
+          "label": "50",
+          "legend": 0
+        },
+        {
+          "arrow": "up",
+          "label": "60",
+          "legend": 0
+        }
+      ],
+      [
+        {
+          "arrow": "down",
+          "label": "10",
+          "legend": 2
+        },
+        {
+          "label": "20",
+          "legend": 2
+        },
+        {
+          "label": "30",
+          "legend": 2
+        },
+        {
+          "label": "40",
+          "legend": 1
+        },
+        {
+          "arrow": "up",
+          "label": "50",
+          "legend": 0
+        }
+      ],
+      [
+        {
+          "label": "Closed",
+          "color": "red"
+        },
+        {
+          "label": "10",
+          "legend": 2
+        },
+        {
+          "label": "20",
+          "legend": 2
+        },
+        {
+          "label": "30",
+          "legend": 2
+        },
+        {
+          "arrow": "up",
+          "label": "40",
+          "legend": 1
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "yellow",
+        "description": "Shares of this corporation do not count toward the certificate limit",
+        "icon": "certificate"
+      },
+      {
+        "color": "orange",
+        "description": "Players may own more than 60% of this corporation",
+        "icon": "percentage"
+      },
+      {
+        "color": "brown",
+        "description": "Players may purchase any number of shares of this corporation in one stock action",
+        "icon": "money-bill-wave"
+      }
+    ]
+  },
+  "tiles": {
+    "1": 1,
+    "2": 1,
+    "3": 6,
+    "4": 8,
+    "5": 4,
+    "6": 4,
+    "7": 4,
+    "8": 8,
+    "9": 8,
+    "14": 3,
+    "15": 3,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "26": 1,
+    "27": 1,
+    "28": 1,
+    "29": 1,
+    "39": 1,
+    "40": 1,
+    "41": 2,
+    "42": 2,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "53": 1,
+    "55": 1,
+    "56": 1,
+    "57": 4,
+    "58": 4,
+    "63": 3,
+    "69": 1,
+    "70": 1,
+    "87": 1,
+    "88": 1,
+    "141": 3,
+    "142": 3,
+    "143": 2,
+    "144": 1,
+    "619": 1,
+    "630": 1,
+    "631": 1,
+    "632": 1,
+    "633": 1,
+    "pl1": {
+      "count": 1,
+      "color": "yellow",
+      "rotations": 2,
+      "values": [
+        { "angle": 225, "percent": 0.6, "value": 40 },
+        { "angle": 315, "percent": 0.6, "value": 40 }
+      ],
+      "labels": [{ "label": "W", "size": 20, "angle": 270, "percent": 0.5 }],
+      "cities": [
+        { "angle": 30, "percent": 0.5 },
+        { "angle": 150, "percent": 0.5 }
+      ],
+      "track": [
+        {
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        }
+      ]
+    },
+    "pl10": {
+      "count": 1,
+      "color": "yellow",
+      "values": [{ "angle": 210, "percent": 0.8, "value": 10 }],
+      "icons": [{ "angle": 310, "percent": 0.6, "type": "bridge" }],
+      "centerTowns": [{ "color": "pink", "name": {} }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "pl5": {
+      "count": 1,
+      "color": "yellow",
+      "values": [{ "value": 30, "angle": 270, "percent": 0.6 }],
+      "labels": [{ "label": "K", "size": 20, "angle": 150, "percent": 0.82 }],
+      "cities": [{}],
+      "track": [{ "side": 1 }, { "side": 4 }]
+    },
+    "pl6": {
+      "count": 1,
+      "color": "yellow",
+      "values": [{ "value": 30, "angle": 270, "percent": 0.6 }],
+      "labels": [{ "label": "K", "size": 20, "angle": 150, "percent": 0.82 }],
+      "cities": [{}],
+      "track": [{ "side": 2 }, { "side": 4 }]
+    },
+    "pl11": {
+      "count": 1,
+      "color": "yellow",
+      "rotations": 3,
+      "values": [{ "angle": 270, "percent": 0.6, "value": 30 }],
+      "labels": [{ "label": "G", "size": 20, "angle": 155, "percent": 0.75 }],
+      "cities": [{}],
+      "track": [{ "type": "straight" }]
+    },
+    "pl7": {
+      "count": 1,
+      "color": "green",
+      "values": [{ "angle": 210, "percent": 0.75, "value": 50 }],
+      "labels": [{ "label": "K", "size": 20, "angle": 150, "percent": 0.7 }],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "pl12": {
+      "count": 1,
+      "color": "green",
+      "values": [{ "angle": 210, "percent": 0.75, "value": 40 }],
+      "labels": [{ "label": "G", "size": 20, "angle": 150, "percent": 0.7 }],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "pl2": {
+      "count": 1,
+      "color": "green",
+      "rotations": 2,
+      "values": [
+        { "angle": 225, "percent": 0.6, "value": 60 },
+        { "angle": 315, "percent": 0.6, "value": 60 }
+      ],
+      "labels": [{ "label": "W", "size": 20, "angle": 270, "percent": 0.5 }],
+      "cities": [
+        { "angle": 30, "percent": 0.5 },
+        { "angle": 150, "percent": 0.5 }
+      ],
+      "track": [
+        {
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        }
+      ]
+    },
+    "pl3": {
+      "count": 1,
+      "color": "brown",
+      "values": [{ "angle": 150, "percent": 0.82, "value": 80 }],
+      "labels": [{ "label": "W", "size": 20, "angle": 270, "percent": 0.82 }],
+      "cities": [{ "size": 3, "rotation": 30 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "pl8": {
+      "count": 1,
+      "color": "brown",
+      "values": [{ "angle": 150, "percent": 0.82, "value": 60 }],
+      "labels": [{ "label": "K", "size": 20, "angle": 270, "percent": 0.8 }],
+      "cities": [{ "size": 3, "rotation": 30 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "pl9": {
+      "count": 1,
+      "color": "brown",
+      "values": [{ "angle": 150, "percent": 0.82, "value": 50 }],
+      "labels": [{ "label": "Wr", "size": 20, "angle": 210, "percent": 0.75 }],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        }
+      ]
+    },
+    "pl13": {
+      "count": 1,
+      "color": "brown",
+      "values": [{ "angle": 210, "percent": 0.7, "value": 50 }],
+      "labels": [{ "label": "G", "size": 20, "angle": 270, "percent": 0.75 }],
+      "cities": [{ "size": 2, "rotation": 30 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "pl4": {
+      "count": 1,
+      "color": "grey",
+      "cities": [{ "size": 4, "rotate": 180 }],
+      "values": [{ "angle": 270, "percent": 0.85, "value": 100 }],
+      "labels": [{ "angle": 90, "percent": 0.85, "label": "W", "size": 15 }],
+      "track": [
+        { "side": 1 },
+        { "side": 2 },
+        { "side": 3 },
+        { "side": 4 },
+        { "side": 5 },
+        { "side": 6 }
+      ]
+    }
+  },
+  "map": {
+    "players": {
+      "x": 100,
+      "y": 1400
+    },
+    "hexes": [
+      {
+        "color": "plain",
+        "hexes": ["C7", "C11", "D4", "D12", "E7", "E13", "F4", "G3", "H6", "H8"]
+      },
+      {
+        "color": "plain",
+        "water": { "cost": 20 },
+        "hexes": ["C9", "D8", "E9", "F6"]
+      },
+      {
+        "color": "plain",
+        "water": { "cost": 100 },
+        "hexes": ["G11", "G13"]
+      },
+      {
+        "color": "plain",
+        "hexes": ["G15"]
+      },
+      {
+        "color": "plain",
+        "mountain": { "cost": 80 },
+        "hexes": ["G19"]
+      },
+      {
+        "color": "offboard",
+        "names": [
+          {
+            "name": "Hamburg",
+            "percent": -0.21
+          }
+        ],
+        "values": [
+          {
+            "value": 70,
+            "percent": 0.1
+          }
+        ],
+        "track": [
+          {
+            "side": 5,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["A3"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": { "name": "Dresden" },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 5,
+            "type": "offboard"
+          },
+          {
+            "side": 6,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["A7"]
+      },
+      {
+        "color": "grey",
+        "cities": [
+          {
+            "name": {
+              "name": "Szczecin",
+              "rotation": -15
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": "40",
+            "angle": 330,
+            "percent": 0.75
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 5
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["B2"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Stargard" } }],
+        "borders": [{ "side": 6, "dashed": true, "color": "green" }],
+        "hexes": ["B4"]
+      },
+      {
+        "color": "plain",
+        "borders": [
+          { "side": 1, "dashed": true, "color": "green" },
+          { "side": 5, "dashed": true, "color": "green" },
+          { "side": 6, "dashed": true, "color": "green" }
+        ],
+        "hexes": ["B6"]
+      },
+      {
+        "color": "yellow",
+        "cities": [
+          {
+            "name": {
+              "name": "Poznań",
+              "rotation": 0
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": "20",
+            "angle": 330,
+            "percent": 0.75
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["B8"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Wolsztyn" } }],
+        "hexes": ["B10"]
+      },
+      {
+        "color": "plain",
+        "labels": [{ "label": "Wr", "angle": 30, "percent": 0.65, "size": 20 }],
+        "cities": [{ "name": { "name": "Wrocław" }, "companies": ["KD"] }],
+        "hexes": ["B12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          { "name": { "name": "Kłodzko" }, "angle": 180, "percent": 0.35 }
+        ],
+        "mountain": { "cost": 80, "angle": 360, "percent": 0.55 },
+        "hexes": ["B14"]
+      },
+      {
+        "color": "offboard",
+        "cities": [
+          { "companies": ["M1"], "name": { "name": "Wien", "reverse": "true" } }
+        ],
+        "track": [
+          { "side": 4, "type": "offboard" },
+          { "side": 5, "type": "offboard" }
+        ],
+        "values": [
+          {
+            "value": "M1: 40",
+            "shape": "square",
+            "fontSize": 12,
+            "percent": 0.8
+          }
+        ],
+        "removeBorders": [3],
+        "hexes": ["C17"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 300,
+          "percent": 1,
+          "name": { "name": "" },
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 20
+            },
+            {
+              "color": "brown",
+              "revenue": 60
+            }
+          ]
+        },
+        "routeBonus": { "value": "N↔S +100" },
+        "labels": [{ "label": "S", "size": 25, "angle": 20, "percent": 0.6 }],
+        "removeBorders": [6],
+        "hexes": ["B16"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Kołobrzeg" } }],
+        "borders": [{ "side": 6, "dashed": true, "color": "green" }],
+        "hexes": ["C1"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Gryfice" } }],
+        "borders": [
+          { "side": 1, "dashed": true, "color": "green" },
+          { "side": 5, "dashed": true, "color": "green" },
+          { "side": 6, "dashed": true, "color": "green" }
+        ],
+        "hexes": ["C3"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Bydgoszcz" }, "companies": ["WB"] }],
+        "hexes": ["C5"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Opole" } }],
+        "mountain": { "cost": 80, "angle": 30, "percent": 0.55 },
+        "hexes": ["C13"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          { "name": { "name": "Nysa" }, "angle": 270, "percent": 0.35 }
+        ],
+        "mountain": { "cost": 80, "angle": 90, "percent": 0.35 },
+        "hexes": ["C15"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Koszalin" } }],
+        "hexes": ["D2"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Kalisz" } }],
+        "hexes": ["D10"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Toruń", "reverse": "true" } }],
+        "hexes": ["D6"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "x": -30,
+            "name": {
+              "name": "Bytom",
+              "reverse": true
+            }
+          },
+          {
+            "x": 30,
+            "name": {
+              "name": "Olkusz"
+            }
+          }
+        ],
+        "hexes": ["D14"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": { "name": "Chrzanów", "reverse": "true" },
+            "angle": 190,
+            "percent": 0.55
+          }
+        ],
+        "mountain": { "cost": 80, "angle": 20, "percent": 0.45 },
+        "hexes": ["D16"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [{ "side": 1 }],
+        "values": [{ "value": 20, "angle": 30, "percent": 0.2 }],
+        "icons": [{ "type": "port", "angle": 300, "percent": 0.5 }],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["E1"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Gdynia" } }],
+        "labels": [{ "label": "G", "angle": 30, "percent": 0.65, "size": 25 }],
+        "hexes": ["E3"]
+      },
+      {
+        "color": "plain",
+        "water": { "cost": 40, "angle": 0, "percent": 0.5 },
+        "companies": [
+          { "label": "Tczew", "color": "pink", "percent": 0.5, "angle": 180 }
+        ],
+        "hexes": ["E5"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Łódź" } }],
+        "hexes": ["E11"]
+      },
+      {
+        "color": "plain",
+        "water": { "cost": 40, "angle": 110, "percent": 0.5 },
+        "labels": [{ "label": "K", "angle": 30, "percent": 0.65, "size": 25 }],
+        "cities": [
+          {
+            "name": { "name": "Kraków" },
+            "angle": 290,
+            "percent": 0.5,
+            "companies": ["KG"]
+          }
+        ],
+        "hexes": ["E15"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Tarnów", "reverse": "true" } }],
+        "hexes": ["G17"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Rabka Zdrój" } }],
+        "mountain": { "cost": 80, "angle": 0, "percent": 0.55 },
+        "hexes": ["E17"]
+      },
+      {
+        "color": "water",
+        "offBoardTrack": [{ "side": 1 }],
+        "values": [{ "value": 20, "angle": 30, "percent": 0.2 }],
+        "icons": [{ "type": "port", "angle": 300, "percent": 0.5 }],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["F2"]
+      },
+      {
+        "color": "plain",
+        "labels": [{ "label": "W", "angle": 150, "percent": 0.65, "size": 25 }],
+        "water": { "cost": 40, "angle": 5, "percent": 0.65 },
+        "cities": [
+          {
+            "angle": 75,
+            "percent": 0.55,
+            "name": { "name": "Warszawa" },
+            "companies": ["WAW"]
+          },
+          {
+            "angle": 285,
+            "percent": 0.5,
+            "name": { "name": "Modlin", "reverse": "true" }
+          }
+        ],
+        "hexes": ["F8"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "x": -30,
+            "name": {
+              "name": "Radom",
+              "reverse": true
+            }
+          },
+          {
+            "x": 30,
+            "name": {
+              "name": "Puławy"
+            }
+          }
+        ],
+        "hexes": ["F10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "x": -30,
+            "name": {
+              "name": "Ostrołęka",
+              "reverse": true
+            }
+          },
+          {
+            "x": 30,
+            "name": {
+              "name": "Łomża"
+            }
+          }
+        ],
+        "hexes": ["G5"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Kielce" } }],
+        "hexes": ["F12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Ostrów Mazowiecki" } }],
+        "hexes": ["G7"]
+      },
+      {
+        "color": "plain",
+        "water": { "cost": 80 },
+        "hexes": ["F14"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "angle": 130,
+            "percent": 0.5,
+            "name": { "name": "Wieliczka", "reverse": "true" }
+          }
+        ],
+        "hexes": ["F16"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [{ "name": { "name": "Zakopane" } }],
+        "mountain": { "cost": 80, "angle": 0, "percent": 0.55 },
+        "hexes": ["F18"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": { "name": "Budapest" },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 4,
+            "type": "offboard"
+          },
+          {
+            "side": 5,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["F20"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Siedlce" } }],
+        "hexes": ["G9"]
+      },
+      {
+        "color": "plain",
+        "water": { "cost": 80 },
+        "hexes": ["H2"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Białystok" }, "companies": ["PW"] }],
+        "hexes": ["H4"]
+      },
+      {
+        "color": "grey",
+        "cities": [{ "size": 2, "name": { "name": "Lublin" } }],
+        "values": [
+          {
+            "value": "30",
+            "angle": 330,
+            "percent": 0.75
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "hexes": ["H12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          { "name": { "name": "Zamość" }, "angle": 30, "percent": 0.3 }
+        ],
+        "hexes": ["H14"]
+      },
+      {
+        "color": "plain",
+        "borders": [
+          { "side": 2, "dashed": true, "color": "red" },
+          { "side": 3, "dashed": true, "color": "red" },
+          { "side": 4, "dashed": true, "color": "red" }
+        ],
+        "hexes": ["H16"]
+      },
+      {
+        "color": "plain",
+        "borders": [
+          { "side": 2, "dashed": true, "color": "red" },
+          { "side": 3, "dashed": true, "color": "red" }
+        ],
+        "hexes": ["H18"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "name": { "name": "Sankt-Peterburg" },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "80"
+            }
+          ]
+        },
+        "routeBonus": { "value": "N↔S +100", "angle": 180, "percent": 0.6 },
+        "labels": [{ "label": "N", "size": 25, "angle": 320, "percent": 0.6 }],
+        "track": [
+          {
+            "side": 1,
+            "type": "offboard"
+          },
+          {
+            "side": 2,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["I1"]
+      },
+      {
+        "color": "grey",
+        "values": [{ "value": 20, "angle": 270, "percent": 0.55 }],
+        "towns": [
+          {
+            "rotate": -330,
+            "angle": 120,
+            "percent": 0.2667,
+            "name": { "name": "Vilnius", "reverse": "true" }
+          }
+        ],
+        "track": [
+          {
+            "side": 2,
+            "type": "gentle"
+          }
+        ],
+        "hexes": ["I3"]
+      },
+      {
+        "color": "plain",
+        "borders": [{ "side": 3, "dashed": true, "color": "red" }],
+        "hexes": ["I15"]
+      },
+      {
+        "color": "plain",
+        "cities": [{ "name": { "name": "Lwów" }, "companies": ["LC"] }],
+        "hexes": ["I17"]
+      },
+      {
+        "color": "grey",
+        "towns": [
+          {
+            "rotate": 60,
+            "angle": 150,
+            "percent": 0.57,
+            "name": { "name": "Zagórz", "reverse": true }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 310,
+            "percent": 0.1
+          }
+        ],
+        "track": [
+          {
+            "side": 3,
+            "type": "sharp"
+          }
+        ],
+        "hexes": ["I19"]
+      },
+      {
+        "color": "offboard",
+        "names": [
+          {
+            "name": "Kyjiw",
+            "percent": -0.21
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "percent": 0.1
+          }
+        ],
+        "track": [
+          {
+            "side": 2,
+            "type": "offboard"
+          },
+          {
+            "side": 3,
+            "type": "offboard"
+          }
+        ],
+        "hexes": ["J16"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 180,
+          "percent": 0.65,
+          "revenues": [
+            {
+              "color": "yellow",
+              "revenue": 20
+            },
+            {
+              "color": "brown",
+              "revenue": 50
+            }
+          ]
+        },
+        "values": [
+          {
+            "value": "M2: 40",
+            "shape": "square",
+            "fontSize": 12,
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "companies": ["M2"],
+            "name": { "name": "Terespol", "reverse": "true" }
+          }
+        ],
+        "track": [
+          { "side": 2, "type": "offboard" },
+          { "side": 3, "type": "offboard" }
+        ],
+        "hexes": ["I7"]
+      }
+    ],
+    "borders": [
+      {
+        "color": "mountain",
+        "coords": ["F18p4", "F18p5"]
+      },
+      {
+        "color": "mountain",
+        "coords": ["F18p1", "F18p2"]
+      },
+      {
+        "color": "lightGreen",
+        "dashed": true,
+        "dashArray": "5 10",
+        "offset": -2,
+        "width": 4,
+        "coords": [
+          "G3p3",
+          "G3p4",
+          "G3p5",
+          "F4p4",
+          "F4p5",
+          "E5p4",
+          "E5p5",
+          "D6p4",
+          "D8p3",
+          "D8p4",
+          "D8p5",
+          "C9p4",
+          "C11p3",
+          "C11p4",
+          "C13p3",
+          "C13p4",
+          "C13p5",
+          "C15p3",
+          "C15p4",
+          "C15p5"
+        ]
+      },
+      {
+        "color": "red",
+        "dashed": true,
+        "dashArray": "5 10",
+        "offset": 4,
+        "width": 4,
+        "coords": [
+          "G3p3",
+          "G3p4",
+          "G3p5",
+          "G3p6",
+          "G5p1",
+          "F6p3",
+          "F6p2",
+          "F6p1",
+          "E7p2",
+          "E7p1",
+          "E7p6",
+          "D8p5",
+          "D10p2",
+          "D10p1",
+          "D10p6",
+          "D12p1",
+          "D12p6",
+          "D12p5",
+          "E13p6",
+          "E13p5",
+          "E13p4",
+          "F14p3",
+          "F14p4",
+          "G13p5",
+          "G13p4",
+          "H12p5"
+        ]
+      }
+    ]
+  }
+}

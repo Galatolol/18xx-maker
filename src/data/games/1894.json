@@ -24,12 +24,12 @@
   "players": [
     {
       "number": 3,
-      "certLimit": 22,
+      "certLimit": 17,
       "capital": "F580"
     },
     {
       "number": 4,
-      "certLimit": 18,
+      "certLimit": 13,
       "capital": "F440"
     }
   ],
@@ -63,23 +63,40 @@
     "display": {
       "par": {
         "x": 12,
-        "y": 3
+        "y": 5
       },
       "roundTracker": {
-        "type": "row",
+        "type": "col",
         "size": 25,
-        "x": 12,
-        "y": 9
+        "x": 10.75,
+        "y": 5.1
       },
       "legend": {
         "reverse": true,
         "verticalAlign": "bottom",
-        "x": 13,
-        "y": 4
+        "x": 5.85,
+        "y": 11.35
       }
     },
     "par": {
-      "values": [100, 90, 82, 76, 67],
+      "values": [
+        {
+          "label": "100",
+          "color": "offboard_very_light"
+        },
+        {
+          "label": "90"
+        },
+        {
+          "label": "82"
+        },
+        {
+          "label": "76"
+        },
+        {
+          "label": "67"
+        }
+      ],
       "color": "offboard_light"
     },
     "movement": {
@@ -91,55 +108,57 @@
     "market": [
       [
         {
-          "value": 82,
-          "label": 82,
+          "value": 77,
+          "label": 77,
           "arrow": ["down"]
         },
         {
-          "value": 90,
-          "label": 90,
-          "par": true
+          "value": 83,
+          "label": 83
         },
         {
-          "value": 94,
-          "label": 94
+          "value": 89,
+          "label": 89
         },
         {
-          "value": 100,
-          "label": 100,
-          "legend": 3
+          "value": 96,
+          "label": 96
         },
         {
-          "value": 110,
-          "label": 110
+          "value": 103,
+          "label": 103
         },
         {
-          "value": 121,
-          "label": 121
+          "value": 111,
+          "label": 111
         },
         {
-          "value": 134,
-          "label": 134
+          "value": 120,
+          "label": 120
         },
         {
-          "value": 148,
+          "value": 131,
+          "label": 131
+        },
+        {
+          "value": 145,
           "label": 145
         },
         {
-          "value": 165,
-          "label": 165
+          "value": 160,
+          "label": 160
         },
         {
-          "value": 188,
-          "label": 188
+          "value": 185,
+          "label": 185
         },
         {
-          "value": 225,
-          "label": 225
+          "value": 217,
+          "label": 217
         },
         {
-          "value": 255,
-          "label": 255
+          "value": 248,
+          "label": 248
         },
         {
           "value": 285,
@@ -151,47 +170,88 @@
         },
         {
           "value": 375,
-          "label": 375
-        },
-        {
-          "value": 425,
-          "label": 425,
+          "label": 375,
           "labelColor": "black",
           "color": "offboard"
         }
       ],
       [
         {
-          "value": 77,
-          "label": 77,
+          "value": 72,
+          "label": 72,
           "arrow": "down"
         },
+        77,
         82,
-        88,
-        95,
-        100,
-        112,
-        125,
-        139,
-        154,
-        176,
-        200,
-        220,
-        250,
-        285,
-        320,
         {
-          "value": 360,
-          "label": 360,
+          "value": 90,
+          "label": 90,
+          "par": true
+        },
+        94,
+        {
+          "value": 100,
+          "label": 100,
+          "legend": 3
+        },
+        110,
+        121,
+        134,
+        150,
+        170,
+        194,
+        222,
+        254,
+        290,
+        {
+          "value": 335,
+          "label": 335,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 70,
-          "label": 70,
+          "value": 67,
+          "label": 67,
           "legend": 0,
           "arrow": "down"
+        },
+        72,
+        77,
+        82,
+        88,
+        95,
+        100,
+        110,
+        121,
+        136,
+        153,
+        174,
+        200,
+        229,
+        262,
+        {
+          "value": 300,
+          "label": 300,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 63,
+          "label": 63,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 66,
+          "label": 66,
+          "legend": 0
+        },
+        {
+          "value": 70,
+          "label": 70,
+          "legend": 0
         },
         75,
         {
@@ -204,22 +264,32 @@
         100,
         109,
         120,
-        132,
-        150,
-        170,
-        190,
+        138,
+        159,
+        179,
+        206,
         {
-          "value": 210,
-          "label": 210,
+          "value": 236,
+          "label": 236,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 66,
-          "label": 60,
+          "value": 59,
+          "label": 59,
           "legend": 0,
           "arrow": "down"
+        },
+        {
+          "value": 63,
+          "label": 63,
+          "legend": 0
+        },
+        {
+          "value": 66,
+          "label": 66,
+          "legend": 0
         },
         70,
         75,
@@ -227,20 +297,30 @@
         85,
         92,
         100,
-        110,
-        120,
+        112,
+        128,
         {
-          "value": 130,
-          "label": 130,
+          "value": 146,
+          "label": 146,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 63,
-          "label": 63,
+          "value": 56,
+          "label": 56,
           "legend": 0,
           "arrow": "down"
+        },
+        {
+          "value": 59,
+          "label": 59,
+          "legend": 0
+        },
+        {
+          "value": 63,
+          "label": 63,
+          "legend": 0
         },
         {
           "value": 66,
@@ -264,10 +344,20 @@
       ],
       [
         {
+          "value": 42,
+          "label": 42,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        {
           "value": 59,
           "label": 59,
-          "legend": 0,
-          "arrow": "down"
+          "legend": 0
         },
         {
           "value": 62,
@@ -277,39 +367,10 @@
         65,
         69,
         74,
-        80,
+        81,
         {
-          "value": 88,
-          "label": 88,
-          "arrow": "up"
-        }
-      ],
-      [
-        {
-          "value": 44,
-          "label": 44,
-          "legend": 1,
-          "arrow": "down"
-        },
-        {
-          "value": 54,
-          "label": 54,
-          "legend": 0
-        },
-        {
-          "value": 61,
-          "label": 61,
-          "legend": 0
-        },
-        64,
-        {
-          "value": 67,
-          "label": 67,
-          "par": true
-        },
-        {
-          "value": 74,
-          "label": 74,
+          "value": 89,
+          "label": 89,
           "arrow": "up"
         }
       ],
@@ -326,13 +387,29 @@
           "legend": 0
         },
         {
-          "value": 53,
-          "label": 53,
+          "value": 50,
+          "label": 50,
           "legend": 0
         },
         {
           "value": 54,
           "label": 54,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "legend": 0
+        },
+        64,
+        {
+          "value": 67,
+          "label": 67,
+          "par": true
+        },
+        {
+          "value": 74,
+          "label": 74,
           "arrow": "up"
         }
       ],
@@ -356,6 +433,16 @@
         {
           "value": 50,
           "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 54,
+          "label": 54,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
           "legend": 0,
           "arrow": "up"
         }
@@ -364,22 +451,60 @@
         {
           "value": 10,
           "label": 10,
-          "legend": 2,
-          "arrow": "down"
+          "legend": 0
         },
         {
           "value": 20,
           "label": 20,
-          "legend": 2
+          "legend": 0
         },
         {
           "value": 30,
           "label": 30,
-          "legend": 1
+          "legend": 0
         },
         {
           "value": 40,
           "label": 40,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 54,
+          "label": 54,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        null,
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 0
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 0
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
           "legend": 0,
           "arrow": "up"
         }
@@ -388,7 +513,7 @@
     "legend": [
       {
         "color": "gray",
-        "description": "Certificate limit: 18 / 14",
+        "description": "Certificate limit: 17 / 13",
         "icon": ""
       },
       {
@@ -403,16 +528,46 @@
       },
       {
         "color": "offboard_very_light",
-        "description": "",
+        "description": "Gray area:",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— doesn't count towards certificate limit",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— president may buy 2 shares and may hold over 60%",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "Sold out:",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— moves up one row",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— one more if in gray area",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— one more if president and treasury hold 80% or more",
         "icon": ""
       }
     ]
   },
   "tiles": {
     "1": 1,
-    "7": 4,
-    "8": 12,
-    "9": 12,
+    "7": 3,
+    "8": 11,
+    "9": 11,
     "14": 4,
     "15": 4,
     "16": 1,
@@ -439,7 +594,7 @@
     "46": 2,
     "47": 1,
     "55": 1,
-    "56": 1,
+    "56": 2,
     "57": 9,
     "69": 1,
     "70": 2,
@@ -516,6 +671,66 @@
         },
         {
           "side": 3
+        }
+      ]
+    },
+    "X15": {
+      "color": "yellow",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "AL",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 30,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 1 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
+      ]
+    },
+    "X16": {
+      "color": "yellow",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "AL",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 20,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 4
         }
       ]
     },
@@ -1128,13 +1343,24 @@
         "hexes": ["C6"]
       },
       {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 6
+          },
+          {
+            "type": "sharp",
+            "side": 4
+          }
+        ],
+        "hexes": ["C16"]
+      },
+      {
         "color": "offboard",
         "offBoardTrack": [
           {
-            "side": 4
-          },
-          {
-            "side": 5
+            "side": 1
           },
           {
             "side": 6
@@ -1151,16 +1377,6 @@
           {
             "value": 30,
             "percent": 0.1
-          }
-        ],
-        "hexes": ["C16"]
-      },
-      {
-        "color": "gray",
-        "track": [
-          {
-            "type": "sharp",
-            "side": 6
           }
         ],
         "hexes": ["C18"]
@@ -1214,6 +1430,16 @@
             }
           }
         ],
+        "shapes": [
+          {
+            "type": "hexagon",
+            "text": "AL",
+            "fontSize": 15,
+            "color": "yellow",
+            "width": 30,
+            "percent": 0.7
+          }
+        ],
         "hexes": ["D11"]
       },
       {
@@ -1229,28 +1455,28 @@
         "hexes": ["D15"]
       },
       {
-        "color": "yellow",
+        "color": "plain",
         "cities": [
           {
             "name": {
               "name": "Antwerpen"
             },
-            "companies": [{ "label": "Belge" }]
+            "companies": [
+              {
+                "label": "AG",
+                "color": "light_gray"
+              }
+            ]
           }
         ],
-        "track": [
+        "shapes": [
           {
-            "side": 1
-          },
-          {
-            "side": 6
-          }
-        ],
-        "values": [
-          {
-            "angle": 270,
-            "percent": 0.65,
-            "value": 20
+            "type": "hexagon",
+            "text": "AL",
+            "fontSize": 15,
+            "color": "yellow",
+            "width": 30,
+            "percent": 0.7
           }
         ],
         "hexes": ["D17"]
@@ -1326,11 +1552,31 @@
       },
       {
         "color": "plain",
+        "centerTowns": [
+          {
+            "percent": 0.45,
+            "name": {
+              "name": "",
+              "reverse": true
+            }
+          },
+          {
+            "percent": -0.45,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "hexes": ["E14"]
+      },
+      {
+        "color": "plain",
         "cities": [
           {
             "name": {
               "name": "Mechelen"
-            }
+            },
+            "companies": [{ "label": "Belge" }]
           }
         ],
         "hexes": ["E16"]
@@ -1505,7 +1751,33 @@
       },
       {
         "color": "gray",
+        "cities": [
+          {
+            "name": {
+              "name": "Hasselt"
+            },
+            "percent": 0.5,
+            "angle": 270
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 330,
+            "percent": 0.65
+          }
+        ],
         "track": [
+          {
+            "side": 2,
+            "type": "gentle",
+            "end": 0.75
+          },
+          {
+            "side": 4,
+            "type": "gentle",
+            "start": 0.25
+          },
           {
             "side": 6,
             "type": "gentle"
@@ -1773,7 +2045,6 @@
           "D13",
           "E2",
           "E12",
-          "E14",
           "E18",
           "F1",
           "F3",

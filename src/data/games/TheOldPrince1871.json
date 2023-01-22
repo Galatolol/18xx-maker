@@ -161,193 +161,71 @@
   "tiles": {
     "3": 8,
     "9": 1,
-    "58": 6,
-    "5": 7,
-    "6": 7,
-    "7": 12,
-    "8": 25,
     "1": 2,
-    "56": 2,
+    "56": 3,
     "630": 2,
     "631": 2,
     "632": 2,
     "633": 2,
-    "143": 2,
-    "144": 2,
-    "16": 3,
-    "17": 3,
-    "21": 2,
-    "22": 2,
-    "25": 4,
-    "28": 4,
-    "29": 4,
-    "30": 3,
-    "31": 3,
-    "624": 2,
-    "625": 2,
-    "626": 2,
-    "767": 1,
-    "769": 1,
-    "39": 1,
-    "40": 1,
-    "41": 1,
-    "42": 1,
-    "43": 1,
-    "44": 1,
-    "45": 1,
-    "46": 1,
-    "47": 1,
-    "70": 1,
-    "627": 1,
-    "628": 1,
-    "629": 1,
-    "PEI1": {
-      "quantity": 3,
-      "color": "green",
-      "rotations": 3,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 20 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 4 }, { "side": 5 }]
-    },
-    "PEI2": {
-      "quantity": 3,
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 20 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
-    },
-    "PEI3": {
-      "quantity": 3,
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 20 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 3 }, { "side": 4 }, { "side": 5 }]
-    },
-    "PEI4": {
-      "quantity": 2,
-      "color": "green",
-      "values": [{ "angle": 160, "percent": 0.667, "value": 30 }],
-      "labels": [{ "angle": 220, "percent": 0.75, "label": "T" }],
-      "cities": [{ "size": 1 }],
-      "track": [{ "side": 6 }, { "side": 1 }]
-    },
-    "PEI5": {
-      "quantity": 2,
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 30 }],
-      "labels": [{ "angle": 150, "percent": 0.8, "label": "X" }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 4 }, { "side": 2 }, { "side": 6 }]
-    },
-    "PEI6": {
-      "quantity": 2,
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 30 }],
-      "labels": [{ "angle": 150, "percent": 0.8, "label": "X" }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 3 }, { "side": 2 }, { "side": 6 }]
-    },
-    "PEI7": {
-      "quantity": 2,
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 30 }],
-      "labels": [{ "angle": 150, "percent": 0.8, "label": "X" }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 3 }, { "side": 2 }, { "side": 1 }]
-    },
-    "PEI8": {
-      "quantity": 2,
-      "color": "green",
-      "values": [{ "angle": 210, "percent": 0.8, "value": 30 }],
-      "labels": [{ "angle": 150, "percent": 0.8, "label": "X" }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 3 }, { "side": 6 }, { "side": 1 }]
-    },
-    "PEI9": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 40 }],
-      "cities": [{ "size": 2 }],
-      "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 3 },
-        { "side": 4 },
-        { "side": 5 }
-      ]
-    },
-    "PEI10": {
-      "color": "brown",
-      "quantity": 2,
-      "labels": [{ "angle": 150, "percent": 0.8, "label": "T" }],
-      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-      "cities": [{}],
-      "track": [{ "side": 1 }, { "side": 2 }]
-    },
-    "PEI11": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-      "labels": [{ "label": "X", "angle": 150, "percent": 0.8 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 3 }, { "side": 4 }]
-    },
-    "PEI12": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-      "labels": [{ "label": "X", "angle": 150, "percent": 0.8 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 6 }, { "side": 4 }]
-    },
-    "PEI13": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 60 }],
-      "labels": [{ "label": "X", "angle": 150, "percent": 0.8 }],
-      "cities": [{ "size": 2 }],
-      "track": [{ "side": 1 }, { "side": 2 }, { "side": 5 }, { "side": 4 }]
-    },
-    "PEI14": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [{ "angle": 210, "percent": 0.8, "value": 50 }],
-      "labels": [{ "label": "X", "angle": 90, "percent": 0.8 }],
-      "cities": [{ "size": 3 }],
-      "track": [
-        { "side": 1 },
-        { "side": 2 },
-        { "side": 5 },
-        { "side": 6 },
-        { "side": 4 }
-      ]
-    },
-    "PEI15": {
-      "color": "gray",
-      "values": [{ "value": 80, "angle": 210, "percent": 0.8 }],
+
+    "X15": {
+      "color": "yellow",
+      "rotations": 6,
       "labels": [
-        { "fontSize": 18, "label": "CX", "angle": 90, "percent": 0.8 }
+        {
+          "label": "AL",
+          "angle": 150,
+          "percent": 0.8
+        }
       ],
-      "cities": [{ "size": 3 }],
+      "values": [
+        {
+          "value": 30,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 1 }],
       "track": [
-        { "side": 2 },
-        { "side": 6 },
-        { "side": 5 },
-        { "side": 4 },
-        { "side": 3 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
       ]
     },
-    "PEI16": {
-      "color": "gray",
-      "values": [{ "value": 70, "angle": 210, "percent": 0.8 }],
-      "labels": [{ "label": "X", "angle": 90, "percent": 0.8 }],
-      "cities": [{ "size": 3 }],
+    "X16": {
+      "color": "yellow",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "AL",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 20,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 2 }],
       "track": [
-        { "side": 2 },
-        { "side": 6 },
-        { "side": 5 },
-        { "side": 4 },
-        { "side": 3 }
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 4
+        }
       ]
     }
   },
