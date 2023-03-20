@@ -686,12 +686,12 @@
       ],
       "values": [
         {
-          "value": 30,
+          "value": 20,
           "angle": 210,
           "percent": 0.75
         }
       ],
-      "cities": [{ "size": 1 }],
+      "cities": [{ "size": 2 }],
       "track": [
         {
           "side": 1
@@ -735,6 +735,49 @@
       ]
     },
 
+    "X17": {
+      "color": "green",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "AL",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ],
+      "icons": [
+        {
+          "type": "water",
+          "angle": 30,
+          "percent": "0.7"
+        }
+      ]
+    },
     "X3": {
       "color": "green",
       "rotations": 6,

@@ -615,7 +615,7 @@
     "9": 8,
     "15": 6,
     "58": 7,
-    "80": 3,
+    "80": 2,
     "81": 3,
     "82": 3,
     "83": 3,
@@ -755,7 +755,81 @@
       ]
     },
     "622": 3,
-    "623": 1
+    "623": 1,
+
+    "X17": {
+      "color": "green",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "AL",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ],
+      "icons": [
+        {
+          "type": "water",
+          "angle": 30,
+          "percent": "0.7"
+        }
+      ]
+    },
+    "X15": {
+      "color": "yellow",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "AL",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 20,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
+      ]
+    }
   },
   "map": {
     "hexes": [
