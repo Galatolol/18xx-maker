@@ -14,6 +14,7 @@ const Title = ({ game, variation, hexWidth }) => {
 
   let subtitleFont = game.info.subtitleFontFamily || game.info.titleFontFamily || "display";
   let subtitleWeight = game.info.subtitleFontWeight || game.info.titleFontWeight || "bold";
+  let subtitleStyle = game.info.subtitleFontStyle || game.info.titleFontStyle || "normal";
   let subtitleSize = (game.info.subtitleSize || 30) * scale;
 
   let designerFont = game.info.designerFontFamily || game.info.titleFontFamily || "display";
@@ -29,6 +30,8 @@ const Title = ({ game, variation, hexWidth }) => {
   let x = (game.info.titleX || 0) * scale + 50;
   let y = ((game.info.titleY || 0) + 170) * scale + 50;
   let rotate = (game.info.titleRotate || 0);
+
+  let designerString = (game.info.designer ? "by " + game.info.designer : "")
 
   return (
     <Color>
@@ -53,6 +56,7 @@ const Title = ({ game, variation, hexWidth }) => {
             fill={game.info.subtitleColor || c("black")}
               fontFamily={subtitleFont}
               fontWeight={subtitleWeight}
+              fontStyle={subtitleStyle}
               fontSize={subtitleSize}
               textAnchor="start"
               lengthAdjust="spacingAndGlyphs"
@@ -72,7 +76,7 @@ const Title = ({ game, variation, hexWidth }) => {
             x="0"
             y={designerSize + 10 + (game.info.subtitle ? (subtitleSize + 10) : 0)}
           >
-            by {game.info.designer}
+            {designerString}
             {mapName && ` ⋯ ${mapName}`}
           </text>
         </g>

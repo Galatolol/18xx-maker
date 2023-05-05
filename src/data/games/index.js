@@ -303,6 +303,16 @@ games["1857"] = {
   minPlayers: 3,
   maxPlayers: 6,
 };
+games["1857PL"] = {
+  id: "1857PL",
+  slug: "1857PL",
+  file: "1857PL.json",
+  title: "1857PL",
+  subtitle: "„Zapowiada się dobra podróż”",
+  designer: "",
+  minPlayers: 3,
+  maxPlayers: 6,
+};
 games["1858"] = {
   id: "1858",
   slug: "1858",
