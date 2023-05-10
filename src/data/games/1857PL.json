@@ -1,11 +1,13 @@
 {
   "info": {
     "title": "1857PL",
-    "titleFontFamily": "Symbola",
+    "titleFontFamily": "Anton",
     "designer": "",
     "subtitle": "„Zapowiada się dobra podróż”",
-    "subtitleFontWeight": "bold",
+    "subtitleFontFamily": "times-it",
+    "subtitleFontWeight": "normal",
     "subtitleFontStyle": "italic",
+    "subtitleSize": 35,
     "background": "purple",
     "orientation": "horizontal",
     "titleSize": 150,
@@ -84,8 +86,8 @@
       ]
     },
     {
-      "name": "Polskie Koleje Państwowe",
-      "abbrev": "PKP",
+      "name": "Kolej Nadwiślańska",
+      "abbrev": "KN",
       "tokens": ["Home", "40 zł", "100 zł", "100 zł"],
       "color": "blue",
       "shares": [
@@ -753,14 +755,14 @@
     "45": 2,
     "46": 2,
     "47": 1,
-    "53": 2,
+    "53": 1,
     "54": 1,
     "55": 1,
     "56": 1,
-    "57": 4,
+    "57": 8,
     "58": 2,
     "59": 2,
-    "61": 2,
+    "61": 1,
     "62": 1,
     "63": 3,
     "64": 1,
@@ -815,7 +817,6 @@
           "M5",
           "M7",
           "M9",
-          "M11",
           "N2",
           "N4",
           "N6",
@@ -842,7 +843,7 @@
             "cost": "40 zł"
           }
         ],
-        "hexes": ["F12", "G9", "I11", "L12", "M13"]
+        "hexes": ["F12", "G9", "I11", "L12", "M11", "M13"]
       },
       {
         "color": "plain",
@@ -1128,11 +1129,10 @@
         "centerTowns": [
           {
             "name": {
-              "name": "Pszczyna",
-              "reverse": true
+              "name": "Pszczyna"
             },
             "angle": 210,
-            "percent": 0.45
+            "percent": 0.35
           },
           {
             "name": {
@@ -1140,7 +1140,7 @@
               "reverse": true
             },
             "angle": 30,
-            "percent": 0.45
+            "percent": 0.35
           }
         ],
         "hexes": ["F10"]
@@ -1202,11 +1202,10 @@
         "centerTowns": [
           {
             "name": {
-              "name": "Olkusz",
-              "reverse": true
+              "name": "Olkusz"
             },
             "angle": 210,
-            "percent": 0.45
+            "percent": 0.35
           },
           {
             "name": {
@@ -1214,7 +1213,7 @@
               "reverse": true
             },
             "angle": 30,
-            "percent": 0.45
+            "percent": 0.35
           }
         ],
         "hexes": ["G7"]
@@ -1479,8 +1478,18 @@
         "centerTowns": [
           {
             "name": {
-              "name": "Krosno"
-            }
+              "name": "Sanok"
+            },
+            "angle": 210,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "Krosno",
+              "reverse": true
+            },
+            "angle": 30,
+            "percent": 0.35
           }
         ],
         "hexes": ["L10"]
@@ -1492,7 +1501,7 @@
             "name": {
               "name": "Lublin"
             },
-            "companies": ["PKP"]
+            "companies": ["KN"]
           }
         ],
         "hexes": ["M3"]

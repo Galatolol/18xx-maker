@@ -74,6 +74,31 @@
   font-family: 'Times';
   font-style: normal;
   font-weight: 400;
+  src: url('./fonts/Times.ttf');
   src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
   src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
+} 
+
+/* anton */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton'), url('./fonts/Anton-Regular.ttf')
+} 
+
+/* times-it */
+@font-face {
+  font-family: 'times-it';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/times-it.ttf')
+} 
+
+/* mirage */
+@font-face {
+  font-family: 'Mirage';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Mirage.ttf')
 } 

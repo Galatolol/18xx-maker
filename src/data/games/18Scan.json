@@ -1,15 +1,16 @@
 {
   "info": {
     "title": "18Scan",
-    "subtitle": "Railroading under the Northern Lights",
+    "titleFontFamily": "Mirage",
+    "titleFontWeight": "bold",
     "designer": "David G. D. Hecht",
+    "designerFontFamily": "Times",
+    "designerSize": 20,
     "background": "water",
     "titleRotate": -90,
     "titleSize": 100,
     "titleX": 125,
-    "titleY": 250,
-    "subTitleSize": 18,
-    "designerSize": 13,
+    "titleY": 300,
     "currency": "K#"
   },
   "links": {
@@ -435,11 +436,11 @@
   "rounds": [
     {
       "name": "OR2",
-      "color": "gray"
+      "color": "yellow"
     },
     {
       "name": "OR1",
-      "color": "gray"
+      "color": "yellow"
     },
     {
       "name": "SR",
@@ -886,7 +887,7 @@
         "hexes": ["A18"]
       },
       {
-        "color": "offboard",
+        "color": "gray",
         "centerTowns": [
           {
             "name": {

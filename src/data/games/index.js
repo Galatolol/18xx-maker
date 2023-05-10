@@ -657,7 +657,6 @@ games["18Scan"] = {
   slug: "18Scan",
   file: "18Scan.json",
   title: "18Scan",
-  subtitle: "Railroading under the Northern Lights",
   designer: "David G. D. Hecht",
   minPlayers: 2,
   maxPlayers: 4,

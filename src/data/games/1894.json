@@ -2104,7 +2104,7 @@
         "color": "plain",
         "terrain": [
           {
-            "type": "water",
+            "type": "river",
             "size": "large",
             "cost": "F50"
           }
