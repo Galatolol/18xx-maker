@@ -451,6 +451,18 @@
     "par": {
       "values": [100, 90, 82, 76, 71, 67]
     },
+    "display": {
+      "par": {
+        "x": 13,
+        "y": 3
+      },
+      "roundTracker": {
+        "type": "col",
+        "size": 25,
+        "x": 11.5,
+        "y": 3.25
+      }
+    },
     "movement": {
       "up": ["Sold out"],
       "down": ["Every share sold"],
@@ -774,10 +786,6 @@
     "70": 1
   },
   "map": {
-    "roundTracker": {
-      "x": 38,
-      "y": 1450
-    },
     "players": {
       "x": 50,
       "y": 700

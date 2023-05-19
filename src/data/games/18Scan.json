@@ -1,7 +1,7 @@
 {
   "info": {
     "title": "18Scan",
-    "titleFontFamily": "Mirage",
+    "titleFontFamily": "Anton",
     "titleFontWeight": "bold",
     "designer": "David G. D. Hecht",
     "designerFontFamily": "Times",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Sveriges & Norges Järnvägar",
-      "abbrev": "S&NJ",
+      "abbrev": "SNJ",
       "color": "green",
       "tokens": "three"
     },
@@ -119,21 +119,21 @@
     {
       "name": "Södra Stambanan",
       "minor": true,
-      "abbrev": "1",
+      "abbrev": "M1",
       "color": "turquoise",
       "capital": 260
     },
     {
       "name": "Nordvästra Stambanan",
       "minor": true,
-      "abbrev": "2",
+      "abbrev": "M2",
       "color": "turquoise",
       "capital": 220
     },
     {
       "name": "Västra Stambanan",
       "minor": true,
-      "abbrev": "3",
+      "abbrev": "M3",
       "color": "turquoise",
       "capital": 200
     }
@@ -276,8 +276,8 @@
       "price": 150,
       "revenue": 25,
       "icon": "coal",
-      "company": "S&NJ",
-      "description": "Comes with a 10% share of Sveriges & Norges Järnvägar (S&NJ). Allows a Company to increase the its earnings by K50, if the Company has a route that includes the Kiruna Iron Mines (A20). The bonus is only added once to the Company's earnings, even if two of the Company's trains run to Kiruna. The token may be bought for K50 during the Additional Token Placement step."
+      "company": "SNJ",
+      "description": "Comes with a 10% share of Sveriges & Norges Järnvägar (SNJ). Allows a Company to increase the its earnings by K50, if the Company has a route that includes the Kiruna Iron Mines (A20). The bonus is only added once to the Company's earnings, even if two of the Company's trains run to Kiruna. The token may be bought for K50 during the Additional Token Placement step."
     },
     {
       "id": "P3",
@@ -476,6 +476,14 @@
         "Dividend at least stock price",
         "[Double] Dividend at least two times stock price"
       ]
+    },
+    "display": {
+      "roundTracker": {
+        "type": "col",
+        "size": 25,
+        "x": 6.25,
+        "y": 4.25
+      }
     },
     "market": [
       [
@@ -854,7 +862,7 @@
             },
             {
               "color": "green",
-              "cost": "30"
+              "cost": "50"
             },
             {
               "color": "brown",
@@ -951,7 +959,7 @@
         },
         "tokens": [
           {
-            "company": "2",
+            "company": "M2",
             "destination": true,
             "percent": 0.75
           }
@@ -964,7 +972,7 @@
             "name": {
               "name": "Gällivare"
             },
-            "companies": ["S&NJ"]
+            "companies": ["SNJ"]
           }
         ],
         "hexes": ["B19"]
@@ -1024,7 +1032,7 @@
         },
         "tokens": [
           {
-            "company": "3",
+            "company": "M3",
             "destination": true,
             "percent": 0.75
           }
@@ -1071,7 +1079,7 @@
         ],
         "tokens": [
           {
-            "company": "1",
+            "company": "M1",
             "destination": true,
             "percent": 0.75
           }
@@ -1181,12 +1189,12 @@
               "name": "Stockholm",
               "reverse": true
             },
-            "companies": ["3"]
+            "companies": ["M3"]
           },
           {
             "angle": 170,
             "percent": 0.5,
-            "companies": ["2"]
+            "companies": ["M2"]
           }
         ],
         "labels": {
@@ -1280,7 +1288,7 @@
             "name": {
               "name": "Malmö"
             },
-            "companies": ["1"]
+            "companies": ["M1"]
           }
         ],
         "water": {
@@ -1474,10 +1482,6 @@
         ]
       }
     ],
-    "roundTracker": {
-      "x": 268,
-      "y": 975
-    },
     "players": {
       "x": 1344,
       "y": 807

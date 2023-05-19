@@ -1354,17 +1354,22 @@
             }
           ]
         },
-        "icons": [
+        "cities": [
           {
-            "type": "coal",
-            "percent": 0.8
+            "y": 15
           }
         ],
-        "centerTowns": [{}],
+        "tokens": [
+          {
+            "label": "coal",
+            "color": "black",
+            "y": 15
+          }
+        ],
         "names": [
           {
             "name": "$80",
-            "percent": 0.55
+            "percent": 0.8
           },
           {
             "name": "West",
@@ -2437,9 +2442,9 @@
       },
       {
         "color": "offboard",
-        "tokens": [
+        "cities": [
           {
-            "icon": "river"
+            "companies": [{ "label": "Key West" }]
           }
         ],
         "offBoardRevenue": {
@@ -2491,15 +2496,15 @@
         "color": "white",
         "names": [
           {
-            "name": "worth $0 the first time",
+            "name": "worth 0 first time",
             "angle": 180,
             "percent": 0.15
           },
           {
-            "name": "it is used before"
+            "name": "run to unless"
           },
           {
-            "name": "the first 5T is purchased",
+            "name": "brown phase or later",
             "percent": 0.15
           }
         ],
