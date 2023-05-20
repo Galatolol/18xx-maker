@@ -47,12 +47,22 @@
 
     "xxpaper_yellow": "#f0e68c",
     "xxpaper_green": "#a4d3a6",
+    "xxpaper_light_green": "#a4d3a6",
     "xxpaper_blue": "#93ccea",
     "xxpaper_red": "#e66771",
     "xxpaper_purple": "#c9a0dc",
     "xxpaper_orange": "#ffae42",
     "xxpaper_brown": "#cba98f",
     "xxpaper_gray": "#b3b3b3",
+    "xxpaper_dark_blue": "#002e63",
+    "xxp_light_yellow": "#ffffa4",
+    "xxp_medium_yellow": "#ffffa4",
+    "xxp_dark_yellow": "#ffff00",
+    "xxp_light_green": "#a9ffa4",
+    "xxp_medium_green": "#78ff71",
+    "xxp_dark_green": "#0dff00",
+    "xxp_medium_blue": "#7FA6FF",
+    "xxp_dark_blue": "#1a60ff",
 
     "rob_brown": "#7C3A2D"
   }
