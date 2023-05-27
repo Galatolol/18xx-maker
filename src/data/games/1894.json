@@ -69,13 +69,13 @@
         "type": "col",
         "size": 25,
         "x": 10.75,
-        "y": 5.1
+        "y": 5.5
       },
       "legend": {
         "reverse": true,
         "verticalAlign": "bottom",
         "x": 5.85,
-        "y": 11.35
+        "y": 11
       }
     },
     "par": {
@@ -153,24 +153,20 @@
           "label": 185
         },
         {
-          "value": 217,
-          "label": 217
+          "value": 213,
+          "label": 213
         },
         {
-          "value": 248,
-          "label": 248
+          "value": 250,
+          "label": 250
         },
         {
-          "value": 285,
-          "label": 285
+          "value": 290,
+          "label": 290
         },
         {
-          "value": 325,
-          "label": 325
-        },
-        {
-          "value": 375,
-          "label": 375,
+          "value": 350,
+          "label": 350,
           "labelColor": "black",
           "color": "offboard"
         }
@@ -194,18 +190,17 @@
           "label": 100,
           "legend": 3
         },
-        110,
-        121,
-        134,
+        109,
+        120,
+        132,
         150,
         170,
-        194,
-        222,
-        254,
-        290,
+        195,
+        230,
+        270,
         {
-          "value": 335,
-          "label": 335,
+          "value": 320,
+          "label": 320,
           "arrow": "up"
         }
       ],
@@ -213,26 +208,24 @@
         {
           "value": 67,
           "label": 67,
-          "legend": 0,
           "arrow": "down"
         },
         72,
         77,
         82,
         88,
-        95,
-        100,
-        110,
-        121,
-        136,
+        93,
+        99,
+        109,
+        120,
+        135,
         153,
-        174,
-        200,
-        229,
-        262,
+        176,
+        205,
+        240,
         {
-          "value": 300,
-          "label": 300,
+          "value": 290,
+          "label": 290,
           "arrow": "up"
         }
       ],
@@ -245,13 +238,11 @@
         },
         {
           "value": 66,
-          "label": 66,
-          "legend": 0
+          "label": 66
         },
         {
           "value": 70,
-          "label": 70,
-          "legend": 0
+          "label": 70
         },
         75,
         {
@@ -261,16 +252,15 @@
         },
         87,
         93,
-        100,
+        99,
         109,
         120,
         138,
-        159,
-        179,
-        206,
+        160,
+        185,
         {
-          "value": 236,
-          "label": 236,
+          "value": 220,
+          "label": 220,
           "arrow": "up"
         }
       ],
@@ -288,20 +278,19 @@
         },
         {
           "value": 66,
-          "label": 66,
-          "legend": 0
+          "label": 66
         },
         70,
         75,
         80,
         85,
         92,
-        100,
-        112,
+        102,
+        115,
         128,
         {
-          "value": 146,
-          "label": 146,
+          "value": 147,
+          "label": 147,
           "arrow": "up"
         }
       ],
@@ -324,8 +313,7 @@
         },
         {
           "value": 66,
-          "label": 66,
-          "legend": 0
+          "label": 66
         },
         70,
         {
@@ -335,10 +323,10 @@
         },
         81,
         88,
-        97,
+        99,
         {
-          "value": 107,
-          "label": 107,
+          "value": 109,
+          "label": 109,
           "arrow": "up"
         }
       ],
@@ -367,10 +355,10 @@
         65,
         69,
         73,
-        81,
+        82,
         {
-          "value": 89,
-          "label": 89,
+          "value": 92,
+          "label": 92,
           "arrow": "up"
         }
       ],
@@ -408,8 +396,8 @@
           "par": true
         },
         {
-          "value": 74,
-          "label": 74,
+          "value": 75,
+          "label": 75,
           "arrow": "up"
         }
       ],
@@ -513,7 +501,7 @@
     "legend": [
       {
         "color": "gray",
-        "description": "Certificate limit: 17 / 13",
+        "description": "Certificate limit: 18 / 14",
         "icon": ""
       },
       {
@@ -565,9 +553,9 @@
   },
   "tiles": {
     "1": 1,
-    "7": 3,
-    "8": 11,
-    "9": 11,
+    "7": 4,
+    "8": 15,
+    "9": 12,
     "14": 4,
     "15": 4,
     "16": 1,
@@ -674,7 +662,7 @@
         }
       ]
     },
-    "X15": {
+    "X3": {
       "color": "yellow",
       "rotations": 6,
       "labels": [
@@ -702,7 +690,7 @@
       ]
     },
 
-    "X16": {
+    "X7": {
       "color": "green",
       "rotations": 6,
       "labels": [
@@ -732,7 +720,7 @@
         }
       ]
     },
-    "X17": {
+    "X8": {
       "color": "green",
       "rotations": 6,
       "labels": [
@@ -765,7 +753,7 @@
         }
       ]
     },
-    "X18": {
+    "X12": {
       "color": "brown",
       "rotations": 6,
       "labels": [
@@ -798,7 +786,7 @@
         }
       ]
     },
-    "X19": {
+    "X13": {
       "color": "brown",
       "rotations": 6,
       "labels": [
@@ -843,14 +831,14 @@
         }
       ]
     },
-    "X3": {
+    "X4": {
       "color": "green",
       "rotations": 6,
       "values": [
         {
           "angle": 120,
           "percent": 0.6,
-          "value": 30
+          "value": 40
         }
       ],
       "cities": [
@@ -883,14 +871,14 @@
         }
       ]
     },
-    "X4": {
+    "X5": {
       "color": "green",
       "rotations": 6,
       "values": [
         {
           "angle": 90,
           "percent": 0.75,
-          "value": 30
+          "value": 40
         }
       ],
       "cities": [
@@ -923,7 +911,7 @@
         }
       ]
     },
-    "X5": {
+    "X6": {
       "color": "green",
       "rotations": 6,
       "labels": [
@@ -958,7 +946,7 @@
       ]
     },
 
-    "X6": {
+    "X9": {
       "color": "brown",
       "rotations": 6,
       "values": [
@@ -998,7 +986,7 @@
         }
       ]
     },
-    "X7": {
+    "X10": {
       "color": "brown",
       "rotations": 6,
       "values": [
@@ -1038,7 +1026,7 @@
         }
       ]
     },
-    "X8": {
+    "X11": {
       "color": "brown",
       "rotations": 6,
       "labels": [
@@ -1077,7 +1065,7 @@
         }
       ]
     },
-    "X9": {
+    "X14": {
       "color": "brown",
       "quantity": 2,
       "values": [
@@ -1108,7 +1096,7 @@
         }
       ]
     },
-    "X10": {
+    "X15": {
       "color": "brown",
       "quantity": 2,
       "values": [
@@ -1138,7 +1126,7 @@
         }
       ]
     },
-    "X11": {
+    "X16": {
       "color": "brown",
       "quantity": 2,
       "values": [
@@ -1168,7 +1156,7 @@
         }
       ]
     },
-    "X12": {
+    "X17": {
       "color": "brown",
       "quantity": 2,
       "values": [
@@ -1201,7 +1189,7 @@
         }
       ]
     },
-    "X13": {
+    "X18": {
       "color": "brown",
       "quantity": 2,
       "values": [
@@ -1233,7 +1221,7 @@
         }
       ]
     },
-    "X14": {
+    "X19": {
       "color": "brown",
       "quantity": 2,
       "values": [
