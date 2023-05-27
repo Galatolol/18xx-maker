@@ -37,6 +37,7 @@ const ParCell = ({ value, par, legend }) => {
   if (value.color) {
     color = value.color;
   }
+  color = "gray";
   let width = value.width || par.width || unitsToCss(stock.par.width);
   let height = value.height || par.height || unitsToCss(stock.par.height);
 

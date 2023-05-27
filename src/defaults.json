@@ -95,14 +95,14 @@
   },
   "stock": {
     "cell": {
-      "width": 70,
-      "height": 85
+      "height": 94,
+      "width": 99
     },
     "value": "top",
-    "arrows": "bottom",
+    "arrows": "top",
     "column": 4,
     "diag": 2,
-    "par": 4,
+    "par": 3,
     "display": {
       "legend": true,
       "par": true,

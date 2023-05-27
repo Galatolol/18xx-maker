@@ -101,7 +101,7 @@ const Cell = ({ cell, par, game, config, data }) => {
                   strokeWidth={0.5}
                   fontFamily="display"
                   fontStyle="bold"
-                  fontSize="17"
+                  fontSize="20"
                   textAnchor={left ? "start" : "end"}
                   dominantBaseline={arrowBaseline}
                   x={left ? 5 : data.width - 5}
@@ -244,11 +244,11 @@ const Cell = ({ cell, par, game, config, data }) => {
                     fill={labelColor}
                     fontFamily="display"
                     fontStyle="bold"
-                    fontSize="17"
-                    textAnchor={rotated ? "end" : "middle"}
+                    fontSize="20"
+                    // textAnchor={rotated ? "end" : "middle"}
                     textDecoration={cell.underline ? "underline" : null}
                     dominantBaseline="hanging"
-                    x={rotated ? -5 : width/2}
+                    x={rotated ? -5 : (width/2) - 45}
                     y={height - 18}
                   >
                     {text}

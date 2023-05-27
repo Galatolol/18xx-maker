@@ -64,12 +64,12 @@ const ParCell = ({ cell, data }) => {
                     fill={labelColor}
                     fontFamily="display"
                     fontStyle="bold"
-                    fontSize="15"
+                    fontSize="20"
                     textAnchor={rotated ? "end" : "state"}
                     textDecoration={cell.underline ? "underline" : null}
                     dominantBaseline="hanging"
                     x={rotated ? -5 : 5}
-                    y="5"
+                    y="70"
                   >
                     {text}
                   </text>
