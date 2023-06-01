@@ -248,8 +248,8 @@ const Cell = ({ cell, par, game, config, data }) => {
                     // textAnchor={rotated ? "end" : "middle"}
                     textDecoration={cell.underline ? "underline" : null}
                     dominantBaseline="hanging"
-                    x={rotated ? -5 : (width/2) - 45}
-                    y={height - 18}
+                    x={rotated ? -5 : (width/2) - 47}
+                    y={height - 20}
                   >
                     {text}
                   </text>
