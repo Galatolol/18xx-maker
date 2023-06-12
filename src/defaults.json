@@ -12,7 +12,7 @@
   "paper": {
     "width": 826,
     "height": 1169,
-    "margins": 20
+    "margins": 17
   },
   "currency": {
     "bank": true,
@@ -95,8 +95,8 @@
   },
   "stock": {
     "cell": {
-      "height": 94,
-      "width": 106
+      "height": 90,
+      "width": 100
     },
     "value": "top",
     "arrows": "top",
