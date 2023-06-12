@@ -813,7 +813,6 @@
           "H2",
           "H4",
           "H6",
-          "I1",
           "I3",
           "J4",
           "J6",
@@ -821,7 +820,6 @@
           "K5",
           "K9",
           "K11",
-          "M1",
           "M5",
           "M7",
           "M9",
@@ -1008,7 +1006,7 @@
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "50"
+              "cost": "40"
             }
           ]
         },
@@ -1090,20 +1088,20 @@
         "labels": [
           {
             "label": "OO",
-            "angle": 210,
+            "angle": 120,
             "percent": 0.667
           }
         ],
         "values": [
           {
-            "value": 30,
-            "angle": 60,
+            "value": 20,
+            "angle": 300,
             "percent": 0.65
           }
         ],
         "cities": [
           {
-            "angle": 150,
+            "angle": 210,
             "percent": 0.6,
             "name": {
               "name": "Sosnowiec",
@@ -1112,7 +1110,7 @@
             "companies": ["LHS"]
           },
           {
-            "angle": -30,
+            "angle": 30,
             "percent": 0.6,
             "name": {
               "name": "Katowice"
@@ -1123,13 +1121,13 @@
         "track": [
           {
             "type": "sharp",
-            "side": 6,
-            "start": 0.4
+            "side": 1,
+            "end": 0.4
           },
           {
             "type": "sharp",
-            "side": 3,
-            "end": 0.4
+            "side": 4,
+            "start": 0.4
           }
         ],
         "hexes": ["F8"]
@@ -1175,7 +1173,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": "20"
             },
             {
               "color": "brown",
@@ -1350,6 +1348,16 @@
         "hexes": ["H8"]
       },
       {
+        "color": "gray",
+        "track": [
+          {
+            "type": "gentle",
+            "side": 6
+          }
+        ],
+        "hexes": ["I1"]
+      },
+      {
         "color": "plain",
         "cities": [
           {
@@ -1429,7 +1437,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "10"
+              "cost": "20"
             },
             {
               "color": "brown",
@@ -1508,6 +1516,20 @@
         "hexes": ["L10"]
       },
       {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 1
+          },
+          {
+            "type": "sharp",
+            "side": 6
+          }
+        ],
+        "hexes": ["M1"]
+      },
+      {
         "color": "plain",
         "cities": [
           {
@@ -1525,7 +1547,7 @@
           {
             "name": {
               "name": "Przemyśl",
-              "rotation": 20
+              "rotation": 75
             }
           }
         ],
@@ -1542,6 +1564,9 @@
           },
           {
             "side": 3
+          },
+          {
+            "side": 4
           }
         ],
         "hexes": ["N10"]
@@ -1566,7 +1591,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": "20"
             },
             {
               "color": "brown",
