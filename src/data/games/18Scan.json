@@ -763,27 +763,68 @@
         }
       ]
     },
-    "622": 3,
-    "623": 1,
+    "622": 2,
 
-    "X17": {
+    "622o": {
+      "count": 1,
       "color": "green",
-      "rotations": 6,
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 40
+        }
+      ],
       "labels": [
         {
-          "label": "AL",
+          "label": "O",
           "angle": 150,
           "percent": 0.8
         }
       ],
-      "values": [
+      "cities": [
         {
-          "value": 40,
-          "angle": 210,
-          "percent": 0.75
+          "size": 2
         }
       ],
-      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "623": {
+      "count": 1,
+      "color": "brown",
+      "rotations": 1,
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 50
+        }
+      ],
+      "labels": [
+        {
+          "angle": 150,
+          "percent": 0.8,
+          "label": "O"
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
       "track": [
         {
           "side": 1
@@ -799,43 +840,9 @@
         },
         {
           "side": 5
-        }
-      ],
-      "icons": [
-        {
-          "type": "water",
-          "angle": 30,
-          "percent": "0.7"
-        }
-      ]
-    },
-    "X15": {
-      "color": "yellow",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "AL",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 20,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 2 }],
-      "track": [
-        {
-          "side": 1
         },
         {
-          "side": 2
-        },
-        {
-          "side": 3
+          "side": 6
         }
       ]
     }
@@ -1027,7 +1034,7 @@
           }
         ],
         "labels": {
-          "label": "Y",
+          "label": "O",
           "x": 50
         },
         "tokens": [

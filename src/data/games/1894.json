@@ -62,19 +62,19 @@
     "type": "2D",
     "display": {
       "par": {
-        "x": 12,
+        "x": 11,
         "y": 5
       },
       "roundTracker": {
         "type": "col",
         "size": 25,
-        "x": 10.75,
+        "x": 9.75,
         "y": 5.5
       },
       "legend": {
         "reverse": true,
         "verticalAlign": "bottom",
-        "x": 5.85,
+        "x": 4.85,
         "y": 11
       }
     },
@@ -108,13 +108,9 @@
     "market": [
       [
         {
-          "value": 77,
-          "label": 77,
-          "arrow": ["down"]
-        },
-        {
           "value": 83,
-          "label": 83
+          "label": 83,
+          "arrow": ["down"]
         },
         {
           "value": 89,
@@ -173,11 +169,10 @@
       ],
       [
         {
-          "value": 72,
-          "label": 72,
+          "value": 77,
+          "label": 77,
           "arrow": "down"
         },
-        77,
         82,
         {
           "value": 90,
@@ -206,11 +201,10 @@
       ],
       [
         {
-          "value": 67,
-          "label": 67,
+          "value": 72,
+          "label": 72,
           "arrow": "down"
         },
-        72,
         77,
         82,
         88,
@@ -231,14 +225,9 @@
       ],
       [
         {
-          "value": 63,
-          "label": 63,
-          "legend": 0,
-          "arrow": "down"
-        },
-        {
           "value": 66,
-          "label": 66
+          "label": 66,
+          "arrow": "down"
         },
         {
           "value": 70,
@@ -266,15 +255,10 @@
       ],
       [
         {
-          "value": 59,
-          "label": 59,
-          "legend": 0,
-          "arrow": "down"
-        },
-        {
           "value": 63,
           "label": 63,
-          "legend": 0
+          "legend": 0,
+          "arrow": "down"
         },
         {
           "value": 66,
@@ -296,15 +280,10 @@
       ],
       [
         {
-          "value": 56,
-          "label": 56,
-          "legend": 0,
-          "arrow": "down"
-        },
-        {
           "value": 59,
           "label": 59,
-          "legend": 0
+          "legend": 0,
+          "arrow": "down"
         },
         {
           "value": 63,
@@ -332,15 +311,10 @@
       ],
       [
         {
-          "value": 42,
-          "label": 42,
-          "legend": 1,
-          "arrow": "down"
-        },
-        {
           "value": 55,
           "label": 55,
-          "legend": 0
+          "legend": 1,
+          "arrow": "down"
         },
         {
           "value": 59,
@@ -364,15 +338,10 @@
       ],
       [
         {
-          "value": 30,
-          "label": 30,
-          "legend": 1,
-          "arrow": "down"
-        },
-        {
           "value": 40,
           "label": 40,
-          "legend": 0
+          "legend": 1,
+          "arrow": "down"
         },
         {
           "value": 50,
@@ -403,15 +372,10 @@
       ],
       [
         {
-          "value": 20,
-          "label": 20,
-          "legend": 2,
-          "arrow": "down"
-        },
-        {
           "value": 30,
           "label": 30,
-          "legend": 1
+          "legend": 2,
+          "arrow": "down"
         },
         {
           "value": 40,
@@ -437,14 +401,10 @@
       ],
       [
         {
-          "value": 10,
-          "label": 10,
-          "legend": 0
-        },
-        {
           "value": 20,
           "label": 20,
-          "legend": 0
+          "legend": 0,
+          "arrow": "down"
         },
         {
           "value": 30,
@@ -469,7 +429,6 @@
         }
       ],
       [
-        null,
         {
           "value": 10,
           "label": 10,
