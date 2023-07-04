@@ -74,8 +74,8 @@
       "legend": {
         "reverse": true,
         "verticalAlign": "bottom",
-        "x": 4.85,
-        "y": 11
+        "x": 4.89,
+        "y": 11.15
       }
     },
     "par": {
@@ -465,7 +465,7 @@
       },
       {
         "color": "gray",
-        "description": "Starting money: 580 / 440",
+        "description": "Starting money: 570 / 440",
         "icon": ""
       },
       {
@@ -1420,7 +1420,7 @@
           "size": 11,
           "revenues": [
             {
-              "cost": "Netherlands to offboard: +50",
+              "cost": "Netherlands to offboard: +60",
               "color": "white"
             }
           ],
@@ -1508,6 +1508,13 @@
             "label": "L",
             "angle": 120,
             "percent": 0.8
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "F60",
+            "percent": 0.75
           }
         ],
         "hexes": ["D11"]
@@ -1671,9 +1678,15 @@
           {
             "size": 1,
             "name": {
-              "name": "Bruxelles",
-              "reverse": true
+              "name": "Bruxelles"
             }
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "F60",
+            "percent": 0.75
           }
         ],
         "hexes": ["F15"]
@@ -1742,17 +1755,25 @@
         "cities": [
           {
             "name": {
-              "name": "Saint-Quentin"
+              "name": "Saint-Quentin",
+              "reverse": true
             }
           }
         ],
         "companies": [
           {
             "label": "LSQG",
-            "percent": 0.65,
+            "percent": -0.7,
             "left": 10,
             "right": 10,
             "color": "green"
+          }
+        ],
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "F60",
+            "percent": 0.85
           }
         ],
         "hexes": ["G10"]
@@ -2051,9 +2072,9 @@
         "color": "plain",
         "terrain": [
           {
-            "type": "river",
+            "type": "water",
             "size": "large",
-            "cost": "F50"
+            "cost": "F60"
           }
         ],
         "hexes": [
