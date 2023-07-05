@@ -2,16 +2,16 @@
   "info": {
     "title": "1894",
     "titleFontFamily": "EB Garamond",
-    "subtitle": "PROTOTYPE",
+    "subtitle": "",
     "subtitleFontFamily": "Oswald",
-    "designer": "Galatolol",
+    "designer": "Galatolol (PROTOTYPE)",
     "designerFontFamily": "display",
     "background": "gray",
     "width": 150,
     "color_10": "orange",
-    "titleX": 1150,
-    "titleY": -60,
-    "titleSize": 120,
+    "titleX": 1000,
+    "titleY": -110,
+    "titleSize": 100,
     "subTitleSize": 20,
     "hexCoords": true,
     "currency": "F",
@@ -540,14 +540,15 @@
     "45": 2,
     "46": 2,
     "47": 1,
-    "55": 1,
     "56": 2,
     "57": 9,
-    "69": 1,
     "70": 2,
     "619": 4,
     "624": 1,
     "630": 1,
+    "631": 1,
+    "632": 1,
+    "633": 1,
 
     "35": 2,
     "36": 2,
@@ -1212,28 +1213,13 @@
       ]
     }
   },
-
   "map": {
     "hexes": [
-      {
-        "color": "gray",
-        "track": [
-          {
-            "side": 5,
-            "type": "sharp"
-          },
-          {
-            "side": 4,
-            "type": "gentle"
-          }
-        ],
-        "hexes": ["A2"]
-      },
       {
         "color": "offboard",
         "offBoardTrack": [
           {
-            "side": 1
+            "side": 5
           },
           {
             "side": 6
@@ -1252,21 +1238,28 @@
             "percent": 0.1
           }
         ],
+        "hexes": ["A2"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 5,
+            "type": "sharp"
+          }
+        ],
         "hexes": ["A4"]
       },
       {
         "color": "water",
-        "track": [
+        "cities": [
           {
-            "side": 4,
-            "type": "sharp"
-          },
-          {
-            "side": 4,
-            "type": "gentle"
+            "name": {
+              "name": "London shipping"
+            }
           }
         ],
-        "hexes": ["A8"]
+        "hexes": ["A10"]
       },
       {
         "color": "water",
@@ -1313,15 +1306,14 @@
           "x": 0,
           "y": -40
         },
-        "hexes": ["A10"]
+        "hexes": ["A8"]
       },
       {
-        "color": "water",
-        "cities": [
+        "color": "gray",
+        "track": [
           {
-            "name": {
-              "name": "London shipping"
-            }
+            "side": 5,
+            "type": "sharp"
           }
         ],
         "hexes": ["A12"]
@@ -1333,28 +1325,14 @@
             "name": {
               "name": "Le Havre"
             },
-            "companies": [{ "label": "Ouest" }]
+            "companies": [
+              {
+                "label": "Ouest"
+              }
+            ]
           }
         ],
         "hexes": ["B3"]
-      },
-      {
-        "color": "gray",
-        "track": [
-          {
-            "side": 5,
-            "type": "gentle"
-          },
-          {
-            "side": 5,
-            "type": "sharp"
-          },
-          {
-            "side": 6,
-            "type": "sharp"
-          }
-        ],
-        "hexes": ["B5"]
       },
       {
         "color": "plain",
@@ -1365,7 +1343,14 @@
             }
           }
         ],
-        "hexes": ["B9"]
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "F60",
+            "percent": 0.75
+          }
+        ],
+        "hexes": ["B7"]
       },
       {
         "color": "plain",
@@ -1376,7 +1361,14 @@
             }
           }
         ],
-        "hexes": ["B11"]
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "F60",
+            "percent": 0.75
+          }
+        ],
+        "hexes": ["B9"]
       },
       {
         "color": "plain",
@@ -1387,18 +1379,49 @@
             },
             "angle": 210,
             "percent": 0.35
-          },
-          {
-            "angle": 30,
-            "percent": 0.35
           }
         ],
         "names": {
-          "name": "Blangy-sur-Bresle",
+          "name": "",
           "angle": 10,
-          "percent": 0.63
+          "percent": 0.1
         },
-        "hexes": ["C6"]
+        "towns": [
+          {
+            "rotation": 210,
+            "angle": 30,
+            "percent": 0.35,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 120,
+            "percent": 0.5
+          }
+        ],
+        "track": [
+          {
+            "type": "straight",
+            "side": 6,
+            "end": 0.35
+          }
+        ],
+        "hexes": ["B5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Brugge"
+            }
+          }
+        ],
+        "hexes": ["B13"]
       },
       {
         "color": "gray",
@@ -1425,9 +1448,9 @@
             }
           ],
           "angle": 220,
-          "percent": 1.8
+          "percent": 1.65
         },
-        "hexes": ["C16"]
+        "hexes": ["B15"]
       },
       {
         "color": "offboard",
@@ -1452,35 +1475,7 @@
             "percent": 0.1
           }
         ],
-        "hexes": ["C18"]
-      },
-      {
-        "color": "gray",
-        "values": [
-          {
-            "value": 20,
-            "angle": 120,
-            "percent": 0.1
-          }
-        ],
-        "towns": [
-          {
-            "angle": -60,
-            "percent": 0.57735,
-            "rotation": 30,
-            "name": {
-              "name": "Évreux",
-              "rotation": 180
-            }
-          }
-        ],
-        "track": [
-          {
-            "type": "sharp",
-            "side": 4
-          }
-        ],
-        "hexes": ["D1"]
+        "hexes": ["B17"]
       },
       {
         "color": "plain",
@@ -1489,10 +1484,48 @@
             "name": {
               "name": "Rouen"
             },
-            "companies": [{ "label": "CFOR" }]
+            "companies": [
+              {
+                "label": "CFOR"
+              }
+            ]
           }
         ],
-        "hexes": ["D3"]
+        "hexes": ["C2"]
+      },
+      {
+        "color": "plain",
+        "towns": [
+          {
+            "rotation": 210,
+            "angle": 210,
+            "percent": 0.35,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "centerTowns": [
+          {
+            "angle": 30,
+            "percent": 0.35
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 120,
+            "percent": 0.5
+          }
+        ],
+        "track": [
+          {
+            "type": "straight",
+            "side": 3,
+            "end": 0.35
+          }
+        ],
+        "hexes": ["C4"]
       },
       {
         "color": "plain",
@@ -1517,7 +1550,28 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["D11"]
+        "hexes": ["C10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": ""
+            },
+            "angle": 210,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "",
+              "reverse": true
+            },
+            "angle": 30,
+            "percent": 0.35
+          }
+        ],
+        "hexes": ["C12"]
       },
       {
         "color": "plain",
@@ -1526,10 +1580,14 @@
             "name": {
               "name": "Gent"
             },
-            "companies": [{ "label": "AG" }]
+            "companies": [
+              {
+                "label": "AG"
+              }
+            ]
           }
         ],
-        "hexes": ["D15"]
+        "hexes": ["C14"]
       },
       {
         "color": "plain",
@@ -1540,7 +1598,35 @@
             }
           }
         ],
-        "hexes": ["D17"]
+        "hexes": ["C16"]
+      },
+      {
+        "color": "gray",
+        "towns": [
+          {
+            "name": {
+              "name": "Évreux",
+              "reverse": true
+            },
+            "rotation": 0,
+            "angle": 270,
+            "percent": 0.27
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 30,
+            "percent": 0.5
+          }
+        ],
+        "track": [
+          {
+            "type": "gentle",
+            "side": 3
+          }
+        ],
+        "hexes": ["D1"]
       },
       {
         "color": "gray",
@@ -1585,7 +1671,7 @@
           ],
           "percent": 0.2
         },
-        "hexes": ["E4"]
+        "hexes": ["D3"]
       },
       {
         "color": "plain",
@@ -1594,10 +1680,14 @@
             "name": {
               "name": "Amiens"
             },
-            "companies": [{ "label": "Ouest" }]
+            "companies": [
+              {
+                "label": "Ouest"
+              }
+            ]
           }
         ],
-        "hexes": ["E6"]
+        "hexes": ["D5"]
       },
       {
         "color": "plain",
@@ -1606,10 +1696,14 @@
             "name": {
               "name": "Arras"
             },
-            "companies": [{ "label": "Nord" }]
+            "companies": [
+              {
+                "label": "Nord"
+              }
+            ]
           }
         ],
-        "hexes": ["E10"]
+        "hexes": ["D9"]
       },
       {
         "color": "plain",
@@ -1618,10 +1712,14 @@
             "name": {
               "name": "Mechelen"
             },
-            "companies": [{ "label": "Belge" }]
+            "companies": [
+              {
+                "label": "Belge"
+              }
+            ]
           }
         ],
-        "hexes": ["E16"]
+        "hexes": ["D15"]
       },
       {
         "color": "plain",
@@ -1642,7 +1740,7 @@
             "percent": 0.35
           }
         ],
-        "hexes": ["F5"]
+        "hexes": ["E4"]
       },
       {
         "color": "plain",
@@ -1663,7 +1761,7 @@
             "percent": 0.35
           }
         ],
-        "hexes": ["F9"]
+        "hexes": ["F7"]
       },
       {
         "color": "plain",
@@ -1689,34 +1787,18 @@
             "percent": 0.75
           }
         ],
-        "hexes": ["F15"]
+        "hexes": ["E14"]
       },
       {
-        "color": "yellow",
-        "track": [
-          {
-            "side": 2
-          },
-          {
-            "side": 4
-          }
-        ],
+        "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Versailles",
-              "rotation": -100
+              "name": "Versailles"
             }
           }
         ],
-        "values": [
-          {
-            "value": 20,
-            "angle": 330,
-            "percent": 0.65
-          }
-        ],
-        "hexes": ["G2"]
+        "hexes": ["F3"]
       },
       {
         "color": "plain",
@@ -1726,7 +1808,11 @@
             "percent": 0.6,
             "rotation": -30,
             "size": 1,
-            "companies": [{ "label": "PLM" }]
+            "companies": [
+              {
+                "label": "PLM"
+              }
+            ]
           },
           {
             "angle": 180,
@@ -1748,7 +1834,7 @@
             "percent": 0.8
           }
         ],
-        "hexes": ["G4"]
+        "hexes": ["F5"]
       },
       {
         "color": "plain",
@@ -1776,7 +1862,7 @@
             "percent": 0.85
           }
         ],
-        "hexes": ["G10"]
+        "hexes": ["F9"]
       },
       {
         "color": "plain",
@@ -1785,10 +1871,14 @@
             "name": {
               "name": "Charleroi"
             },
-            "companies": [{ "label": "Nord" }]
+            "companies": [
+              {
+                "label": "Nord"
+              }
+            ]
           }
         ],
-        "hexes": ["G14"]
+        "hexes": ["F13"]
       },
       {
         "color": "plain",
@@ -1809,7 +1899,7 @@
             "percent": 0.35
           }
         ],
-        "hexes": ["G16"]
+        "hexes": ["F15"]
       },
       {
         "color": "gray",
@@ -1845,7 +1935,7 @@
             "type": "gentle"
           }
         ],
-        "hexes": ["G18"]
+        "hexes": ["F17"]
       },
       {
         "color": "gray",
@@ -1853,9 +1943,50 @@
           {
             "name": {
               "name": "Chartres",
-              "rotation": -40
+              "x": -30
             },
-            "companies": [{ "label": "CFOR" }]
+            "companies": [
+              {
+                "label": "CFOR"
+              }
+            ],
+            "angle": "210",
+            "percent": 0.05
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": ""
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "30"
+            }
+          ],
+          "angle": 330,
+          "percent": 0.65
+        },
+        "towns": [
+          {
+            "rotation": 210,
+            "angle": 30,
+            "percent": 0.75,
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 60,
+            "percent": 0.85
           }
         ],
         "track": [
@@ -1866,25 +1997,10 @@
             "side": 4
           },
           {
-            "side": 5
+            "side": 6
           }
         ],
-        "offBoardRevenue": {
-          "revenues": [
-            {
-              "color": "yellow",
-              "cost": "20"
-            },
-            {
-              "color": "brown",
-              "textColor": "white",
-              "cost": "40"
-            }
-          ],
-          "x": -18,
-          "y": 45
-        },
-        "hexes": ["H1"]
+        "hexes": ["G2"]
       },
       {
         "color": "plain",
@@ -1895,55 +2011,39 @@
             }
           }
         ],
-        "hexes": ["H7"]
-      },
-      {
-        "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "name": "Charleville"
-            },
-            "angle": 210,
-            "percent": 0.35
-          },
-          {
-            "name": {
-              "name": "Mézières",
-              "reverse": true
-            },
-            "angle": 30,
-            "percent": 0.35
-          }
-        ],
-        "hexes": ["H13"]
+        "hexes": ["G6"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Liège"
+              "name": "Liège",
+              "reverse": true
             }
           }
         ],
         "companies": [
           {
-            "percent": 0.65,
+            "percent": -0.7,
             "label": "GLG",
             "left": 10,
             "right": 10,
             "color": "red"
           }
         ],
-        "hexes": ["H17"]
+        "terrain": [
+          {
+            "type": "water",
+            "cost": "F60",
+            "percent": 0.85
+          }
+        ],
+        "hexes": ["G16"]
       },
       {
         "color": "offboard",
         "offBoardTrack": [
-          {
-            "side": 2
-          },
           {
             "side": 3
           },
@@ -1960,7 +2060,7 @@
         ],
         "values": [
           {
-            "value": 30,
+            "value": 40,
             "percent": 0.1
           }
         ],
@@ -1974,7 +2074,7 @@
             }
           ]
         },
-        "hexes": ["I2"]
+        "hexes": ["H1"]
       },
       {
         "color": "yellow",
@@ -1995,7 +2095,11 @@
               "name": "Reims",
               "rotation": -100
             },
-            "companies": [{ "label": "Est" }]
+            "companies": [
+              {
+                "label": "Est"
+              }
+            ]
           }
         ],
         "values": [
@@ -2005,7 +2109,7 @@
             "percent": 0.65
           }
         ],
-        "hexes": ["I8"]
+        "hexes": ["H7"]
       },
       {
         "color": "gray",
@@ -2015,7 +2119,7 @@
             "type": "straight"
           }
         ],
-        "hexes": ["I10"]
+        "hexes": ["H9"]
       },
       {
         "color": "plain",
@@ -2027,7 +2131,7 @@
             "color": "red"
           }
         ],
-        "hexes": ["I14"]
+        "hexes": ["H13"]
       },
       {
         "color": "gray",
@@ -2041,7 +2145,7 @@
             "type": "sharp"
           }
         ],
-        "hexes": ["I16"]
+        "hexes": ["H15"]
       },
       {
         "color": "offboard",
@@ -2066,59 +2170,48 @@
             "side": 2
           }
         ],
-        "hexes": ["I18"]
+        "hexes": ["H17"]
       },
       {
         "color": "plain",
         "terrain": [
           {
             "type": "water",
-            "size": "large",
             "cost": "F60"
           }
         ],
         "hexes": [
           "B1",
-          "B7",
-          "C2",
-          "C8",
-          "C10",
-          "C12",
-          "E4",
+          "B11",
+          "A6",
+          "D3",
+          "D7",
+          "E6",
           "E8",
-          "F7",
+          "E10",
           "F11",
+          "G4",
           "G8",
           "G12",
+          "G14",
           "H5",
-          "H9",
-          "H15",
-          "I6"
+          "H11"
         ]
       },
       {
         "color": "plain",
         "hexes": [
-          "B13",
-          "C4",
-          "C14",
-          "D5",
-          "D7",
-          "D9",
+          "C6",
+          "C8",
+          "D11",
           "D13",
           "E2",
           "E12",
-          "E14",
-          "F13",
-          "E18",
+          "D17",
+          "E16",
           "F1",
-          "F3",
-          "F17",
-          "G6",
-          "H3",
-          "H11",
-          "I4",
-          "I12"
+          "G10",
+          "H3"
         ]
       }
     ],
@@ -2130,22 +2223,34 @@
         "offset": 0,
         "dashed": true,
         "coords": [
-          "I14p5",
-          "I14p4",
           "H13p5",
           "H13p4",
           "G12p5",
           "G12p4",
           "F11p5",
-          "F13p3",
-          "E12p6",
-          "E12p5",
-          "E12p4",
+          "F11p4",
+          "E10p5",
+          "E12p3",
+          "D11p6",
           "D11p5",
-          "C12p6",
-          "C12p5",
-          "B13p6"
+          "D11p4",
+          "C10p5",
+          "B11p1",
+          "B11p2",
+          "B11p3"
         ]
+      },
+      {
+        "color": "water",
+        "width": 8,
+        "offset": 0,
+        "coords": ["H13p5", "H13p4"]
+      },
+      {
+        "color": "water",
+        "width": 8,
+        "offset": 0,
+        "coords": ["G10p5", "G10p4"]
       }
     ]
   }
