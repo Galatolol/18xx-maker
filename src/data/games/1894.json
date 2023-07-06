@@ -1221,7 +1221,7 @@
           "percent": 0.7,
           "shape": "square",
           "color": "brown",
-          "value": "F60",
+          "value": "F50",
           "textColor": "white",
           "fontSize": 14
         }
@@ -1267,7 +1267,7 @@
           "percent": 0.6,
           "shape": "square",
           "color": "brown",
-          "value": "F60",
+          "value": "F50",
           "textColor": "white",
           "fontSize": 14
         }
@@ -1315,7 +1315,7 @@
           "percent": 0.7,
           "shape": "square",
           "color": "brown",
-          "value": "F60",
+          "value": "F50",
           "textColor": "white",
           "fontSize": 14
         }
@@ -1357,7 +1357,7 @@
           "percent": 0.5,
           "shape": "square",
           "color": "brown",
-          "value": "F60",
+          "value": "F50",
           "textColor": "white",
           "fontSize": 14
         }
@@ -1399,7 +1399,7 @@
           "percent": 0.5,
           "shape": "square",
           "color": "brown",
-          "value": "F60",
+          "value": "F50",
           "textColor": "white",
           "fontSize": 14
         }
@@ -1441,7 +1441,7 @@
           "percent": 0.5,
           "shape": "square",
           "color": "brown",
-          "value": "F60",
+          "value": "F50",
           "textColor": "white",
           "fontSize": 14
         }
@@ -1790,6 +1790,24 @@
       },
       {
         "color": "gray",
+        "towns": [
+          {
+            "angle": 0,
+            "percent": 0.57735,
+            "rotation": 90,
+            "name": {
+              "name": "Oostende",
+              "rotation": 180
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 180,
+            "percent": 0.1
+          }
+        ],
         "track": [
           {
             "side": 5,
@@ -1823,13 +1841,6 @@
             }
           }
         ],
-        "terrain": [
-          {
-            "type": "water",
-            "cost": "F60",
-            "percent": 0.75
-          }
-        ],
         "hexes": ["B7"]
       },
       {
@@ -1844,7 +1855,7 @@
         "terrain": [
           {
             "type": "water",
-            "cost": "F60",
+            "cost": "F50",
             "percent": 0.75
           }
         ],
@@ -1923,7 +1934,7 @@
           "size": 11,
           "revenues": [
             {
-              "cost": "Netherlands to offboard: +60",
+              "cost": "Netherlands to offboard: +50",
               "color": "white"
             }
           ],
@@ -2023,13 +2034,6 @@
             "percent": 0.8
           }
         ],
-        "terrain": [
-          {
-            "type": "water",
-            "cost": "F60",
-            "percent": 0.75
-          }
-        ],
         "hexes": ["C10"]
       },
       {
@@ -2095,9 +2099,9 @@
         ],
         "values": [
           {
-            "value": 20,
-            "angle": 30,
-            "percent": 0.5
+            "value": 10,
+            "angle": 90,
+            "percent": 0.2
           }
         ],
         "track": [
@@ -2260,13 +2264,6 @@
             }
           }
         ],
-        "terrain": [
-          {
-            "type": "water",
-            "cost": "F60",
-            "percent": 0.75
-          }
-        ],
         "hexes": ["E14"]
       },
       {
@@ -2338,7 +2335,7 @@
         "terrain": [
           {
             "type": "water",
-            "cost": "F60",
+            "cost": "F50",
             "percent": 0.85
           }
         ],
@@ -2449,8 +2446,8 @@
               "cost": "30"
             }
           ],
-          "angle": 330,
-          "percent": 0.65
+          "angle": 310,
+          "percent": 0.7
         },
         "towns": [
           {
@@ -2515,7 +2512,7 @@
         "terrain": [
           {
             "type": "water",
-            "cost": "F60",
+            "cost": "F50",
             "percent": 0.85
           }
         ],
@@ -2533,7 +2530,7 @@
         ],
         "names": [
           {
-            "name": "Le Sud",
+            "name": "Centre & Bourgogne",
             "fontSize": 11,
             "percent": -0.21
           }
@@ -2592,16 +2589,6 @@
         "hexes": ["H7"]
       },
       {
-        "color": "gray",
-        "track": [
-          {
-            "side": 1,
-            "type": "straight"
-          }
-        ],
-        "hexes": ["H9"]
-      },
-      {
         "color": "plain",
         "companies": [
           {
@@ -2657,23 +2644,23 @@
         "terrain": [
           {
             "type": "water",
-            "cost": "F60"
+            "cost": "F50"
           }
         ],
         "hexes": [
           "B1",
-          "B11",
           "A6",
+          "C6",
           "D3",
-          "D7",
           "E6",
           "E8",
           "E10",
+          "E16",
           "F11",
           "G4",
           "G8",
+          "G10",
           "G12",
-          "G14",
           "H5",
           "H11"
         ]
@@ -2681,17 +2668,18 @@
       {
         "color": "plain",
         "hexes": [
-          "C6",
+          "B11",
           "C8",
+          "D7",
           "D11",
           "D13",
           "E2",
           "E12",
           "D17",
-          "E16",
           "F1",
-          "G10",
-          "H3"
+          "G14",
+          "H3",
+          "H9"
         ]
       }
     ],
@@ -2731,6 +2719,12 @@
         "width": 8,
         "offset": 0,
         "coords": ["G10p5", "G10p4"]
+      },
+      {
+        "color": "water",
+        "width": 8,
+        "offset": 0,
+        "coords": ["H9p3", "H9p4"]
       }
     ]
   }
