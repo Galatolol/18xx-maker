@@ -587,6 +587,14 @@
           "type": "straight",
           "end": 0.125
         }
+      ],
+      "terrain": [
+        {
+          "type": "water",
+          "cost": "F50",
+          "angle": 300,
+          "percent": 0.4
+        }
       ]
     },
     "X2": {
@@ -614,68 +622,18 @@
         {
           "side": 3
         }
+      ],
+      "terrain": [
+        {
+          "type": "water",
+          "cost": "F50",
+          "angle": 300,
+          "percent": 0.7
+        }
       ]
     },
     "X3": {
       "color": "yellow",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 20,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 1 }],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 2
-        }
-      ]
-    },
-
-    "X7": {
-      "color": "green",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 40,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 1 }],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
-    "X8": {
-      "color": "green",
       "rotations": 6,
       "labels": [
         {
@@ -691,100 +649,25 @@
           "percent": 0.75
         }
       ],
-      "cities": [{ "size": 2 }],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
-    "X12": {
-      "color": "brown",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 50,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 2 }],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
-    "X13": {
-      "color": "brown",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "angle": 210,
-          "percent": 0.75,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "size": 3,
-          "rotation": -30,
-          "percent": 0.15
-        }
-      ],
+      "cities": [{ "size": 1 }],
       "track": [
         {
           "side": 1
         },
         {
           "side": 2
-        },
+        }
+      ],
+      "terrain": [
         {
-          "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 5
-        },
-        {
-          "side": 6
+          "type": "water",
+          "cost": "F50",
+          "angle": 300,
+          "percent": 0.7
         }
       ]
     },
+
     "X4": {
       "color": "green",
       "rotations": 6,
@@ -822,6 +705,14 @@
         {
           "side": 4,
           "type": "sharp"
+        }
+      ],
+      "terrain": [
+        {
+          "type": "water",
+          "cost": "F50",
+          "angle": 300,
+          "percent": 0.4
         }
       ]
     },
@@ -863,6 +754,14 @@
           "side": 3,
           "type": "sharp"
         }
+      ],
+      "terrain": [
+        {
+          "type": "water",
+          "cost": "F50",
+          "angle": 300,
+          "percent": 0.4
+        }
       ]
     },
     "X6": {
@@ -896,6 +795,93 @@
         },
         {
           "side": 5
+        }
+      ],
+      "terrain": [
+        {
+          "type": "water",
+          "cost": "F50",
+          "angle": 30,
+          "percent": 0.8
+        }
+      ]
+    },
+    "X7": {
+      "color": "green",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "L",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 50,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 1 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ],
+      "terrain": [
+        {
+          "type": "water",
+          "cost": "F50",
+          "angle": 30,
+          "percent": 0.8
+        }
+      ]
+    },
+    "X8": {
+      "color": "green",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "L",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 40,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ],
+      "terrain": [
+        {
+          "type": "water",
+          "cost": "F50",
+          "angle": 30,
+          "percent": 0.8
         }
       ]
     },
@@ -1016,6 +1002,84 @@
         },
         {
           "side": 5
+        }
+      ]
+    },
+    "X12": {
+      "color": "brown",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "L",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "value": 60,
+          "angle": 210,
+          "percent": 0.75
+        }
+      ],
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "X13": {
+      "color": "brown",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "L",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 50
+        }
+      ],
+      "cities": [
+        {
+          "size": 3,
+          "rotation": -30,
+          "percent": 0.15
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
         }
       ]
     },
