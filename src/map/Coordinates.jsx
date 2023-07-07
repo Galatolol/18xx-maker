@@ -58,7 +58,7 @@ export const Coordinates = ({horizontal, coords, mapCoordinates, maxX, maxY, hex
                 label={flipped ? toAlpha(x) : x} />,
     <Coordinate key={`end-row-${x}`}
                 x={horizontal ? hexX(0, x) : hexX(x, 0)}
-                y={coords === "edge" ? bottomCoord(x) : (totalHeight - 25)}
+                y={coords === "edge" ? bottomCoord(x) : (totalHeight + 15)}
                 label={flipped ? toAlpha(x) : x} />
   ], range(1, maxX + 1)), chain(y => [
     <Coordinate key={`start-col-${y}`}
@@ -66,7 +66,7 @@ export const Coordinates = ({horizontal, coords, mapCoordinates, maxX, maxY, hex
                 y={horizontal ? hexY(y, 0) : hexY(0, y)}
                 label={flipped ? y : toAlpha(y)} />,
     <Coordinate key={`end-col-${y}`}
-                x={coords === "edge" ? rightCoord(y) : (totalWidth - 25)}
+                x={coords === "edge" ? rightCoord(y) : (totalWidth + 15)}
                 y={horizontal ? hexY(y, 0) : hexY(0, y)}
                 label={flipped ? y : toAlpha(y)} />
   ], range(1, maxY + 1)));

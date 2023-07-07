@@ -27,7 +27,7 @@ const radians = (degrees) => degrees * (Math.PI / 180);
 export const getCoordSpace = (coords) => {
   switch (coords) {
     case "outside":
-      return 100;
+      return 60; //100;
     case "edge":
       return 50;
     default:
