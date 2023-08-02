@@ -10,9 +10,9 @@
   "bleed": 12.5,
   "margin": 25,
   "paper": {
-    "width": 850,
-    "height": 1100,
-    "margins": 25
+    "width": 826,
+    "height": 1169,
+    "margins": 20
   },
   "currency": {
     "bank": true,
@@ -78,6 +78,9 @@
     "bleed": true,
     "reverseMarketTokens": "all"
   },
+  "privates": {
+    "style": "small"
+  },
   "trains": {
     "style": "color",
     "images": false
@@ -87,7 +90,7 @@
     "colorblind": false,
     "layout": "die",
     "width": 150,
-    "mapWidth": 162,
+    "mapWidth": 160,
     "gaps": true
   },
   "stock": {

@@ -416,7 +416,9 @@ const atoms = [{
     {terrain: [{type:"cow-skull",cost:10}]},
     {terrain: [{type:"tree",cost:20,color:"green"}]},
     {terrain: [{size:"tiny",type:"river",cost:10}]},
-    {terrain: [{size:"large",type:"swamp",cost:120}]}
+    {terrain: [{size:"large",type:"swamp",cost:120}]},
+    {terrain: [{size:"large",type:"triangle_big",cost:120}]},
+    {terrain: [{size:"large",type:"triangle_small",cost:120}]}
   ]
 },{
   group: "Tunnels and Bridges",

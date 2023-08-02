@@ -1062,6 +1062,8 @@
     ]
   },
   "tiles": {
+    "30": 3,
+    "628": 1,
     "1": 1,
     "2": 1,
     "3": 3,
@@ -1083,8 +1085,8 @@
     "25": 1,
     "26": 1,
     "27": 1,
-    "28": 1,
-    "29": 1,
+    "28": 5,
+    "29": 5,
     "39": 1,
     "40": 1,
     "41": 3,
@@ -1183,15 +1185,6 @@
     "190": ["191"]
   },
   "map": {
-    "players": {
-      "x": 90,
-      "y": 1380
-    },
-    "roundTracker": {
-      "type": "row",
-      "x": 220,
-      "y": 1675
-    },
     "hexes": [
       {
         "color": "offboard",
@@ -1354,17 +1347,22 @@
             }
           ]
         },
-        "icons": [
+        "cities": [
           {
-            "type": "coal",
-            "percent": 0.8
+            "y": 15
           }
         ],
-        "centerTowns": [{}],
+        "tokens": [
+          {
+            "label": "coal",
+            "color": "black",
+            "y": 15
+          }
+        ],
         "names": [
           {
             "name": "$80",
-            "percent": 0.55
+            "percent": 0.8
           },
           {
             "name": "West",
@@ -2437,9 +2435,9 @@
       },
       {
         "color": "offboard",
-        "tokens": [
+        "cities": [
           {
-            "icon": "river"
+            "companies": [{ "label": "Key West" }]
           }
         ],
         "offBoardRevenue": {
@@ -2491,15 +2489,15 @@
         "color": "white",
         "names": [
           {
-            "name": "worth $0 the first time",
+            "name": "worth 0 first time",
             "angle": 180,
             "percent": 0.15
           },
           {
-            "name": "it is used before"
+            "name": "run to unless"
           },
           {
-            "name": "the first 5T is purchased",
+            "name": "brown phase or later",
             "percent": 0.15
           }
         ],

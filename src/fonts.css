@@ -1,114 +1,39 @@
 @import url(//db.onlinewebfonts.com/c/d40bbce8f4b00a569beac2454b69231e?family=Oswald);
-@import url(//db.onlinewebfonts.com/c/d7e353f139e1963cd4bb508a3b7773c0?family=Libre+Baskerville);
-@import url(//db.onlinewebfonts.com/c/2fe5fb7f37535452bc6a61d52d61660a?family=Libre+Baskerville);
-@import url(//db.onlinewebfonts.com/c/f0e4cffc21b760f689cda8d27d38f325?family=Libre+Baskerville);
+@import url(//db.onlinewebfonts.com/c/2f57fcc36a0f2ea078b72a9286789b44?family=Times);
 
 /* latin-ext */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
-}
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
+} 
 /* latin */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
-}
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
+} 
 /* latin-ext */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 700;
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
-}
-/* latin */
-@font-face {
-  font-family: 'display';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'serif';
-  font-style: normal;
-  font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
-}
-/* latin */
-@font-face {
-  font-family: 'serif';
-  font-style: normal;
-  font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
-}
-/* latin-ext */
-@font-face {
-  font-family: 'serif';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
-}
-/* latin */
-@font-face {
-  font-family: 'serif';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'sans-serif';
-  font-style: normal;
-  font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
-}
-/* latin */
-@font-face {
-  font-family: 'sans-serif';
-  font-style: normal;
-  font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot"); 
-  src: url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e353f139e1963cd4bb508a3b7773c0.svg#Libre Baskerville") format("svg");
-}
-/* latin-ext */
-@font-face {
-  font-family: 'sans-serif';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
-}
-/* latin */
-@font-face {
-  font-family: 'sans-serif';
-  font-style: normal;
-  font-weight: 700;
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot");
-  src: url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2fe5fb7f37535452bc6a61d52d61660a.svg#Libre Baskerville") format("svg");
+  src: url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.eot"); 
+  src: url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.woff") format("woff"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.svg#Times") format("svg"); 
 }
 
 /* italic */
 @font-face {
-  font-family: "Libre Baskerville Italic";
-  src: url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.eot");
-  src: url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.woff") format("woff"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f0e4cffc21b760f689cda8d27d38f325.svg#Libre Baskerville") format("svg");
+  font-family: 'display';
+  font-style: 'italic';
+  font-weight: 400;
+  src: url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.eot"); 
+  src: url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.svg#Times") format("svg"); 
 } 
-
 /* oswald */
 @font-face {
   font-family: "Oswald"; 
@@ -143,3 +68,37 @@
        url('fonts/eb-garamond-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('fonts/eb-garamond-v25-latin-700.svg#EBGaramond') format('svg'); /* Legacy iOS */
 }
+
+/* times */
+@font-face {
+  font-family: 'Times';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Times.ttf');
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
+  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
+} 
+
+/* anton */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton'), url('./fonts/Anton-Regular.ttf')
+} 
+
+/* times-it */
+@font-face {
+  font-family: 'times-it';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/times-it.ttf')
+} 
+
+/* mirage */
+@font-face {
+  font-family: 'Mirage';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Mirage.ttf')
+} 

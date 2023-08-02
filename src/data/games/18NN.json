@@ -1,0 +1,1058 @@
+{
+  "info": {
+    "title": "18NN",
+    "designer": "Galatolol",
+    "background": "mountain",
+    "orientation": "vertical",
+    "titleY": -700,
+    "titleX": 170,
+    "titleSize": 150,
+    "currency": "USD"
+  },
+  "links": {},
+  "tokens": [
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    }
+  ],
+  "ipo": false,
+  "bank": "$3,720",
+  "companies": [
+    {
+      "name": "Big Transport",
+      "abbrev": "BT"
+    },
+    {
+      "name": "1",
+      "abbrev": "1"
+    },
+    {
+      "name": "2",
+      "abbrev": "2"
+    },
+    {
+      "name": "3",
+      "abbrev": "3"
+    },
+    {
+      "name": "4",
+      "abbrev": "4"
+    },
+    {
+      "name": "5",
+      "abbrev": "5"
+    },
+    {
+      "name": "6",
+      "abbrev": "6"
+    },
+    {
+      "name": "7",
+      "abbrev": "7"
+    },
+    {
+      "name": "8",
+      "abbrev": "8"
+    },
+    {
+      "name": "9",
+      "abbrev": "9"
+    },
+    {
+      "name": "10",
+      "abbrev": "10"
+    },
+    {
+      "name": "11",
+      "abbrev": "11"
+    },
+    {
+      "name": "12",
+      "abbrev": "12"
+    },
+    {
+      "name": "13",
+      "abbrev": "13"
+    },
+    {
+      "name": "14",
+      "abbrev": "14"
+    },
+    {
+      "name": "15",
+      "abbrev": "15"
+    },
+    {
+      "name": "16",
+      "abbrev": "16"
+    },
+    {
+      "name": "17",
+      "abbrev": "17"
+    },
+    {
+      "name": "18",
+      "abbrev": "18"
+    },
+    {
+      "name": "19",
+      "abbrev": "19"
+    },
+    {
+      "name": "20",
+      "abbrev": "20"
+    }
+  ],
+  "trains": [],
+  "privates": [],
+  "phases": [],
+  "pools": [],
+  "rounds": [],
+  "turns": [],
+  "stock": {},
+  "tiles": {
+    "5": 4,
+    "6": 4,
+    "7": 8,
+    "8": 8,
+    "9": 8,
+    "57": 4,
+    "X01": 1,
+    "X02": 3,
+    "X35b": 1,
+
+    "14": 3,
+    "15": 3,
+    "619": 3,
+    "80": 4,
+    "81": 4,
+    "82": 4,
+    "83": 4,
+    "X11": 1,
+    "X12": 3,
+
+    "63": 6,
+    "544": 3,
+    "545": 3,
+    "546": 3,
+    "X21": 1,
+    "X22": 3,
+
+    "60": 2,
+    "895": 4,
+    "X31": 1,
+    "X32": 3,
+    "X34": 2,
+    "MM1": {
+      "quantity": 12,
+      "rotations": 1,
+      "color": "plain"
+    },
+    "MM2": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$30",
+        "size": "large"
+      }
+    },
+    "MM3": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$40",
+        "size": "large"
+      }
+    },
+    "MM4": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$40",
+        "size": "large",
+        "percent": -0.3
+      },
+      "icons": [
+        {
+          "type": "coal",
+          "percent": 0.3
+        }
+      ]
+    },
+    "MM5": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$20",
+        "size": "large",
+        "percent": -0.3
+      },
+      "icons": [
+        {
+          "type": "coal",
+          "percent": 0.3
+        }
+      ]
+    },
+    "MM6": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$20",
+        "size": "large"
+      }
+    },
+    "MM7": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$40",
+        "size": "large",
+        "percent": -0.35
+      },
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["19"]
+        }
+      ]
+    },
+    "MM8": {
+      "quantity": 6,
+      "color": "plain",
+      "rotations": 1,
+      "icons": [
+        {
+          "type": "coal"
+        }
+      ]
+    },
+    "MM9": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$20",
+        "size": "large",
+        "percent": -0.35
+      },
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["15"]
+        }
+      ]
+    },
+    "MM10": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "swamp",
+          "cost": "$10",
+          "size": "large",
+          "percent": -0.35
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["20"]
+        }
+      ]
+    },
+    "MM11": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "swamp",
+          "cost": "$10",
+          "size": "large",
+          "percent": -0.35
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["17"]
+        }
+      ]
+    },
+    "MM12": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "swamp",
+          "cost": "$10",
+          "size": "large"
+        }
+      ]
+    },
+    "MM13": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "river",
+          "cost": "$20",
+          "size": "large"
+        }
+      ]
+    },
+    "MM14": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "river",
+          "cost": "$30",
+          "size": "large"
+        }
+      ]
+    },
+    "MM15": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "river",
+          "cost": "$20",
+          "size": "large",
+          "percent": -0.35
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["16"]
+        }
+      ]
+    },
+    "MM16": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "river",
+          "cost": "$30",
+          "size": "large",
+          "percent": -0.35
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["18"]
+        }
+      ]
+    },
+    "MM17": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.7
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["4"]
+        }
+      ]
+    },
+    "MM18": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.7
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["5"]
+        }
+      ]
+    },
+    "MM19": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.7
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["6"]
+        }
+      ]
+    },
+    "MM20": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "angle": 30,
+          "percent": 0.6,
+          "size": 1,
+          "companies": ["1"]
+        },
+        {
+          "angle": 150,
+          "percent": 0.6,
+          "size": 1,
+          "companies": ["2"]
+        },
+        {
+          "angle": 270,
+          "percent": 0.6,
+          "size": 1,
+          "companies": ["3"]
+        }
+      ]
+    },
+    "MM21": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "names": [
+        {
+          "name": "6-way junction",
+          "fontSize": 18
+        }
+      ]
+    },
+    "MM22": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["7"]
+        }
+      ]
+    },
+    "MM23": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["8"]
+        }
+      ]
+    },
+    "MM24": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["9"]
+        }
+      ]
+    },
+    "MM25": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["10"]
+        }
+      ]
+    },
+    "MM26": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["11"]
+        }
+      ]
+    },
+    "MM27": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["12"]
+        }
+      ]
+    },
+    "MM28": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["13"]
+        }
+      ]
+    },
+    "MM29": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["14"]
+        }
+      ]
+    }
+  },
+  "map": {
+    "hexes": [
+      {
+        "color": "plain",
+        "hexes": [
+          "C3",
+          "C5",
+          "C7",
+          "C9",
+          "C11",
+          "C13",
+          "C15",
+          "D2",
+          "D4",
+          "D6",
+          "D8",
+          "D10",
+          "D12",
+          "D14",
+          "F2",
+          "F4",
+          "F6",
+          "F8",
+          "F10",
+          "F12",
+          "F14",
+          "E3",
+          "E5",
+          "E7",
+          "E9",
+          "E11",
+          "E13",
+          "E15",
+          "G3",
+          "G5",
+          "G7",
+          "G9",
+          "G11",
+          "G13",
+          "G15"
+        ]
+      },
+      {
+        "color": "orange_very_light",
+        "hexes": ["B2", "B4", "B6", "B8", "B10", "B12", "B14"]
+      },
+
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 2
+          }
+        ],
+        "cities": [
+          {
+            "rotation": 90,
+            "angle": 0,
+            "percent": 0
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 90,
+            "percent": 0.6
+          }
+        ],
+        "hexes": ["H4"]
+      },
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "20"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "40"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "60"
+            }
+          ],
+          "angle": 90,
+          "percent": 0
+        },
+        "hexes": ["H6"]
+      },
+
+      {
+        "color": "offboard",
+        "removeBorders": [4],
+        "cities": [
+          {
+            "size": 2,
+            "angle": 90,
+            "percent": 0.25
+          }
+        ],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "hexes": ["H10"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [1],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "cities": [
+          {
+            "size": 2,
+            "angle": 90,
+            "percent": -0.25
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "40"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "80"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "120"
+            }
+          ],
+          "x": -75,
+          "y": -25
+        },
+        "hexes": ["H12"]
+      },
+
+      {
+        "color": "water",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "30"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "40"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "50"
+            }
+          ]
+        },
+        "hexes": ["C1"]
+      },
+      {
+        "color": "water",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "20"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "40"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "70"
+            }
+          ]
+        },
+        "hexes": ["E1"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "gentle",
+            "side": 3
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 0,
+            "angle": 270,
+            "percent": 0.27
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 90,
+            "percent": 0.3
+          }
+        ],
+        "hexes": ["G1"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 2
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 90,
+            "angle": 0,
+            "percent": -0.58
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 0,
+            "percent": 0
+          }
+        ],
+        "hexes": ["H2"]
+      },
+
+      {
+        "color": "water",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "20"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "30"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "80"
+            }
+          ]
+        },
+        "hexes": ["A1"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 90,
+            "angle": 0,
+            "percent": 0.58
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 0,
+            "percent": 0
+          }
+        ],
+        "hexes": ["A7"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
+        "cities": [
+          {
+            "companies": ["BT"],
+            "rotation": 90,
+            "angle": 0,
+            "percent": 0.59
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 180,
+            "percent": 0.1
+          }
+        ],
+        "hexes": ["A9"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 5
+          }
+        ],
+        "icons": [
+          {
+            "type": "coal",
+            "angle": 0,
+            "percent": 0.59
+          }
+        ],
+        "hexes": ["A11"]
+      },
+
+      {
+        "color": "offboard",
+        "removeBorders": [5],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["A15"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [2],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "40"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "50"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "60"
+            }
+          ],
+          "angle": 150,
+          "percent": 1
+        },
+        "hexes": ["B16"]
+      },
+      {
+        "color": "offboard",
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 1,
+          "revenues": [
+            {
+              "color": "xxpaper_yellow",
+              "cost": "20"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "50"
+            },
+            {
+              "color": "xxpaper_gray",
+              "cost": "60"
+            }
+          ],
+          "x": 15
+        },
+        "hexes": ["D16"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 6,
+            "type": "gentle"
+          }
+        ],
+        "icons": [
+          {
+            "type": "coal",
+            "angle": 90,
+            "percent": 0.25
+          }
+        ],
+        "hexes": ["F16"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 3
+          }
+        ],
+        "hexes": ["H14"]
+      },
+      {
+        "color": "gray",
+        "track": [
+          {
+            "type": "sharp",
+            "side": 1
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 30,
+            "angle": 120,
+            "percent": 0.58
+          }
+        ],
+        "values": [
+          {
+            "value": 10,
+            "angle": 0,
+            "percent": 0
+          }
+        ],
+        "hexes": ["H16"]
+      }
+    ]
+  }
+}

@@ -2,14 +2,15 @@
   "info": {
     "title": "1820OG",
     "titleFontFamily": "Times",
+    "titleFontWeight": "bold",
     "subtitle": "An old iteration of 1820",
-    "subtitleFontFamily": "Libre Baskerville",
-    "designer": "clearclaw",
-    "designerFontFamily": "Libre Baskerville",
+    "subtitleFontFamily": "Times",
+    "designer": "JCL",
+    "designerFontFamily": "Times",
     "background": "gray",
     "width": 150,
     "color_10": "orange",
-    "titleX": 1300,
+    "titleX": 1400,
     "titleY": -60,
     "titleSize": 110,
     "subTitleSize": 20,
@@ -84,20 +85,36 @@
   ],
   "rounds": [
     {
-      "name": "OR3",
-      "color": "brown"
+      "name": "PR",
+      "color": "offboard"
     },
     {
-      "name": "OR2",
-      "color": "green"
+      "name": "SR",
+      "color": "gray"
     },
     {
       "name": "OR1",
       "color": "yellow"
     },
     {
-      "name": "SR",
-      "color": "gray"
+      "name": "IT1",
+      "color": "pink"
+    },
+    {
+      "name": "OR2",
+      "color": "yellow"
+    },
+    {
+      "name": "IT2",
+      "color": "pink"
+    },
+    {
+      "name": "OR3",
+      "color": "yellow"
+    },
+    {
+      "name": "IT3",
+      "color": "pink"
     }
   ],
   "turns": [
@@ -583,13 +600,13 @@
     "14": 8,
     "15": 8,
     "619": 8,
-    "16": 5,
-    "17": 5,
-    "18": 5,
-    "19": 5,
-    "20": 5,
-    "21": 5,
-    "22": 5,
+    "16": 4,
+    "17": 4,
+    "18": 4,
+    "19": 4,
+    "20": 4,
+    "21": 4,
+    "22": 4,
     "23": 5,
     "24": 5,
     "25": 5,
@@ -612,12 +629,9 @@
     " 180": 7,
     " 181": 7,
     " 182": 7,
-    "624": 5,
-    "625": 5,
-    "626": 5,
-    " 847": 5,
-    " 848": 10,
-    " 849": 10,
+    "624": 4,
+    "625": 4,
+    "626": 4,
     "M2": 1,
 
     "39": 5,
@@ -638,9 +652,6 @@
     " 199": 7,
     " 200": 7,
     " 339": 3,
-    " 867": 5,
-    " 868": 10,
-    " 869": 9,
     "M3": 1,
 
     " 290": 5,
@@ -648,6 +659,12 @@
     "M4": 1
   },
   "map": {
+    "roundTracker": {
+      "type": "col-reverse",
+      "size": 25,
+      "x": 1700,
+      "y": 200
+    },
     "hexes": [
       {
         "color": "plain",

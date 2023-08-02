@@ -82,7 +82,8 @@ const TileManifest = () => {
   return (
     <ColorContext.Provider value="tile">
       <div className="TileManifest printElement">
-        <div className="TileManifest--Title">{game.info.title} Tile Manifest</div>
+        <div className="TileManifest--Title"></div>
+        {/* <div className="TileManifest--Title">{game.info.title} Tile Manifest</div> */}
         {tileNodes}
       </div>
     </ColorContext.Provider>

@@ -1,15 +1,14 @@
 {
   "info": {
-    "title": "The Old Prince 1871",
-    "subtitle": "Prototype",
+    "title": "1871",
+    "titleFontFamily": "Times",
+    "titleSize": 200,
+    "subtitle": "The Old Prince",
     "designer": "Lucas Boyd",
     "background": "shortline",
     "orientation": "horizontal",
-    "titleY": 1640,
+    "titleY": 1750,
     "titleX": 60,
-    "titleSize": 140,
-    "subtitleSize": 80,
-    "designerSize": 40,
     "extraTokens": 2,
     "currency": "$#"
   },
@@ -44,7 +43,7 @@
     {
       "number": 4,
       "certLimit": "16",
-      "capital": 460
+      "capital": 480
     }
   ],
   "privates": [
@@ -325,9 +324,7 @@
     "PEI15": {
       "color": "gray",
       "values": [{ "value": 80, "angle": 210, "percent": 0.8 }],
-      "labels": [
-        { "fontSize": 18, "label": "CX", "angle": 90, "percent": 0.8 }
-      ],
+      "labels": [{ "label": "CX", "angle": 90, "percent": 0.85 }],
       "cities": [{ "size": 3 }],
       "track": [
         { "side": 2 },
@@ -354,15 +351,15 @@
   "rounds": [
     {
       "name": "OR3",
-      "color": "phase4+"
+      "color": "brown"
     },
     {
       "name": "OR2",
-      "color": "phase4h"
+      "color": "xxp_light_green"
     },
     {
       "name": "OR1",
-      "color": "phase2h"
+      "color": "yellow"
     },
     {
       "name": "SR",
@@ -394,6 +391,8 @@
         360,
         {
           "subLabel": "+40",
+          "subLabelLocation": "corner",
+          "subLabelSize": 15,
           "value": 400,
           "width": 2
         }
@@ -405,8 +404,7 @@
           "arrow": "down"
         },
         {
-          "value": 92,
-          "par": true
+          "value": 92
         },
         100,
         110,
@@ -431,8 +429,7 @@
           "arrow": "down"
         },
         {
-          "value": 86,
-          "par": true
+          "value": 86
         },
         93,
         101,
@@ -456,7 +453,7 @@
         },
         {
           "value": 80,
-          "color": "phase2h"
+          "color": "xxpaper_yellow"
         },
         86,
         94,
@@ -473,8 +470,8 @@
         null,
         null,
         null,
-        { "width": 1, "label": "Main", "color": "mainline" },
-        { "width": 1, "label": "Short", "color": "shortline" }
+        { "width": 1, "label": "Main" },
+        { "width": 1, "label": "Short" }
       ],
       [
         {
@@ -484,7 +481,7 @@
         },
         {
           "value": 74,
-          "color": "phase5h"
+          "color": "xxp_medium_green"
         },
         79,
         84,
@@ -514,7 +511,7 @@
         },
         {
           "value": 65,
-          "color": "phase3+"
+          "color": "xxp_medium_blue"
         },
         69,
         73,
@@ -544,7 +541,7 @@
         55,
         {
           "value": 58,
-          "color": "phase7"
+          "color": "xxpaper_red"
         },
         61,
         {
@@ -792,7 +789,7 @@
     {
       "name": "Charlottetown",
       "subtext": "PEIR",
-      "abbrev": "C",
+      "abbrev": "CT",
       "color": "cherry",
       "token": {
         "color": "white",
@@ -806,7 +803,7 @@
     {
       "name": "Georgetown",
       "subtext": "PEIR",
-      "abbrev": "Gt",
+      "abbrev": "GT",
       "color": "gray",
       "token": {
         "bar": true,
@@ -820,7 +817,7 @@
     {
       "name": "Souris",
       "subtext": "PEIR",
-      "abbrev": "So",
+      "abbrev": "Sou",
       "color": "black",
       "token": {
         "bar": true,
@@ -995,12 +992,12 @@
     },
     "players": {
       "x": 60,
-      "y": 1420
+      "y": 1530
     },
     "roundTracker": {
       "type": "row-reverse",
       "x": 50,
-      "y": 1550
+      "y": 1660
     },
     "hexes": [
       {
@@ -1015,11 +1012,12 @@
           "name": { "name": "Miramichi" },
           "revenues": [
             {
-              "color": "phase2h",
+              "color": "yellow",
               "cost": "20"
             },
             {
-              "color": "phase4+",
+              "color": "brown",
+              "textColor": "white",
               "cost": "80"
             }
           ]
@@ -1076,21 +1074,18 @@
               "name": "Blooming Point",
               "rotation": 90
             },
-            "percent": 0.55,
             "rotation": 120
           }
         ],
         "track": [
           {
-            "side": 6,
-            "type": "straight",
-            "end": 0.25
+            "side": 6
           }
         ],
         "values": [
           {
-            "angle": 120,
-            "percent": 0.2,
+            "angle": 0,
+            "percent": 0.5,
             "value": 20
           }
         ]
@@ -1105,21 +1100,18 @@
               "name": "Saint Peters Harbour",
               "rotation": 90
             },
-            "percent": 0.55,
             "rotation": 180
           }
         ],
         "track": [
           {
-            "side": 1,
-            "type": "straight",
-            "end": 0.25
+            "side": 1
           }
         ],
         "values": [
           {
-            "angle": 180,
-            "percent": 0.2,
+            "angle": 60,
+            "percent": 0.5,
             "value": 20
           }
         ]
@@ -1142,7 +1134,7 @@
           {
             "label": "X",
             "angle": 30,
-            "percent": 0.8
+            "percent": 0.75
           }
         ],
         "cities": [
@@ -1176,21 +1168,18 @@
               "rotation": 270,
               "reverse": true
             },
-            "percent": 0.55,
             "rotation": 120
           }
         ],
         "track": [
           {
-            "side": 3,
-            "type": "straight",
-            "end": 0.25
+            "side": 3
           }
         ],
         "values": [
           {
-            "angle": 300,
-            "percent": 0.3,
+            "angle": 180,
+            "percent": 0.5,
             "value": 10
           }
         ]
@@ -1259,11 +1248,12 @@
           "name": { "name": "England" },
           "revenues": [
             {
-              "color": "phase2h",
+              "color": "yellow",
               "cost": "60"
             },
             {
-              "color": "phase4+",
+              "color": "brown",
+              "textColor": "white",
               "cost": "70"
             }
           ]
@@ -1365,21 +1355,18 @@
               "reverse": true,
               "rotation": 90
             },
-            "percent": 0.55,
             "rotation": 60
           }
         ],
         "track": [
           {
-            "side": 5,
-            "type": "straight",
-            "end": 0.25
+            "side": 5
           }
         ],
         "values": [
           {
-            "angle": 60,
-            "percent": 0.2,
+            "angle": 180,
+            "percent": 0.5,
             "value": 20
           }
         ]
@@ -1405,21 +1392,18 @@
               "rotation": 270,
               "reverse": true
             },
-            "percent": 0.55,
             "rotation": 120
           }
         ],
         "track": [
           {
-            "side": 3,
-            "type": "straight",
-            "end": 0.25
+            "side": 3
           }
         ],
         "values": [
           {
-            "angle": 300,
-            "percent": 0.3,
+            "angle": 60,
+            "percent": 0.5,
             "value": 10
           }
         ]
@@ -1429,6 +1413,7 @@
         "terrain": [
           {
             "type": "mountain",
+            "size": "medium",
             "cost": 80
           }
         ],
@@ -1436,7 +1421,7 @@
       },
       {
         "color": "plain",
-        "companies": [{ "label": "VRB", "color": "red" }],
+        "companies": [{ "label": "VRB" }],
         "hexes": ["N18"]
       },
       {
@@ -1474,8 +1459,8 @@
         ],
         "values": [
           {
-            "angle": 300,
-            "percent": 0.2,
+            "angle": 330,
+            "percent": 0.1,
             "value": 10
           }
         ]
@@ -1504,6 +1489,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 60
           }
         ],
@@ -1514,13 +1500,14 @@
               "reverse": true
             },
             "x": 30,
-            "y": -15
+            "y": -5
           },
           {
             "name": {
               "name": "Selkirk"
             },
-            "x": -30
+            "x": -30,
+            "y": -5
           }
         ],
         "hexes": ["R12"]
@@ -1530,26 +1517,24 @@
         "labels": [
           {
             "label": "X",
-            "angle": 30,
-            "percent": 0.7
+            "angle": 90,
+            "percent": 0.75
           }
         ],
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 60,
-            "angle": -30,
             "percent": 0.7
           }
         ],
         "cities": [
           {
-            "companies": ["Gt"],
+            "companies": ["GT"],
             "name": {
               "name": "Georgetown"
-            },
-            "angle": 180,
-            "percent": 0.2
+            }
           }
         ],
         "hexes": ["R16"]
@@ -1564,20 +1549,18 @@
               "name": "Georgetown Harbour",
               "rotation": 90,
               "reverse": true
-            },
-            "percent": 0.55
+            }
           }
         ],
         "track": [
           {
-            "side": 4,
-            "type": "straight",
-            "end": 0.25
+            "side": 4
           }
         ],
         "values": [
           {
-            "percent": 0.2,
+            "percent": 0.5,
+            "angle": 120,
             "value": 10
           }
         ]
@@ -1589,16 +1572,14 @@
             "name": {
               "name": "Hopefield"
             },
-            "x": 15,
-            "y": -15
+            "y": -25
           },
           {
             "name": {
               "name": "Woods Islands",
               "reverse": true
             },
-            "x": -15,
-            "y": 15
+            "y": 25
           }
         ],
         "hexes": ["P22"]
@@ -1626,11 +1607,12 @@
           "name": { "name": "Pictou Landing" },
           "revenues": [
             {
-              "color": "phase2h",
+              "color": "yellow",
               "cost": "30"
             },
             {
-              "color": "phase4+",
+              "color": "brown",
+              "textColor": "white",
               "cost": "60"
             }
           ]
@@ -1654,6 +1636,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 60,
             "percent": 0.5
           }
@@ -1675,7 +1658,8 @@
         "terrain": [
           {
             "type": "water",
-            "cost": 60
+            "cost": 60,
+            "size": "medium"
           }
         ],
         "hexes": ["C9", "D10", "E13", "F10"]
@@ -1685,6 +1669,7 @@
         "terrain": [
           {
             "type": "mountain",
+            "size": "medium",
             "cost": 80
           }
         ],
@@ -1743,8 +1728,8 @@
         "values": [
           {
             "value": 10,
-            "angle": 210,
-            "percent": 0.75
+            "angle": 300,
+            "percent": 0.4
           }
         ],
         "hexes": ["I19"]
@@ -1755,7 +1740,6 @@
         "towns": [
           {
             "angle": 240,
-            "percent": 0.55,
             "rotation": -120,
             "name": {
               "name": "Cape Traverse",
@@ -1764,24 +1748,24 @@
             }
           }
         ],
-        "track": [{ "side": 5, "type": "straight", "end": 0.25 }],
-        "values": [{ "angle": 60, "percent": 0.3, "value": 40 }]
+        "track": [{ "side": 5 }],
+        "values": [{ "angle": 300, "percent": 0.5, "value": 40 }]
       },
       {
         "color": "plain",
         "centerTowns": [
           {
             "name": {
-              "name": "Iona"
+              "name": "Iona",
+              "reverse": true
             },
-            "x": 30
+            "y": 25
           },
           {
             "name": {
-              "name": "Eldon",
-              "reverse": true
+              "name": "Eldon"
             },
-            "x": -30
+            "y": -25
           }
         ],
         "hexes": ["O19"]
@@ -1807,21 +1791,18 @@
               "rotation": 270,
               "reverse": true
             },
-            "percent": 0.55,
             "rotation": 120
           }
         ],
         "track": [
           {
-            "side": 3,
-            "type": "straight",
-            "end": 0.25
+            "side": 3
           }
         ],
         "values": [
           {
-            "angle": 300,
-            "percent": 0.3,
+            "angle": 60,
+            "percent": 0.5,
             "value": 10
           }
         ]
@@ -1853,14 +1834,12 @@
               "name": "Profits Corner",
               "reverse": true
             },
-            "x": 10,
             "y": 25
           },
           {
             "name": {
               "name": "Saint Louis"
             },
-            "x": -10,
             "y": -25
           }
         ],
@@ -1871,6 +1850,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 80
           }
         ],
@@ -1881,7 +1861,7 @@
               "reverse": true
             },
             "x": 30,
-            "y": -20
+            "y": -5
           },
           {
             "name": {
@@ -1921,21 +1901,18 @@
               "name": "Cape Egmont",
               "rotation": 90
             },
-            "percent": 0.55,
             "rotation": 120
           }
         ],
         "track": [
           {
-            "side": 6,
-            "type": "straight",
-            "end": 0.25
+            "side": 6
           }
         ],
         "values": [
           {
-            "angle": 120,
-            "percent": 0.2,
+            "angle": 240,
+            "percent": 0.5,
             "value": 20
           }
         ]
@@ -1950,21 +1927,18 @@
               "name": "West Cape",
               "rotation": 90
             },
-            "percent": 0.55,
             "rotation": 120
           }
         ],
         "track": [
           {
-            "side": 6,
-            "type": "straight",
-            "end": 0.25
+            "side": 6
           }
         ],
         "values": [
           {
-            "angle": 120,
-            "percent": 0.2,
+            "angle": 240,
+            "percent": 0.5,
             "value": 20
           }
         ]
@@ -1974,21 +1948,21 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 60,
-            "angle": -30,
             "percent": 0.7
           }
         ],
         "labels": [
           {
             "label": "X",
-            "angle": 30,
-            "percent": 0.7
+            "angle": 90,
+            "percent": 0.75
           }
         ],
         "cities": [
           {
-            "companies": ["So"],
+            "companies": ["Sou"],
             "name": {
               "name": "Souris",
               "rotation": 65
@@ -2004,7 +1978,7 @@
         "values": [
           {
             "value": 20,
-            "angle": 210,
+            "angle": 150,
             "percent": 0.75
           }
         ]
@@ -2032,7 +2006,7 @@
         ],
         "values": [
           {
-            "percent": 0.5,
+            "percent": 0.4,
             "value": 20,
             "angle": 60
           }
@@ -2061,9 +2035,9 @@
         ],
         "values": [
           {
-            "percent": 0.6,
+            "percent": 0.4,
             "value": 20,
-            "angle": 130
+            "angle": 180
           }
         ]
       },
@@ -2168,6 +2142,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 60
           }
         ],
@@ -2178,13 +2153,14 @@
               "reverse": true
             },
             "x": 30,
-            "y": -15
+            "y": -5
           },
           {
             "name": {
               "name": "Scotchfort"
             },
-            "x": -30
+            "x": -30,
+            "y": -5
           }
         ],
         "hexes": ["N14"]
@@ -2204,6 +2180,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 120
           }
         ],
@@ -2227,6 +2204,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 60
           }
         ],
@@ -2264,7 +2242,7 @@
         "labels": [
           {
             "label": "T",
-            "angle": 300,
+            "angle": 270,
             "percent": 0.65
           }
         ],
@@ -2286,8 +2264,8 @@
         "values": [
           {
             "value": 20,
-            "angle": 150,
-            "percent": 0.75
+            "angle": 120,
+            "percent": 0.65
           }
         ],
         "hexes": ["D2"]
@@ -2298,7 +2276,7 @@
           {
             "label": "T",
             "angle": 30,
-            "percent": 0.8
+            "percent": 0.75
           }
         ],
         "cities": [
@@ -2322,11 +2300,12 @@
           "name": { "name": "Îles de la Madeleine" },
           "revenues": [
             {
-              "color": "phase2h",
+              "color": "yellow",
               "cost": "40"
             },
             {
-              "color": "phase4+",
+              "color": "brown",
+              "textColor": "white",
               "cost": "60"
             }
           ]
@@ -2363,7 +2342,7 @@
           {
             "label": "X",
             "angle": 30,
-            "percent": 0.8
+            "percent": 0.75
           }
         ],
         "cities": [
@@ -2388,7 +2367,7 @@
         "labels": [
           {
             "label": "X",
-            "angle": 20,
+            "angle": 30,
             "percent": 0.75
           }
         ],
@@ -2430,8 +2409,7 @@
           {
             "companies": [
               {
-                "label": "C",
-                "color": "black"
+                "label": "CT"
               }
             ],
             "name": {
@@ -2462,15 +2440,16 @@
           "name": { "name": "Port Hawkesbury" },
           "revenues": [
             {
-              "color": "phase2h",
+              "color": "yellow",
               "cost": "0"
             },
             {
-              "color": "phase4h",
+              "color": "xxp_light_green",
               "cost": "10"
             },
             {
-              "color": "phase4+",
+              "color": "brown",
+              "textColor": "white",
               "cost": "60"
             }
           ]
@@ -2482,8 +2461,8 @@
         "labels": [
           {
             "label": "X",
-            "angle": 45,
-            "percent": 0.7
+            "angle": 30,
+            "percent": 0.75
           }
         ],
         "cities": [
@@ -2513,11 +2492,12 @@
           "reverse": true,
           "revenues": [
             {
-              "color": "phase2h",
+              "color": "yellow",
               "cost": "30"
             },
             {
-              "color": "phase4+",
+              "color": "brown",
+              "textColor": "white",
               "cost": "80"
             }
           ]
@@ -2529,6 +2509,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "medium",
             "cost": 120
           }
         ],
@@ -2545,21 +2526,23 @@
             ],
             "name": {
               "name": "Malpeque Shipyard",
+              "fontSize": 11,
               "rotation": 300
             }
           }
         ],
         "offBoardRevenue": {
-          "angle": 120,
-          "percent": 0.7,
-          "rotate": 300,
+          "angle": 100,
+          "percent": 0.72,
+          "rows": 2,
           "revenues": [
             {
-              "color": "phase2h",
+              "color": "yellow",
               "cost": "20"
             },
             {
-              "color": "phase4+",
+              "color": "brown",
+              "textColor": "white",
               "cost": "60"
             }
           ]
@@ -2582,8 +2565,8 @@
         "values": [
           {
             "value": 20,
-            "angle": 60,
-            "percent": 0.6
+            "angle": 210,
+            "percent": 0.65
           }
         ],
         "centerTowns": [
@@ -2591,7 +2574,7 @@
             "name": {
               "name": "O'Leary",
               "reverse": true,
-              "y": 30
+              "rotation": 30
             }
           }
         ],

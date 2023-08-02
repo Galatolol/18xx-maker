@@ -1,15 +1,16 @@
 {
   "info": {
     "title": "18Scan",
-    "subtitle": "Railroading under the Northern Lights",
+    "titleFontFamily": "Anton",
+    "titleFontWeight": "bold",
     "designer": "David G. D. Hecht",
+    "designerFontFamily": "Times",
+    "designerSize": 20,
     "background": "water",
     "titleRotate": -90,
     "titleSize": 100,
     "titleX": 125,
-    "titleY": 250,
-    "subTitleSize": 18,
-    "designerSize": 13,
+    "titleY": 300,
     "currency": "K#"
   },
   "links": {
@@ -72,7 +73,7 @@
     },
     {
       "name": "Sveriges & Norges Järnvägar",
-      "abbrev": "S&NJ",
+      "abbrev": "SNJ",
       "color": "green",
       "tokens": "three"
     },
@@ -118,21 +119,21 @@
     {
       "name": "Södra Stambanan",
       "minor": true,
-      "abbrev": "1",
+      "abbrev": "M1",
       "color": "turquoise",
       "capital": 260
     },
     {
       "name": "Nordvästra Stambanan",
       "minor": true,
-      "abbrev": "2",
+      "abbrev": "M2",
       "color": "turquoise",
       "capital": 220
     },
     {
       "name": "Västra Stambanan",
       "minor": true,
-      "abbrev": "3",
+      "abbrev": "M3",
       "color": "turquoise",
       "capital": 200
     }
@@ -275,8 +276,8 @@
       "price": 150,
       "revenue": 25,
       "icon": "coal",
-      "company": "S&NJ",
-      "description": "Comes with a 10% share of Sveriges & Norges Järnvägar (S&NJ). Allows a Company to increase the its earnings by K50, if the Company has a route that includes the Kiruna Iron Mines (A20). The bonus is only added once to the Company's earnings, even if two of the Company's trains run to Kiruna. The token may be bought for K50 during the Additional Token Placement step."
+      "company": "SNJ",
+      "description": "Comes with a 10% share of Sveriges & Norges Järnvägar (SNJ). Allows a Company to increase the its earnings by K50, if the Company has a route that includes the Kiruna Iron Mines (A20). The bonus is only added once to the Company's earnings, even if two of the Company's trains run to Kiruna. The token may be bought for K50 during the Additional Token Placement step."
     },
     {
       "id": "P3",
@@ -435,11 +436,11 @@
   "rounds": [
     {
       "name": "OR2",
-      "color": "gray"
+      "color": "yellow"
     },
     {
       "name": "OR1",
-      "color": "gray"
+      "color": "yellow"
     },
     {
       "name": "SR",
@@ -475,6 +476,14 @@
         "Dividend at least stock price",
         "[Double] Dividend at least two times stock price"
       ]
+    },
+    "display": {
+      "roundTracker": {
+        "type": "col",
+        "size": 25,
+        "x": 6.25,
+        "y": 4.25
+      }
     },
     "market": [
       [
@@ -615,7 +624,7 @@
     "9": 8,
     "15": 6,
     "58": 7,
-    "80": 3,
+    "80": 2,
     "81": 3,
     "82": 3,
     "83": 3,
@@ -754,8 +763,89 @@
         }
       ]
     },
-    "622": 3,
-    "623": 1
+    "622": 2,
+
+    "622o": {
+      "count": 1,
+      "color": "green",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 40
+        }
+      ],
+      "labels": [
+        {
+          "label": "O",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "623": {
+      "count": 1,
+      "color": "brown",
+      "rotations": 1,
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "value": 50
+        }
+      ],
+      "labels": [
+        {
+          "angle": 150,
+          "percent": 0.8,
+          "label": "O"
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    }
   },
   "map": {
     "hexes": [
@@ -779,7 +869,7 @@
             },
             {
               "color": "green",
-              "cost": "30"
+              "cost": "50"
             },
             {
               "color": "brown",
@@ -812,7 +902,7 @@
         "hexes": ["A18"]
       },
       {
-        "color": "offboard",
+        "color": "gray",
         "centerTowns": [
           {
             "name": {
@@ -876,7 +966,7 @@
         },
         "tokens": [
           {
-            "company": "2",
+            "company": "M2",
             "destination": true,
             "percent": 0.75
           }
@@ -889,7 +979,7 @@
             "name": {
               "name": "Gällivare"
             },
-            "companies": ["S&NJ"]
+            "companies": ["SNJ"]
           }
         ],
         "hexes": ["B19"]
@@ -944,12 +1034,12 @@
           }
         ],
         "labels": {
-          "label": "Y",
+          "label": "O",
           "x": 50
         },
         "tokens": [
           {
-            "company": "3",
+            "company": "M3",
             "destination": true,
             "percent": 0.75
           }
@@ -996,7 +1086,7 @@
         ],
         "tokens": [
           {
-            "company": "1",
+            "company": "M1",
             "destination": true,
             "percent": 0.75
           }
@@ -1106,12 +1196,12 @@
               "name": "Stockholm",
               "reverse": true
             },
-            "companies": ["3"]
+            "companies": ["M3"]
           },
           {
             "angle": 170,
             "percent": 0.5,
-            "companies": ["2"]
+            "companies": ["M2"]
           }
         ],
         "labels": {
@@ -1205,7 +1295,7 @@
             "name": {
               "name": "Malmö"
             },
-            "companies": ["1"]
+            "companies": ["M1"]
           }
         ],
         "water": {
@@ -1399,10 +1489,6 @@
         ]
       }
     ],
-    "roundTracker": {
-      "x": 268,
-      "y": 975
-    },
     "players": {
       "x": 1344,
       "y": 807

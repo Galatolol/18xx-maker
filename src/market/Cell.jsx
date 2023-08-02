@@ -89,6 +89,9 @@ const Cell = ({ cell, par, game, config, data }) => {
                 arrowY = height / 2;
                 arrowBaseline = "middle";
               }
+              if (arrow === "right") {
+                arrowY = 20
+              }
 
               return (
                 <text
@@ -98,7 +101,7 @@ const Cell = ({ cell, par, game, config, data }) => {
                   strokeWidth={0.5}
                   fontFamily="display"
                   fontStyle="bold"
-                  fontSize="15"
+                  fontSize="17"
                   textAnchor={left ? "start" : "end"}
                   dominantBaseline={arrowBaseline}
                   x={left ? 5 : data.width - 5}
@@ -241,7 +244,7 @@ const Cell = ({ cell, par, game, config, data }) => {
                     fill={labelColor}
                     fontFamily="display"
                     fontStyle="bold"
-                    fontSize="15"
+                    fontSize="17"
                     textAnchor={rotated ? "end" : "middle"}
                     textDecoration={cell.underline ? "underline" : null}
                     dominantBaseline="hanging"
@@ -257,7 +260,7 @@ const Cell = ({ cell, par, game, config, data }) => {
                     fill={labelColor}
                     fontFamily="display"
                     fontStyle="bold"
-                    fontSize="15"
+                    fontSize="17"
                     textAnchor={sub_anchor}
                     dominantBaseline={sub_baseline}
                     x={sub_x}

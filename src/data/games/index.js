@@ -24,7 +24,7 @@ games["1820"] = {
   file: "1820.json",
   title: "1820OG",
   subtitle: "An old iteration of 1820",
-  designer: "clearclaw",
+  designer: "JCL",
   minPlayers: 3,
   maxPlayers: 5,
 };
@@ -303,6 +303,16 @@ games["1857"] = {
   minPlayers: 3,
   maxPlayers: 6,
 };
+games["1857PL"] = {
+  id: "1857PL",
+  slug: "1857PL",
+  file: "1857PL.json",
+  title: "1857PL",
+  subtitle: "„Zapowiada się dobra podróż”",
+  designer: "",
+  minPlayers: 3,
+  maxPlayers: 6,
+};
 games["1858"] = {
   id: "1858",
   slug: "1858",
@@ -458,7 +468,7 @@ games["1894"] = {
   subtitle: "PROTOTYPE",
   designer: "Galatolol",
   minPlayers: 3,
-  maxPlayers: 6,
+  maxPlayers: 4,
 };
 games["1899"] = {
   id: "1899",
@@ -626,12 +636,27 @@ games["18NK"] = {
   subtitle: "Nagaokakyo City",
   designer: "CTDA",
 };
+games["18NN"] = {
+  id: "18NN",
+  slug: "18NN",
+  file: "18NN.json",
+  title: "18NN",
+  designer: "Galatolol",
+};
+games["18pl"] = {
+  id: "18pl",
+  slug: "18pl",
+  file: "18pl.json",
+  title: "18PL",
+  designer: "Andrzej Komala",
+  minPlayers: 2,
+  maxPlayers: 5,
+};
 games["18Scan"] = {
   id: "18Scan",
   slug: "18Scan",
   file: "18Scan.json",
   title: "18Scan",
-  subtitle: "Railroading under the Northern Lights",
   designer: "David G. D. Hecht",
   minPlayers: 2,
   maxPlayers: 4,
@@ -746,8 +771,8 @@ games["TheOldPrince1871"] = {
   id: "TheOldPrince1871",
   slug: "TheOldPrince1871",
   file: "TheOldPrince1871.json",
-  title: "The Old Prince 1871",
-  subtitle: "Prototype",
+  title: "1871",
+  subtitle: "The Old Prince",
   designer: "Lucas Boyd",
   minPlayers: 3,
   maxPlayers: 4,
