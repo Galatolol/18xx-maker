@@ -513,8 +513,8 @@
   "tiles": {
     "1": 1,
     "7": 4,
-    "8": 15,
-    "9": 12,
+    "8": 12,
+    "9": 10,
     "14": 4,
     "15": 4,
     "16": 1,
@@ -535,10 +535,10 @@
     "40": 1,
     "41": 2,
     "42": 2,
-    "43": 2,
+    "43": 1,
     "44": 1,
-    "45": 2,
-    "46": 2,
+    "45": 1,
+    "46": 1,
     "47": 1,
     "56": 1,
     "57": 9,
@@ -549,10 +549,6 @@
     "631": 1,
     "632": 1,
     "633": 1,
-
-    "35": 2,
-    "36": 2,
-    "118": 2,
 
     "X1": {
       "color": "yellow",
@@ -650,7 +646,7 @@
       ],
       "values": [
         {
-          "value": 20,
+          "value": 30,
           "angle": 210,
           "percent": 0.75
         }
@@ -706,7 +702,7 @@
       "terrain": [
         {
           "type": "water",
-          "cost": "F40",
+          "cost": "F60",
           "angle": 300,
           "percent": 0.4
         }
@@ -754,7 +750,7 @@
       "terrain": [
         {
           "type": "water",
-          "cost": "F40",
+          "cost": "F60",
           "angle": 300,
           "percent": 0.4
         }
@@ -1170,29 +1166,30 @@
       "quantity": 2,
       "values": [
         {
-          "angle": 290,
-          "percent": 0.55,
+          "angle": 300,
+          "percent": 0.65,
           "value": 40
         }
       ],
       "cities": [
         {
-          "angle": 5,
-          "percent": 0.55
+          "percent": 0.53
         },
         {
-          "angle": 210,
-          "percent": 0.5
+          "angle": 240,
+          "percent": 0.6
         }
       ],
       "track": [
         {
-          "type": "gentle",
-          "side": 1
+          "type": "straight",
+          "side": 1,
+          "cross": "over"
         },
         {
-          "type": "sharp",
-          "side": 4
+          "type": "straight",
+          "side": 2,
+          "cross": "under"
         }
       ]
     },
@@ -1201,32 +1198,97 @@
       "quantity": 2,
       "values": [
         {
-          "angle": 75,
-          "percent": 0.55,
+          "angle": 0,
+          "percent": 0,
           "value": 40
         }
       ],
       "cities": [
         {
-          "percent": 0.5
+          "angle": 354,
+          "percent": 0.57735
         },
         {
-          "angle": 150,
-          "percent": 0.5
+          "angle": 174,
+          "percent": 0.57735
         }
       ],
       "track": [
         {
           "type": "gentle",
-          "side": 5
+          "side": 2
         },
         {
-          "type": "sharp",
-          "side": 3
+          "type": "gentle",
+          "side": 5
         }
       ]
     },
     "X18": {
+      "color": "brown",
+      "quantity": 2,
+      "values": [
+        {
+          "angle": 0,
+          "percent": 0,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "angle": 30,
+          "percent": 0.6
+        },
+        {
+          "angle": 210,
+          "percent": 0.6
+        }
+      ],
+      "track": [
+        {
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 4
+        }
+      ]
+    },
+    "X19": {
+      "color": "brown",
+      "quantity": 2,
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.2,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "angle": 4,
+          "percent": 0.57735
+        },
+        {
+          "angle": 174,
+          "percent": 0.57735
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 1,
+          "cross": "over"
+        },
+        {
+          "type": "gentle",
+          "side": 2,
+          "cross": "under"
+        }
+      ]
+    },
+    "X20": {
       "color": "brown",
       "quantity": 2,
       "values": [
@@ -1256,7 +1318,38 @@
         }
       ]
     },
-    "X19": {
+    "X21": {
+      "color": "brown",
+      "quantity": 2,
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.1,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "angle": 30,
+          "percent": 0.6
+        },
+        {
+          "angle": 150,
+          "percent": 0.6
+        }
+      ],
+      "track": [
+        {
+          "type": "sharp",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        }
+      ]
+    },
+    "X22": {
       "color": "brown",
       "quantity": 2,
       "values": [
@@ -1289,66 +1382,64 @@
         }
       ]
     },
-    "X20": {
+    "X23": {
       "color": "brown",
       "quantity": 2,
       "values": [
         {
-          "angle": 300,
-          "percent": 0.65,
+          "angle": 290,
+          "percent": 0.55,
           "value": 40
         }
       ],
       "cities": [
         {
-          "percent": 0.53
-        },
-        {
-          "angle": 240,
-          "percent": 0.6
-        }
-      ],
-      "track": [
-        {
-          "type": "straight",
-          "side": 1,
-          "cross": "over"
-        },
-        {
-          "type": "straight",
-          "side": 2,
-          "cross": "under"
-        }
-      ]
-    },
-    "X21": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 0,
-          "percent": 0,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6
+          "angle": 5,
+          "percent": 0.55
         },
         {
           "angle": 210,
-          "percent": 0.6
+          "percent": 0.5
         }
       ],
       "track": [
         {
-          "type": "sharp",
+          "type": "gentle",
           "side": 1
         },
         {
           "type": "sharp",
           "side": 4
+        }
+      ]
+    },
+    "X24": {
+      "color": "brown",
+      "quantity": 2,
+      "values": [
+        {
+          "angle": 75,
+          "percent": 0.55,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "percent": 0.5
+        },
+        {
+          "angle": 150,
+          "percent": 0.5
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 5
+        },
+        {
+          "type": "sharp",
+          "side": 3
         }
       ]
     }
@@ -1471,8 +1562,9 @@
         ],
         "names": [
           {
-            "name": "ferry: F60",
+            "name": "ferry: F80",
             "fontSize": 13,
+            "fontWeight": "bold",
             "percent": 0.7
           }
         ],
@@ -1563,7 +1655,7 @@
         "centerTowns": [
           {
             "name": {
-              "name": "Abbeville"
+              "name": ""
             },
             "angle": 150,
             "percent": 0.35
@@ -1572,7 +1664,7 @@
         "towns": [
           {
             "name": {
-              "name": "Blangy-sur-Bresle",
+              "name": "",
               "rotation": -90
             },
             "angle": -30,
@@ -1876,17 +1968,17 @@
         "centerTowns": [
           {
             "name": {
-              "name": ""
+              "name": "Douai"
             },
-            "angle": 210,
+            "angle": 150,
             "percent": 0.35
           },
           {
             "name": {
-              "name": "",
+              "name": "Valenciennes",
               "reverse": true
             },
-            "angle": 30,
+            "angle": 330,
             "percent": 0.35
           }
         ],
@@ -1945,17 +2037,17 @@
         "centerTowns": [
           {
             "name": {
-              "name": ""
+              "name": "Beauvais"
             },
-            "angle": 210,
+            "angle": 150,
             "percent": 0.35
           },
           {
             "name": {
-              "name": "",
+              "name": "Compiègne",
               "reverse": true
             },
-            "angle": 30,
+            "angle": 330,
             "percent": 0.35
           }
         ],
@@ -2075,17 +2167,17 @@
         "centerTowns": [
           {
             "name": {
-              "name": ""
+              "name": "Caudry"
             },
-            "angle": 210,
+            "angle": 150,
             "percent": 0.35
           },
           {
             "name": {
-              "name": "",
+              "name": "Maubeuge",
               "reverse": true
             },
-            "angle": 30,
+            "angle": 330,
             "percent": 0.35
           }
         ],
@@ -2108,17 +2200,17 @@
         "centerTowns": [
           {
             "name": {
-              "name": "Sint-Truiden"
+              "name": "Namur"
             },
-            "angle": 210,
+            "angle": 150,
             "percent": 0.35
           },
           {
             "name": {
-              "name": "Namur",
+              "name": "Sint-Truiden",
               "reverse": true
             },
-            "angle": 30,
+            "angle": 330,
             "percent": 0.35
           }
         ],
@@ -2296,26 +2388,20 @@
             "side": 4
           }
         ],
-        "names": [
-          {
-            "name": "Centre & Bourgogne",
-            "fontSize": 13,
-            "percent": -0.21
-          }
-        ],
-        "values": [
-          {
-            "value": 40,
-            "percent": 0.1
-          }
-        ],
         "offBoardRevenue": {
-          "size": 11,
-          "percent": 0.5,
+          "name": {
+            "name": "Centre",
+            "fontSize": 13
+          },
           "revenues": [
             {
-              "cost": "Est: 60",
-              "color": "white"
+              "cost": "30",
+              "color": "yellow"
+            },
+            {
+              "cost": "60",
+              "color": "brown",
+              "textColor": "white"
             }
           ]
         },
@@ -2416,7 +2502,7 @@
             "cost": "F40"
           }
         ],
-        "hexes": ["B1", "C12", "E8", "H11", "H13"]
+        "hexes": ["B1", "C12", "E4", "E8", "F5", "H11", "H13"]
       },
       {
         "color": "plain",
@@ -2426,7 +2512,7 @@
             "cost": "F60"
           }
         ],
-        "hexes": ["B7", "C2", "E4", "E14", "G8", "H15", "I4"]
+        "hexes": ["B7", "C2", "E14", "G8", "H15", "I4"]
       },
       {
         "color": "plain",
@@ -2440,7 +2526,6 @@
           "F13",
           "E18",
           "F3",
-          "F5",
           "F9",
           "F11",
           "F17",
