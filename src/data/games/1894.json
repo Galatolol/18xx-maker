@@ -513,8 +513,8 @@
   "tiles": {
     "1": 1,
     "7": 4,
-    "8": 12,
-    "9": 10,
+    "8": 15,
+    "9": 12,
     "14": 4,
     "15": 4,
     "16": 1,
@@ -535,14 +535,14 @@
     "40": 1,
     "41": 2,
     "42": 2,
-    "43": 1,
+    "43": 2,
     "44": 1,
-    "45": 1,
-    "46": 1,
+    "45": 2,
+    "46": 2,
     "47": 1,
     "56": 1,
-    "57": 8,
-    "70": 1,
+    "57": 10,
+    "70": 2,
     "619": 4,
     "624": 1,
     "630": 1,
@@ -1584,6 +1584,24 @@
       },
       {
         "color": "gray",
+        "towns": [
+          {
+            "rotate": 120,
+            "angle": 30,
+            "percent": 0.2667,
+            "name": {
+              "name": "Dieppe",
+              "rotation": 180
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 210,
+            "percent": 0.4
+          }
+        ],
         "track": [
           {
             "side": 5,
@@ -1768,7 +1786,7 @@
             "percent": 0.57735,
             "rotation": 30,
             "name": {
-              "name": "Elbeux",
+              "name": "Elbeuf",
               "rotation": 180
             }
           }
@@ -2089,7 +2107,7 @@
           {
             "name": {
               "name": "Versailles",
-              "rotation": -100
+              "rotation": -105
             }
           }
         ],
@@ -2151,13 +2169,6 @@
             "left": 10,
             "right": 10,
             "color": "green"
-          }
-        ],
-        "terrain": [
-          {
-            "type": "water",
-            "cost": "F60",
-            "percent": 0.85
           }
         ],
         "hexes": ["G10"]
@@ -2452,6 +2463,22 @@
       },
       {
         "color": "gray",
+        "towns": [
+          {
+            "name": {
+              "name": "Arlon",
+              "reverse": true
+            },
+            "rotation": 90
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 0,
+            "percent": 0.65
+          }
+        ],
         "track": [
           {
             "side": 1,
@@ -2459,6 +2486,10 @@
           },
           {
             "side": 1,
+            "type": "sharp"
+          },
+          {
+            "side": 2,
             "type": "sharp"
           },
           {
