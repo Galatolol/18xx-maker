@@ -181,9 +181,8 @@
         },
         94,
         {
-          "value": 100,
-          "label": 100,
-          "legend": 3
+          "value": 99,
+          "label": 99
         },
         109,
         120,
@@ -209,7 +208,11 @@
         82,
         88,
         93,
-        99,
+        {
+          "value": 100,
+          "label": 100,
+          "legend": 3
+        },
         109,
         120,
         135,
@@ -1502,6 +1505,24 @@
             "type": "sharp"
           }
         ],
+        "towns": [
+          {
+            "rotate": 60,
+            "angle": 330,
+            "percent": 0.2667,
+            "name": {
+              "name": "Boulougne-sur-Mer",
+              "rotation": 180
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 150,
+            "percent": 0.4
+          }
+        ],
         "hexes": ["A8"]
       },
       {
@@ -1584,24 +1605,6 @@
       },
       {
         "color": "gray",
-        "towns": [
-          {
-            "rotate": 120,
-            "angle": 30,
-            "percent": 0.2667,
-            "name": {
-              "name": "Dieppe",
-              "rotation": 180
-            }
-          }
-        ],
-        "values": [
-          {
-            "value": 20,
-            "angle": 210,
-            "percent": 0.4
-          }
-        ],
         "track": [
           {
             "side": 5,
@@ -1679,10 +1682,17 @@
             "percent": 0.35
           }
         ],
+        "names": [
+          {
+            "name": "Blangy-sur-Bresle",
+            "angle": 180,
+            "percent": 0.55
+          }
+        ],
         "towns": [
           {
             "name": {
-              "name": "",
+              "name": "Abeville",
               "rotation": -90
             },
             "angle": -30,
@@ -1804,7 +1814,9 @@
         "centerTowns": [
           {
             "name": {
-              "name": ""
+              "name": "Doullens",
+              "rotation": 180,
+              "reverse": true
             },
             "angle": -30,
             "percent": 0.35
@@ -1813,8 +1825,9 @@
         "towns": [
           {
             "name": {
-              "name": "",
-              "rotation": -90
+              "name": "Pont-Remy",
+              "reverse": true,
+              "rotation": 90
             },
             "angle": 150,
             "percent": 0.5,

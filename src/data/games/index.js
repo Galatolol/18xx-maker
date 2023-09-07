@@ -729,6 +729,15 @@ games["18TN"] = {
   minPlayers: 3,
   maxPlayers: 5,
 };
+games["18Towns"] = {
+  id: "18Towns",
+  slug: "18Towns",
+  file: "18Towns.json",
+  title: "18Towns",
+  designer: "Galatolol",
+  minPlayers: 3,
+  maxPlayers: 4,
+};
 games["18TraXX2020"] = {
   id: "18TraXX2020",
   slug: "18TraXX2020",
