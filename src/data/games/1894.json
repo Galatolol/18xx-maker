@@ -108,176 +108,167 @@
     "market": [
       [
         {
-          "value": 83,
-          "label": 83,
+          "value": 90,
+          "label": 90,
           "arrow": ["down"]
         },
         {
-          "value": 89,
-          "label": 89
+          "value": 99,
+          "label": 99
         },
         {
-          "value": 96,
-          "label": 96
+          "value": 109,
+          "label": 109
         },
         {
-          "value": 103,
-          "label": 103
+          "value": 115,
+          "label": 115
         },
         {
-          "value": 111,
-          "label": 111
+          "value": 124,
+          "label": 124
         },
         {
-          "value": 120,
-          "label": 120
+          "value": 132,
+          "label": 132
         },
         {
-          "value": 131,
-          "label": 131
+          "value": 141,
+          "label": 141
         },
         {
-          "value": 145,
-          "label": 145
+          "value": 151,
+          "label": 151
         },
         {
-          "value": 160,
-          "label": 160
+          "value": 162,
+          "label": 162
         },
         {
-          "value": 185,
-          "label": 185
+          "value": 190,
+          "label": 190
         },
         {
-          "value": 213,
-          "label": 213
+          "value": 220,
+          "label": 220
         },
         {
-          "value": 250,
-          "label": 250
+          "value": 260,
+          "label": 260
         },
         {
-          "value": 290,
-          "label": 290
+          "value": 310,
+          "label": 310
         },
         {
-          "value": 350,
-          "label": 350,
+          "value": 375,
+          "label": 375,
           "labelColor": "black",
           "color": "offboard"
         }
       ],
       [
         {
-          "value": 77,
-          "label": 77,
+          "value": 83,
+          "label": 83,
           "arrow": "down"
         },
-        82,
         {
-          "value": 90,
-          "label": 90,
+          "value": 95,
+          "label": 95,
           "par": true
         },
-        94,
+        100,
         {
-          "value": 99,
-          "label": 99
+          "value": 106,
+          "label": 106
         },
-        109,
-        120,
-        132,
-        150,
-        170,
-        195,
-        230,
-        270,
+        113,
+        121,
+        130,
+        139,
+        149,
+        175,
+        205,
+        240,
+        285,
         {
-          "value": 320,
-          "label": 320,
+          "value": 340,
+          "label": 340,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 72,
-          "label": 72,
+          "value": 75,
+          "label": 75,
           "arrow": "down"
         },
-        77,
         82,
-        88,
+        89,
+        95,
+        103,
+        111,
+        120,
+        130,
+        140,
+        165,
+        190,
+        225,
+        {
+          "value": 270,
+          "label": 270,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 69,
+          "label": 69,
+          "arrow": "down"
+        },
+        75,
+        81,
+        87,
         93,
         {
           "value": 100,
           "label": 100,
           "legend": 3
         },
-        109,
-        120,
-        135,
-        153,
-        176,
-        205,
-        240,
+        108,
+        116,
+        133,
+        155,
+        180,
         {
-          "value": 290,
-          "label": 290,
+          "value": 215,
+          "label": 215,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 66,
-          "label": 66,
+          "value": 64,
+          "label": 64,
           "arrow": "down"
         },
-        {
-          "value": 70,
-          "label": 70
-        },
+        69,
         75,
         {
-          "value": 82,
-          "label": 82,
+          "value": 80,
+          "label": 80,
           "par": true
         },
-        87,
-        93,
-        99,
-        109,
-        120,
-        138,
-        160,
-        185,
-        {
-          "value": 220,
-          "label": 220,
-          "arrow": "up"
-        }
-      ],
-      [
-        {
-          "value": 63,
-          "label": 63,
-          "legend": 0,
-          "arrow": "down"
-        },
-        {
-          "value": 66,
-          "label": 66
-        },
-        70,
-        75,
-        80,
         85,
-        92,
-        102,
-        115,
-        128,
+        91,
+        97,
+        111,
+        126,
+        145,
         {
-          "value": 147,
-          "label": 147,
+          "value": 170,
+          "label": 170,
           "arrow": "up"
         }
       ],
@@ -285,37 +276,25 @@
         {
           "value": 59,
           "label": 59,
-          "legend": 0,
           "arrow": "down"
         },
-        {
-          "value": 63,
-          "label": 63,
-          "legend": 0
-        },
-        {
-          "value": 66,
-          "label": 66
-        },
-        70,
-        {
-          "value": 76,
-          "label": 76,
-          "par": true
-        },
+        64,
+        68,
+        71,
+        76,
         81,
-        88,
-        99,
+        90,
+        101,
         {
-          "value": 109,
-          "label": 109,
+          "value": 115,
+          "label": 115,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 55,
-          "label": 55,
+          "value": 50,
+          "label": 50,
           "legend": 1,
           "arrow": "down"
         },
@@ -324,18 +303,14 @@
           "label": 59,
           "legend": 0
         },
+        63,
+        66,
+        70,
+        75,
+        83,
         {
-          "value": 62,
-          "label": 62,
-          "legend": 0
-        },
-        65,
-        69,
-        73,
-        82,
-        {
-          "value": 92,
-          "label": 92,
+          "value": 93,
+          "label": 93,
           "arrow": "up"
         }
       ],
