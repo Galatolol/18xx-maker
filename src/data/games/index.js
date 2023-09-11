@@ -465,7 +465,8 @@ games["1894"] = {
   slug: "1894",
   file: "1894.json",
   title: "1894",
-  designer: "Galatolol (PROTOTYPE)",
+  subtitle: "PROTOTYPE",
+  designer: "Galatolol",
   minPlayers: 3,
   maxPlayers: 4,
 };
@@ -727,6 +728,15 @@ games["18TN"] = {
   designer: "Mark Derrick",
   minPlayers: 3,
   maxPlayers: 5,
+};
+games["18Towns"] = {
+  id: "18Towns",
+  slug: "18Towns",
+  file: "18Towns.json",
+  title: "18Towns",
+  designer: "Galatolol",
+  minPlayers: 3,
+  maxPlayers: 4,
 };
 games["18TraXX2020"] = {
   id: "18TraXX2020",
