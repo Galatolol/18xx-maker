@@ -1745,12 +1745,19 @@
             "percent": -0.21
           }
         ],
-        "values": [
-          {
-            "value": 30,
-            "percent": 0.1
-          }
-        ],
+        "offBoardRevenue": {
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "40"
+            }
+          ]
+        },
         "hexes": ["C18"]
       },
       {
