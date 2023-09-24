@@ -24,13 +24,13 @@
   "players": [
     {
       "number": 3,
-      "certLimit": 17,
+      "certLimit": 18,
       "capital": "F570"
     },
     {
       "number": 4,
-      "certLimit": 13,
-      "capital": "F440"
+      "certLimit": 14,
+      "capital": "F480"
     }
   ],
   "companies": [],
@@ -85,13 +85,10 @@
           "color": "offboard_very_light"
         },
         {
-          "label": "90"
+          "label": "95"
         },
         {
-          "label": "82"
-        },
-        {
-          "label": "76"
+          "label": "80"
         },
         {
           "label": "67"
@@ -443,7 +440,7 @@
       },
       {
         "color": "gray",
-        "description": "Starting money: 570 / 440",
+        "description": "Starting money: 570 / 480",
         "icon": ""
       },
       {
@@ -511,16 +508,16 @@
     "31": 1,
     "39": 1,
     "40": 1,
-    "41": 2,
-    "42": 2,
-    "43": 2,
+    "41": 1,
+    "42": 1,
+    "43": 1,
     "44": 1,
-    "45": 2,
-    "46": 2,
+    "45": 1,
+    "46": 1,
     "47": 1,
     "56": 1,
     "57": 10,
-    "70": 2,
+    "70": 1,
     "619": 4,
     "624": 1,
     "630": 1,
@@ -1748,12 +1745,19 @@
             "percent": -0.21
           }
         ],
-        "values": [
-          {
-            "value": 30,
-            "percent": 0.1
-          }
-        ],
+        "offBoardRevenue": {
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "40"
+            }
+          ]
+        },
         "hexes": ["C18"]
       },
       {
