@@ -166,8 +166,8 @@
       ],
       [
         {
-          "value": 83,
-          "label": 83,
+          "value": 82,
+          "label": 82,
           "arrow": "down"
         },
         {
@@ -1892,6 +1892,15 @@
             }
           }
         ],
+        "companies": [
+          {
+            "percent": 0.65,
+            "label": "SAC ?",
+            "left": 10,
+            "right": 10,
+            "color": "red"
+          }
+        ],
         "hexes": ["D17"]
       },
       {
@@ -2373,7 +2382,7 @@
         "companies": [
           {
             "percent": 0.65,
-            "label": "GLG",
+            "label": "GLG ?",
             "left": 10,
             "right": 10,
             "color": "red"
