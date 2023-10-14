@@ -102,3 +102,11 @@
   font-weight: 400;
   src: url('./fonts/Mirage.ttf')
 } 
+
+/* tobacco */
+@font-face {
+  font-family: 'Tobacco';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/TobaccoRoadNF.ttf')
+} 
