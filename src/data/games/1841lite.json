@@ -1,15 +1,17 @@
 {
   "info": {
     "title": "1841 Lite",
+    "titleFontFamily": "Tobacco",
     "subtitle": "",
     "designer": "Federico Vellani and Manlio Manzini",
+    "designerFontFamily": "Times",
     "background": "water",
     "orientation": "horizontal",
     "marketTokens": 2,
     "currency": "L.#",
-    "titleY": 30,
+    "titleY": 75,
     "titleX": 15,
-    "titleSize": 90,
+    "titleSize": 80,
     "designerSize": 20
   },
   "links": {
