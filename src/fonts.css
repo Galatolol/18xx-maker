@@ -109,4 +109,12 @@
   font-style: normal;
   font-weight: 400;
   src: url('./fonts/TobaccoRoadNF.ttf')
-} 
+}
+
+/* respira */
+@font-face {
+  font-family: 'Respira';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/DellaRespira-Regular.ttf')
+}
