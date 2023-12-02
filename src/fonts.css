@@ -1,29 +1,30 @@
-@import url(//db.onlinewebfonts.com/c/d40bbce8f4b00a569beac2454b69231e?family=Oswald);
-@import url(//db.onlinewebfonts.com/c/2f57fcc36a0f2ea078b72a9286789b44?family=Times);
-
 /* latin-ext */
 @font-face {
-  font-family: 'display';
+  font-family: 'serif';
   font-style: normal;
   font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
-  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
+  src: url('./fonts/Times.ttf')
+} 
+/* latin-ext */
+@font-face {
+  font-family: 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Times.ttf')
 } 
 /* latin */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
-  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
+  src: url('./fonts/Anton-Regular.ttf')
 } 
 /* latin-ext */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 700;
-  src: url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.eot"); 
-  src: url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.woff") format("woff"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/403840fe6f1f83c6b918479078e28a7e.svg#Times") format("svg"); 
+  src: url('./fonts/Times-bold.ttf')
 }
 
 /* italic */
@@ -31,14 +32,13 @@
   font-family: 'display';
   font-style: 'italic';
   font-weight: 400;
-  src: url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.eot"); 
-  src: url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.woff") format("woff"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2f57fcc36a0f2ea078b72a9286789b44.svg#Times") format("svg"); 
-} 
+  src: url('./fonts/Times-it.ttf')
+}
+
 /* oswald */
 @font-face {
-  font-family: "Oswald"; 
-  src: url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.eot"); 
-  src: url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.woff") format("woff"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d40bbce8f4b00a569beac2454b69231e.svg#Oswald") format("svg"); 
+  font-family: "Oswald";
+  src: url('./fonts/Oswald.ttf');
 } 
 
 /* eb-garamond-regular - latin */
@@ -74,25 +74,14 @@
   font-family: 'Times';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/Times.ttf');
-  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot"); 
-  src: url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.woff") format("woff"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c17fb8410ab11a6f235ddf6fe97e9303.svg#Times") format("svg"); 
-} 
-
-/* anton */
-@font-face {
-  font-family: 'Anton';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Anton'), url('./fonts/Anton-Regular.ttf')
-} 
+  src: url('./fonts/Times.ttf');} 
 
 /* times-it */
 @font-face {
-  font-family: 'times-it';
+  font-family: 'Times-it';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/times-it.ttf')
+  src: url('./fonts/Times-it.ttf')
 } 
 
 /* mirage */
@@ -118,3 +107,11 @@
   font-weight: 400;
   src: url('./fonts/DellaRespira-Regular.ttf')
 }
+
+/* anton */
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton'), url('./fonts/Anton-Regular.ttf')
+} 
