@@ -1,15 +1,17 @@
 {
   "info": {
     "title": "1841 Lite",
+    "titleFontFamily": "Respira",
     "subtitle": "",
     "designer": "Federico Vellani and Manlio Manzini",
+    "designerFontFamily": "Times",
     "background": "water",
     "orientation": "horizontal",
     "marketTokens": 2,
     "currency": "L.#",
-    "titleY": 30,
+    "titleY": 0,
     "titleX": 15,
-    "titleSize": 90,
+    "titleSize": 100,
     "designerSize": 20
   },
   "links": {
@@ -210,13 +212,13 @@
     "display": {
       "legend": {
         "reverse": true,
-        "x": 16,
-        "y": 3
+        "x": 16.2,
+        "y": 3.7
       },
       "roundTracker": {
         "type": "col",
         "x": 18,
-        "y": 4
+        "y": 3
       }
     },
     "ledges": [
@@ -311,8 +313,7 @@
         175,
         {
           "value": 195,
-          "arrow": "up",
-          "arrowColor": "water"
+          "arrow": "up"
         },
         {
           "value": 216,
@@ -333,8 +334,7 @@
         {
           "value": 328,
           "legend": 0,
-          "arrow": "up",
-          "arrowColor": "orange"
+          "arrow": "up"
         },
         {
           "value": 365,
@@ -368,8 +368,7 @@
         159,
         {
           "value": 177,
-          "arrow": "up",
-          "arrowColor": "water"
+          "arrow": "up"
         },
         {
           "value": 196,
@@ -390,8 +389,7 @@
         {
           "value": 298,
           "legend": 0,
-          "arrow": "up",
-          "arrowColor": "orange"
+          "arrow": "up"
         },
         {
           "value": 331,
@@ -425,8 +423,7 @@
         152,
         {
           "value": 169,
-          "arrow": "up",
-          "arrowColor": "water"
+          "arrow": "up"
         },
         {
           "value": 187,
@@ -468,8 +465,7 @@
         145,
         {
           "value": 160,
-          "arrow": "up",
-          "arrowColor": "water"
+          "arrow": "up"
         },
         {
           "value": 178,
@@ -501,8 +497,7 @@
         131,
         {
           "value": 146,
-          "arrow": "up",
-          "arrowColor": "water"
+          "arrow": "up"
         },
         {
           "value": 162,
@@ -530,8 +525,7 @@
         114,
         {
           "value": 127,
-          "arrow": "up",
-          "arrowColor": "water"
+          "arrow": "up"
         },
         {
           "value": 141,
@@ -961,7 +955,7 @@
       "abbrev": "SFTG",
       "token": {
         "bar": true,
-        "stripe": "light_blue",
+        "stripe": "xxpaper_blue",
         "color": "blue"
       },
       "tokens": ["Torino (S)", "Alessandria", "", "", ""],
@@ -1086,7 +1080,7 @@
       "name": "Azienda Trasporti Ferroviari Ausonia",
       "abbrev": "ATFA",
       "token": {
-        "color": "light_blue",
+        "color": "xxpaper_blue",
         "barColor": "black",
         "bar": "black"
       },
@@ -1170,7 +1164,7 @@
     {
       "name": "Version 2",
       "players": {
-        "x": 1900,
+        "x": 1965,
         "y": 15
       },
       "hexes": [
@@ -1697,32 +1691,32 @@
         },
         {
           "color": "plain",
-          "labels": [{ "label": "Y", "angle": 180, "percent": 0.667 }],
-          "cities": [{ "name": { "name": "Bergamo", "reverse": true } }],
+          "labels": [{ "label": "Y", "angle": 90, "percent": 0.667 }],
+          "cities": [{ "name": { "name": "Bergamo" } }],
           "hexes": ["I6"]
         },
         {
           "color": "plain",
-          "labels": [{ "label": "Y", "angle": 180, "percent": 0.667 }],
-          "cities": [{ "name": { "name": "Brescia", "reverse": true } }],
+          "labels": [{ "label": "Y", "angle": 90, "percent": 0.667 }],
+          "cities": [{ "name": { "name": "Brescia" } }],
           "hexes": ["K6"]
         },
         {
           "color": "plain",
-          "labels": [{ "label": "Y", "angle": 180, "percent": 0.667 }],
-          "cities": [{ "name": { "name": "Verona", "reverse": true } }],
+          "labels": [{ "label": "Y", "angle": 90, "percent": 0.667 }],
+          "cities": [{ "name": { "name": "Verona" } }],
           "hexes": ["M8"]
         },
         {
           "color": "plain",
-          "labels": [{ "label": "Y", "angle": 180, "percent": 0.667 }],
-          "cities": [{ "name": { "name": "Padova", "reverse": true } }],
+          "labels": [{ "label": "Y", "angle": 90, "percent": 0.667 }],
+          "cities": [{ "name": { "name": "Padova" } }],
           "hexes": ["O8"]
         },
         {
           "color": "plain",
-          "labels": [{ "label": "Y", "angle": 180, "percent": 0.667 }],
-          "cities": [{ "name": { "name": "Bologna", "reverse": true } }],
+          "labels": [{ "label": "Y", "angle": 90, "percent": 0.667 }],
+          "cities": [{ "name": { "name": "Bologna" } }],
           "hexes": ["N13"]
         },
         {
@@ -1938,7 +1932,7 @@
       ],
       "borders": [
         {
-          "color": "green",
+          "color": "terrain_green",
           "dashed": true,
           "dashArray": "12 24",
           "offset": 4,
@@ -1946,7 +1940,7 @@
           "coords": ["G4p4", "G4p5", "G4p6"]
         },
         {
-          "color": "blue",
+          "color": "xxpaper_blue",
           "dashed": true,
           "dashArray": "12 24",
           "width": 8,
@@ -1965,7 +1959,7 @@
           ]
         },
         {
-          "color": "blue",
+          "color": "xxpaper_blue",
           "dashed": true,
           "dashArray": "12 24",
           "offset": -1,
@@ -1973,7 +1967,7 @@
           "coords": ["J17p2", "J17p3"]
         },
         {
-          "color": "blue",
+          "color": "xxpaper_blue",
           "dashed": true,
           "dashArray": "12 24",
           "offset": -2,
@@ -1981,7 +1975,7 @@
           "coords": ["J17p4"]
         },
         {
-          "color": "blue",
+          "color": "xxpaper_blue",
           "dashed": true,
           "dashArray": "12 24",
           "width": 8,
@@ -1998,7 +1992,7 @@
           ]
         },
         {
-          "color": "blue",
+          "color": "xxpaper_blue",
           "dashed": true,
           "dashArray": "12 24",
           "width": 8,
@@ -2025,7 +2019,7 @@
           ]
         },
         {
-          "color": "orange",
+          "color": "light_brown",
           "dashed": true,
           "dashArray": "12 24",
           "offset": -2,

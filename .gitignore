@@ -30,3 +30,5 @@ yarn-debug.log*
 yarn-error.log*
 
 /src/schemas/tiles.schema.json
+
+yarn.lock

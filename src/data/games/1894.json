@@ -24,13 +24,13 @@
   "players": [
     {
       "number": 3,
-      "certLimit": 17,
+      "certLimit": 18,
       "capital": "F570"
     },
     {
       "number": 4,
-      "certLimit": 13,
-      "capital": "F440"
+      "certLimit": 14,
+      "capital": "F480"
     }
   ],
   "companies": [],
@@ -85,13 +85,10 @@
           "color": "offboard_very_light"
         },
         {
-          "label": "90"
+          "label": "95"
         },
         {
-          "label": "82"
-        },
-        {
-          "label": "76"
+          "label": "80"
         },
         {
           "label": "67"
@@ -108,173 +105,167 @@
     "market": [
       [
         {
-          "value": 83,
-          "label": 83,
+          "value": 90,
+          "label": 90,
           "arrow": ["down"]
         },
         {
-          "value": 89,
-          "label": 89
+          "value": 99,
+          "label": 99
         },
         {
-          "value": 96,
-          "label": 96
+          "value": 109,
+          "label": 109
         },
         {
-          "value": 103,
-          "label": 103
+          "value": 115,
+          "label": 115
         },
         {
-          "value": 111,
-          "label": 111
+          "value": 124,
+          "label": 124
         },
         {
-          "value": 120,
-          "label": 120
+          "value": 132,
+          "label": 132
         },
         {
-          "value": 131,
-          "label": 131
+          "value": 141,
+          "label": 141
         },
         {
-          "value": 145,
-          "label": 145
+          "value": 151,
+          "label": 151
         },
         {
-          "value": 160,
-          "label": 160
+          "value": 162,
+          "label": 162
         },
         {
-          "value": 185,
-          "label": 185
+          "value": 190,
+          "label": 190
         },
         {
-          "value": 213,
-          "label": 213
+          "value": 220,
+          "label": 220
         },
         {
-          "value": 250,
-          "label": 250
+          "value": 260,
+          "label": 260
         },
         {
-          "value": 290,
-          "label": 290
+          "value": 310,
+          "label": 310
         },
         {
-          "value": 350,
-          "label": 350,
+          "value": 375,
+          "label": 375,
           "labelColor": "black",
           "color": "offboard"
         }
       ],
       [
         {
-          "value": 77,
-          "label": 77,
+          "value": 82,
+          "label": 82,
+          "arrow": "down"
+        },
+        {
+          "value": 95,
+          "label": 95,
+          "par": true
+        },
+        100,
+        {
+          "value": 106,
+          "label": 106
+        },
+        113,
+        121,
+        130,
+        139,
+        149,
+        175,
+        205,
+        240,
+        285,
+        {
+          "value": 340,
+          "label": 340,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 75,
+          "label": 75,
           "arrow": "down"
         },
         82,
+        89,
+        95,
+        103,
+        111,
+        120,
+        130,
+        140,
+        165,
+        190,
+        225,
         {
-          "value": 90,
-          "label": 90,
-          "par": true
+          "value": 270,
+          "label": 270,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 69,
+          "label": 69,
+          "arrow": "down"
         },
-        94,
+        75,
+        81,
+        87,
+        93,
         {
           "value": 100,
           "label": 100,
           "legend": 3
         },
-        109,
-        120,
-        132,
-        150,
-        170,
-        195,
-        230,
-        270,
+        108,
+        116,
+        133,
+        155,
+        180,
         {
-          "value": 320,
-          "label": 320,
+          "value": 215,
+          "label": 215,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 72,
-          "label": 72,
+          "value": 64,
+          "label": 64,
           "arrow": "down"
         },
-        77,
-        82,
-        88,
-        93,
-        99,
-        109,
-        120,
-        135,
-        153,
-        176,
-        205,
-        240,
+        69,
+        74,
         {
-          "value": 290,
-          "label": 290,
-          "arrow": "up"
-        }
-      ],
-      [
-        {
-          "value": 66,
-          "label": 66,
-          "arrow": "down"
-        },
-        {
-          "value": 70,
-          "label": 70
-        },
-        75,
-        {
-          "value": 82,
-          "label": 82,
+          "value": 80,
+          "label": 80,
           "par": true
         },
-        87,
-        93,
-        99,
-        109,
-        120,
-        138,
-        160,
-        185,
-        {
-          "value": 220,
-          "label": 220,
-          "arrow": "up"
-        }
-      ],
-      [
-        {
-          "value": 63,
-          "label": 63,
-          "legend": 0,
-          "arrow": "down"
-        },
-        {
-          "value": 66,
-          "label": 66
-        },
-        70,
-        75,
-        80,
         85,
-        92,
-        102,
-        115,
-        128,
+        91,
+        97,
+        111,
+        126,
+        145,
         {
-          "value": 147,
-          "label": 147,
+          "value": 170,
+          "label": 170,
           "arrow": "up"
         }
       ],
@@ -282,37 +273,25 @@
         {
           "value": 59,
           "label": 59,
-          "legend": 0,
           "arrow": "down"
         },
-        {
-          "value": 63,
-          "label": 63,
-          "legend": 0
-        },
-        {
-          "value": 66,
-          "label": 66
-        },
-        70,
-        {
-          "value": 76,
-          "label": 76,
-          "par": true
-        },
+        64,
+        68,
+        71,
+        76,
         81,
-        88,
-        99,
+        90,
+        101,
         {
-          "value": 109,
-          "label": 109,
+          "value": 115,
+          "label": 115,
           "arrow": "up"
         }
       ],
       [
         {
-          "value": 55,
-          "label": 55,
+          "value": 50,
+          "label": 50,
           "legend": 1,
           "arrow": "down"
         },
@@ -321,18 +300,14 @@
           "label": 59,
           "legend": 0
         },
+        63,
+        66,
+        70,
+        75,
+        83,
         {
-          "value": 62,
-          "label": 62,
-          "legend": 0
-        },
-        65,
-        69,
-        73,
-        82,
-        {
-          "value": 92,
-          "label": 92,
+          "value": 93,
+          "label": 93,
           "arrow": "up"
         }
       ],
@@ -465,7 +440,7 @@
       },
       {
         "color": "gray",
-        "description": "Starting money: 570 / 440",
+        "description": "Starting money: F570 / 480",
         "icon": ""
       },
       {
@@ -485,7 +460,7 @@
       },
       {
         "color": "offboard_very_light",
-        "description": "— president may buy 2 shares and may hold over 60%",
+        "description": "— president may buy 2 shares and may buy over 60%",
         "icon": ""
       },
       {
@@ -513,8 +488,8 @@
   "tiles": {
     "1": 1,
     "7": 4,
-    "8": 12,
-    "9": 10,
+    "8": 15,
+    "9": 12,
     "14": 4,
     "15": 4,
     "16": 1,
@@ -533,15 +508,15 @@
     "31": 1,
     "39": 1,
     "40": 1,
-    "41": 2,
-    "42": 2,
+    "41": 1,
+    "42": 1,
     "43": 1,
     "44": 1,
     "45": 1,
     "46": 1,
     "47": 1,
     "56": 1,
-    "57": 8,
+    "57": 10,
     "70": 1,
     "619": 4,
     "624": 1,
@@ -1502,6 +1477,24 @@
             "type": "sharp"
           }
         ],
+        "towns": [
+          {
+            "rotate": 60,
+            "angle": 330,
+            "percent": 0.2667,
+            "name": {
+              "name": "Boulougne-sur-Mer",
+              "rotation": 180
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 150,
+            "percent": 0.4
+          }
+        ],
         "hexes": ["A8"]
       },
       {
@@ -1661,10 +1654,17 @@
             "percent": 0.35
           }
         ],
+        "names": [
+          {
+            "name": "Blangy-sur-Bresle",
+            "angle": 180,
+            "percent": 0.55
+          }
+        ],
         "towns": [
           {
             "name": {
-              "name": "",
+              "name": "Abeville",
               "rotation": -90
             },
             "angle": -30,
@@ -1745,12 +1745,19 @@
             "percent": -0.21
           }
         ],
-        "values": [
-          {
-            "value": 30,
-            "percent": 0.1
-          }
-        ],
+        "offBoardRevenue": {
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "40"
+            }
+          ]
+        },
         "hexes": ["C18"]
       },
       {
@@ -1768,7 +1775,7 @@
             "percent": 0.57735,
             "rotation": 30,
             "name": {
-              "name": "Elbeux",
+              "name": "Elbeuf",
               "rotation": 180
             }
           }
@@ -1786,7 +1793,9 @@
         "centerTowns": [
           {
             "name": {
-              "name": ""
+              "name": "Doullens",
+              "rotation": 180,
+              "reverse": true
             },
             "angle": -30,
             "percent": 0.35
@@ -1795,8 +1804,9 @@
         "towns": [
           {
             "name": {
-              "name": "",
-              "rotation": -90
+              "name": "Pont-Remy",
+              "reverse": true,
+              "rotation": 90
             },
             "angle": 150,
             "percent": 0.5,
@@ -1880,6 +1890,15 @@
             "name": {
               "name": "Antwerpen"
             }
+          }
+        ],
+        "companies": [
+          {
+            "percent": 0.65,
+            "label": "SAC ?",
+            "left": 10,
+            "right": 10,
+            "color": "red"
           }
         ],
         "hexes": ["D17"]
@@ -2089,7 +2108,7 @@
           {
             "name": {
               "name": "Versailles",
-              "rotation": -100
+              "rotation": -105
             }
           }
         ],
@@ -2151,13 +2170,6 @@
             "left": 10,
             "right": 10,
             "color": "green"
-          }
-        ],
-        "terrain": [
-          {
-            "type": "water",
-            "cost": "F60",
-            "percent": 0.85
           }
         ],
         "hexes": ["G10"]
@@ -2370,7 +2382,7 @@
         "companies": [
           {
             "percent": 0.65,
-            "label": "GLG",
+            "label": "GLG ?",
             "left": 10,
             "right": 10,
             "color": "red"
@@ -2442,7 +2454,7 @@
         "color": "plain",
         "companies": [
           {
-            "label": "LVM",
+            "label": "LRC",
             "left": 10,
             "right": 10,
             "color": "red"
@@ -2452,6 +2464,22 @@
       },
       {
         "color": "gray",
+        "towns": [
+          {
+            "name": {
+              "name": "Arlon",
+              "reverse": true
+            },
+            "rotation": 90
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 0,
+            "percent": 0.65
+          }
+        ],
         "track": [
           {
             "side": 1,
@@ -2459,6 +2487,10 @@
           },
           {
             "side": 1,
+            "type": "sharp"
+          },
+          {
+            "side": 2,
             "type": "sharp"
           },
           {
@@ -2502,7 +2534,7 @@
             "cost": "F40"
           }
         ],
-        "hexes": ["B1", "C12", "E4", "E8", "F5", "H11", "H13"]
+        "hexes": ["B1", "C2", "C12", "E4", "E8", "F5", "H11", "H13"]
       },
       {
         "color": "plain",
@@ -2512,7 +2544,7 @@
             "cost": "F60"
           }
         ],
-        "hexes": ["B7", "C2", "E14", "G8", "H15", "I4"]
+        "hexes": ["B7", "E14", "G8", "H15", "I4"]
       },
       {
         "color": "plain",
