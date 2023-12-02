@@ -33,6 +33,7 @@ const makeNode = (x, y, reverse, revenue, size, fontFamily) => {
   let length = letter(size) * `${value}`.length;
   let phaseLength = letter(size) * `${revenue.phase}`.length;
   let width = R.max(`${value}`.length, 2) * letter(size) + 5;
+  fontFamily = "Times";
 
   let nodes = [
     <Color context="map"

@@ -17,7 +17,7 @@ const Value = ({ value, fontSize, fontWeight, fontFamily, color, textColor, shap
 
   fontSize = multiDefaultTo(17, fontSize, game.info.valueFontSize);
   fontWeight = multiDefaultTo("bold", fontWeight, game.info.valueFontWeight);
-  // fontFamily = multiDefaultTo("sans-serif", fontFamily, game.info.valueFontFamily);
+  fontFamily = multiDefaultTo("Times", fontFamily, game.info.valueFontFamily);
 
   let rx, ry;
   if (height !== undefined) {
