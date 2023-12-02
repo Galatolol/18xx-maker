@@ -57,7 +57,9 @@
     "irepl_stripe_blue": "#efebe7",
 
     "terrain_yellow": "#FFEB00",
+    "terrain_green": "#71BF44",
     "terrain_brown": "#BF8156",
+    "terrain_gray": "#B6BCBE",
 
     "subsidy": "#f8ce0c",
 
