@@ -17,7 +17,7 @@ const Title = ({ game, variation, hexWidth }) => {
   let subtitleStyle = game.info.subtitleFontStyle || game.info.titleFontStyle || "normal";
   let subtitleSize = (game.info.subtitleSize || 30) * scale;
 
-  let designerFont = game.info.designerFontFamily || game.info.titleFontFamily || "display";
+  let designerFont = game.info.designerFontFamily || game.info.titleFontFamily || "Times";
   let designerWeight = game.info.designerFontWeight || game.info.titleFontWeight || "bold";
   let designerSize = (game.info.designerSize || 20) * scale;
 

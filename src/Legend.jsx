@@ -16,6 +16,7 @@ const Legend = ({ game, color, borderColor, borderWidth, description, right, bot
                   fill={c(color || "orange")}
           /> */}
           <text
+            fontFamily="Times"
             fontSize="16"
             fontWeight="bold"
             textAnchor={right ? "end" : "start"}
