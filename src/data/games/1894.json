@@ -2,14 +2,14 @@
   "info": {
     "title": "1894",
     "titleFontFamily": "EB Garamond",
-    "subtitle": "PROTOTYPE",
+    "subtitle": "",
     "subtitleFontFamily": "Oswald",
-    "designer": "Galatolol",
+    "designer": "Jan Kłos",
     "background": "gray",
     "width": 150,
     "color_10": "orange",
     "titleX": 1170,
-    "titleY": -100,
+    "titleY": -70,
     "titleSize": 120,
     "subTitleSize": 20,
     "hexCoords": true,
@@ -488,6 +488,7 @@
     "1": 1,
     "7": 4,
     "8": 15,
+    "9": 12,
     "14": 4,
     "15": 4,
     "16": 1,
@@ -1017,6 +1018,45 @@
         }
       ]
     },
+    "X13": {
+      "color": "brown",
+      "rotations": 6,
+      "labels": [
+        {
+          "label": "B",
+          "angle": 150,
+          "percent": 0.8
+        }
+      ],
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 70
+        }
+      ],
+      "cities": [
+        {
+          "size": 3,
+          "rotation": -30,
+          "percent": 0.15
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
     "X14": {
       "color": "brown",
       "rotations": 6,
@@ -1097,7 +1137,7 @@
     },
     "X16": {
       "color": "brown",
-      "quantity": 4,
+      "quantity": 2,
       "values": [
         {
           "angle": 300,
@@ -1129,7 +1169,7 @@
     },
     "X17": {
       "color": "brown",
-      "quantity": 4,
+      "quantity": 2,
       "values": [
         {
           "angle": 0,
@@ -1160,7 +1200,7 @@
     },
     "X18": {
       "color": "brown",
-      "quantity": 4,
+      "quantity": 2,
       "values": [
         {
           "angle": 0,
@@ -1191,7 +1231,7 @@
     },
     "X19": {
       "color": "brown",
-      "quantity": 4,
+      "quantity": 2,
       "values": [
         {
           "angle": 270,
