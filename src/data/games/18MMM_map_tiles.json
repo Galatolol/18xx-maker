@@ -1,0 +1,929 @@
+{
+  "info": {
+    "title": "18MMM_map_tiles",
+    "background": "mountain",
+    "orientation": "horizontal",
+    "titleY": -700,
+    "titleX": 170,
+    "titleSize": 150,
+    "currency": "USD"
+  },
+  "links": {},
+  "tokens": [
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    },
+    {
+      "icon": "coal"
+    }
+  ],
+  "ipo": false,
+  "bank": "$3,720",
+  "companies": [
+    {
+      "name": "1",
+      "abbrev": "1"
+    },
+    {
+      "name": "2",
+      "abbrev": "2"
+    },
+    {
+      "name": "3",
+      "abbrev": "3"
+    },
+    {
+      "name": "4",
+      "abbrev": "4"
+    },
+    {
+      "name": "5",
+      "abbrev": "5"
+    },
+    {
+      "name": "6",
+      "abbrev": "6"
+    },
+    {
+      "name": "7",
+      "abbrev": "7"
+    },
+    {
+      "name": "8",
+      "abbrev": "8"
+    },
+    {
+      "name": "9",
+      "abbrev": "9"
+    },
+    {
+      "name": "10",
+      "abbrev": "10"
+    },
+    {
+      "name": "11",
+      "abbrev": "11"
+    },
+    {
+      "name": "12",
+      "abbrev": "12"
+    },
+    {
+      "name": "13",
+      "abbrev": "13"
+    },
+    {
+      "name": "14",
+      "abbrev": "14"
+    },
+    {
+      "name": "15",
+      "abbrev": "15"
+    },
+    {
+      "name": "16",
+      "abbrev": "16"
+    },
+    {
+      "name": "17",
+      "abbrev": "17"
+    },
+    {
+      "name": "18",
+      "abbrev": "18"
+    },
+    {
+      "name": "19",
+      "abbrev": "19"
+    },
+    {
+      "name": "20",
+      "abbrev": "20"
+    }
+  ],
+  "trains": [],
+  "privates": [],
+  "phases": [],
+  "pools": [],
+  "rounds": [],
+  "turns": [],
+  "stock": {},
+  "tiles": {
+    "M1": {
+      "quantity": 12,
+      "rotations": 1,
+      "color": "plain"
+    },
+
+    "M2": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "names": [
+        {
+          "name": "Capital",
+          "fontSize": 18
+        }
+      ]
+    },
+    "M3": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.7
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["4"]
+        }
+      ]
+    },
+    "M4": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.7
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["5"]
+        }
+      ]
+    },
+    "M5": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.7
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["6"]
+        }
+      ]
+    },
+
+    "M6": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["7"]
+        }
+      ]
+    },
+    "M7": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["8"]
+        }
+      ]
+    },
+    "M8": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["9"]
+        }
+      ]
+    },
+    "M9": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["10"]
+        }
+      ]
+    },
+    "M10": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["11"]
+        }
+      ]
+    },
+    "M11": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["12"]
+        }
+      ]
+    },
+    "M12": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["13"]
+        }
+      ]
+    },
+    "M13": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "cities": [
+        {
+          "size": 1,
+          "companies": ["14"]
+        }
+      ]
+    },
+    "M14": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "swamp",
+          "cost": "$10",
+          "size": "large",
+          "percent": -0.45
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["15"]
+        }
+      ]
+    },
+    "M15": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "swamp",
+          "cost": "$10",
+          "size": "large",
+          "percent": -0.45
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["16"]
+        }
+      ]
+    },
+    "M16": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "water": {
+        "cost": "$20",
+        "size": "large",
+        "percent": -0.45
+      },
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["17"]
+        }
+      ]
+    },
+    "M17": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "water": {
+        "cost": "$20",
+        "size": "large",
+        "percent": -0.45
+      },
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["18"]
+        }
+      ]
+    },
+    "M18": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "river",
+          "cost": "$30",
+          "size": "large",
+          "percent": -0.45
+        }
+      ],
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["19"]
+        }
+      ]
+    },
+    "M19": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$40",
+        "size": "large",
+        "percent": -0.45
+      },
+      "cities": [
+        {
+          "size": 1,
+          "percent": 0.3,
+          "companies": ["20"]
+        }
+      ]
+    },
+
+    "M20": {
+      "quantity": 1,
+      "color": "plain",
+      "rotations": 1,
+      "names": [
+        {
+          "name": "6-way junction",
+          "fontSize": 18
+        }
+      ]
+    },
+
+    "M21": {
+      "quantity": 6,
+      "color": "plain",
+      "rotations": 1,
+      "icons": [
+        {
+          "type": "coal"
+        }
+      ]
+    },
+    "M22": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "water": {
+        "cost": "$20",
+        "size": "large",
+        "percent": -0.3
+      },
+      "icons": [
+        {
+          "type": "coal",
+          "percent": 0.3
+        }
+      ]
+    },
+    "M23": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$40",
+        "size": "large",
+        "percent": -0.3
+      },
+      "icons": [
+        {
+          "type": "coal",
+          "percent": 0.3
+        }
+      ]
+    },
+
+    "M24": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "swamp",
+          "cost": "$10",
+          "size": "large"
+        }
+      ]
+    },
+    "M25": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "water": {
+        "cost": "$20",
+        "size": "large"
+      }
+    },
+    "M26": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "terrain": [
+        {
+          "type": "river",
+          "cost": "$30",
+          "size": "large"
+        }
+      ]
+    },
+    "M27": {
+      "quantity": 2,
+      "color": "plain",
+      "rotations": 1,
+      "mountain": {
+        "cost": "$40",
+        "size": "large"
+      }
+    }
+  },
+  "map": {
+    "hexes": [
+      {
+        "color": "plain",
+        "hexes": [
+          "B4",
+          "B6",
+          "B8",
+          "B10",
+          "B12",
+          "B14",
+          "B16",
+          "D4",
+          "D6",
+          "D8",
+          "D10",
+          "D12",
+          "D14",
+          "D16",
+          "F4",
+          "F6",
+          "F8",
+          "F10",
+          "F12",
+          "F14",
+          "F16",
+          "H4",
+          "H6",
+          "H8",
+          "H10",
+          "H12",
+          "H14",
+          "H16",
+          "C3",
+          "C5",
+          "C7",
+          "C9",
+          "C11",
+          "C13",
+          "C15",
+          "E3",
+          "E5",
+          "E7",
+          "E9",
+          "E11",
+          "E13",
+          "E15",
+          "G3",
+          "G5",
+          "G7",
+          "G9",
+          "G11",
+          "G13",
+          "G15"
+        ]
+      },
+
+      {
+        "color": "water",
+        "removeBorders": [5],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["B2"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [2, 6],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          }
+        ],
+        "hexes": ["C1", "G1"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [3, 5],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["D2", "F2"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [3],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 2
+          }
+        ],
+        "hexes": ["H2"]
+      },
+
+      {
+        "color": "water",
+        "removeBorders": [5],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          }
+        ],
+        "hexes": ["B18"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [2, 6],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          },
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "hexes": ["C17", "G17"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [3, 5],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          }
+        ],
+        "hexes": ["D18", "F18"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [3],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          }
+        ],
+        "hexes": ["H18"]
+      },
+
+      {
+        "color": "offboard",
+        "removeBorders": [1],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["A3"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [1, 4],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["A5", "A7", "A11", "A13", "A15"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [4],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "hexes": ["A17"]
+      },
+
+      {
+        "color": "offboard",
+        "removeBorders": [1],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          }
+        ],
+        "hexes": ["I3"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [1, 4],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "hexes": ["I5", "I7", "I11", "I13", "I15"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [4],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "hexes": ["I17"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [2, 6],
+        "routeBonus": [
+          {
+            "value": "+$50",
+            "fillColor": "white",
+            "strokeColor": "black",
+            "textColor": "black",
+            "angle": 0,
+            "percent": 0.3
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 2,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "10"
+            },
+            {
+              "color": "green",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "70"
+            }
+          ],
+          "angle": 180,
+          "percent": 0.4
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          }
+        ],
+        "hexes": ["E1"]
+      },
+      {
+        "color": "water",
+        "removeBorders": [2, 6],
+        "routeBonus": [
+          {
+            "value": "+$50",
+            "fillColor": "white",
+            "strokeColor": "black",
+            "textColor": "black",
+            "angle": 180,
+            "percent": 0.3
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 2,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "70"
+            }
+          ],
+          "angle": 0,
+          "percent": 0.2
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          },
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "hexes": ["E17"]
+      },
+      {
+        "color": "offboard",
+        "routeBonus": [
+          {
+            "value": "+$50",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "angle": 0,
+            "percent": 1
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 2,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "green",
+              "cost": "10"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "70"
+            }
+          ],
+          "angle": 270,
+          "percent": 0.2
+        },
+        "removeBorders": [1, 4],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "hexes": ["I9"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [1, 4],
+        "routeBonus": [
+          {
+            "value": "+$50",
+            "fillColor": "black",
+            "strokeColor": "white",
+            "textColor": "white",
+            "angle": 0,
+            "percent": 1
+          }
+        ],
+        "offBoardRevenue": {
+          "rows": 2,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "textColor": "white",
+              "cost": "60"
+            },
+            {
+              "color": "gray",
+              "cost": "70"
+            }
+          ],
+          "angle": 90,
+          "percent": 0.2
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["A9"]
+      }
+    ]
+  }
+}
