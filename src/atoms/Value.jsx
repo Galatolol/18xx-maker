@@ -31,7 +31,7 @@ const Value = ({ value, fontSize, fontWeight, fontFamily, color, textColor, shap
   if (width !== undefined)
     rx = width/2;
   else
-    rx = length > 2 ? length * ry * 3 / 5 : ry;
+    rx = length > 2 ? length * ry * 2 / 5 : ry;
   height = multiDefaultTo(ry*2, height);
   width = multiDefaultTo(rx*2, width);
   color = color || "white";

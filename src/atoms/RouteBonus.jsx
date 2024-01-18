@@ -27,7 +27,7 @@ const RouteBonus = ({ value, size, fontFamily, fillColor, strokeColor, strokeWid
           <text
             fontWeight="bold"
             fontSize={size}
-            fontFamily={fontFamily}
+            fontFamily="Times"
             fill={c(textColor)}
             dominantBaseline="central"
             textAnchor="middle"

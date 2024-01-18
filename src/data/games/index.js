@@ -465,8 +465,7 @@ games["1894"] = {
   slug: "1894",
   file: "1894.json",
   title: "1894",
-  subtitle: "PROTOTYPE",
-  designer: "Galatolol",
+  designer: "Jan Kłos",
   minPlayers: 3,
   maxPlayers: 4,
 };
@@ -616,6 +615,20 @@ games["18MM"] = {
   file: "18MM.json",
   title: "18MM",
   designer: "Mark Hendrickson",
+};
+games["18MMM_map_tiles"] = {
+  id: "18MMM_map_tiles",
+  slug: "18MMM_map_tiles",
+  file: "18MMM_map_tiles.json",
+  title: "18MMM_map_tiles",
+  designer: "",
+};
+games["18MMM"] = {
+  id: "18MMM",
+  slug: "18MMM",
+  file: "18MMM.json",
+  title: "18MMM",
+  designer: "",
 };
 games["18NC"] = {
   id: "18NC",
