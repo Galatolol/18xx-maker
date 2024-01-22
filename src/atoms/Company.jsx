@@ -2,7 +2,7 @@ import React from "react";
 import Color from "../util/Color";
 
 const Company = ({ label, reverse, bottom, left, right, radius, color }) => {
-  let size = 13;
+  let size = 15;
   radius = radius || 6;
 
   let y = bottom ? radius : -radius;

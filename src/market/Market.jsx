@@ -196,7 +196,7 @@ const Market = ({data, game, config, title, displayTitle}) => {
     <g>
       {displayTitle === false || (
         <text
-          fontFamily={titleFont}
+          fontFamily="Times"
           fontStyle="bold"
           fontSize="25"
           dominantBaseline="hanging"
