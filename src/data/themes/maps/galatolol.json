@@ -15,7 +15,8 @@
     "mountain": "#795138",
     "water": "#67A7C4",
     "water_dark": "#2e5f76",
-    "water_light": "#D1E4ED",
+    "water_light": "#9acce4",
+    "water_very_light": "#D1E4ED",
     "land": "#59B578",
 
     "orange": "#F58121",

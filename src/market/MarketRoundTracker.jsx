@@ -12,7 +12,7 @@ const MarketRoundTracker = ({roundTracker, game, config}) => {
   }
 
   let rounds = game.rounds;
-  let size = config.tokens.marketTokenSize;
+  let size = roundTracker.size || config.tokens.marketTokenSize;
   let type = roundTracker.type || "row";
   let rotation = roundTracker.rotation || 0;
 

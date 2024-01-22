@@ -66,7 +66,7 @@
       },
       "roundTracker": {
         "type": "col",
-        "size": 25,
+        "size": 65,
         "x": 9.75,
         "y": 5.5
       },
@@ -556,6 +556,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F40",
           "angle": 300,
           "percent": 0.3
@@ -594,6 +595,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F40",
           "angle": -60,
           "percent": 0.7
@@ -629,6 +631,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F40",
           "angle": -60,
           "percent": 0.7
@@ -676,6 +679,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F60",
           "angle": 300,
           "percent": 0.4
@@ -724,6 +728,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F60",
           "angle": 300,
           "percent": 0.4
@@ -761,6 +766,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F60",
           "angle": 30,
           "percent": 0.75
@@ -799,6 +805,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F60",
           "angle": 30,
           "percent": 0.75
@@ -837,6 +844,7 @@
       "terrain": [
         {
           "type": "water",
+          "size": "medium",
           "cost": "F60",
           "angle": 30,
           "percent": 0.75
@@ -1448,7 +1456,6 @@
         "names": [
           {
             "name": "Great Britain",
-            "fontSize": 13,
             "percent": -0.21
           }
         ],
@@ -1497,7 +1504,7 @@
         "hexes": ["A8"]
       },
       {
-        "color": "water",
+        "color": "water_light",
         "track": [
           {
             "type": "straight",
@@ -1544,19 +1551,15 @@
         "hexes": ["A10"]
       },
       {
-        "color": "water",
-        "cities": [
-          {
-            "name": {
-              "name": "London shipping"
-            }
-          }
-        ],
+        "color": "water_light",
+        "cities": [{}],
         "names": [
           {
+            "name": "London shipping",
+            "percent": -0.5
+          },
+          {
             "name": "ferry: F80",
-            "fontSize": 13,
-            "fontWeight": "bold",
             "percent": 0.7
           }
         ],
@@ -1629,7 +1632,7 @@
             "percent": 0.57735,
             "rotation": 150,
             "name": {
-              "name": "Oostendee",
+              "name": "Oostende",
               "rotation": 180
             }
           }
@@ -1657,7 +1660,7 @@
           {
             "name": "Blangy-sur-Bresle",
             "angle": 180,
-            "percent": 0.55
+            "percent": 0.53
           }
         ],
         "towns": [
@@ -1740,7 +1743,6 @@
         "names": [
           {
             "name": "Netherlands",
-            "fontSize": 13,
             "percent": -0.21
           }
         ],
@@ -1914,51 +1916,6 @@
         "hexes": ["E2"]
       },
       {
-        "color": "gray",
-        "track": [
-          {
-            "side": 2,
-            "type": "gentle"
-          }
-        ],
-        "towns": [
-          {
-            "name": {
-              "name": ""
-            },
-            "rotation": -60,
-            "angle": 210,
-            "percent": 0.275
-          }
-        ],
-        "names": [
-          {
-            "name": "extra",
-            "fontFamily": "display",
-            "fontSize": 18,
-            "percent": 0.6
-          }
-        ],
-        "offBoardRevenue": {
-          "name": {
-            "name": ""
-          },
-          "revenues": [
-            {
-              "color": "yellow",
-              "cost": "10"
-            },
-            {
-              "color": "brown",
-              "textColor": "white",
-              "cost": "30"
-            }
-          ],
-          "percent": 0.2
-        },
-        "hexes": ["E4"]
-      },
-      {
         "color": "plain",
         "cities": [
           {
@@ -1997,7 +1954,7 @@
               "reverse": true
             },
             "angle": 330,
-            "percent": 0.35
+            "percent": 0.3
           }
         ],
         "hexes": ["E12"]
@@ -2140,7 +2097,7 @@
         "names": [
           {
             "name": "Paris",
-            "fontSize": 13
+            "percent": 0.05
           }
         ],
         "labels": [
@@ -2157,15 +2114,14 @@
         "cities": [
           {
             "name": {
-              "name": "Saint-Quentin",
-              "reverse": true
+              "name": "Saint-Quentin"
             }
           }
         ],
         "companies": [
           {
             "label": "LSQG",
-            "percent": -0.7,
+            "percent": 0.65,
             "left": 10,
             "right": 10,
             "color": "green"
@@ -2401,8 +2357,7 @@
         ],
         "offBoardRevenue": {
           "name": {
-            "name": "Centre",
-            "fontSize": 13
+            "name": "Centre"
           },
           "revenues": [
             {
@@ -2503,8 +2458,7 @@
         "color": "offboard",
         "offBoardRevenue": {
           "name": {
-            "name": "Luxembourg",
-            "fontSize": 13
+            "name": "Luxembourg"
           },
           "size": 11,
           "revenues": [
@@ -2530,6 +2484,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "large",
             "cost": "F40"
           }
         ],
@@ -2540,6 +2495,7 @@
         "terrain": [
           {
             "type": "water",
+            "size": "huge",
             "cost": "F60"
           }
         ],
@@ -2571,7 +2527,7 @@
     ],
     "borders": [
       {
-        "color": "mountain",
+        "color": "xxpaper_brown",
         "width": 4,
         "dashArray": "10 24",
         "offset": 0,
