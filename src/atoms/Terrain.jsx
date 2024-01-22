@@ -7,11 +7,12 @@ import icons from "../data/icons";
 
 const Terrain = ({ type, size, cost, fontFamily, fontSize, color }) => {
   const { game } = useContext(GameContext);
-  fontSize = multiDefaultTo(15, fontSize, game.info.valueFontSize);
+  fontSize = multiDefaultTo(18, fontSize, game.info.valueFontSize);
   fontFamily = multiDefaultTo("display", fontFamily, game.info.valueFontFamily);
 
   let translate = 0;
   let scale = 1;
+  let y = 0;
 
   switch(type) {
   case "swamp":
@@ -40,6 +41,11 @@ const Terrain = ({ type, size, cost, fontFamily, fontSize, color }) => {
     break;
   case "large":
     scale = 2;
+    y = 12;
+    break;
+  case "huge":
+    scale = 2.5;
+    y = 12;
     break;
   default:
     break;
@@ -70,7 +76,7 @@ const Terrain = ({ type, size, cost, fontFamily, fontSize, color }) => {
             dominantBaseline="hanging"
             textAnchor="middle"
             x="0"
-            y={(size === "large") ? 10 : 0}
+            y={y}
           >
             <Currency value={cost} type="terrain" />
           </text>

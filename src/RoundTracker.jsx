@@ -108,6 +108,9 @@ const RoundTracker = ({ rounds, size, type, rotation }) => {
                                        stroke="black"
                                        markerEnd="url(#arrow)" />;
     }
+    console.log(size)
+    console.log(data.getSize)
+    console.log(type)
     return (
       <g key={`round-tracker-${index}`}>
         {arrow}
