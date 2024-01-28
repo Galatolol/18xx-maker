@@ -434,6 +434,16 @@ games["1883ExpressdOrient"] = {
   title: "1883 Express d'Orient",
   designer: "Anthony Fryer",
 };
+games["1884"] = {
+  id: "1884",
+  slug: "1884",
+  file: "1884.json",
+  title: "1884",
+  subtitle: "VERY EARLY PROTOTYPE",
+  designer: "Galatolol",
+  minPlayers: 3,
+  maxPlayers: 4,
+};
 games["1888"] = {
   id: "1888",
   slug: "1888",
