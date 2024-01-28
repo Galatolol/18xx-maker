@@ -1,7 +1,7 @@
 {
   "info": {
     "title": "1871",
-    "titleFontFamily": "Times",
+    "titleFontFamily": "C059",
     "titleSize": 200,
     "subtitle": "The Old Prince",
     "designer": "Lucas Boyd",
@@ -987,8 +987,8 @@
 
   "map": {
     "market": {
-      "x": 1450,
-      "y": 0
+      "x": 1200,
+      "y": -50
     },
     "players": {
       "x": 60,
