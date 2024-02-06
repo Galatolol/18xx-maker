@@ -149,6 +149,13 @@ games["1825"] = {
   minPlayers: 4,
   maxPlayers: 9,
 };
+games["1830_1832_1870"] = {
+  id: "1830_1832_1870",
+  slug: "1830_1832_1870",
+  file: "1830_1832_1870.json",
+  title: "1830_1832_1870",
+  designer: "",
+};
 games["1830"] = {
   id: "1830",
   slug: "1830",
@@ -159,6 +166,13 @@ games["1830"] = {
   publisher: "lookout",
   minPlayers: 3,
   maxPlayers: 6,
+};
+games["1832_1870"] = {
+  id: "1832_1870",
+  slug: "1832_1870",
+  file: "1832_1870.json",
+  title: "1832_1870",
+  designer: "",
 };
 games["1832"] = {
   id: "1832",

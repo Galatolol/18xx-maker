@@ -69,6 +69,13 @@
        url('fonts/eb-garamond-v25-latin-700.svg#EBGaramond') format('svg'); /* Legacy iOS */
 }
 
+/* Public Enemy NF */
+@font-face {
+  font-family: 'Public Enemy';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/PublicEnemyNF.ttf');} 
+
 /* times */
 @font-face {
   font-family: 'Times';

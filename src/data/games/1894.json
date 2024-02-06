@@ -1,9 +1,10 @@
 {
   "info": {
     "title": "1894",
-    "titleFontFamily": "EB Garamond",
+    "titleFontFamily": "Public Enemy",
     "subtitle": "",
     "subtitleFontFamily": "Oswald",
+    "designerFontFamily": "Times",
     "designer": "Jan Kłos",
     "background": "gray",
     "width": 150,
@@ -158,7 +159,11 @@
         },
         {
           "value": 375,
-          "label": 375,
+          "label": 375
+        },
+        {
+          "value": 450,
+          "label": 450,
           "labelColor": "black",
           "color": "offboard"
         }
@@ -188,9 +193,10 @@
         205,
         240,
         285,
+        345,
         {
-          "value": 340,
-          "label": 340,
+          "value": 415,
+          "label": 415,
           "arrow": "up"
         }
       ],
@@ -212,8 +218,8 @@
         190,
         225,
         {
-          "value": 270,
-          "label": 270,
+          "value": 320,
+          "label": 320,
           "arrow": "up"
         }
       ],
@@ -238,8 +244,8 @@
         155,
         180,
         {
-          "value": 215,
-          "label": 215,
+          "value": 235,
+          "label": 235,
           "arrow": "up"
         }
       ],
