@@ -150,16 +150,16 @@
           "label": 260
         },
         {
-          "value": 315,
-          "label": 315
+          "value": 310,
+          "label": 310
         },
         {
-          "value": 385,
-          "label": 385
+          "value": 375,
+          "label": 375
         },
         {
-          "value": 475,
-          "label": 475,
+          "value": 450,
+          "label": 450,
           "labelColor": "black",
           "color": "offboard"
         }
@@ -187,11 +187,11 @@
         165,
         200,
         240,
-        290,
-        355,
+        285,
+        345,
         {
-          "value": 440,
-          "label": 440,
+          "value": 415,
+          "label": 415,
           "arrow": "up"
         }
       ],
@@ -213,8 +213,8 @@
         225,
         270,
         {
-          "value": 330,
-          "label": 330,
+          "value": 320,
+          "label": 320,
           "arrow": "up"
         }
       ],
@@ -239,8 +239,8 @@
         170,
         200,
         {
-          "value": 240,
-          "label": 240,
+          "value": 235,
+          "label": 235,
           "arrow": "up"
         }
       ],
@@ -273,6 +273,7 @@
         {
           "value": 59,
           "label": 59,
+          "legend": 0,
           "arrow": "down"
         },
         64,
@@ -298,7 +299,8 @@
         },
         {
           "value": 59,
-          "label": 59
+          "label": 59,
+          "legend": 0
         },
         63,
         66,
@@ -325,7 +327,8 @@
         },
         {
           "value": 54,
-          "label": 54
+          "label": 54,
+          "legend": 0
         },
         {
           "value": 60,
@@ -362,7 +365,8 @@
         },
         {
           "value": 54,
-          "label": 54
+          "label": 54,
+          "legend": 0
         },
         {
           "value": 60,
@@ -395,6 +399,7 @@
         {
           "value": 54,
           "label": 54,
+          "legend": 0,
           "arrow": "up"
         }
       ],
