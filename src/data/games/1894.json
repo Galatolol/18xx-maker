@@ -63,19 +63,19 @@
     "display": {
       "par": {
         "x": 11,
-        "y": 5
+        "y": 5.5
       },
       "roundTracker": {
         "type": "col",
         "size": 65,
         "x": 9.75,
-        "y": 5.5
+        "y": 6
       },
       "legend": {
         "reverse": true,
         "verticalAlign": "bottom",
         "x": 4.89,
-        "y": 11.15
+        "y": 11.4
       }
     },
     "par": {
@@ -138,16 +138,12 @@
           "label": 151
         },
         {
-          "value": 162,
-          "label": 162
+          "value": 180,
+          "label": 180
         },
         {
-          "value": 190,
-          "label": 190
-        },
-        {
-          "value": 220,
-          "label": 220
+          "value": 215,
+          "label": 215
         },
         {
           "value": 260,
@@ -188,9 +184,8 @@
         121,
         130,
         139,
-        149,
-        175,
-        205,
+        165,
+        200,
         240,
         285,
         345,
@@ -213,10 +208,10 @@
         111,
         120,
         130,
-        140,
-        165,
-        190,
+        155,
+        185,
         225,
+        270,
         {
           "value": 320,
           "label": 320,
@@ -240,9 +235,9 @@
         },
         108,
         116,
-        133,
-        155,
-        180,
+        140,
+        170,
+        200,
         {
           "value": 235,
           "label": 235,
@@ -266,11 +261,11 @@
         91,
         97,
         111,
-        126,
-        145,
+        130,
+        155,
         {
-          "value": 170,
-          "label": 170,
+          "value": 185,
+          "label": 185,
           "arrow": "up"
         }
       ],
@@ -278,6 +273,7 @@
         {
           "value": 59,
           "label": 59,
+          "legend": 0,
           "arrow": "down"
         },
         64,
@@ -287,9 +283,10 @@
         81,
         90,
         101,
+        120,
         {
-          "value": 115,
-          "label": 115,
+          "value": 140,
+          "label": 140,
           "arrow": "up"
         }
       ],
@@ -335,8 +332,7 @@
         },
         {
           "value": 60,
-          "label": 60,
-          "legend": 0
+          "label": 60
         },
         64,
         {
@@ -375,7 +371,6 @@
         {
           "value": 60,
           "label": 60,
-          "legend": 0,
           "arrow": "up"
         }
       ],
@@ -460,12 +455,17 @@
       },
       {
         "color": "offboard_very_light",
-        "description": "— doesn't count towards certificate limit",
+        "description": "— shares do not count against the certificate limit",
         "icon": ""
       },
       {
         "color": "offboard_very_light",
-        "description": "— president may buy 2 shares and may buy over 60%",
+        "description": "— president may buy 2 shares from IPO and/or market",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— president may buy over 60%",
         "icon": ""
       },
       {
