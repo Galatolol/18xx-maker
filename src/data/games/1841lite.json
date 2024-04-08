@@ -634,12 +634,12 @@
     ],
     "legend": [
       {
-        "color": "water",
+        "color": "gray_light",
         "description": "Major companies only",
         "icon": "certificate"
       },
       {
-        "color": "orange",
+        "color": "orange_light",
         "description": "Phase 8 only"
       },
       {
@@ -1506,7 +1506,7 @@
           "removeBorders": [5],
           "offBoardRevenue": {
             "angle": 180,
-            "percent": 0.333,
+            "percent": 0.25,
             "name": { "name": "Trento - Brennero" },
             "revenues": [
               {
@@ -1716,7 +1716,7 @@
         {
           "color": "plain",
           "labels": [{ "label": "Y", "angle": 90, "percent": 0.667 }],
-          "cities": [{ "name": { "name": "Bologna" } }],
+          "cities": [{ "name": { "name": "BOLOGNA" } }],
           "hexes": ["N13"]
         },
         {

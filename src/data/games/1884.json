@@ -8,10 +8,10 @@
     "background": "gray",
     "width": 150,
     "color_10": "orange",
-    "titleX": 1170,
-    "titleY": -70,
-    "titleSize": 120,
-    "subTitleSize": 20,
+    "titleX": 20,
+    "titleY": -100,
+    "titleSize": 80,
+    "subtitleSize": 20,
     "hexCoords": true,
     "currency": "F",
     "orientation": "horizontal"
@@ -54,549 +54,10 @@
   "turns": [],
   "stock": {},
   "tiles": {
-    "1": 1,
-    "7": 4,
-    "8": 15,
-    "9": 12,
-    "14": 4,
-    "15": 4,
-    "16": 1,
-    "17": 1,
-    "18": 1,
-    "19": 1,
-    "20": 1,
-    "23": 3,
-    "24": 3,
-    "25": 2,
-    "26": 2,
-    "27": 2,
-    "28": 1,
-    "29": 1,
-    "30": 1,
-    "31": 1,
-    "39": 1,
-    "40": 1,
-    "41": 1,
-    "42": 1,
-    "43": 1,
-    "44": 1,
-    "45": 1,
-    "46": 1,
-    "47": 1,
-    "56": 1,
-    "57": 10,
-    "70": 1,
-    "619": 4,
-    "624": 1,
-    "630": 1,
-    "631": 1,
-    "632": 1,
-    "633": 1,
-
-    "X1": {
-      "color": "yellow",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 110,
-          "percent": 0.7,
-          "value": 30
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
-        },
-        {
-          "angle": 180,
-          "percent": 0.5,
-          "size": 1
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F40",
-          "angle": 300,
-          "percent": 0.3
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 4,
-          "type": "straight",
-          "end": 0.125
-        }
-      ]
-    },
-    "X2": {
-      "color": "yellow",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "B",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "angle": 210,
-          "percent": 0.75,
-          "value": 30
-        }
-      ],
-      "cities": [{ "size": 1 }],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F40",
-          "angle": -60,
-          "percent": 0.7
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        }
-      ]
-    },
-    "X3": {
-      "color": "yellow",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 30,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 1 }],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F40",
-          "angle": -60,
-          "percent": 0.7
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 2
-        }
-      ]
-    },
-
-    "X4": {
-      "color": "green",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 120,
-          "percent": 0.6,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
-        },
-        {
-          "angle": 210,
-          "percent": 0.6,
-          "size": 1
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 300,
-          "percent": 0.4
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 4,
-          "type": "sharp"
-        }
-      ]
-    },
-    "X5": {
-      "color": "green",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 90,
-          "percent": 0.75,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
-        },
-        {
-          "angle": 150,
-          "percent": 0.6,
-          "size": 1
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 300,
-          "percent": 0.4
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 3,
-          "type": "sharp"
-        }
-      ]
-    },
-    "X6": {
-      "color": "green",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "B",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "angle": 210,
-          "percent": 0.75,
-          "value": 50
-        }
-      ],
-      "cities": [{ "size": 2 }],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 30,
-          "percent": 0.75
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 5
-        }
-      ]
-    },
-    "X7": {
-      "color": "green",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 50,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 1 }],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 30,
-          "percent": 0.75
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
-    "X8": {
-      "color": "green",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 40,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 2 }],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 30,
-          "percent": 0.75
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
-
-    "X9": {
-      "color": "brown",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 0,
-          "percent": 0.0,
-          "value": 90
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
-        },
-        {
-          "angle": 210,
-          "percent": 0.6,
-          "size": 1
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 4,
-          "type": "sharp"
-        }
-      ]
-    },
-    "X10": {
-      "color": "brown",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 0,
-          "percent": 0,
-          "value": 90
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
-        },
-        {
-          "angle": 150,
-          "percent": 0.6,
-          "size": 1
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 3,
-          "type": "sharp"
-        }
-      ]
-    },
-    "X11": {
-      "color": "brown",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 90,
-          "percent": 0.75,
-          "value": 80
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
-        },
-        {
-          "angle": 180,
-          "percent": 0.55,
-          "size": 2
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 4,
-          "type": "sharp"
-        }
-      ]
-    },
-    "X12": {
-      "color": "brown",
-      "rotations": 6,
-      "values": [
-        {
-          "angle": 90,
-          "percent": 0.75,
-          "value": 80
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
-        },
-        {
-          "angle": 180,
-          "percent": 0.55,
-          "size": 2
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 3,
-          "type": "sharp"
-        }
-      ]
-    },
+    "4": 6,
     "X13": {
       "color": "brown",
+      "quantity": 8,
       "rotations": 6,
       "labels": [
         {
@@ -614,81 +75,7 @@
       ],
       "cities": [
         {
-          "size": 3,
-          "rotation": -30,
-          "percent": 0.15
-        }
-      ],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 5
-        }
-      ]
-    },
-    "X14": {
-      "color": "brown",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 60,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [{ "size": 2 }],
-      "track": [
-        {
-          "side": 1
-        },
-        {
-          "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 6
-        }
-      ]
-    },
-    "X15": {
-      "color": "brown",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
-      "values": [
-        {
-          "value": 50,
-          "angle": 210,
-          "percent": 0.75
-        }
-      ],
-      "cities": [
-        {
-          "size": 3,
-          "rotation": -30,
-          "percent": 0.15
+          "size": 2
         }
       ],
       "track": [
@@ -709,288 +96,6 @@
         },
         {
           "side": 6
-        }
-      ]
-    },
-    "X16": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 300,
-          "percent": 0.65,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "percent": 0.53
-        },
-        {
-          "angle": 240,
-          "percent": 0.6
-        }
-      ],
-      "track": [
-        {
-          "type": "straight",
-          "side": 1,
-          "cross": "over"
-        },
-        {
-          "type": "straight",
-          "side": 2,
-          "cross": "under"
-        }
-      ]
-    },
-    "X17": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 0,
-          "percent": 0,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 0,
-          "percent": 0.57735
-        },
-        {
-          "angle": 180,
-          "percent": 0.57735
-        }
-      ],
-      "track": [
-        {
-          "type": "gentle",
-          "side": 2
-        },
-        {
-          "type": "gentle",
-          "side": 5
-        }
-      ]
-    },
-    "X18": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 0,
-          "percent": 0,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6
-        },
-        {
-          "angle": 210,
-          "percent": 0.6
-        }
-      ],
-      "track": [
-        {
-          "type": "sharp",
-          "side": 1
-        },
-        {
-          "type": "sharp",
-          "side": 4
-        }
-      ]
-    },
-    "X19": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 270,
-          "percent": 0.2,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 4,
-          "percent": 0.57735
-        },
-        {
-          "angle": 174,
-          "percent": 0.57735
-        }
-      ],
-      "track": [
-        {
-          "type": "gentle",
-          "side": 1,
-          "cross": "over"
-        },
-        {
-          "type": "gentle",
-          "side": 2,
-          "cross": "under"
-        }
-      ]
-    },
-    "X20": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 270,
-          "percent": 0.35,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "percent": 0.53
-        },
-        {
-          "angle": 90,
-          "percent": 0.55
-        }
-      ],
-      "track": [
-        {
-          "type": "straight",
-          "side": 1
-        },
-        {
-          "type": "sharp",
-          "side": 2
-        }
-      ]
-    },
-    "X21": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 270,
-          "percent": 0.1,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 30,
-          "percent": 0.6
-        },
-        {
-          "angle": 150,
-          "percent": 0.6
-        }
-      ],
-      "track": [
-        {
-          "type": "sharp",
-          "side": 1
-        },
-        {
-          "type": "sharp",
-          "side": 3
-        }
-      ]
-    },
-    "X22": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 60,
-          "percent": 0.7,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 0,
-          "percent": 0.5
-        },
-        {
-          "angle": 120,
-          "percent": 0.57735
-        }
-      ],
-      "track": [
-        {
-          "type": "straight",
-          "side": 1,
-          "cross": "over"
-        },
-        {
-          "type": "gentle",
-          "side": 3,
-          "cross": "under"
-        }
-      ]
-    },
-    "X23": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 290,
-          "percent": 0.55,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "angle": 5,
-          "percent": 0.55
-        },
-        {
-          "angle": 210,
-          "percent": 0.5
-        }
-      ],
-      "track": [
-        {
-          "type": "gentle",
-          "side": 1
-        },
-        {
-          "type": "sharp",
-          "side": 4
-        }
-      ]
-    },
-    "X24": {
-      "color": "brown",
-      "quantity": 2,
-      "values": [
-        {
-          "angle": 75,
-          "percent": 0.55,
-          "value": 40
-        }
-      ],
-      "cities": [
-        {
-          "percent": 0.5
-        },
-        {
-          "angle": 150,
-          "percent": 0.5
-        }
-      ],
-      "track": [
-        {
-          "type": "gentle",
-          "side": 5
-        },
-        {
-          "type": "sharp",
-          "side": 3
         }
       ]
     }
@@ -999,7 +104,197 @@
   "map": {
     "hexes": [
       {
-        "color": "offboard",
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Opole"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "80"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "90"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "100"
+            }
+          ]
+        },
+        "hexes": ["A6"]
+      },
+      {
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [1],
+        "hexes": ["A10"]
+      },
+      {
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 5
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Czechy"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "50"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "90"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "140"
+            }
+          ]
+        },
+        "removeBorders": [4, 6],
+        "hexes": ["A12"]
+      },
+      {
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 5
+          },
+          {
+            "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Wrocław"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "80"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "100"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "120"
+            }
+          ]
+        },
+        "hexes": ["B3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rybnik"
+            }
+          }
+        ],
+        "hexes": ["B7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Jastrzębie-Zdrój"
+            }
+          }
+        ],
+        "hexes": ["B9"]
+      },
+      {
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [3, 6],
+        "hexes": ["B13"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "OO",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "angle": 120,
+            "percent": 0.55,
+            "name": {
+              "name": "Gliwice",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 300,
+            "percent": 0.55,
+            "name": {
+              "name": "Zabrze"
+            }
+          }
+        ],
+        "hexes": ["C4"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Żory"
+            }
+          }
+        ],
+        "hexes": ["C8"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Cieszyn"
+            }
+          }
+        ],
+        "hexes": ["C12"]
+      },
+      {
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 5
+          }
+        ],
+        "removeBorders": [3],
+        "hexes": ["C14"]
+      },
+      {
+        "color": "offboard_light",
         "offBoardTrack": [
           {
             "side": 1
@@ -1008,197 +303,76 @@
             "side": 6
           }
         ],
-        "names": [
-          {
-            "name": "Great Britain",
-            "percent": -0.21
-          }
-        ],
-        "values": [
-          {
-            "value": 50,
-            "percent": 0.1
-          }
-        ],
-        "hexes": ["A1"]
-      },
-      {
-        "color": "gray",
-        "track": [
-          {
-            "side": 4,
-            "type": "gentle"
-          },
-          {
-            "side": 5,
-            "type": "sharp"
-          },
-          {
-            "side": 4,
-            "type": "sharp"
-          }
-        ],
-        "towns": [
-          {
-            "rotate": 60,
-            "angle": 330,
-            "percent": 0.2667,
-            "name": {
-              "name": "Boulougne-sur-Mer",
-              "rotation": 180
-            }
-          }
-        ],
-        "values": [
-          {
-            "value": 20,
-            "angle": 150,
-            "percent": 0.4
-          }
-        ],
-        "hexes": ["A8"]
-      },
-      {
-        "color": "water_light",
-        "track": [
-          {
-            "type": "straight",
-            "end": 0.5,
-            "side": 1
-          },
-          {
-            "side": 6
-          },
-          {
-            "side": 5
-          }
-        ],
-        "cities": [
-          {
-            "y": 0
-          }
-        ],
-        "tokens": [
-          {
-            "label": "ferry",
-            "color": "black",
-            "y": 0
-          }
-        ],
         "offBoardRevenue": {
           "name": {
-            "name": "London"
+            "name": "Łódź"
           },
           "revenues": [
             {
               "color": "yellow",
-              "cost": "30"
+              "cost": "80"
             },
             {
-              "color": "brown",
-              "textColor": "white",
-              "cost": "80"
-            }
-          ],
-          "x": 0,
-          "y": -40
-        },
-        "hexes": ["A10"]
-      },
-      {
-        "color": "water_light",
-        "cities": [{}],
-        "names": [
-          {
-            "name": "London shipping",
-            "percent": -0.5
-          },
-          {
-            "name": "ferry: F80",
-            "percent": 0.7
-          }
-        ],
-        "hexes": ["A12"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Le Havre"
+              "color": "xxpaper_blue",
+              "cost": "90"
             },
-            "companies": [{ "label": "Ouest" }]
-          }
-        ],
-        "hexes": ["B3"]
+            {
+              "color": "xxpaper_red",
+              "cost": "100"
+            }
+          ]
+        },
+        "hexes": ["D1"]
       },
       {
-        "color": "gray",
-        "track": [
+        "color": "plain",
+        "labels": [
           {
-            "side": 5,
-            "type": "gentle"
-          },
-          {
-            "side": 5,
-            "type": "sharp"
-          },
-          {
-            "side": 6,
-            "type": "sharp"
+            "label": "OO",
+            "angle": 30,
+            "percent": 0.667
           }
         ],
-        "hexes": ["B5"]
+        "cities": [
+          {
+            "angle": 120,
+            "percent": 0.55,
+            "name": {
+              "name": "Bytom",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 300,
+            "percent": 0.55,
+            "name": {
+              "name": "Chrzanów"
+            }
+          }
+        ],
+        "hexes": ["D3"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Calais"
+              "name": "Ruda Śląska"
             }
           }
         ],
-        "hexes": ["B9"]
+        "hexes": ["D5"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Dunkerque"
+              "name": "Pszczyna"
             }
           }
         ],
-        "hexes": ["B11"]
-      },
-      {
-        "color": "gray",
-        "values": [
-          {
-            "value": 20,
-            "angle": 270,
-            "percent": 0.1
-          }
-        ],
-        "towns": [
-          {
-            "angle": 60,
-            "percent": 0.57735,
-            "rotation": 150,
-            "name": {
-              "name": "Oostende",
-              "rotation": 180
-            }
-          }
-        ],
-        "track": [
-          {
-            "type": "sharp",
-            "side": 6
-          }
-        ],
-        "hexes": ["B15"]
+        "hexes": ["D9"]
       },
       {
         "color": "plain",
@@ -1209,220 +383,14 @@
             },
             "angle": 150,
             "percent": 0.35
-          }
-        ],
-        "names": [
-          {
-            "name": "Blangy-sur-Bresle",
-            "angle": 180,
-            "percent": 0.53
-          }
-        ],
-        "towns": [
-          {
-            "name": {
-              "name": "Abeville",
-              "rotation": -90
-            },
-            "angle": -30,
-            "percent": 0.5,
-            "rotation": -30
-          }
-        ],
-        "track": [
-          {
-            "side": 5,
-            "type": "straight",
-            "end": 0.25
-          }
-        ],
-        "values": [
-          {
-            "value": 10,
-            "angle": 285,
-            "percent": 0.7
-          }
-        ],
-        "hexes": ["C6"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Brugge"
-            }
-          }
-        ],
-        "hexes": ["C14"]
-      },
-      {
-        "color": "gray",
-        "track": [
-          {
-            "type": "sharp",
-            "side": 4
           },
           {
-            "type": "sharp",
-            "side": 5
-          },
-          {
-            "type": "sharp",
-            "side": 6
-          }
-        ],
-        "offBoardRevenue": {
-          "size": 11,
-          "revenues": [
-            {
-              "cost": "Netherlands to offboard: +100",
-              "color": "white"
-            }
-          ],
-          "angle": 230,
-          "percent": 2.15
-        },
-        "hexes": ["C16"]
-      },
-      {
-        "color": "offboard",
-        "offBoardTrack": [
-          {
-            "side": 1
-          },
-          {
-            "side": 6
-          }
-        ],
-        "names": [
-          {
-            "name": "Netherlands",
-            "percent": -0.21
-          }
-        ],
-        "offBoardRevenue": {
-          "revenues": [
-            {
-              "color": "yellow",
-              "cost": "30"
-            },
-            {
-              "color": "brown",
-              "textColor": "white",
-              "cost": "40"
-            }
-          ]
-        },
-        "hexes": ["C18"]
-      },
-      {
-        "color": "gray",
-        "values": [
-          {
-            "value": 20,
-            "angle": 120,
-            "percent": 0.1
-          }
-        ],
-        "towns": [
-          {
-            "angle": -60,
-            "percent": 0.57735,
-            "rotation": 30,
             "name": {
-              "name": "Elbeuf",
-              "rotation": 180
-            }
-          }
-        ],
-        "track": [
-          {
-            "type": "sharp",
-            "side": 4
-          }
-        ],
-        "hexes": ["D1"]
-      },
-      {
-        "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "name": "Doullens",
-              "rotation": 180,
+              "name": "",
               "reverse": true
             },
-            "angle": -30,
+            "angle": 330,
             "percent": 0.35
-          }
-        ],
-        "towns": [
-          {
-            "name": {
-              "name": "Pont-Remy",
-              "reverse": true,
-              "rotation": 90
-            },
-            "angle": 150,
-            "percent": 0.5,
-            "rotation": -30
-          }
-        ],
-        "track": [
-          {
-            "side": 2,
-            "type": "straight",
-            "end": 0.25
-          }
-        ],
-        "values": [
-          {
-            "value": 10,
-            "angle": 105,
-            "percent": 0.7
-          }
-        ],
-        "hexes": ["D7"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Rouen"
-            },
-            "companies": [{ "label": "CFOR" }]
-          }
-        ],
-        "hexes": ["D3"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Lens"
-            },
-            "companies": [{ "label": "Nord" }]
-          }
-        ],
-        "hexes": ["D9"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Lille"
-            }
-          }
-        ],
-        "labels": [
-          {
-            "label": "L",
-            "angle": 120,
-            "percent": 0.8
           }
         ],
         "hexes": ["D11"]
@@ -1432,52 +400,26 @@
         "cities": [
           {
             "name": {
-              "name": "Gent"
-            },
-            "companies": [{ "label": "AG" }]
-          }
-        ],
-        "hexes": ["D15"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Antwerpen"
+              "name": "Katowice"
             }
           }
         ],
-        "companies": [
+        "labels": [
           {
-            "percent": 0.65,
-            "label": "SAC ?",
-            "left": 10,
-            "right": 10,
-            "color": "red"
+            "label": "N",
+            "angle": 30,
+            "percent": 0.667
           }
         ],
-        "hexes": ["D17"]
+        "hexes": ["E4"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Évreux"
+              "name": "Tychy"
             }
-          }
-        ],
-        "hexes": ["E2"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Amiens"
-            },
-            "companies": [{ "label": "Ouest" }]
           }
         ],
         "hexes": ["E6"]
@@ -1487,7 +429,7 @@
         "cities": [
           {
             "name": {
-              "name": "Arras"
+              "name": "Czechowice-Dziedzice"
             }
           }
         ],
@@ -1495,171 +437,133 @@
       },
       {
         "color": "plain",
-        "centerTowns": [
+        "cities": [
           {
             "name": {
-              "name": "Douai"
-            },
-            "angle": 150,
-            "percent": 0.35
-          },
+              "name": "Bielsko-Biała"
+            }
+          }
+        ],
+        "labels": [
           {
-            "name": {
-              "name": "Valenciennes",
-              "reverse": true
-            },
-            "angle": 330,
-            "percent": 0.3
+            "label": "N",
+            "angle": 30,
+            "percent": 0.667
           }
         ],
         "hexes": ["E12"]
       },
       {
         "color": "plain",
+        "labels": [
+          {
+            "label": "OO",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
         "cities": [
           {
+            "angle": 120,
+            "percent": 0.55,
             "name": {
-              "name": "Mechelen"
-            },
-            "companies": [{ "label": "Belge" }]
-          }
-        ],
-        "hexes": ["E16"]
-      },
-      {
-        "color": "gray",
-        "values": [
+              "name": "Dąbrowa Górnicza",
+              "rotation": -30,
+              "reverse": true
+            }
+          },
           {
-            "value": 20,
-            "angle": 90,
-            "percent": 0.5
-          }
-        ],
-        "towns": [
-          {
-            "angle": 270,
-            "percent": 0.27,
-            "rotation": 0,
+            "angle": 300,
+            "percent": 0.55,
             "name": {
-              "name": "Dreux",
-              "rotation": 180
+              "name": "Sosnowiec"
             }
           }
         ],
-        "track": [
-          {
-            "type": "sharp",
-            "side": 3
-          },
-          {
-            "type": "sharp",
-            "side": 4
-          },
-          {
-            "type": "gentle",
-            "side": 3
-          }
-        ],
-        "hexes": ["F1"]
+        "hexes": ["F3"]
       },
       {
         "color": "plain",
-        "centerTowns": [
+        "cities": [
           {
             "name": {
-              "name": "Beauvais"
-            },
-            "angle": 150,
-            "percent": 0.35
-          },
+              "name": "Jaworzno"
+            }
+          }
+        ],
+        "hexes": ["F5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
           {
             "name": {
-              "name": "Compiègne",
-              "reverse": true
-            },
-            "angle": 330,
-            "percent": 0.35
+              "name": "Oświęcim"
+            }
           }
         ],
         "hexes": ["F7"]
       },
       {
         "color": "plain",
-        "labels": [
-          {
-            "label": "B",
-            "angle": 120,
-            "percent": 0.8
-          }
-        ],
-        "cities": [
-          {
-            "size": 1,
-            "name": {
-              "name": "Bruxelles"
-            }
-          }
-        ],
-        "hexes": ["F15"]
-      },
-      {
-        "color": "yellow",
-        "track": [
-          {
-            "side": 2
-          },
-          {
-            "side": 4
-          },
-          {
-            "side": 5
-          }
-        ],
         "cities": [
           {
             "name": {
-              "name": "Versailles",
-              "rotation": -105
+              "name": "Kęty"
             }
           }
         ],
-        "values": [
-          {
-            "value": 20,
-            "angle": 210,
-            "percent": 0.65
-          }
-        ],
-        "hexes": ["G4"]
+        "hexes": ["F11"]
       },
       {
         "color": "plain",
         "cities": [
           {
-            "angle": 360,
-            "percent": 0.6,
-            "rotation": -30,
-            "size": 1,
-            "companies": [{ "label": "PLM" }]
+            "name": {
+              "name": "Żywiec"
+            }
+          }
+        ],
+        "hexes": ["F13"]
+      },
+      {
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 2
           },
           {
-            "angle": 180,
-            "percent": 0.6,
-            "rotation": -30,
-            "size": 1
+            "side": 6
           }
         ],
-        "names": [
+        "offBoardRevenue": {
+          "name": {
+            "name": "Częstochowa"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "70"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "80"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "100"
+            }
+          ]
+        },
+        "hexes": ["G2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
           {
-            "name": "Paris",
-            "percent": 0.05
-          }
-        ],
-        "labels": [
-          {
-            "label": "P",
-            "angle": 120,
-            "percent": 0.8
+            "name": {
+              "name": "Chrzanów"
+            }
           }
         ],
         "hexes": ["G6"]
@@ -1669,183 +573,56 @@
         "cities": [
           {
             "name": {
-              "name": "Saint-Quentin"
+              "name": "Zator"
             }
           }
         ],
-        "companies": [
-          {
-            "label": "LSQG",
-            "percent": 0.65,
-            "left": 10,
-            "right": 10,
-            "color": "green"
-          }
-        ],
-        "hexes": ["G10"]
+        "hexes": ["G8"]
       },
       {
-        "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "name": "Caudry"
-            },
-            "angle": 150,
-            "percent": 0.35
-          },
-          {
-            "name": {
-              "name": "Maubeuge",
-              "reverse": true
-            },
-            "angle": 330,
-            "percent": 0.35
-          }
-        ],
-        "hexes": ["G12"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Charleroi"
-            },
-            "companies": [{ "label": "Nord" }]
-          }
-        ],
-        "hexes": ["G14"]
-      },
-      {
-        "color": "plain",
-        "centerTowns": [
-          {
-            "name": {
-              "name": "Namur"
-            },
-            "angle": 150,
-            "percent": 0.35
-          },
-          {
-            "name": {
-              "name": "Sint-Truiden",
-              "reverse": true
-            },
-            "angle": 330,
-            "percent": 0.35
-          }
-        ],
-        "hexes": ["G16"]
-      },
-      {
-        "color": "gray",
-        "cities": [
-          {
-            "name": {
-              "name": "Hasselt",
-              "rotation": 45
-            }
-          }
-        ],
-        "offBoardRevenue": {
-          "revenues": [
-            {
-              "color": "yellow",
-              "cost": "20"
-            },
-            {
-              "color": "brown",
-              "textColor": "white",
-              "cost": "30"
-            }
-          ],
-          "x": 20,
-          "y": 42
-        },
-        "track": [
-          {
-            "side": 1,
-            "type": "sharp"
-          },
-          {
-            "side": 6,
-            "type": "sharp"
-          },
-          {
-            "side": 2
-          },
-          {
-            "side": 6
-          }
-        ],
-        "hexes": ["G18"]
-      },
-      {
-        "color": "gray",
-        "values": [
-          {
-            "value": 20,
-            "angle": 120,
-            "percent": 0.1
-          }
-        ],
-        "towns": [
-          {
-            "angle": -60,
-            "percent": 0.57735,
-            "rotation": 30,
-            "name": {
-              "name": "Voves",
-              "rotation": 180
-            }
-          }
-        ],
-        "track": [
-          {
-            "type": "sharp",
-            "side": 4
-          }
-        ],
-        "hexes": ["H1"]
-      },
-      {
-        "color": "gray",
-        "cities": [
-          {
-            "name": {
-              "name": "Chartres",
-              "reverse": true
-            },
-            "companies": [{ "label": "CFOR" }]
-          }
-        ],
-        "track": [
-          {
-            "side": 1
-          },
+        "color": "black_light",
+        "offBoardTrack": [
           {
             "side": 3
           },
           {
+            "side": 5
+          },
+          {
             "side": 4
           }
         ],
         "offBoardRevenue": {
+          "name": {
+            "name": "Słowacja",
+            "color": "white"
+          },
           "revenues": [
             {
               "color": "yellow",
-              "cost": "20"
+              "cost": "80"
             },
             {
-              "color": "brown",
-              "textColor": "white",
-              "cost": "30"
+              "color": "xxpaper_blue",
+              "cost": "90"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "100"
             }
-          ],
-          "x": -20,
-          "y": -42
+          ]
         },
+        "hexes": ["G14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Olkusz"
+            }
+          }
+        ],
         "hexes": ["H3"]
       },
       {
@@ -1853,29 +630,30 @@
         "cities": [
           {
             "name": {
-              "name": "Soissons"
+              "name": "Krzeszowice"
             }
           }
         ],
-        "hexes": ["H9"]
+        "hexes": ["H7"]
       },
       {
         "color": "plain",
-        "centerTowns": [
+        "cities": [
           {
             "name": {
-              "name": "Charleville"
-            },
-            "angle": 210,
-            "percent": 0.35
-          },
+              "name": "Wadowice"
+            }
+          }
+        ],
+        "hexes": ["H11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
           {
             "name": {
-              "name": "Mézières",
-              "reverse": true
-            },
-            "angle": 30,
-            "percent": 0.35
+              "name": "Sucha Beskidzka"
+            }
           }
         ],
         "hexes": ["H13"]
@@ -1885,23 +663,111 @@
         "cities": [
           {
             "name": {
-              "name": "Liège"
+              "name": "Wolbrom"
             }
           }
         ],
-        "companies": [
-          {
-            "percent": 0.65,
-            "label": "GLG ?",
-            "left": 10,
-            "right": 10,
-            "color": "red"
-          }
-        ],
-        "hexes": ["H17"]
+        "hexes": ["I2"]
       },
       {
-        "color": "offboard",
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Warszawa"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "70"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "100"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "130"
+            }
+          ]
+        },
+        "hexes": ["J1"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": ""
+            },
+            "angle": 150,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "",
+              "reverse": true
+            },
+            "angle": 330,
+            "percent": 0.35
+          }
+        ],
+        "hexes": ["J7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Skawina"
+            }
+          }
+        ],
+        "hexes": ["J9"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Myślenice"
+            }
+          }
+        ],
+        "hexes": ["J11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Miechów"
+            }
+          }
+        ],
+        "hexes": ["K2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Słomniki"
+            }
+          }
+        ],
+        "hexes": ["K4"]
+      },
+      {
+        "color": "black_light",
+        "cities": [{ "size": 2 }],
         "offBoardTrack": [
           {
             "side": 2
@@ -1910,130 +776,57 @@
             "side": 4
           }
         ],
-        "offBoardRevenue": {
-          "name": {
-            "name": "Centre"
-          },
-          "revenues": [
-            {
-              "cost": "30",
-              "color": "yellow"
-            },
-            {
-              "cost": "60",
-              "color": "brown",
-              "textColor": "white"
-            }
-          ]
-        },
-        "hexes": ["I2"]
+        "removeBorders": [1],
+        "hexes": ["K6"]
       },
       {
-        "color": "yellow",
-        "track": [
+        "color": "black_light",
+        "offBoardTrack": [
           {
             "side": 2
           },
           {
             "side": 3
-          },
-          {
-            "side": 4
           }
         ],
-        "cities": [
-          {
-            "name": {
-              "name": "Reims",
-              "rotation": -100
-            },
-            "companies": [{ "label": "Est" }]
-          }
-        ],
-        "values": [
-          {
-            "value": 10,
-            "angle": 330,
-            "percent": 0.65
-          }
-        ],
-        "hexes": ["I10"]
-      },
-      {
-        "color": "plain",
-        "companies": [
-          {
-            "label": "LRC",
-            "left": 10,
-            "right": 10,
-            "color": "red"
-          }
-        ],
-        "hexes": ["I14"]
-      },
-      {
-        "color": "gray",
-        "towns": [
-          {
-            "name": {
-              "name": "Arlon",
-              "reverse": true
-            },
-            "rotation": 90
-          }
-        ],
-        "values": [
-          {
-            "value": 20,
-            "angle": 0,
-            "percent": 0.65
-          }
-        ],
-        "track": [
-          {
-            "side": 1,
-            "type": "straight"
-          },
-          {
-            "side": 1,
-            "type": "sharp"
-          },
-          {
-            "side": 2,
-            "type": "sharp"
-          },
-          {
-            "side": 3,
-            "type": "sharp"
-          }
-        ],
-        "hexes": ["I16"]
-      },
-      {
-        "color": "offboard",
         "offBoardRevenue": {
           "name": {
-            "name": "Luxembourg"
+            "name": "Kraków",
+            "color": "white"
           },
-          "size": 11,
           "revenues": [
             {
-              "cost": "Largest",
-              "color": "white"
+              "color": "yellow",
+              "cost": "100"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "150"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "200"
             }
-          ],
-          "percent": 0
+          ]
         },
+        "removeBorders": [1, 4],
+        "hexes": ["K8"]
+      },
+      {
+        "color": "black_light",
         "offBoardTrack": [
           {
-            "side": 1
+            "side": 2
           },
           {
-            "side": 2
+            "side": 3
           }
         ],
-        "hexes": ["I18"]
+        "cities": [{ "size": 2 }],
+        "removeBorders": [4],
+        "hexes": ["K10"]
       },
+
       {
         "color": "plain",
         "terrain": [
@@ -2043,68 +836,42 @@
             "cost": "F40"
           }
         ],
-        "hexes": ["B1", "C2", "C12", "E4", "E8", "F5", "H11", "H13"]
+        "hexes": []
       },
       {
         "color": "plain",
         "terrain": [
           {
             "type": "water",
-            "size": "huge",
-            "cost": "F60"
+            "size": "large",
+            "cost": "60 zł"
           }
         ],
-        "hexes": ["B7", "E14", "G8", "H15", "I4"]
+        "hexes": ["B11", "D13", "E2", "G12", "I6", "I8"]
       },
       {
         "color": "plain",
         "hexes": [
-          "B13",
-          "C4",
-          "C8",
+          "C2",
+          "C6",
           "C10",
-          "D5",
-          "D13",
-          "F13",
-          "E18",
-          "F3",
+          "D7",
+          "B5",
+          "E8",
+          "E14",
           "F9",
-          "F11",
-          "F17",
-          "G2",
+          "G4",
+          "G10",
+          "H1",
           "H5",
-          "H7",
-          "I6",
-          "I8",
-          "I12"
-        ]
-      }
-    ],
-    "borders": [
-      {
-        "color": "xxpaper_brown",
-        "width": 4,
-        "dashArray": "10 24",
-        "offset": 0,
-        "dashed": true,
-        "coords": [
-          "I14p5",
-          "I14p4",
-          "H13p5",
-          "H13p4",
-          "G12p5",
-          "G12p4",
-          "F11p5",
-          "F13p3",
-          "E12p6",
-          "E12p5",
-          "E12p4",
-          "D11p5",
-          "C12p6",
-          "C12p5",
-          "B13p1",
-          "B13p2",
-          "B13p3"
+          "H9",
+          "I4",
+          "I10",
+          "I12",
+          "I14",
+          "J3",
+          "J5",
+          "J13"
         ]
       }
     ]

@@ -650,7 +650,7 @@
         "icon": "certificate"
       },
       {
-        "color": "orange",
+        "color": "orange_light",
         "description": "Phase 8 only"
       },
       {
@@ -1542,7 +1542,7 @@
           "removeBorders": [5],
           "offBoardRevenue": {
             "angle": 180,
-            "percent": 0.333,
+            "percent": 0.25,
             "name": { "name": "Trento/Brennero" },
             "revenues": [
               {
@@ -1765,7 +1765,7 @@
         {
           "color": "plain",
           "labels": [{ "label": "Y", "angle": 180, "percent": 0.667 }],
-          "cities": [{ "name": { "name": "Bologna", "reverse": true } }],
+          "cities": [{ "name": { "name": "BOLOGNA", "reverse": true } }],
           "hexes": ["N13"]
         },
         {
