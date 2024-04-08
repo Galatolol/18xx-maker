@@ -1554,6 +1554,7 @@
           "x": 0,
           "y": -40
         },
+        "removeBorders": [4],
         "hexes": ["A10"]
       },
       {
@@ -1569,6 +1570,7 @@
             "percent": 0.7
           }
         ],
+        "removeBorders": [1],
         "hexes": ["A12"]
       },
       {
