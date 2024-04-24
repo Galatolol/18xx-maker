@@ -298,11 +298,11 @@
           "arrow": "down"
         },
         {
-          "value": 59,
-          "label": 59,
+          "value": 56,
+          "label": 56,
           "legend": 0
         },
-        63,
+        62,
         66,
         70,
         75,
@@ -326,8 +326,8 @@
           "legend": 0
         },
         {
-          "value": 54,
-          "label": 54,
+          "value": 55,
+          "label": 55,
           "legend": 0
         },
         {
@@ -364,8 +364,8 @@
           "legend": 0
         },
         {
-          "value": 54,
-          "label": 54,
+          "value": 55,
+          "label": 55,
           "legend": 0
         },
         {
@@ -397,8 +397,8 @@
           "legend": 0
         },
         {
-          "value": 54,
-          "label": 54,
+          "value": 55,
+          "label": 55,
           "legend": 0,
           "arrow": "up"
         }
@@ -1051,14 +1051,15 @@
       ],
       "cities": [
         {
-          "size": 3,
-          "rotation": -30,
-          "percent": 0.15
+          "size": 2
         }
       ],
       "track": [
         {
           "side": 1
+        },
+        {
+          "side": 2
         },
         {
           "side": 3
@@ -1068,6 +1069,9 @@
         },
         {
           "side": 5
+        },
+        {
+          "side": 6
         }
       ]
     },
