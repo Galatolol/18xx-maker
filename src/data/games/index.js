@@ -823,5 +823,12 @@ games["TheOldPrince1871"] = {
   minPlayers: 3,
   maxPlayers: 4,
 };
+games["tmp"] = {
+  id: "tmp",
+  slug: "tmp",
+  file: "tmp.json",
+  title: "tmp",
+  designer: "",
+};
 
 export default games;

@@ -47,6 +47,10 @@ const Terrain = ({ type, size, cost, fontFamily, fontSize, color }) => {
     scale = 2.5;
     y = 12;
     break;
+  case "jumbo":
+    scale = 3;
+    y = 12;
+    break;
   default:
     break;
   }

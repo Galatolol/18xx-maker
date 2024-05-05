@@ -9,8 +9,8 @@
     "width": 150,
     "color_10": "orange",
     "titleX": 20,
-    "titleY": -100,
-    "titleSize": 80,
+    "titleY": -135,
+    "titleSize": 70,
     "subtitleSize": 20,
     "hexCoords": true,
     "currency": "F",
@@ -57,15 +57,12 @@
     "2": 1,
     "55": 1,
     "56": 1,
-
     "7": 4,
     "8": 8,
     "9": 8,
-
     "5": 4,
     "6": 4,
     "57": 4,
-
     "201": 2,
     "202": 2,
     "621": 2,
@@ -73,7 +70,6 @@
     "248": 2,
     "802": 2,
     "803": 2,
-
     "16": 5,
     "17": 5,
     "18": 5,
@@ -81,11 +77,9 @@
     "20": 5,
     "21": 3,
     "22": 3,
-
     "14": 4,
     "15": 4,
     "619": 4,
-
     "53Y": 2,
     "793": 2,
     "792": 2,
@@ -99,17 +93,14 @@
     " 67": 1,
     " 68": 1,
     " 212": 1,
-
     "778": 3,
     "779": 3,
     "780": 3,
     "798": 3,
-
     "611": 8,
-
     "61Y": 3,
     "796": 2,
-    "891Y": 2,
+    "891Y": 3,
     "794": 2,
     "X1": {
       "quantity": 1,
@@ -218,7 +209,41 @@
         "color": "offboard_light",
         "offBoardTrack": [
           {
+            "side": 5
+          },
+          {
             "side": 6
+          }
+        ],
+        "offBoardRevenue": {
+          "name": {
+            "name": "Wroc\u0142aw"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "80"
+            },
+            {
+              "color": "xxpaper_blue",
+              "cost": "100"
+            },
+            {
+              "color": "xxpaper_red",
+              "cost": "120"
+            }
+          ]
+        },
+        "hexes": ["A3"]
+      },
+      {
+        "color": "offboard_light",
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 5
           }
         ],
         "offBoardRevenue": {
@@ -240,17 +265,59 @@
             }
           ]
         },
-        "hexes": ["A6"]
+        "hexes": ["A5"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rybnik"
+            },
+            "companies": [
+              {
+                "label": "Ign"
+              }
+            ]
+          }
+        ],
+        "hexes": ["A7"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "Y",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Jastrz\u0119bie-Zdr\u00f3j"
+            },
+            "companies": [
+              {
+                "label": "JSW"
+              }
+            ]
+          }
+        ],
+        "hexes": ["A9"]
       },
       {
         "color": "offboard_light",
         "offBoardTrack": [
           {
-            "side": 5
+            "side": 4
+          },
+          {
+            "side": 6
           }
         ],
         "removeBorders": [1],
-        "hexes": ["A10"]
+        "hexes": ["A11"]
       },
       {
         "color": "offboard_light",
@@ -266,7 +333,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "50"
+              "cost": "60"
             },
             {
               "color": "xxpaper_blue",
@@ -279,79 +346,7 @@
           ]
         },
         "removeBorders": [4, 6],
-        "hexes": ["A12"]
-      },
-      {
-        "color": "offboard_light",
-        "offBoardTrack": [
-          {
-            "side": 5
-          },
-          {
-            "side": 6
-          }
-        ],
-        "offBoardRevenue": {
-          "name": {
-            "name": "Wrocław"
-          },
-          "revenues": [
-            {
-              "color": "yellow",
-              "cost": "80"
-            },
-            {
-              "color": "xxpaper_blue",
-              "cost": "100"
-            },
-            {
-              "color": "xxpaper_red",
-              "cost": "120"
-            }
-          ]
-        },
-        "hexes": ["B3"]
-      },
-      {
-        "color": "plain",
-        "cities": [
-          {
-            "name": {
-              "name": "Rybnik"
-            },
-            "companies": [{ "label": "Ign" }]
-          }
-        ],
-        "hexes": ["B7"]
-      },
-      {
-        "color": "plain",
-        "labels": [
-          {
-            "label": "Y",
-            "angle": 30,
-            "percent": 0.667
-          }
-        ],
-        "cities": [
-          {
-            "name": {
-              "name": "Jastrzębie-Zdrój"
-            },
-            "companies": [{ "label": "JSW" }]
-          }
-        ],
-        "hexes": ["B9"]
-      },
-      {
-        "color": "offboard_light",
-        "offBoardTrack": [
-          {
-            "side": 5
-          }
-        ],
-        "removeBorders": [3, 6],
-        "hexes": ["B13"]
+        "hexes": ["A13"]
       },
       {
         "color": "plain",
@@ -370,7 +365,11 @@
               "name": "Gliwice",
               "reverse": true
             },
-            "companies": [{ "label": "KG" }]
+            "companies": [
+              {
+                "label": "KG"
+              }
+            ]
           },
           {
             "angle": 300,
@@ -380,7 +379,7 @@
             }
           }
         ],
-        "hexes": ["C4"]
+        "hexes": ["B4"]
       },
       {
         "color": "plain",
@@ -391,7 +390,7 @@
             }
           }
         ],
-        "hexes": ["C8"]
+        "hexes": ["B8"]
       },
       {
         "color": "plain",
@@ -400,20 +399,37 @@
             "name": {
               "name": "Cieszyn"
             },
-            "companies": [{ "label": "MM" }]
+            "companies": [
+              {
+                "label": "MM"
+              }
+            ]
           }
         ],
-        "hexes": ["C12"]
+        "hexes": ["B12"]
       },
       {
         "color": "offboard_light",
         "offBoardTrack": [
           {
+            "side": 4
+          },
+          {
             "side": 5
           }
         ],
+        "offBoardRevenue": {
+          "size": 11,
+          "revenues": [
+            {
+              "cost": "Freight: +30",
+              "color": "white"
+            }
+          ],
+          "percent": 0
+        },
         "removeBorders": [3],
-        "hexes": ["C14"]
+        "hexes": ["B14"]
       },
       {
         "color": "offboard_light",
@@ -427,7 +443,7 @@
         ],
         "offBoardRevenue": {
           "name": {
-            "name": "Łódź"
+            "name": "\u0141\u00f3d\u017a"
           },
           "revenues": [
             {
@@ -444,7 +460,7 @@
             }
           ]
         },
-        "hexes": ["D1"]
+        "hexes": ["C1"]
       },
       {
         "color": "plain",
@@ -463,28 +479,32 @@
               "name": "Bytom",
               "reverse": true
             },
-            "companies": [{ "label": "CMK" }]
+            "companies": [
+              {
+                "label": "CMK"
+              }
+            ]
           },
           {
             "angle": 300,
             "percent": 0.55,
             "name": {
-              "name": "Chorzów"
+              "name": "Chorz\u00f3w"
             }
           }
         ],
-        "hexes": ["D3"]
+        "hexes": ["C3"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Ruda Śląska"
+              "name": "Ruda \u015al\u0105ska"
             }
           }
         ],
-        "hexes": ["D5"]
+        "hexes": ["C5"]
       },
       {
         "color": "plain",
@@ -493,10 +513,14 @@
             "name": {
               "name": "Pszczyna"
             },
-            "companies": [{ "label": "MNK" }]
+            "companies": [
+              {
+                "label": "MNK"
+              }
+            ]
           }
         ],
-        "hexes": ["D9"]
+        "hexes": ["C9"]
       },
       {
         "color": "plain",
@@ -517,7 +541,7 @@
             "percent": 0.35
           }
         ],
-        "hexes": ["D11"]
+        "hexes": ["C11"]
       },
       {
         "color": "plain",
@@ -526,7 +550,11 @@
             "name": {
               "name": "Katowice"
             },
-            "companies": [{ "label": "MW" }]
+            "companies": [
+              {
+                "label": "MW"
+              }
+            ]
           }
         ],
         "labels": [
@@ -536,7 +564,7 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["E4"]
+        "hexes": ["D4"]
       },
       {
         "color": "plain",
@@ -545,10 +573,14 @@
             "name": {
               "name": "Tychy"
             },
-            "companies": [{ "label": "ZMW" }]
+            "companies": [
+              {
+                "label": "ZMW"
+              }
+            ]
           }
         ],
-        "hexes": ["E6"]
+        "hexes": ["D6"]
       },
       {
         "color": "plain",
@@ -557,19 +589,27 @@
             "name": {
               "name": "Czechowice-Dziedzice"
             },
-            "companies": [{ "label": "BD" }]
+            "companies": [
+              {
+                "label": "BD"
+              }
+            ]
           }
         ],
-        "hexes": ["E10"]
+        "hexes": ["D10"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Bielsko-Biała"
+              "name": "Bielsko-Bia\u0142a"
             },
-            "companies": [{ "label": "CF" }]
+            "companies": [
+              {
+                "label": "CF"
+              }
+            ]
           }
         ],
         "labels": [
@@ -579,7 +619,7 @@
             "percent": 0.667
           }
         ],
-        "hexes": ["E12"]
+        "hexes": ["D12"]
       },
       {
         "color": "plain",
@@ -595,7 +635,7 @@
             "angle": 120,
             "percent": 0.55,
             "name": {
-              "name": "Dąbrowa Górnicza",
+              "name": "D\u0105browa G\u00f3rnicza",
               "rotation": -30,
               "reverse": true
             }
@@ -606,10 +646,14 @@
             "name": {
               "name": "Sosnowiec"
             },
-            "companies": [{ "label": "KWW" }]
+            "companies": [
+              {
+                "label": "KWW"
+              }
+            ]
           }
         ],
-        "hexes": ["F3"]
+        "hexes": ["E3"]
       },
       {
         "color": "plain",
@@ -620,7 +664,7 @@
             }
           }
         ],
-        "hexes": ["F5"]
+        "hexes": ["E5"]
       },
       {
         "color": "plain",
@@ -634,34 +678,38 @@
         "cities": [
           {
             "name": {
-              "name": "Oświęcim"
+              "name": "O\u015bwi\u0119cim"
             }
           }
         ],
-        "hexes": ["F7"]
+        "hexes": ["E7"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Kęty"
+              "name": "K\u0119ty"
             }
           }
         ],
-        "hexes": ["F11"]
+        "hexes": ["E11"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Żywiec"
+              "name": "\u017bywiec"
             },
-            "companies": [{ "label": "AB" }]
+            "companies": [
+              {
+                "label": "AB"
+              }
+            ]
           }
         ],
-        "hexes": ["F13"]
+        "hexes": ["E13"]
       },
       {
         "color": "offboard_light",
@@ -675,7 +723,7 @@
         ],
         "offBoardRevenue": {
           "name": {
-            "name": "Częstochowa"
+            "name": "Cz\u0119stochowa"
           },
           "revenues": [
             {
@@ -692,19 +740,23 @@
             }
           ]
         },
-        "hexes": ["G2"]
+        "hexes": ["F2"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Chrzanów"
+              "name": "Chrzan\u00f3w"
             },
-            "companies": [{ "label": "FBL" }]
+            "companies": [
+              {
+                "label": "FBL"
+              }
+            ]
           }
         ],
-        "hexes": ["G6"]
+        "hexes": ["F6"]
       },
       {
         "color": "plain",
@@ -713,10 +765,14 @@
             "name": {
               "name": "Zator"
             },
-            "companies": [{ "label": "KM" }]
+            "companies": [
+              {
+                "label": "KM"
+              }
+            ]
           }
         ],
-        "hexes": ["G8"]
+        "hexes": ["F8"]
       },
       {
         "color": "black_light",
@@ -733,7 +789,7 @@
         ],
         "offBoardRevenue": {
           "name": {
-            "name": "Słowacja",
+            "name": "S\u0142owacja",
             "color": "white"
           },
           "revenues": [
@@ -751,7 +807,7 @@
             }
           ]
         },
-        "hexes": ["G14"]
+        "hexes": ["F14"]
       },
       {
         "color": "plain",
@@ -767,10 +823,14 @@
             "name": {
               "name": "Olkusz"
             },
-            "companies": [{ "label": "LHS" }]
+            "companies": [
+              {
+                "label": "LHS"
+              }
+            ]
           }
         ],
-        "hexes": ["H3"]
+        "hexes": ["G3"]
       },
       {
         "color": "plain",
@@ -779,10 +839,14 @@
             "name": {
               "name": "Krzeszowice"
             },
-            "companies": [{ "label": "TKK" }]
+            "companies": [
+              {
+                "label": "TKK"
+              }
+            ]
           }
         ],
-        "hexes": ["H7"]
+        "hexes": ["G7"]
       },
       {
         "color": "plain",
@@ -798,10 +862,14 @@
             "name": {
               "name": "Wadowice"
             },
-            "companies": [{ "label": "CKP" }]
+            "companies": [
+              {
+                "label": "CKP"
+              }
+            ]
           }
         ],
-        "hexes": ["H11"]
+        "hexes": ["G11"]
       },
       {
         "color": "plain",
@@ -810,10 +878,14 @@
             "name": {
               "name": "Sucha Beskidzka"
             },
-            "companies": [{ "label": "GKT" }]
+            "companies": [
+              {
+                "label": "GKT"
+              }
+            ]
           }
         ],
-        "hexes": ["H13"]
+        "hexes": ["G13"]
       },
       {
         "color": "plain",
@@ -824,14 +896,14 @@
             }
           }
         ],
-        "hexes": ["I2"]
+        "hexes": ["H2"]
       },
       {
         "color": "plain",
         "centerTowns": [
           {
             "name": {
-              "name": "Zabierzów"
+              "name": "Zabierz\u00f3w"
             },
             "angle": 150,
             "percent": 0.35
@@ -845,7 +917,7 @@
             "percent": 0.35
           }
         ],
-        "hexes": ["I8"]
+        "hexes": ["H8"]
       },
       {
         "color": "plain",
@@ -854,21 +926,25 @@
             "name": {
               "name": "Skawina"
             },
-            "companies": [{ "label": "Inka" }]
+            "companies": [
+              {
+                "label": "Inka"
+              }
+            ]
           }
         ],
-        "hexes": ["I10"]
+        "hexes": ["H10"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Myślenice"
+              "name": "My\u015blenice"
             }
           }
         ],
-        "hexes": ["I12"]
+        "hexes": ["H12"]
       },
       {
         "color": "black_light",
@@ -900,30 +976,34 @@
             }
           ]
         },
-        "hexes": ["J1"]
+        "hexes": ["I1"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Miechów"
+              "name": "Miech\u00f3w"
             }
           }
         ],
-        "hexes": ["J3"]
+        "hexes": ["I3"]
       },
       {
         "color": "plain",
         "cities": [
           {
             "name": {
-              "name": "Słomniki"
+              "name": "S\u0142omniki"
             },
-            "companies": [{ "label": "PF" }]
+            "companies": [
+              {
+                "label": "PF"
+              }
+            ]
           }
         ],
-        "hexes": ["J5"]
+        "hexes": ["I5"]
       },
       {
         "color": "black_light",
@@ -943,7 +1023,7 @@
           }
         ],
         "removeBorders": [1],
-        "hexes": ["J7"]
+        "hexes": ["I7"]
       },
       {
         "color": "black_light",
@@ -957,7 +1037,7 @@
         ],
         "offBoardRevenue": {
           "name": {
-            "name": "Kraków",
+            "name": "Krak\u00f3w",
             "color": "white"
           },
           "revenues": [
@@ -976,7 +1056,7 @@
           ]
         },
         "removeBorders": [1, 4],
-        "hexes": ["J9"]
+        "hexes": ["I9"]
       },
       {
         "color": "black_light",
@@ -996,7 +1076,7 @@
           }
         ],
         "removeBorders": [4],
-        "hexes": ["J11"]
+        "hexes": ["I11"]
       },
       {
         "color": "plain",
@@ -1015,29 +1095,28 @@
           {
             "type": "water",
             "size": "large",
-            "cost": "60 zł"
+            "cost": "60 z\u0142"
           }
         ],
-        "hexes": ["B11", "D13", "E2", "G12"]
+        "hexes": ["C13", "D2", "F12"]
       },
       {
         "color": "plain",
         "hexes": [
-          "C2",
-          "C6",
-          "C10",
-          "D7",
-          "B5",
-          "E8",
-          "E14",
-          "F1",
-          "F9",
-          "G4",
-          "G10",
-          "H5",
-          "H9",
-          "I4",
-          "I6"
+          "B2",
+          "B6",
+          "B10",
+          "C7",
+          "D8",
+          "D14",
+          "E1",
+          "E9",
+          "F4",
+          "F10",
+          "G5",
+          "G9",
+          "H4",
+          "H6"
         ]
       }
     ]
