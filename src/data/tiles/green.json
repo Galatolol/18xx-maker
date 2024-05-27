@@ -8813,8 +8813,8 @@
     "rotations": 6,
     "values": [
       {
-        "angle": 210,
-        "percent": 0.8,
+        "angle": 300,
+        "percent": 0.77,
         "value": 60
       }
     ],
@@ -8822,12 +8822,13 @@
       {
         "label": "N",
         "angle": 90,
-        "percent": 0.8
+        "percent": 0.82
       }
     ],
     "cities": [
       {
-        "size": 3
+        "size": 3,
+        "rotation": -30
       }
     ],
     "track": [
@@ -8982,7 +8983,7 @@
       }
     ]
   },
-  "802": {
+  " 802": {
     "color": "green",
     "values": [
       {
@@ -10680,7 +10681,7 @@
       }
     ]
   },
-  "802|3": {
+  " 802|3": {
     "color": "green",
     "broken": true,
     "values": [
