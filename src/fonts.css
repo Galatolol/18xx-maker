@@ -4,21 +4,21 @@
   font-style: normal;
   font-weight: 400;
   src: url('./fonts/Times.ttf')
-} 
+}
 /* latin-ext */
 @font-face {
   font-family: 'sans-serif';
   font-style: normal;
   font-weight: 400;
   src: url('./fonts/Times.ttf')
-} 
+}
 /* latin */
 @font-face {
   font-family: 'display';
   font-style: normal;
   font-weight: 400;
   src: url('./fonts/Times.ttf')
-} 
+}
 /* latin-ext */
 @font-face {
   font-family: 'display';
@@ -39,7 +39,7 @@
 @font-face {
   font-family: "Oswald";
   src: url('./fonts/Oswald.ttf');
-} 
+}
 
 /* eb-garamond-regular - latin */
 @font-face {
@@ -74,14 +74,14 @@
   font-family: 'Public Enemy';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/PublicEnemyNF.ttf');} 
+  src: url('./fonts/PublicEnemyNF.ttf');}
 
 /* times */
 @font-face {
   font-family: 'Times';
   font-style: normal;
   font-weight: 400;
-  src: url('./fonts/Times.ttf');} 
+  src: url('./fonts/Times.ttf');}
 
 /* times-it */
 @font-face {
@@ -89,7 +89,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('./fonts/Times-it.ttf')
-} 
+}
 
 /* mirage */
 @font-face {
@@ -97,7 +97,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('./fonts/Mirage.ttf')
-} 
+}
 
 /* tobacco */
 @font-face {
@@ -121,4 +121,12 @@
   font-style: normal;
   font-weight: 400;
   src: local('Anton'), url('./fonts/Anton-Regular.ttf')
-} 
+}
+
+/* anton */
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anton'), url('./fonts/GlacialIndifference-Regular.ttf')
+}

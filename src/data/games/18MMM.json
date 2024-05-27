@@ -3,9 +3,10 @@
     "title": "18MMM",
     "background": "mountain",
     "orientation": "horizontal",
-    "titleY": -700,
-    "titleX": 170,
-    "titleSize": 150,
+    "titleY": -120,
+    "titleX": 10,
+    "titleSize": 65,
+    "titleFontFamily": "Glacial Indifference",
     "currency": "USD"
   },
   "links": {},
@@ -998,7 +999,7 @@
             },
             {
               "color": "green",
-              "cost": "10"
+              "cost": "20"
             },
             {
               "color": "brown",
