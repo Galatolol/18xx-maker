@@ -1,0 +1,1667 @@
+{
+  "info": {
+    "title": "18PKP",
+    "titleFontFamily": "Besley Bold",
+    "subtitle": "VERY EARLY PROTOTYPE",
+    "subtitleFontFamily": "Oswald",
+    "designerFontFamily": "Times",
+    "designer": "",
+    "background": "gray",
+    "width": 150,
+    "color_10": "orange",
+    "titleX": 20,
+    "titleY": 1510,
+    "titleSize": 120,
+    "subTitleSize": 20,
+    "hexCoords": true,
+    "currency": "F",
+    "orientation": "horizontal"
+  },
+  "links": {},
+  "tokens": [],
+  "ipo": true,
+  "bank": "Unlimited",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 18,
+      "capital": "F570"
+    },
+    {
+      "number": 4,
+      "certLimit": 14,
+      "capital": "F480"
+    }
+  ],
+  "companies": [],
+  "trains": [],
+  "privates": [],
+  "phases": [],
+  "pools": [],
+  "rounds": [
+    {
+      "name": "OR3",
+      "color": "brown",
+      "textColor": "white"
+    },
+    {
+      "name": "OR2",
+      "color": "green"
+    },
+    {
+      "name": "OR1",
+      "color": "yellow"
+    },
+    {
+      "name": "SR",
+      "color": "gray"
+    }
+  ],
+  "turns": [],
+  "stock": {
+    "type": "2D",
+    "display": {
+      "par": {
+        "x": 11,
+        "y": 5.5
+      },
+      "roundTracker": {
+        "type": "col",
+        "size": 65,
+        "x": 9.75,
+        "y": 6
+      },
+      "legend": {
+        "reverse": true,
+        "verticalAlign": "bottom",
+        "x": 4.89,
+        "y": 11.4
+      }
+    },
+    "par": {
+      "values": [
+        {
+          "label": "100",
+          "color": "offboard_very_light"
+        },
+        {
+          "label": "95"
+        },
+        {
+          "label": "80"
+        },
+        {
+          "label": "67"
+        }
+      ],
+      "color": "offboard_light"
+    },
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Every share sold"],
+      "left": ["Revenue withheld"],
+      "right": ["Revenue paid out"]
+    },
+    "market": [
+      [
+        {
+          "value": 90,
+          "label": 90,
+          "arrow": ["down"]
+        },
+        {
+          "value": 99,
+          "label": 99
+        },
+        {
+          "value": 109,
+          "label": 109
+        },
+        {
+          "value": 115,
+          "label": 115
+        },
+        {
+          "value": 124,
+          "label": 124
+        },
+        {
+          "value": 132,
+          "label": 132
+        },
+        {
+          "value": 141,
+          "label": 141
+        },
+        {
+          "value": 151,
+          "label": 151
+        },
+        {
+          "value": 180,
+          "label": 180
+        },
+        {
+          "value": 215,
+          "label": 215
+        },
+        {
+          "value": 260,
+          "label": 260
+        },
+        {
+          "value": 310,
+          "label": 310
+        },
+        {
+          "value": 375,
+          "label": 375
+        },
+        {
+          "value": 450,
+          "label": 450,
+          "labelColor": "black",
+          "color": "offboard"
+        }
+      ],
+      [
+        {
+          "value": 82,
+          "label": 82,
+          "arrow": "down"
+        },
+        {
+          "value": 95,
+          "label": 95,
+          "par": true
+        },
+        100,
+        {
+          "value": 106,
+          "label": 106
+        },
+        113,
+        121,
+        130,
+        139,
+        165,
+        200,
+        240,
+        285,
+        345,
+        {
+          "value": 415,
+          "label": 415,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 75,
+          "label": 75,
+          "arrow": "down"
+        },
+        82,
+        89,
+        95,
+        103,
+        111,
+        120,
+        130,
+        155,
+        185,
+        225,
+        270,
+        {
+          "value": 320,
+          "label": 320,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 69,
+          "label": 69,
+          "arrow": "down"
+        },
+        75,
+        81,
+        87,
+        93,
+        {
+          "value": 100,
+          "label": 100,
+          "legend": 3
+        },
+        108,
+        116,
+        140,
+        170,
+        200,
+        {
+          "value": 235,
+          "label": 235,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 64,
+          "label": 64,
+          "arrow": "down"
+        },
+        69,
+        74,
+        {
+          "value": 80,
+          "label": 80,
+          "par": true
+        },
+        85,
+        91,
+        97,
+        111,
+        130,
+        155,
+        {
+          "value": 185,
+          "label": 185,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 59,
+          "label": 59,
+          "legend": 0,
+          "arrow": "down"
+        },
+        64,
+        68,
+        71,
+        76,
+        81,
+        90,
+        101,
+        120,
+        {
+          "value": 140,
+          "label": 140,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 56,
+          "label": 56,
+          "legend": 0
+        },
+        62,
+        66,
+        70,
+        75,
+        83,
+        {
+          "value": 93,
+          "label": 93,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 1,
+          "arrow": "down"
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60
+        },
+        64,
+        {
+          "value": 67,
+          "label": 67,
+          "par": true
+        },
+        {
+          "value": 75,
+          "label": 75,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 2,
+          "arrow": "down"
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0
+        },
+        {
+          "value": 60,
+          "label": 60,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0
+        },
+        {
+          "value": 55,
+          "label": 55,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "value": 10,
+          "label": 10,
+          "legend": 0
+        },
+        {
+          "value": 20,
+          "label": 20,
+          "legend": 0
+        },
+        {
+          "value": 30,
+          "label": 30,
+          "legend": 0
+        },
+        {
+          "value": 40,
+          "label": 40,
+          "legend": 0
+        },
+        {
+          "value": 50,
+          "label": 50,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "gray",
+        "description": "Certificate limit: 18 / 14",
+        "icon": ""
+      },
+      {
+        "color": "gray",
+        "description": "Starting money: F570 / 480",
+        "icon": ""
+      },
+      {
+        "color": "gray",
+        "description": "Bank size: unlimited",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "Gray area:",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— shares do not count against the certificate limit",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— president may buy 2 shares from IPO and/or market",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— president may buy over 60%",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "Sold out:",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— moves up one row",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— one more if in gray area",
+        "icon": ""
+      },
+      {
+        "color": "offboard_very_light",
+        "description": "— one more if president and treasury hold 80% or more",
+        "icon": ""
+      }
+    ]
+  },
+  "tiles": {
+    "1": 1,
+    "7": 8,
+    "8": 15,
+    "9": 12,
+    "14": 4,
+    "15": 4,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "23": 3,
+    "24": 3,
+    "25": 2,
+    "26": 2,
+    "27": 2,
+    "28": 1,
+    "29": 1,
+    "30": 1,
+    "31": 1,
+    "39": 1,
+    "40": 1,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 1,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "56": 1,
+    "57": 10,
+    "70": 1,
+    "619": 4,
+    "624": 1,
+    "630": 1,
+    "631": 1,
+    "632": 1,
+    "633": 1
+  },
+
+  "map": {
+    "hexes": [
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 1
+          }
+        ],
+        "icons": [
+          {
+            "type": "port"
+          }
+        ],
+        "hexes": ["A1"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Świnoujście"
+            }
+          }
+        ],
+        "hexes": ["A3"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          },
+          {
+            "side": 6
+          }
+        ],
+        "names": [
+          {
+            "name": "Niemcy",
+            "y": -10
+          }
+        ],
+        "hexes": ["A13"]
+      },
+
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 6
+          }
+        ],
+        "icons": [
+          {
+            "type": "port"
+          }
+        ],
+        "hexes": ["B2"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "Y",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Szczecin"
+            }
+          }
+        ],
+        "hexes": ["B6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Gorzów Wielkopolski"
+            }
+          }
+        ],
+        "hexes": ["B8"]
+      },
+
+      {
+        "color": "gray",
+        "cities": [
+          {
+            "name": {
+              "name": "Kołobrzeg",
+              "reverse": true,
+              "rotation": -30
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 180,
+            "percent": 0.6
+          }
+        ],
+        "track": [
+          {
+            "side": 2,
+            "type": "straight",
+            "end": 0.5
+          },
+          {
+            "side": 3,
+            "type": "straight",
+            "end": 0.5
+          },
+          {
+            "side": 5,
+            "type": "straight",
+            "end": 0.5
+          }
+        ],
+        "hexes": ["C3"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Stargard Szczeciński"
+            }
+          }
+        ],
+        "hexes": ["C7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Zielona Góra"
+            }
+          }
+        ],
+        "hexes": ["C11"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Legnica"
+            },
+            "angle": 150,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "Jelenia Góra",
+              "fontSize": 14,
+              "reverse": true
+            },
+            "angle": 330,
+            "percent": 0.35
+          }
+        ],
+        "hexes": ["C15"]
+      },
+
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Koszalin"
+            }
+          }
+        ],
+        "hexes": ["D2"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Szczecinek"
+            }
+          }
+        ],
+        "hexes": ["D4"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Leszno"
+            }
+          }
+        ],
+        "hexes": ["D12"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "B",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Wrocław"
+            }
+          }
+        ],
+        "hexes": ["D14"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Wałbrzych"
+            }
+          }
+        ],
+        "hexes": ["D16"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 4
+          }
+        ],
+        "names": [
+          {
+            "name": "Czechy",
+            "y": -10
+          }
+        ],
+        "hexes": ["D20"]
+      },
+
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Słupsk"
+            }
+          }
+        ],
+        "hexes": ["E1"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "Y",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Poznań"
+            }
+          }
+        ],
+        "hexes": ["E9"]
+      },
+
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 6,
+            "type": "gentle"
+          }
+        ],
+        "hexes": ["F0"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Wejherowo"
+            },
+            "angle": 150,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "Lębork",
+              "reverse": true
+            },
+            "angle": 330,
+            "percent": 0.35
+          }
+        ],
+        "hexes": ["F2"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Gniezno"
+            },
+            "angle": 150,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "Konin",
+              "reverse": true
+            },
+            "angle": 330,
+            "percent": 0.35
+          }
+        ],
+        "hexes": ["F10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Kalisz"
+            }
+          }
+        ],
+        "hexes": ["F12"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Kalisz"
+            }
+          }
+        ],
+        "hexes": ["F14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Opole"
+            }
+          }
+        ],
+        "hexes": ["F16"]
+      },
+
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "OO",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "angle": 120,
+            "percent": 0.55,
+            "name": {
+              "name": "Gdynia",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 300,
+            "percent": 0.55,
+            "name": {
+              "name": "Sopot"
+            }
+          }
+        ],
+        "hexes": ["G1"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "B",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Gdańsk"
+            }
+          }
+        ],
+        "hexes": ["G3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Toruń"
+            }
+          }
+        ],
+        "hexes": ["G7"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Włocławek"
+            }
+          }
+        ],
+        "hexes": ["G9"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Sieradz"
+            }
+          }
+        ],
+        "hexes": ["G13"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "OO",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "angle": 120,
+            "percent": 0.55,
+            "name": {
+              "name": "Gliwice",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 300,
+            "percent": 0.55,
+            "name": {
+              "name": "Zabrze"
+            }
+          }
+        ],
+        "hexes": ["G17"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Bielsko-Biała"
+            }
+          }
+        ],
+        "hexes": ["G19"]
+      },
+
+      {
+        "color": "water",
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          }
+        ],
+        "icons": [
+          {
+            "type": "port"
+          }
+        ],
+        "hexes": ["H2"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Elbląg"
+            }
+          }
+        ],
+        "hexes": ["H4"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Płock"
+            }
+          }
+        ],
+        "hexes": ["H10"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "Y",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Łódź"
+            }
+          }
+        ],
+        "hexes": ["H12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Piotrków Trybunalski",
+              "fontSize": 14
+            }
+          }
+        ],
+        "hexes": ["H14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Częstochowa"
+            }
+          }
+        ],
+        "hexes": ["H16"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "OO",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "angle": 120,
+            "percent": 0.55,
+            "name": {
+              "name": "Katowice",
+              "reverse": true
+            }
+          },
+          {
+            "angle": 300,
+            "percent": 0.55,
+            "name": {
+              "name": "Sosnowiec"
+            }
+          }
+        ],
+        "hexes": ["H18"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Tychy"
+            },
+            "angle": 150,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "Pszczyna",
+              "reverse": true
+            },
+            "angle": 330,
+            "percent": 0.35
+          }
+        ],
+        "hexes": ["H20"]
+      },
+      {
+        "color": "gray",
+        "values": [
+          {
+            "value": 20,
+            "angle": 0,
+            "percent": -0.75
+          }
+        ],
+        "towns": [
+          {
+            "rotation": 90,
+            "angle": 180,
+            "percent": 0.26,
+            "name": {
+              "name": "Zakopane",
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "gentle",
+            "side": 3
+          }
+        ],
+        "hexes": ["H22"]
+      },
+
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Olsztyn"
+            }
+          }
+        ],
+        "hexes": ["I5"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Olkusz"
+            }
+          }
+        ],
+        "hexes": ["I17"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "B",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Kraków"
+            }
+          }
+        ],
+        "hexes": ["I19"]
+      },
+
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Ostrołęka"
+            },
+            "angle": 150,
+            "percent": 0.35
+          },
+          {
+            "name": {
+              "name": "Ciechanów",
+              "reverse": true
+            },
+            "angle": 330,
+            "percent": 0.35
+          }
+        ],
+        "hexes": ["J8"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "W",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Warszawa"
+            }
+          }
+        ],
+        "hexes": ["J10"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Radom"
+            }
+          }
+        ],
+        "hexes": ["J14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Kielce"
+            }
+          }
+        ],
+        "hexes": ["J16"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Tarnów"
+            },
+            "angle": 210,
+            "percent": 0.5
+          },
+          {
+            "name": {
+              "name": "Nowy Sącz",
+              "reverse": false
+            },
+            "angle": 75,
+            "percent": 0.45
+          }
+        ],
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "large",
+            "cost": "F40",
+            "percent": 0.55
+          }
+        ],
+        "hexes": ["J20"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 5
+          }
+        ],
+        "names": [
+          {
+            "name": "Słowacja",
+            "y": -10
+          }
+        ],
+        "hexes": ["J22"]
+      },
+
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Tarnobrzeg"
+            }
+          }
+        ],
+        "hexes": ["K17"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Krosno"
+            },
+            "percent": -0.4
+          }
+        ],
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "large",
+            "cost": "F40",
+            "percent": 0.4
+          }
+        ],
+        "hexes": ["K21"]
+      },
+
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Ełk"
+            }
+          }
+        ],
+        "hexes": ["L4"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Łomża"
+            }
+          }
+        ],
+        "hexes": ["L6"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Siedlce"
+            }
+          }
+        ],
+        "hexes": ["L12"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "Y",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Lublin"
+            }
+          }
+        ],
+        "hexes": ["L14"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rzeszów"
+            }
+          }
+        ],
+        "hexes": ["L18"]
+      },
+
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          }
+        ],
+        "names": [
+          {
+            "name": "Litwa",
+            "y": -10
+          }
+        ],
+        "hexes": ["M1"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Suwałki"
+            }
+          }
+        ],
+        "hexes": ["M3"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "label": "Y",
+            "angle": 30,
+            "percent": 0.667
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Białystok"
+            }
+          }
+        ],
+        "hexes": ["M7"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Biała Podlaska"
+            }
+          }
+        ],
+        "hexes": ["M11"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Przemyśl"
+            }
+          }
+        ],
+        "hexes": ["M19"]
+      },
+      {
+        "color": "offboard",
+        "offBoardTrack": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          }
+        ],
+        "names": [
+          {
+            "name": "Ukraina",
+            "y": -10
+          }
+        ],
+        "hexes": ["M21"]
+      },
+
+      {
+        "color": "gray",
+        "track": [
+          {
+            "side": 1,
+            "type": "gentle"
+          }
+        ],
+        "hexes": ["N12"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Chełm"
+            }
+          }
+        ],
+        "hexes": ["N14"]
+      },
+      {
+        "color": "plain",
+        "centerTowns": [
+          {
+            "name": {
+              "name": "Zamość"
+            }
+          }
+        ],
+        "hexes": ["N16"]
+      },
+
+      {
+        "color": "plain",
+        "hexes": [
+          "A5",
+          "A7",
+          "A9",
+          "A11",
+          "B10",
+          "B12",
+          "B14",
+          "B16",
+          "C5",
+          "C9",
+          "C13",
+          "D6",
+          "D8",
+          "D10",
+          "D18",
+          "E3",
+          "E5",
+          "E7",
+          "E11",
+          "E13",
+          "E15",
+          "E17",
+          "F4",
+          "F6",
+          "F8",
+          "F14",
+          "F18",
+          "G5",
+          "G11",
+          "G15",
+          "H6",
+          "H8",
+          "I3",
+          "I7",
+          "I9",
+          "I11",
+          "I13",
+          "I15",
+          "J2",
+          "J4",
+          "J6",
+          "J12",
+          "J18",
+          "K3",
+          "K5",
+          "K7",
+          "K9",
+          "K11",
+          "K13",
+          "K15",
+          "K19",
+          "L2",
+          "L8",
+          "L10",
+          "L16",
+          "M5",
+          "M9",
+          "M13",
+          "M15",
+          "M17",
+          "N6",
+          "N8",
+          "N18"
+        ]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "water",
+            "size": "large",
+            "cost": "F40"
+          }
+        ],
+        "hexes": ["B4"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "large",
+            "cost": "F40"
+          }
+        ],
+        "hexes": ["L20"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "mountain",
+            "size": "huge",
+            "cost": "F60"
+          }
+        ],
+        "hexes": ["G21", "I21", "L22"]
+      }
+    ],
+    "borders": [
+      {
+        "color": "water",
+        "coords": ["A3p5", "A3p6"]
+      }
+    ]
+  }
+}

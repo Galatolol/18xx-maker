@@ -680,6 +680,16 @@ games["18NN"] = {
   title: "18NN",
   designer: "Galatolol",
 };
+games["18pkp"] = {
+  id: "18pkp",
+  slug: "18pkp",
+  file: "18pkp.json",
+  title: "18PKP",
+  subtitle: "VERY EARLY PROTOTYPE",
+  designer: "",
+  minPlayers: 3,
+  maxPlayers: 4,
+};
 games["18pl"] = {
   id: "18pl",
   slug: "18pl",

@@ -123,10 +123,18 @@
   src: local('Anton'), url('./fonts/Anton-Regular.ttf')
 }
 
-/* anton */
+/* glacial */
 @font-face {
   font-family: 'Glacial Indifference';
   font-style: normal;
   font-weight: 400;
-  src: local('Anton'), url('./fonts/GlacialIndifference-Regular.ttf')
+  src: local('Glacial Indifference'), url('./fonts/GlacialIndifference-Regular.ttf')
+}
+
+/* besley bold */
+@font-face {
+  font-family: 'Besley Bold';
+  font-style: bold;
+  font-weight: 400;
+  src: local('Besley Bold'), url('./fonts/Besley-Bold.ttf')
 }
