@@ -1,12 +1,15 @@
 {
   "info": {
     "title": "18AL",
+    "titleFontFamily": "Shadowed Serif",
+    "designerFontFamily": "Times",
+    "designerSize": 18,
     "designer": "Mark Derrick",
     "background": "green",
     "orientation": "horizontal",
-    "extraTotalWidth": 150,
-    "titleX": 575,
-    "titleY": 1275,
+    "titleSize": 85,
+    "titleX": 670,
+    "titleY": -105,
     "currency": "USD"
   },
   "links": {
@@ -549,12 +552,213 @@
     "142": 2,
     "143": 2,
     "144": 2,
-    "441": 1,
-    "442": 1,
-    "443": 1,
-    "444": 2,
-    "445": 1,
-    "446": 1
+    "446": 1,
+    "441": {
+      "color": "yellow",
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.65,
+          "value": 10
+        }
+      ],
+      "cities": [{}],
+      "labels": [
+        {
+          "label": "B",
+          "angle": 60,
+          "percent": 0.65
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        }
+      ]
+    },
+    "442": {
+      "color": "green",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "B",
+          "angle": 150,
+          "percent": 0.75
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "443": {
+      "color": "green",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 40
+        }
+      ],
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.75
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "444b": {
+      "color": "brown",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 50
+        }
+      ],
+      "labels": [
+        {
+          "label": "B",
+          "angle": 150,
+          "percent": 0.75
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "444m": {
+      "color": "brown",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 50
+        }
+      ],
+      "labels": [
+        {
+          "label": "M",
+          "angle": 150,
+          "percent": 0.75
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "445": {
+      "color": "gray",
+      "values": [
+        {
+          "angle": 240,
+          "percent": 0.2,
+          "value": 20
+        }
+      ],
+      "towns": [
+        {
+          "angle": 60,
+          "percent": 0.28,
+          "rotation": -30
+        }
+      ],
+      "icons": [
+        {
+          "type": "tree",
+          "percent": 0.5,
+          "angle": 165
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 1
+        }
+      ]
+    }
   },
   "map": {
     "hexes": [
@@ -692,6 +896,7 @@
         ],
         "water": {
           "percent": 0.333,
+          "size": "large",
           "cost": "$20"
         },
         "hexes": ["B3"]
@@ -709,6 +914,7 @@
         ],
         "water": {
           "percent": 0.5,
+          "size": "large",
           "cost": "$20"
         },
         "hexes": ["D3"]
@@ -726,29 +932,19 @@
         ],
         "water": {
           "percent": 0.333,
+          "size": "large",
           "cost": "$20"
         },
         "hexes": ["F3"]
       },
       {
         "color": "plain",
-        "borders": [
-          {
-            "color": "water",
-            "side": 1
-          }
-        ],
         "hexes": ["C2"]
       },
       {
         "color": "plain",
-        "borders": [
-          {
-            "color": "water",
-            "side": 4
-          }
-        ],
         "water": {
+          "size": "large",
           "cost": "$20"
         },
         "hexes": ["C4"]
@@ -756,18 +952,32 @@
       {
         "color": "plain",
         "water": {
+          "size": "large",
           "cost": "$20"
         },
-        "hexes": ["B7", "C12", "B13", "C14", "E14", "B15", "D15", "E16"]
+        "hexes": ["C12", "B13", "C14", "E14", "B15", "D15", "E16"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "type": "swamp",
+            "size": "large",
+            "cost": "$20"
+          }
+        ],
+        "hexes": ["B7", "B13", "D15", "E14", "E16"]
       },
       {
         "color": "plain",
         "water": {
-          "percent": 0.38
+          "size": "large",
+          "percent": 0.6
         },
         "mountain": {
+          "size": "large",
           "angle": 180,
-          "percent": 0.13,
+          "percent": 0.25,
           "cost": "$60"
         },
         "hexes": ["E4"]
@@ -868,6 +1078,7 @@
       {
         "color": "plain",
         "mountain": {
+          "size": "large",
           "cost": "$60"
         },
         "hexes": ["G6"]
@@ -875,10 +1086,18 @@
       {
         "color": "plain",
         "mountain": {
+          "size": "large",
           "cost": "$60",
           "angle": -30,
           "percent": 0.5
         },
+        "labels": [
+          {
+            "label": "B",
+            "angle": 60,
+            "percent": 0.65
+          }
+        ],
         "cities": [
           {
             "angle": 150,
@@ -947,13 +1166,13 @@
       },
       {
         "color": "gray",
-        "cities": [
+        "names": [
           {
-            "name": {
-              "name": "Oxmoor"
-            }
+            "name": "Oxmoor",
+            "percent": -0.4
           }
         ],
+        "cities": [{}],
         "values": [
           {
             "value": 30,
@@ -1062,6 +1281,13 @@
       },
       {
         "color": "plain",
+        "labels": [
+          {
+            "label": "M",
+            "angle": 60,
+            "percent": 0.65
+          }
+        ],
         "cities": [
           {
             "name": {
@@ -1096,7 +1322,7 @@
         "values": [
           {
             "angle": 270,
-            "percent": 0.25,
+            "percent": 0.1,
             "value": 10
           }
         ],
@@ -1184,6 +1410,14 @@
           ]
         },
         "hexes": ["B17"]
+      }
+    ],
+    "borders": [
+      {
+        "color": "water",
+        "width": 8,
+        "offset": 0,
+        "coords": ["C2p5", "C2p6"]
       }
     ]
   }

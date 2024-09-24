@@ -130,3 +130,9 @@
   font-weight: 400;
   src: local('Anton'), url('./fonts/GlacialIndifference-Regular.ttf')
 }
+
+/* shadowed serif */
+@font-face {
+  font-family: "Shadowed Serif";
+  src: url('./fonts/ShadowedSerif.ttf');
+}
