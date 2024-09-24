@@ -138,3 +138,9 @@
   font-weight: 400;
   src: local('Besley Bold'), url('./fonts/Besley-Bold.ttf')
 }
+
+/* shadowed serif */
+@font-face {
+  font-family: "Shadowed Serif";
+  src: url('./fonts/ShadowedSerif.ttf');
+}

@@ -1790,20 +1790,22 @@
     "values": [
       {
         "angle": 210,
-        "percent": 0.8,
+        "percent": 0.75,
         "value": 70
       }
     ],
     "labels": [
       {
         "label": "B",
-        "angle": 90,
-        "percent": 0.8
+        "angle": 150,
+        "percent": 0.75
       }
     ],
     "cities": [
       {
-        "size": 3
+        "size": 3,
+        "rotate": 210,
+        "percent": 0.1
       }
     ],
     "track": [
