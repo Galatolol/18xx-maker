@@ -500,6 +500,15 @@ games["1899"] = {
   title: "1899",
   designer: "Dirk Clemens & Ingo Mayer",
 };
+games["18AL"] = {
+  id: "18AL",
+  slug: "18AL",
+  file: "18AL.json",
+  title: "18AL",
+  designer: "Mark Derrick",
+  minPlayers: 3,
+  maxPlayers: 5,
+};
 games["18Brass"] = {
   id: "18Brass",
   slug: "18Brass",

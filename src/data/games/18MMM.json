@@ -895,7 +895,7 @@
         "removeBorders": [2, 6],
         "routeBonus": [
           {
-            "value": "+$50",
+            "value": "+$60",
             "fillColor": "white",
             "strokeColor": "black",
             "textColor": "black",
@@ -914,7 +914,7 @@
             },
             {
               "color": "green",
-              "cost": "40"
+              "cost": "50"
             },
             {
               "color": "brown",
@@ -942,7 +942,7 @@
         "removeBorders": [2, 6],
         "routeBonus": [
           {
-            "value": "+$50",
+            "value": "+$60",
             "fillColor": "white",
             "strokeColor": "black",
             "textColor": "black",
@@ -996,7 +996,7 @@
         "color": "offboard",
         "routeBonus": [
           {
-            "value": "+$50",
+            "value": "+$60",
             "fillColor": "black",
             "strokeColor": "white",
             "textColor": "white",
@@ -1048,7 +1048,7 @@
         "removeBorders": [1, 4],
         "routeBonus": [
           {
-            "value": "+$50",
+            "value": "+$60",
             "fillColor": "black",
             "strokeColor": "white",
             "textColor": "white",
