@@ -31,204 +31,161 @@
   "turns": [],
   "stock": {},
   "tiles": {
-    "80": 1,
-    "23": 2,
-    "24": 3,
-    "25": 2,
-    "26": 1,
-    "27": 1,
-    "28": 1,
-    "29": 1,
-    "30": 1,
-    "31": 1,
-    "16": 1,
-    "17": 1,
-    "18": 1,
-    "20": 1,
-    "624": 1,
-
-    "X4": {
-      "color": "green",
-      "rotations": 6,
+    "14": 1,
+    "X20": {
+      "color": "brown",
+      "quantity": 1,
       "values": [
         {
-          "angle": 120,
-          "percent": 0.6,
+          "angle": 270,
+          "percent": 0.35,
           "value": 40
         }
       ],
       "cities": [
         {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
+          "percent": 0.53
         },
-        {
-          "angle": 210,
-          "percent": 0.6,
-          "size": 1
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 300,
-          "percent": 0.4
-        }
-      ],
-      "track": [
-        {
-          "side": 1,
-          "type": "sharp"
-        },
-        {
-          "side": 4,
-          "type": "sharp"
-        }
-      ]
-    },
-    "X5": {
-      "color": "green",
-      "rotations": 6,
-      "values": [
         {
           "angle": 90,
-          "percent": 0.75,
+          "percent": 0.55
+        }
+      ],
+      "track": [
+        {
+          "type": "straight",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 2
+        }
+      ]
+    },
+    "X22": {
+      "color": "brown",
+      "quantity": 5,
+      "values": [
+        {
+          "angle": 60,
+          "percent": 0.7,
           "value": 40
         }
       ],
       "cities": [
         {
-          "angle": 30,
-          "percent": 0.6,
-          "companies": [{ "label": "PLM" }]
+          "angle": 0,
+          "percent": 0.5
         },
         {
-          "angle": 150,
-          "percent": 0.6,
-          "size": 1
-        }
-      ],
-      "labels": [
-        {
-          "label": "P",
-          "angle": 270,
-          "percent": 0.8
-        }
-      ],
-      "terrain": [
-        {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 300,
-          "percent": 0.4
+          "angle": 120,
+          "percent": 0.57735
         }
       ],
       "track": [
         {
+          "type": "straight",
           "side": 1,
-          "type": "sharp"
+          "cross": "over"
         },
         {
+          "type": "gentle",
           "side": 3,
-          "type": "sharp"
+          "cross": "under"
         }
       ]
     },
-
-    "X7": {
-      "color": "green",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
+    "X23": {
+      "color": "brown",
+      "quantity": 5,
       "values": [
         {
-          "value": 50,
-          "angle": 210,
-          "percent": 0.75
+          "angle": 290,
+          "percent": 0.55,
+          "value": 40
         }
       ],
-      "cities": [{ "size": 1 }],
-      "terrain": [
+      "cities": [
         {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 30,
-          "percent": 0.75
+          "angle": 5,
+          "percent": 0.55
+        },
+        {
+          "angle": 210,
+          "percent": 0.5
         }
       ],
       "track": [
         {
+          "type": "gentle",
           "side": 1
         },
         {
+          "type": "sharp",
           "side": 4
-        },
-        {
-          "side": 6
         }
       ]
     },
-    "X8": {
-      "color": "green",
-      "rotations": 6,
-      "labels": [
-        {
-          "label": "L",
-          "angle": 150,
-          "percent": 0.8
-        }
-      ],
+    "X24": {
+      "color": "brown",
+      "quantity": 5,
       "values": [
         {
-          "value": 40,
-          "angle": 210,
-          "percent": 0.75
+          "angle": 75,
+          "percent": 0.55,
+          "value": 40
         }
       ],
-      "cities": [{ "size": 2 }],
-      "terrain": [
+      "cities": [
         {
-          "type": "water",
-          "size": "medium",
-          "cost": "F60",
-          "angle": 30,
-          "percent": 0.75
+          "percent": 0.5
+        },
+        {
+          "angle": 150,
+          "percent": 0.5
         }
       ],
       "track": [
         {
-          "side": 1
+          "type": "gentle",
+          "side": 5
         },
         {
+          "type": "sharp",
           "side": 3
-        },
-        {
-          "side": 4
-        },
-        {
-          "side": 6
         }
       ]
     },
-
-    "19": 1
+    "G2": {
+      "color": "gray",
+      "quantity": 6,
+      "values": [
+        {
+          "value": 20,
+          "rotate": -30,
+          "angle": 330,
+          "percent": 0.2
+        }
+      ],
+      "towns": [
+        {
+          "angle": 150,
+          "percent": 0.57735,
+          "rotation": 60,
+          "name": {
+            "name": "Houdan",
+            "rotation": 0,
+            "reverse": true
+          }
+        }
+      ],
+      "track": [
+        {
+          "type": "sharp",
+          "side": 3
+        }
+      ]
+    }
   },
   "map": {
     "hexes": [
