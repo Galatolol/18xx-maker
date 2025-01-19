@@ -18,22 +18,22 @@
   },
   "tokens": ["Round"],
   "ipo": true,
-  "bank": 8000,
+  "bank": "$8000",
   "players": [
     {
       "number": 3,
       "certLimit": 25,
-      "capital": 600
+      "capital": "$600"
     },
     {
       "number": 4,
       "certLimit": 12,
-      "capital": 500
+      "capital": "$500"
     },
     {
       "number": 5,
       "certLimit": 10,
-      "capital": 400
+      "capital": "$400"
     }
   ],
   "shareTypes": {
@@ -322,6 +322,22 @@
     "par": {
       "values": [105, 90, 75, 70, 60]
     },
+    "display": {
+      "par": {
+        "x": 13.25,
+        "y": 2
+      },
+      "roundTracker": {
+        "type": "col",
+        "size": 65,
+        "x": 12,
+        "y": 3.25
+      },
+      "legend": {
+        "x": 8,
+        "y": 4.75
+      }
+    },
     "movement": {
       "up": ["Sold out"],
       "down": ["Every share sold"],
@@ -505,13 +521,19 @@
           "legend": 0,
           "arrow": "up"
         }
-      ]
+      ],
+      []
     ],
     "legend": [
       {
         "color": "yellow",
-        "description": "Shares of this corporation do not count toward the certificate limit",
-        "icon": "certificate"
+        "description": "Starting capital: $600 / $500 / $400",
+        "icon": ""
+      },
+      {
+        "color": "yellow",
+        "description": "Certificate limit: 25 / 12 / 10",
+        "icon": ""
       }
     ]
   },
@@ -756,6 +778,100 @@
         {
           "type": "gentle",
           "side": 1
+        }
+      ]
+    },
+    "X22": {
+      "color": "brown",
+      "quantity": 3,
+      "values": [
+        {
+          "angle": 60,
+          "percent": 0.7,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "angle": 0,
+          "percent": 0.5
+        },
+        {
+          "angle": 120,
+          "percent": 0.57735
+        }
+      ],
+      "track": [
+        {
+          "type": "straight",
+          "side": 1,
+          "cross": "over"
+        },
+        {
+          "type": "gentle",
+          "side": 3,
+          "cross": "under"
+        }
+      ]
+    },
+    "X23": {
+      "color": "brown",
+      "quantity": 3,
+      "values": [
+        {
+          "angle": 290,
+          "percent": 0.55,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "angle": 5,
+          "percent": 0.55
+        },
+        {
+          "angle": 210,
+          "percent": 0.5
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 4
+        }
+      ]
+    },
+    "X24": {
+      "color": "brown",
+      "quantity": 3,
+      "values": [
+        {
+          "angle": 75,
+          "percent": 0.55,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "percent": 0.5
+        },
+        {
+          "angle": 150,
+          "percent": 0.5
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 5
+        },
+        {
+          "type": "sharp",
+          "side": 3
         }
       ]
     }
