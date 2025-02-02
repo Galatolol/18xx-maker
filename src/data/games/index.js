@@ -569,6 +569,15 @@ games["18EU"] = {
   minPlayers: 2,
   maxPlayers: 6,
 };
+games["18FR"] = {
+  id: "18FR",
+  slug: "18FR",
+  file: "18FR.json",
+  title: "18FR",
+  designer: "Alex Rockwell",
+  minPlayers: 3,
+  maxPlayers: 6,
+};
 games["18GJ"] = {
   id: "18GJ",
   slug: "18GJ",
