@@ -484,6 +484,15 @@ games["1891"] = {
   subtitle: "Railroading in Hiroshima",
   designer: "Toryo Hojo",
 };
+games["1894_a3"] = {
+  id: "1894_a3",
+  slug: "1894_a3",
+  file: "1894_a3.json",
+  title: "1894",
+  designer: "Jan Kłos",
+  minPlayers: 3,
+  maxPlayers: 4,
+};
 games["1894"] = {
   id: "1894",
   slug: "1894",
