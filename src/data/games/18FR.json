@@ -1,0 +1,2151 @@
+{
+  "info": {
+    "title": "18FR",
+    "designer": "Alex Rockwell",
+    "background": "gray",
+    "titleX": 870,
+    "titleY": -100,
+    "titleSize": 105,
+    "subtitleSize": 17,
+    "currency": "$#"
+  },
+  "links": {
+    "bgg": "https://boardgamegeek.com/boardgame/63170/1817",
+    "rules": "https://drive.google.com/file/d/0B1SWz2pNe2eAbnI4NVhpQXV4V0k/view"
+  },
+  "colors": {
+    "short": "pink"
+  },
+  "floatPercent": 20,
+  "tokens": [
+    {
+      "label": "+$10",
+      "icon": "coal",
+      "quantity": 6
+    },
+    {
+      "label": "+$10",
+      "icon": "tunnel",
+      "quantity": 3
+    }
+  ],
+  "wip": true,
+  "ipo": false,
+  "bank": "∞",
+  "players": [
+    {
+      "number": 3,
+      "certLimit": 16,
+      "capital": 380
+    },
+    {
+      "number": 4,
+      "certLimit": 12,
+      "capital": 290
+    },
+    {
+      "number": 5,
+      "certLimit": 10,
+      "capital": 220
+    },
+    {
+      "number": 6,
+      "certLimit": 8,
+      "capital": 190
+    }
+  ],
+  "tokenTypes": {
+    "default": ["", "", "", ""]
+  },
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": "100/20/10",
+        "shares": 2
+      },
+      {
+        "quantity": 8,
+        "percent": "20/10",
+        "shares": 1
+      },
+      {
+        "quantity": 10,
+        "percent": 10,
+        "shares": 1
+      },
+      {
+        "quantity": 5,
+        "backgroundColor": "short",
+        "subtext": "Short",
+        "percent": "20/10",
+        "shares": 1
+      },
+      {
+        "quantity": 5,
+        "backgroundColor": "short",
+        "subtext": "Short",
+        "percent": 10,
+        "shares": 1
+      }
+    ]
+  },
+  "companies": [
+    {
+      "name": "Alton & Southern Railway",
+      "abbrev": "A&S",
+      "color": "pink"
+    },
+    {
+      "name": "Arcade and Attica",
+      "abbrev": "A&A",
+      "color": "gold"
+    },
+    {
+      "name": "Belt Railway of Chicago",
+      "abbrev": "Belt",
+      "color": "orange"
+    },
+    {
+      "name": "Bessemer and Lake Erie Railroad",
+      "abbrev": "Bess",
+      "color": "black"
+    },
+    {
+      "name": "Boston and Albany Railroad",
+      "abbrev": "B&A",
+      "color": "red"
+    },
+    {
+      "name": "Delaware, Lackawanna and Western Railroad",
+      "abbrev": "DL&W",
+      "color": "brown"
+    },
+    {
+      "name": "Elgin, Joliet and Eastern Railway",
+      "abbrev": "J",
+      "color": "green"
+    },
+    {
+      "name": "Grand Trunk Western Railroad",
+      "abbrev": "GT",
+      "color": "violet"
+    },
+    {
+      "name": "Housatonic Railroad",
+      "abbrev": "H",
+      "color": "lightBlue"
+    },
+    {
+      "name": "Morristown and Erie Railway",
+      "abbrev": "ME",
+      "color": "yellow"
+    },
+    {
+      "name": "New York, Ontaria and Western Railway",
+      "abbrev": "NYOW",
+      "color": "turquoise"
+    },
+    {
+      "name": "New York, Susquehanna and Western Railway",
+      "abbrev": "NYSW",
+      "color": "white"
+    },
+    {
+      "name": "Pittsburg, Shawmut and Northern Railroad",
+      "abbrev": "PSNR",
+      "color": "brightGreen"
+    },
+    {
+      "name": "Pittsburg and Lake Erie Railroad",
+      "abbrev": "PLE",
+      "color": "lime"
+    },
+    {
+      "name": "Providence and Worcester Railroad",
+      "abbrev": "PW",
+      "color": "lightBrown"
+    },
+    {
+      "name": "Rutland Railraod",
+      "abbrev": "R",
+      "color": "blue"
+    },
+    {
+      "name": "Strasburg Railroad",
+      "abbrev": "SR",
+      "color": "natural"
+    },
+    {
+      "name": "Union Railroad",
+      "abbrev": "UR",
+      "color": "navy"
+    },
+    {
+      "name": "Warren & Trumbull Railroad",
+      "abbrev": "WT",
+      "color": "lavender"
+    },
+    {
+      "name": "West Chester Railroad",
+      "abbrev": "WC",
+      "color": "lavender"
+    }
+  ],
+  "trains": [
+    {
+      "name": "2",
+      "quantity": 20,
+      "price": 100,
+      "color": "yellow",
+      "rust": "3P",
+      "image": "2T"
+    },
+    {
+      "name": "2+",
+      "quantity": 4,
+      "price": 100,
+      "color": "yellow",
+      "obsolete": "3P",
+      "image": "2T"
+    },
+    {
+      "name": "3+",
+      "quantity": 12,
+      "price": 300,
+      "color": "green",
+      "obsolete": "6*D",
+      "image": "3T",
+      "imageWidth": "60%",
+      "imagePaddingTop": "5%"
+    },
+    {
+      "name": "3P",
+      "quantity": 1,
+      "price": 400,
+      "color": "water",
+      "image": "3T",
+      "imageWidth": "80%",
+      "imagePaddingTop": "7%"
+    },
+    {
+      "name": "2P",
+      "quantity": 5,
+      "price": 300,
+      "color": "water",
+      "image": "4T",
+      "imageWidth": "80%",
+      "imagePaddingTop": "7%"
+    },
+    {
+      "name": "2P",
+      "quantity": 1,
+      "price": 200,
+      "color": "yellow",
+      "image": "4T",
+      "imageWidth": "80%",
+      "imagePaddingTop": "7%",
+      "description": "DILIGENCE"
+    },
+    {
+      "name": "5",
+      "quantity": 6,
+      "price": 600,
+      "color": "brown",
+      "image": "5T"
+    },
+    {
+      "name": "6*D",
+      "quantity": 10,
+      "price": 800,
+      "color": "gray",
+      "image": "6T"
+    }
+  ],
+  "phases": [
+    {
+      "name": "2",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "yellow"
+    },
+    {
+      "name": "2+",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "yellow"
+    },
+    {
+      "name": "3+",
+      "limit": 4,
+      "rounds": 2,
+      "tiles": "green"
+    },
+    {
+      "name": "3P",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "water"
+    },
+    {
+      "name": "2P",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "water"
+    },
+    {
+      "name": "5",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "brown"
+    },
+    {
+      "name": "6*D",
+      "limit": 3,
+      "rounds": 2,
+      "tiles": "gray"
+    }
+  ],
+  "pools": [],
+  "rounds": [
+    {
+      "color": "white",
+      "name": "SR"
+    },
+    {
+      "color": "yellow",
+      "name": "OR1"
+    },
+    {
+      "color": "gray",
+      "name": "M&A"
+    },
+    {
+      "color": "yellow",
+      "name": "OR2"
+    },
+    {
+      "color": "gray",
+      "name": "M&A"
+    }
+  ],
+  "turns": [],
+  "stock": {
+    "type": "1D",
+    "market": [
+      {
+        "subLabel": "Liquidation",
+        "color": "red"
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray"
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray"
+      },
+      {
+        "subLabel": "Acquisition",
+        "color": "gray"
+      },
+      40,
+      {
+        "color": "water",
+        "value": 45
+      },
+      50,
+      55,
+      60,
+      65,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      135,
+      150,
+      165,
+      180,
+      {
+        "color": "water",
+        "value": 200
+      },
+      220,
+      245,
+      270,
+      300,
+      330,
+      360,
+      400,
+      440,
+      490,
+      540,
+      600,
+      660,
+      720,
+      780,
+      840,
+      900
+    ]
+  },
+  "tiles": {
+    "5": 3,
+    "6": 3,
+    "57": 2,
+    "FRW": {
+      "quantity": 1,
+      "color": "gray",
+      "labels": [
+        {
+          "angle": 210,
+          "percent": 0.8,
+          "label": "W"
+        }
+      ],
+      "offBoardRevenue": {
+        "angle": 0,
+        "percent": 0.7,
+        "revenues": [
+          {
+            "color": "yellow",
+            "cost": "20"
+          },
+          {
+            "color": "green",
+            "cost": "30"
+          },
+          {
+            "color": "brown",
+            "cost": "40"
+          }
+        ]
+      },
+      "centerTowns": {
+        "name": {
+          "name": ""
+        }
+      },
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRK": {
+      "quantity": 3,
+      "color": "green",
+      "offBoardRevenue": {
+        "angle": 0,
+        "percent": 0.7,
+        "revenues": [
+          {
+            "color": "green",
+            "cost": "30"
+          },
+          {
+            "color": "brown",
+            "cost": "40"
+          }
+        ]
+      },
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRY": {
+      "quantity": 3,
+      "color": "green",
+      "offBoardRevenue": {
+        "angle": 0,
+        "percent": 0.7,
+        "revenues": [
+          {
+            "color": "green",
+            "cost": "30"
+          },
+          {
+            "color": "brown",
+            "cost": "40"
+          }
+        ]
+      },
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRX": {
+      "quantity": 3,
+      "color": "green",
+      "offBoardRevenue": {
+        "angle": 0,
+        "percent": 0.7,
+        "revenues": [
+          {
+            "color": "green",
+            "cost": "30"
+          },
+          {
+            "color": "brown",
+            "cost": "40"
+          }
+        ]
+      },
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRC1": {
+      "quantity": 2,
+      "color": "yellow",
+      "labels": [
+        {
+          "angle": 180,
+          "percent": 0.6,
+          "label": "C"
+        }
+      ],
+      "values": [
+        {
+          "angle": 0,
+          "percent": 0.6,
+          "value": 30
+        }
+      ],
+      "cities": [{ "size": 1 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 5
+        }
+      ]
+    },
+    "FRC2": {
+      "quantity": 3,
+      "color": "yellow",
+      "labels": [
+        {
+          "angle": 180,
+          "percent": 0.6,
+          "label": "C"
+        }
+      ],
+      "values": [
+        {
+          "angle": 0,
+          "percent": 0.6,
+          "value": 30
+        }
+      ],
+      "cities": [{ "size": 1 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRC3": {
+      "quantity": 3,
+      "color": "yellow",
+      "labels": [
+        {
+          "angle": 180,
+          "percent": 0.6,
+          "label": "C"
+        }
+      ],
+      "values": [
+        {
+          "angle": 0,
+          "percent": 0.6,
+          "value": 30
+        }
+      ],
+      "cities": [{ "size": 1 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        }
+      ]
+    },
+    "FRCK": {
+      "quantity": 2,
+      "color": "green",
+      "labels": [
+        {
+          "angle": 40,
+          "percent": 0.85,
+          "label": "C"
+        }
+      ],
+      "offBoardRevenue": {
+        "angle": -10,
+        "percent": 0.75,
+        "revenues": [
+          {
+            "color": "green",
+            "cost": "40"
+          },
+          {
+            "color": "brown",
+            "cost": "50"
+          },
+          {
+            "color": "gray",
+            "cost": "60"
+          }
+        ]
+      },
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRCY": {
+      "quantity": 2,
+      "color": "green",
+      "labels": [
+        {
+          "angle": 40,
+          "percent": 0.85,
+          "label": "C"
+        }
+      ],
+      "offBoardRevenue": {
+        "angle": -10,
+        "percent": 0.75,
+        "revenues": [
+          {
+            "color": "green",
+            "cost": "40"
+          },
+          {
+            "color": "brown",
+            "cost": "50"
+          },
+          {
+            "color": "gray",
+            "cost": "60"
+          }
+        ]
+      },
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRCX": {
+      "quantity": 2,
+      "color": "green",
+      "labels": [
+        {
+          "angle": 40,
+          "percent": 0.85,
+          "label": "C"
+        }
+      ],
+      "offBoardRevenue": {
+        "angle": -10,
+        "percent": 0.75,
+        "revenues": [
+          {
+            "color": "green",
+            "cost": "40"
+          },
+          {
+            "color": "brown",
+            "cost": "50"
+          },
+          {
+            "color": "gray",
+            "cost": "60"
+          }
+        ]
+      },
+      "cities": [{ "size": 2 }],
+      "track": [
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRBY": {
+      "quantity": 2,
+      "color": "yellow",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 30
+        }
+      ],
+      "cities": [
+        {
+          "size": 1
+        }
+      ],
+      "terrain": [
+        {
+          "angle": 60,
+          "cost": 20,
+          "type": "water",
+          "percent": 0.7
+        }
+      ],
+      "track": [
+        {
+          "type": "offboard",
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ],
+      "labels": [
+        {
+          "angle": 150,
+          "percent": 0.75,
+          "label": "B"
+        }
+      ]
+    },
+    "FRBG": {
+      "quantity": 2,
+      "color": "green",
+      "values": [
+        {
+          "angle": 210,
+          "percent": 0.75,
+          "value": 50
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "terrain": [
+        {
+          "angle": 30,
+          "cost": 20,
+          "type": "water",
+          "percent": 0.75
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        }
+      ],
+      "labels": [
+        {
+          "angle": 150,
+          "percent": 0.75,
+          "label": "B"
+        }
+      ]
+    },
+    "FRBB": {
+      "quantity": 2,
+      "color": "brown",
+      "offBoardRevenue": {
+        "angle": 165,
+        "percent": 0.85,
+        "revenues": [
+          {
+            "color": "brown",
+            "cost": "60"
+          },
+          {
+            "color": "gray",
+            "cost": "80"
+          }
+        ]
+      },
+      "cities": [
+        {
+          "size": 3,
+          "rotation": 90
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ],
+      "labels": [
+        {
+          "angle": 205,
+          "percent": 0.9,
+          "label": "B"
+        }
+      ]
+    },
+    "FRAG": {
+      "color": "green",
+      "values": [
+        {
+          "angle": 0,
+          "percent": 0.6,
+          "value": 60
+        }
+      ],
+      "labels": [
+        {
+          "label": "A",
+          "angle": 180,
+          "percent": 0.6
+        }
+      ],
+      "cities": [
+        {
+          "angle": 90,
+          "rotation": 90,
+          "size": 1,
+          "percent": 0.4
+        },
+        {
+          "angle": 270,
+          "rotation": 90,
+          "size": 1,
+          "percent": 0.4
+        }
+      ],
+      "terrain": [
+        {
+          "angle": 30,
+          "cost": 20,
+          "type": "water",
+          "percent": 0.75
+        }
+      ],
+      "track": [
+        { "side": 2, "type": "sharp" },
+        { "side": 5, "type": "sharp" }
+      ]
+    },
+    "FRAB": {
+      "color": "brown",
+      "offBoardRevenue": {
+        "revenues": [
+          {
+            "color": "brown",
+            "cost": 80
+          },
+          {
+            "color": "gray",
+            "cost": 100
+          }
+        ],
+        "angle": 0,
+        "percent": 0.85
+      },
+      "labels": [
+        {
+          "label": "A",
+          "angle": 90,
+          "percent": 0.8
+        }
+      ],
+      "cities": [
+        {
+          "angle": 120,
+          "size": 3
+        }
+      ],
+      "track": [
+        { "side": 2 },
+        { "side": 3 },
+        { "side": 4 },
+        { "side": 5 },
+        { "side": 6 }
+      ]
+    },
+    "FRVY": {
+      "color": "yellow",
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.9,
+          "value": 10
+        }
+      ],
+      "labels": [
+        {
+          "label": "V",
+          "angle": 90,
+          "percent": 0.9
+        }
+      ],
+      "cities": [
+        {
+          "size": 1
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+    "FRVG": {
+      "color": "green",
+      "values": [
+        {
+          "angle": 270,
+          "percent": 0.9,
+          "value": 30
+        }
+      ],
+      "labels": [
+        {
+          "label": "V",
+          "angle": 90,
+          "percent": 0.9
+        }
+      ],
+      "cities": [
+        {
+          "size": 2
+        }
+      ],
+      "track": [
+        {
+          "side": 1
+        },
+        {
+          "side": 2
+        },
+        {
+          "side": 3
+        },
+        {
+          "side": 4
+        },
+        {
+          "side": 5
+        },
+        {
+          "side": 6
+        }
+      ]
+    },
+
+    "X22": {
+      "color": "brown",
+      "quantity": 1,
+      "values": [
+        {
+          "angle": 60,
+          "percent": 0.7,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "angle": 0,
+          "percent": 0.5
+        },
+        {
+          "angle": 120,
+          "percent": 0.57735
+        }
+      ],
+      "track": [
+        {
+          "type": "straight",
+          "side": 1,
+          "cross": "over"
+        },
+        {
+          "type": "gentle",
+          "side": 3,
+          "cross": "under"
+        }
+      ]
+    },
+    "X23": {
+      "color": "brown",
+      "quantity": 1,
+      "values": [
+        {
+          "angle": 290,
+          "percent": 0.55,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "angle": 5,
+          "percent": 0.55
+        },
+        {
+          "angle": 210,
+          "percent": 0.5
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 1
+        },
+        {
+          "type": "sharp",
+          "side": 4
+        }
+      ]
+    },
+    "X24": {
+      "color": "brown",
+      "quantity": 1,
+      "values": [
+        {
+          "angle": 75,
+          "percent": 0.55,
+          "value": 40
+        }
+      ],
+      "cities": [
+        {
+          "percent": 0.5
+        },
+        {
+          "angle": 150,
+          "percent": 0.5
+        }
+      ],
+      "track": [
+        {
+          "type": "gentle",
+          "side": 5
+        },
+        {
+          "type": "sharp",
+          "side": 3
+        }
+      ]
+    }
+  },
+  "map": {
+    "players": {
+      "x": 200,
+      "y": 0
+    },
+    "roundTracker": {
+      "type": "round",
+      "x": 100,
+      "y": 140
+    },
+    "hexes": [
+      {
+        "color": "water",
+        "icons": {
+          "type": "port",
+          "percent": 0.3
+        },
+        "names": [
+          {
+            "name": "North Sea",
+            "percent": -0.65
+          }
+        ],
+        "values": [
+          {
+            "value": 30,
+            "percent": -0.3
+          }
+        ],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["A10"]
+      },
+      {
+        "color": "water",
+        "icons": {
+          "type": "port",
+          "percent": 0.3
+        },
+        "names": [
+          {
+            "name": "La Manche",
+            "percent": -0.65
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "percent": -0.3
+          }
+        ],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "hexes": ["B5"]
+      },
+      {
+        "color": "plain",
+        "labels": {
+          "angle": 90,
+          "percent": 0.6,
+          "label": "C"
+        },
+        "cities": [
+          {
+            "name": {
+              "name": "Lille"
+            }
+          }
+        ],
+        "hexes": ["B9"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.3,
+          "name": {
+            "name": "Belgium"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "green",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["B11"]
+      },
+      {
+        "color": "water",
+        "icons": {
+          "type": "boat",
+          "percent": 0.65
+        },
+        "shapes": {
+          "type": "diamond",
+          "text": "20",
+          "color": "white"
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "hexes": ["C4"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Le Havre"
+            }
+          }
+        ],
+        "hexes": ["C6"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rouen"
+            }
+          }
+        ],
+        "hexes": ["C8"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "angle": 0,
+            "cost": 20,
+            "type": "water",
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Reims"
+            }
+          }
+        ],
+        "hexes": ["C10"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.3,
+          "name": {
+            "name": "Luxembourg"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "10"
+            },
+            {
+              "color": "green",
+              "cost": "20"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "gray",
+              "cost": "100"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          }
+        ],
+        "hexes": ["C12"]
+      },
+      {
+        "color": "water",
+        "icons": {
+          "type": "port",
+          "percent": 0.3
+        },
+        "names": [
+          {
+            "name": "Atlantic Ocean",
+            "percent": -0.65
+          }
+        ],
+        "values": [
+          {
+            "value": 40,
+            "percent": -0.3
+          }
+        ],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          }
+        ],
+        "hexes": ["D1"]
+      },
+      {
+        "color": "gray",
+        "names": [
+          {
+            "name": "Brest",
+            "percent": 0.5,
+            "angle": 315
+          }
+        ],
+        "centerTowns": [
+          {
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "offBoardRevenue": {
+          "angle": 180,
+          "percent": 0.5,
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            }
+          ]
+        },
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 4
+          }
+        ],
+        "hexes": ["D3"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Rennes"
+            }
+          }
+        ],
+        "hexes": ["D5"]
+      },
+      {
+        "color": "gray",
+        "names": [
+          {
+            "name": "Le Mans",
+            "percent": 0.5,
+            "angle": 315
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 330,
+            "percent": 0.7
+          }
+        ],
+        "centerTowns": [
+          {
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "track": [
+          {
+            "side": 1
+          },
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["D7"]
+      },
+      {
+        "color": "yellow",
+        "labels": [
+          {
+            "angle": 0,
+            "percent": 0,
+            "label": "A"
+          },
+          {
+            "label": "Paris",
+            "angle": 135,
+            "percent": 0.6
+          }
+        ],
+        "terrain": [
+          {
+            "angle": 0,
+            "cost": 20,
+            "type": "water",
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "angle": 230,
+            "percent": 0.6
+          },
+          {
+            "angle": 50,
+            "percent": 0.6
+          }
+        ],
+        "values": [
+          {
+            "value": 40,
+            "angle": 315,
+            "percent": 0.6
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 3,
+            "revenue": 0,
+            "end": 0.5
+          },
+          {
+            "type": "sharp",
+            "side": 6,
+            "revenue": 1,
+            "end": 0.5
+          }
+        ],
+        "hexes": ["D9"]
+      },
+      {
+        "color": "gray",
+        "icons": {
+          "type": "tree",
+          "percent": 0.65
+        },
+        "shapes": {
+          "type": "diamond",
+          "text": "10",
+          "color": "white"
+        },
+        "track": [
+          {
+            "side": 1,
+            "type": "straight"
+          },
+          {
+            "side": 6,
+            "type": "straight",
+            "end": 0.5
+          },
+          {
+            "side": 5,
+            "type": "straight",
+            "end": 0.5
+          }
+        ],
+        "hexes": ["D11"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Strasbourg"
+            }
+          }
+        ],
+        "hexes": ["D13"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.3,
+          "name": {
+            "name": "Germany"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "40"
+            },
+            {
+              "color": "green",
+              "cost": "50"
+            },
+            {
+              "color": "brown",
+              "cost": "60"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          }
+        ],
+        "hexes": ["D15"]
+      },
+      {
+        "color": "water",
+        "icons": {
+          "type": "port",
+          "percent": 0.3
+        },
+        "names": [
+          {
+            "name": "Bay of Biscay",
+            "percent": -0.65
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "percent": -0.3
+          }
+        ],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          }
+        ],
+        "hexes": ["E4"]
+      },
+      {
+        "labels": [
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "label": "C"
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Nantes"
+            }
+          }
+        ],
+        "hexes": ["E6"]
+      },
+      {
+        "labels": [
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "label": "B"
+          }
+        ],
+        "terrain": [
+          {
+            "angle": 0,
+            "cost": 40,
+            "type": "water",
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Orléans"
+            }
+          }
+        ],
+        "hexes": ["E8"]
+      },
+      {
+        "cities": [
+          {
+            "name": {
+              "name": "Troyes"
+            }
+          }
+        ],
+        "hexes": ["E10"]
+      },
+      {
+        "cities": [
+          {
+            "name": {
+              "name": "Dijon"
+            }
+          }
+        ],
+        "hexes": ["E12"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.3,
+          "name": {
+            "name": "Switzerland"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "30"
+            },
+            {
+              "color": "brown",
+              "cost": "40"
+            },
+            {
+              "color": "gray",
+              "cost": "80"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 2
+          }
+        ],
+        "hexes": ["E14"]
+      },
+      {
+        "color": "gray",
+        "names": [
+          {
+            "name": "Poitiers",
+            "percent": 0.5,
+            "angle": 315
+          }
+        ],
+        "centerTowns": [
+          {
+            "name": {
+              "name": ""
+            }
+          }
+        ],
+        "values": [
+          {
+            "value": 20,
+            "angle": 330,
+            "percent": 0.7
+          }
+        ],
+        "track": [
+          {
+            "side": 2
+          },
+          {
+            "side": 3
+          },
+          {
+            "side": 4
+          },
+          {
+            "side": 6
+          }
+        ],
+        "hexes": ["F7"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "label": "V"
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Vichy"
+            }
+          }
+        ],
+        "hexes": ["F9"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "label": "C"
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Lyon"
+            }
+          }
+        ],
+        "hexes": ["F11"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.3,
+          "name": {
+            "name": "Italy"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 6
+          }
+        ],
+        "hexes": ["F13"]
+      },
+      {
+        "color": "water",
+        "icons": {
+          "type": "boat",
+          "percent": 0.65
+        },
+        "shapes": {
+          "type": "diamond",
+          "text": "20",
+          "color": "white"
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 4
+          },
+          {
+            "type": "offboard",
+            "side": 5
+          }
+        ],
+        "hexes": ["G4"]
+      },
+      {
+        "color": "plain",
+        "terrain": [
+          {
+            "angle": 0,
+            "cost": 20,
+            "type": "water",
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Bordeaux"
+            }
+          }
+        ],
+        "labels": [
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "label": "C"
+          }
+        ],
+        "hexes": ["G6"]
+      },
+      {
+        "color": "gray",
+        "icons": {
+          "type": "tree",
+          "percent": 0.65
+        },
+        "shapes": {
+          "type": "diamond",
+          "text": "10",
+          "color": "white"
+        },
+        "track": [
+          {
+            "type": "straight",
+            "side": 3
+          },
+          {
+            "side": 5
+          }
+        ],
+        "hexes": ["G8"]
+      },
+      {
+        "color": "gray",
+        "icons": {
+          "type": "tree",
+          "percent": 0.65
+        },
+        "track": [
+          {
+            "type": "straight",
+            "side": 2,
+            "end": 0.5
+          },
+          {
+            "type": "straight",
+            "side": 4,
+            "end": 0.5
+          },
+          {
+            "type": "straight",
+            "side": 6,
+            "end": 0.5
+          }
+        ],
+        "shapes": {
+          "type": "diamond",
+          "text": "10",
+          "color": "white"
+        },
+        "hexes": ["G10"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Nice"
+            }
+          }
+        ],
+        "hexes": ["G12"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Bayonne"
+            }
+          }
+        ],
+        "hexes": ["H5"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "label": "B"
+          }
+        ],
+        "terrain": [
+          {
+            "angle": 0,
+            "cost": 20,
+            "type": "water",
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Toulouse"
+            }
+          }
+        ],
+        "hexes": ["H7"]
+      },
+      {
+        "color": "plain",
+        "cities": [
+          {
+            "name": {
+              "name": "Montpellier"
+            }
+          }
+        ],
+        "hexes": ["H9"]
+      },
+      {
+        "color": "plain",
+        "labels": [
+          {
+            "angle": 90,
+            "percent": 0.6,
+            "label": "C"
+          }
+        ],
+        "terrain": [
+          {
+            "angle": 0,
+            "cost": 10,
+            "type": "water",
+            "percent": 0.8
+          }
+        ],
+        "cities": [
+          {
+            "name": {
+              "name": "Marseille"
+            }
+          }
+        ],
+        "hexes": ["H11"]
+      },
+      {
+        "color": "water",
+        "icons": {
+          "type": "boat",
+          "percent": 0.65
+        },
+        "shapes": {
+          "type": "diamond",
+          "text": "20",
+          "color": "white"
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 1
+          },
+          {
+            "type": "offboard",
+            "side": 2
+          }
+        ],
+        "hexes": ["H13"]
+      },
+      {
+        "color": "offboard",
+        "removeBorders": [4],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "hexes": ["I4"]
+      },
+      {
+        "color": "offboard",
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.3,
+          "name": {
+            "name": "Spain"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "30"
+            },
+            {
+              "color": "green",
+              "cost": "40"
+            },
+            {
+              "color": "brown",
+              "cost": "50"
+            },
+            {
+              "color": "gray",
+              "cost": "60"
+            }
+          ]
+        },
+        "removeBorders": [1],
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "hexes": ["I6"]
+      },
+      {
+        "color": "water",
+        "icons": { "type": "port" },
+        "offBoardRevenue": {
+          "angle": 0,
+          "percent": 0.6,
+          "name": {
+            "name": "Mediterranean"
+          },
+          "revenues": [
+            {
+              "color": "yellow",
+              "cost": "20"
+            },
+            {
+              "color": "green",
+              "cost": "40"
+            }
+          ]
+        },
+        "track": [
+          {
+            "type": "offboard",
+            "side": 2
+          },
+          {
+            "type": "offboard",
+            "side": 3
+          }
+        ],
+        "hexes": ["I10"]
+      },
+      {
+        "color": "water",
+        "hexes": ["I12"]
+      },
+      {
+        "color": "gray",
+        "hexes": ["C14", "G14", "I8"]
+      },
+      {
+        "color": "water",
+        "hexes": ["A8", "B7", "C2", "E2", "F5", "H3"]
+      }
+    ]
+  }
+}

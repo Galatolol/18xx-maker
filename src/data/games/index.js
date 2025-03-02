@@ -484,6 +484,15 @@ games["1891"] = {
   subtitle: "Railroading in Hiroshima",
   designer: "Toryo Hojo",
 };
+games["1894_a3"] = {
+  id: "1894_a3",
+  slug: "1894_a3",
+  file: "1894_a3.json",
+  title: "1894",
+  designer: "Jan Kłos",
+  minPlayers: 3,
+  maxPlayers: 4,
+};
 games["1894"] = {
   id: "1894",
   slug: "1894",
@@ -567,6 +576,15 @@ games["18EU"] = {
   subtitle: "Railraoding in Europe from the 1830's to the 1930's",
   designer: "David G. D. Hecht",
   minPlayers: 2,
+  maxPlayers: 6,
+};
+games["18FR"] = {
+  id: "18FR",
+  slug: "18FR",
+  file: "18FR.json",
+  title: "18FR",
+  designer: "Alex Rockwell",
+  minPlayers: 3,
   maxPlayers: 6,
 };
 games["18GJ"] = {
