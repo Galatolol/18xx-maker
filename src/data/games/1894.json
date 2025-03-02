@@ -2060,6 +2060,36 @@
         "hexes": ["F15"]
       },
       {
+        "color": "gray",
+        "quantity": 1,
+        "values": [
+          {
+            "value": 20,
+            "angle": 360,
+            "percent": 0.2
+          }
+        ],
+        "towns": [
+          {
+            "angle": 180,
+            "percent": 0.57735,
+            "rotation": 90,
+            "name": {
+              "name": "Houdan",
+              "rotation": 0,
+              "reverse": true
+            }
+          }
+        ],
+        "track": [
+          {
+            "type": "sharp",
+            "side": 2
+          }
+        ],
+        "hexes": ["G2"]
+      },
+      {
         "color": "yellow",
         "track": [
           {
@@ -2443,7 +2473,7 @@
           {
             "value": 20,
             "angle": 0,
-            "percent": 0.65
+            "percent": 0.75
           }
         ],
         "track": [
@@ -2528,7 +2558,6 @@
           "F9",
           "F11",
           "F17",
-          "G2",
           "H5",
           "H7",
           "I6",
