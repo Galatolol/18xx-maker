@@ -77,6 +77,7 @@ const MapPlayers = ({players, hexWidth}) => {
                        x={0.5 * playersWidth}
                        y={fontSize}
                        fontSize={fontSize}
+                       fontFamily="Times"
                        textAnchor="middle"
                        dominantBaseline="middle"
                      >
@@ -96,6 +97,7 @@ const MapPlayers = ({players, hexWidth}) => {
                                                                  x={0.5 * cellWidth}
                                                                  y={fontSize}
                                                                  fontSize={fontSize}
+                                                                 fontFamily="Times"
                                                                  textAnchor="middle"
                                                                  dominantBaseline="middle"
                                                                >

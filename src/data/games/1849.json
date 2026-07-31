@@ -221,7 +221,6 @@
     "display": {
       "roundTracker": {
         "type": "col-reverse",
-        "size": 25,
         "x": 15,
         "y": 3
       },
@@ -229,7 +228,7 @@
         "reverse": true,
         "verticalAlign": "bottom",
         "x": 13,
-        "y": 5
+        "y": 6
       }
     },
     "legend": [

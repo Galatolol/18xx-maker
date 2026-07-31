@@ -534,7 +534,7 @@
       ]
     },
     "X10": {
-      "quantity": 2,
+      "quantity": 0,
       "color": "gray",
       "rotations": 1,
       "terrain": [
@@ -557,14 +557,19 @@
           "B12",
           "B14",
           "B16",
+          "B18",
+          "C5",
+          "C7",
+          "C9",
+          "C11",
+          "C13",
+          "C15",
           "D4",
+          "D6",
           "D8",
           "D10",
-          "D12",
-          "D14",
           "D16",
           "F4",
-          "F8",
           "F10",
           "F12",
           "F14",
@@ -579,12 +584,14 @@
           "C3",
           "C15",
           "E3",
+          "E5",
           "E7",
           "E9",
           "E11",
           "E13",
           "E15",
           "G3",
+          "G5",
           "G7",
           "G9",
           "G11",
@@ -594,110 +601,26 @@
       },
 
       {
-        "color": "plain",
-        "names": [
+        "color": "gray",
+        "removeBorders": [1],
+        "terrain": [
           {
-            "name": "⚀",
-            "x": -5
-          },
-          {
-            "name": "⚀",
-            "color": "xxp_dark_blue",
-            "x": 5
+            "type": "rocky_mountain",
+            "size": "jumbo"
           }
         ],
-        "hexes": ["C5"]
+        "hexes": ["D12", "F6"]
       },
       {
-        "color": "plain",
-        "names": [
+        "color": "gray",
+        "terrain": [
           {
-            "name": "⚁"
+            "type": "rocky_mountain",
+            "size": "jumbo"
           }
         ],
-        "hexes": ["C7"]
-      },
-      {
-        "color": "plain",
-        "names": [
-          {
-            "name": "⚂"
-          }
-        ],
-        "hexes": ["C9"]
-      },
-      {
-        "color": "plain",
-        "names": [
-          {
-            "name": "⚃"
-          }
-        ],
-        "hexes": ["C11"]
-      },
-      {
-        "color": "plain",
-        "names": [
-          {
-            "name": "⚄"
-          }
-        ],
-        "hexes": ["C13"]
-      },
-      {
-        "color": "water",
-        "removeBorders": [5],
-        "track": [
-          {
-            "type": "offboard",
-            "side": 1
-          },
-          {
-            "type": "offboard",
-            "side": 6
-          }
-        ],
-        "hexes": ["B2"]
-      },
-      {
-        "color": "plain",
-        "names": [
-          {
-            "name": "⚁",
-            "color": "xxp_dark_blue"
-          }
-        ],
-        "hexes": ["D6"]
-      },
-      {
-        "color": "plain",
-        "names": [
-          {
-            "name": "⚂",
-            "color": "xxp_dark_blue"
-          }
-        ],
-        "hexes": ["E5"]
-      },
-      {
-        "color": "plain",
-        "names": [
-          {
-            "name": "⚃",
-            "color": "xxp_dark_blue"
-          }
-        ],
-        "hexes": ["F6"]
-      },
-      {
-        "color": "plain",
-        "names": [
-          {
-            "name": "⚄",
-            "color": "xxp_dark_blue"
-          }
-        ],
-        "hexes": ["G5"]
+        "removeBorders": [4],
+        "hexes": ["D14", "F8"]
       },
 
       {
@@ -903,7 +826,7 @@
             {
               "color": "brown",
               "textColor": "white",
-              "cost": "50"
+              "cost": "40"
             },
             {
               "color": "gray",
@@ -995,7 +918,7 @@
           "revenues": [
             {
               "color": "yellow",
-              "cost": "40"
+              "cost": "50"
             },
             {
               "color": "green",

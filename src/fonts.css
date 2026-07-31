@@ -136,3 +136,15 @@
   font-family: "Shadowed Serif";
   src: url('./fonts/ShadowedSerif.ttf');
 }
+
+/* fira sans condensed */
+@font-face {
+  font-family: "Fira Sans Condensed";
+  src: url('./fonts/firasanscondensed-italic.otf');
+}
+
+/* lack italic */
+@font-face {
+  font-family: "Lack Italic";
+  src: url('./fonts/Lack-Italic.otf');
+}

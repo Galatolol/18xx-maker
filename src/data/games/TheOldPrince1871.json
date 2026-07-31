@@ -394,6 +394,7 @@
           "subLabelLocation": "corner",
           "subLabelSize": 15,
           "value": 400,
+          "x": 300,
           "width": 2
         }
       ],
@@ -404,7 +405,8 @@
           "arrow": "down"
         },
         {
-          "value": 92
+          "value": 92,
+          "subLabel": "ML"
         },
         100,
         110,
@@ -429,7 +431,8 @@
           "arrow": "down"
         },
         {
-          "value": 86
+          "value": 86,
+          "subLabel": "SL"
         },
         93,
         101,
@@ -470,8 +473,8 @@
         null,
         null,
         null,
-        { "width": 1, "label": "Main" },
-        { "width": 1, "label": "Short" }
+        { "width": 1, "label": "ML" },
+        { "width": 1, "label": "SL" }
       ],
       [
         {
@@ -803,7 +806,7 @@
     {
       "name": "Georgetown",
       "subtext": "PEIR",
-      "abbrev": "GT",
+      "abbrev": "Gt",
       "color": "gray",
       "token": {
         "bar": true,
@@ -1133,7 +1136,7 @@
         "labels": [
           {
             "label": "X",
-            "angle": 30,
+            "angle": 90,
             "percent": 0.75
           }
         ],
@@ -1421,7 +1424,7 @@
       },
       {
         "color": "plain",
-        "companies": [{ "label": "VRB" }],
+        "companies": [{ "label": "VRB", "color": "red" }],
         "hexes": ["N18"]
       },
       {
@@ -1531,7 +1534,7 @@
         ],
         "cities": [
           {
-            "companies": ["GT"],
+            "companies": ["Gt"],
             "name": {
               "name": "Georgetown"
             }
@@ -1679,8 +1682,13 @@
         "color": "gray",
         "cities": [
           {
-            "name": { "name": "Emerald Jct" },
             "size": 2
+          }
+        ],
+        "names": [
+          {
+            "name": "Emerald Jct",
+            "percent": -0.5
           }
         ],
         "track": [
@@ -2231,7 +2239,7 @@
         "values": [
           {
             "value": 20,
-            "angle": 30,
+            "angle": -30,
             "percent": 0.75
           }
         ],
@@ -2264,8 +2272,8 @@
         "values": [
           {
             "value": 20,
-            "angle": 120,
-            "percent": 0.65
+            "angle": 150,
+            "percent": 0.77
           }
         ],
         "hexes": ["D2"]
@@ -2275,7 +2283,7 @@
         "labels": [
           {
             "label": "T",
-            "angle": 30,
+            "angle": 90,
             "percent": 0.75
           }
         ],
@@ -2341,7 +2349,7 @@
         "labels": [
           {
             "label": "X",
-            "angle": 30,
+            "angle": 90,
             "percent": 0.75
           }
         ],
@@ -2461,7 +2469,7 @@
         "labels": [
           {
             "label": "X",
-            "angle": 30,
+            "angle": 90,
             "percent": 0.75
           }
         ],

@@ -1,0 +1,1362 @@
+{
+  "info": {
+    "title": "18Man",
+    "subtitle": "Railways and Mines on the Isle of Man",
+    "designer": "Ian Scrivins",
+    "background": "mountain",
+    "orientation": "horizontal",
+    "titleY": 900,
+    "titleX": 700,
+    "titleSize": 100,
+    "subTitleSize": 20,
+    "extraTotalWidth": 210,
+    "marketTokens": 2,
+    "currency": "£#"
+  },
+  "links": {
+    "bgg": "https://www.boardgamegeek.com/boardgame/17132/1800",
+    "rules": "https://www.boardgamegeek.com/filepage/147724/1800-full-and-complete-rules"
+  },
+  "tokens": [
+    { "icon": "round3" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "LOAN", "color": "red" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" },
+    { "label": "£25" }
+  ],
+  "ipo": true,
+  "bank": 2000,
+  "players": [
+    {
+      "number": 2,
+      "capital": 125,
+      "certLimit": 10
+    },
+    {
+      "number": 3,
+      "capital": 100,
+      "certLimit": 9
+    },
+    {
+      "number": 4,
+      "capital": 75,
+      "certLimit": 7
+    }
+  ],
+  "tokenTypes": {
+    "default": ["Home", 20, 30],
+    "one": ["Home"]
+  },
+  "shareTypes": {
+    "default": [
+      {
+        "quantity": 1,
+        "label": "President's Certificate",
+        "percent": 20,
+        "shares": 2
+      },
+      {
+        "quantity": 6,
+        "percent": 10,
+        "shares": 1
+      },
+      {
+        "quantity": 1,
+        "percent": 20,
+        "shares": 2
+      }
+    ]
+  },
+  "companies": [
+    {
+      "name": "Douglas Southern Electric Tramway",
+      "abbrev": "owl/dallas_fuel",
+      "color": "blue",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "First Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 6,
+          "percent": 10,
+          "shares": 1
+        },
+        {
+          "quantity": 1,
+          "label": "Last Share",
+          "percent": 20,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "name": "Isle of Man Railway",
+      "abbrev": "IOM",
+      "color": "red",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "First Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 6,
+          "percent": 10,
+          "shares": 1
+        },
+        {
+          "quantity": 1,
+          "label": "Last Share",
+          "percent": 20,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "name": "Manx Northern Railway",
+      "abbrev": "1832/NS",
+      "color": "black",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "First Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 6,
+          "percent": 10,
+          "shares": 1
+        },
+        {
+          "quantity": 1,
+          "label": "Last Share",
+          "percent": 20,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "name": "Manx Electric Railway",
+      "abbrev": "MAXY",
+      "color": "white",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "First Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 6,
+          "percent": 10,
+          "shares": 1
+        },
+        {
+          "quantity": 1,
+          "label": "Last Share",
+          "percent": 20,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "name": "Beckwith's Mine",
+      "abbrev": "RG",
+      "color": "yellow",
+      "tokens": "one",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "First Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 6,
+          "percent": 10,
+          "shares": 1
+        },
+        {
+          "quantity": 1,
+          "label": "Last Share",
+          "percent": 20,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "name": "Great Laxey Mine",
+      "abbrev": "LAX",
+      "color": "purple",
+      "tokens": "one",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "First Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 6,
+          "percent": 10,
+          "shares": 1
+        },
+        {
+          "quantity": 1,
+          "label": "Last Share",
+          "percent": 20,
+          "shares": 2
+        }
+      ]
+    },
+    {
+      "name": "Foxdale Mine",
+      "abbrev": "FOXM",
+      "color": "green",
+      "tokens": "one",
+      "shares": [
+        {
+          "quantity": 1,
+          "label": "First Share",
+          "percent": 20,
+          "shares": 2
+        },
+        {
+          "quantity": 6,
+          "percent": 10,
+          "shares": 1
+        },
+        {
+          "quantity": 1,
+          "label": "Last Share",
+          "percent": 20,
+          "shares": 2
+        }
+      ]
+    }
+  ],
+  "trains": [
+    {
+      "name": "1+1",
+      "quantity": 9,
+      "price": 30,
+      "image": "2T",
+      "color": "yellow",
+      "info": [
+        {
+          "color": "green",
+          "note": "Rusted by 2E/M3"
+        }
+      ]
+    },
+    {
+      "name": "M1",
+      "quantity": 9,
+      "price": 25,
+      "image": "2T",
+      "color": "yellow",
+      "info": [
+        {
+          "color": "offboard",
+          "note": "EARNINGS: £20"
+        },
+        {
+          "color": "green",
+          "note": "Rusted by 2E/M3"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "quantity": 9,
+      "price": 50,
+      "image": "3T",
+      "color": "green",
+      "info": [
+        {
+          "color": "brown",
+          "note": "Rusted by 5/M5"
+        }
+      ]
+    },
+    {
+      "name": "M2",
+      "quantity": 9,
+      "price": 55,
+      "image": "3T",
+      "color": "green",
+      "info": [
+        {
+          "color": "offboard",
+          "note": "EARNINGS: £40"
+        },
+        {
+          "color": "brown",
+          "note": "Rusted by 3E/M4"
+        }
+      ]
+    },
+    {
+      "name": "2E",
+      "quantity": 9,
+      "image": "4T",
+      "price": 90,
+      "color": "green",
+      "info": [
+        {
+          "color": "grey",
+          "note": "Rusted by D/M6"
+        }
+      ]
+    },
+    {
+      "name": "M3",
+      "quantity": 9,
+      "price": 90,
+      "image": "4T",
+      "color": "green",
+      "info": [
+        {
+          "color": "offboard",
+          "note": "EARNINGS: £60"
+        },
+        {
+          "color": "grey",
+          "note": "Rusted by 5/M5"
+        }
+      ]
+    },
+    {
+      "name": "3E",
+      "quantity": 9,
+      "price": 165,
+      "image": "5T",
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "M4",
+      "quantity": 9,
+      "price": 130,
+      "image": "5T",
+      "color": "brown",
+      "info": [
+        {
+          "color": "offboard",
+          "note": "EARNINGS: £100"
+        },
+        {
+          "color": "grey",
+          "note": "Rusted by D/M6"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "quantity": 9,
+      "price": 200,
+      "image": "6T",
+      "color": "brown",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "M5",
+      "quantity": 9,
+      "price": 175,
+      "image": "6T",
+      "color": "brown",
+      "info": [
+        {
+          "color": "offboard",
+          "note": "EARNINGS: £150"
+        },
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "quantity": 9,
+      "image": "Diesel",
+      "price": "£260 (£210)",
+      "color": "gray",
+      "info": [
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "M6",
+      "quantity": 9,
+      "image": "Diesel",
+      "price": "£225 (£175)",
+      "color": "gray",
+      "info": [
+        {
+          "color": "offboard",
+          "note": "EARNINGS: £220"
+        },
+        {
+          "color": "yellow",
+          "note": "Permanent"
+        }
+      ]
+    }
+  ],
+  "privates": [
+    {
+      "name": "Snaefell Mountain Railway",
+      "price": 15,
+      "revenue": 2,
+      "tile": "MAN|S"
+    },
+    {
+      "name": "Bond Holder",
+      "price": 15,
+      "token": { "color": "yellow", "label": "£" },
+      "revenue": 6
+    },
+    {
+      "name": "Cornish Miners",
+      "price": 0,
+      "token": { "color": "yellow", "label": "+20£" },
+      "revenue": 5
+    },
+    {
+      "name": "Act of Parliament",
+      "price": 12,
+      "revenue": 3,
+      "icon": "share"
+    },
+    {
+      "name": "Douglas Head Cliff Railway",
+      "price": 12,
+      "revenue": 4,
+      "tile": "MAN|Pier"
+    },
+    {
+      "name": "Irish Navvies",
+      "price": 10,
+      "revenue": 3,
+      "token": { "icon": "mountain", "color": "mountain" }
+    },
+    {
+      "name": "Isle of Man Bank",
+      "price": 10,
+      "revenue": 2,
+      "icon": "bond",
+      "token": { "color": "yellow", "label": "£" }
+    },
+    {
+      "name": "Jurby Aerodrome",
+      "price": 15,
+      "revenue": 0,
+      "tile": "MAN|J"
+    },
+    {
+      "name": "Laxey Browside Tramway",
+      "price": 5,
+      "revenue": 2,
+      "tile": "MAN|25"
+    },
+    {
+      "name": "Port Erin Breakwater Railway",
+      "price": 15,
+      "revenue": 3,
+      "tile": "MAN|B"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "Cornish Miners",
+      "description": "From the start of the game, a mining company of which the owner is director adds £20 to the company’s income during each operating round. This applies even if the company has no mining machine(s). There is no benefit to a railway company."
+    },
+    {
+      "name": "Bond Holder",
+      "description": "This has no special ability and simply pays income at the start of each operating round."
+    },
+    {
+      "name": "Snaefell Mountain Railway",
+      "description": "During Phases 2 & 2E, a company of which the owner is director may place the higher value Snaefell tile in the Snaefell hex (F6). This is in addition to the company’s normal tile action(s). There is no connection requirement to the Snaefell hex. The Snaefell tile must be placed to preserve the previous track in the Snaefell hex. The special ability is removed from the game once the Snaefell tile has been placed."
+    },
+    {
+      "name": "Irish Navvies",
+      "description": "From the start of the game, a company of which the owner is director may place yellow tiles in hill hexes without terrain cost and in mountain hexes at a cost of £20. There is no cost reduction for pithead tiles. This is purely a terrain cost reduction, there is no additional tracklaying ability and all rules of tracklaying apply including connection requirements. The special ability is removed from the game once it has been used in the laying of two yellow tiles."
+    },
+    {
+      "name": "Douglas Head Cliff Railway",
+      "description": "During Phases 2 & 2E, a company of which the owner is director may place the Victoria Pier tile in Douglas Bay. This is in addition to the company’s normal tile action(s). There is no connection requirement to the Victoria Pier tile. Victoria Pier may only be placed such that its tracks are adjacent to hexes: F12, F10 and G9 (the Port Soderick, Douglas and Ballabeg hexes). The special ability is removed from the game once the Victoria Pier tile has been placed."
+    },
+    {
+      "name": "Act of Parliament",
+      "description": "During Phases 2 & 2E, a company of which the owner is director may lay or upgrade one track tile without payment of terrain cost. This is in addition to the company’s normal tile action(s). There is no connection requirement to the hex, but the rules of tracklaying otherwise apply. The special ability is removed from the game after one use."
+    },
+    {
+      "name": "Laxey Browside Tramway",
+      "description": "During Phases 2 & 2E, a company of which the owner is director may place a green pithead tile in the Laxey hex (G7) without payment of terrain cost. This is in addition to the company’s normal tile action(s). There is no connection requirement to the Laxey hex, but the rules of tracklaying otherwise apply. The tile is not placed if Great Laxey Mine has previously upgraded to a green/russet pithead tile or above. The value of the Laxey pithead tile does not subsequently fall below £10, even if Great Laxey Mine does not own mining machines. The special ability is removed from the game once it has been used."
+    },
+    {
+      "name": "Jurby Aerodrome",
+      "description": "During Phases 2 & 2E, a company of which the owner is director may place the Jurby Aerodrome double tile as a board overlay. This is in addition to the company’s normal tile action(s). There is no connection requirement to the hexes overlayed. The double tile may only be placed such that Jurby Aerodrome overlays hex E3 and the double town overlays hex E5 (the Kirk Michael hex). The double tile cannot be used if a track tile has previously been placed in hex E5. The special ability is removed from the game once the double tile has been placed."
+    },
+    {
+      "name": "Isle of Man Bank",
+      "description": "From the start of the game, the owner pays £5 interest at the start of each share round for each loan taken, rather than the standard interest rate."
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "Port Erin Railway",
+      "description": "During Phases 2 & 2E, a company of which the owner is director may place the Breakwater double tile. This is in addition to the company’s normal tile action(s). There is no connection requirement. A double tile can only be placed on a hex hex B14 (the Port Erin hex). The red off-board tile may be placed such that it overlays one of: Port Erin Harbour, Port St Mary Harbour of Poolvash Bay (i.e. the red tile forms one of hexes: A13, B16 or C15). The double tile cannot be used if a track tile has previously been placed in hex B14. The special ability is removed from the game once the double tile has been placed."
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "T"
+    }
+  ],
+  "phases": [
+    {
+      "phase": "1",
+      "train": ["1+1", "M1"],
+      "price": ["£30", "£25"],
+      "limit": "3",
+      "number": "3",
+      "tiles": "yellow",
+      "notes": "Terrain cost A/. Mining expenses are £0."
+    },
+    {
+      "phase": "2",
+      "train": ["2", "M2"],
+      "price": ["£50", "£55"],
+      "limit": "3",
+      "number": "3",
+      "tiles": "green",
+      "notes": "Terrain cost A/. Mining expenses are £0."
+    },
+    {
+      "phase": "2E",
+      "train": ["2E", "M3"],
+      "price": ["£90", "£90"],
+      "limit": "3",
+      "rust": "1+1 / M1",
+      "number": "3",
+      "tiles": "green",
+      "notes": "Terrain cost A/. Mining expenses are £0."
+    },
+    {
+      "phase": "3E",
+      "train": ["3E", "M4"],
+      "price": ["£165", "£130"],
+      "limit": "2",
+      "rust": "M2",
+      "number": "2",
+      "tiles": "brown",
+      "notes": "Private companies are closed, terrain cost ./B. Mining expenses are £10."
+    },
+    {
+      "phase": "5",
+      "train": ["5", "M5"],
+      "price": ["£200", "£175"],
+      "limit": "2",
+      "limit": "2",
+      "number": "2",
+      "rust": "2 / M3",
+      "tiles": "brown",
+      "notes": "Terrain cost ./B. D Trains, M6 Machines may be purchased. Mining expenses are £30."
+    },
+    {
+      "phase": "D",
+      "train": ["D", "M6"],
+      "price": ["£260 (£220)", "£225 (£175)"],
+      "limit": "2",
+      "number": "∞",
+      "rust": "2E / M4",
+      "tiles": "gray",
+      "notes": "Terrain cost ./B. Mining expenses are £60."
+    }
+  ],
+  "pools": [
+    {
+      "name": "Market",
+      "notes": [
+        {
+          "color": "brown",
+          "note": "Shares in the market pay dividends to the bank"
+        },
+        {
+          "color": "red",
+          "icon": "times",
+          "note": "Shares cannot be sold during the first stock round"
+        }
+      ]
+    }
+  ],
+  "rounds": [
+    {
+      "name": "OR2",
+      "color": "blue"
+    },
+    {
+      "name": "OR1",
+      "color": "blue"
+    },
+    {
+      "name": "SR",
+      "color": "gray"
+    }
+  ],
+  "turns": [
+    {
+      "name": "Stock Round",
+      "steps": [
+        "Take loan(s) /First turn only/",
+        "Sell any number of shares",
+        "Buy one share"
+      ],
+      "ordered": false
+    },
+    {
+      "name": "Operating Round",
+      "steps": [
+        "Issue one share or redeem any number of share(s) from Bank",
+        "Lay or upgrade track",
+        "Purchase a station",
+        "Run trains/machines",
+        "Pay dividends or withhold revenue",
+        "Purchase trains or machines (optionally for mining company)",
+        "Set any pithead tile (mining company only)"
+      ],
+      "ordered": true,
+      "optional": [
+        "Issue or redeem shares",
+        "Collect bond dividends",
+        "Purchase private companies"
+      ]
+    }
+  ],
+  "stock": {
+    "type": "2D",
+    "par": {
+      "values": [35, 30, 25, 20]
+    },
+    "paginated": false,
+    "movement": {
+      "up": ["Sold out"],
+      "down": ["Once per sale"],
+      "left": ["Paid no dividends"],
+      "right": ["Paid dividends ≥ current share price"]
+    },
+    "market": [
+      [
+        {
+          "label": 29,
+          "arrow": "down"
+        },
+        {
+          "label": 35,
+          "par": true
+        },
+        42,
+        50,
+        60,
+        72,
+        87,
+        104,
+        125,
+        150
+      ],
+      [
+        {
+          "label": 25,
+          "arrow": "down"
+        },
+        {
+          "label": 30,
+          "par": true
+        },
+        36,
+        43,
+        52,
+        62,
+        75,
+        {
+          "label": 90,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "label": 20,
+          "arrow": "down"
+        },
+        {
+          "label": 25,
+          "par": true
+        },
+        30,
+        {
+          "label": 36
+        },
+        43,
+        52,
+        {
+          "label": 62,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "label": 15,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "label": 20,
+          "par": true
+        },
+        25,
+        {
+          "label": 30
+        },
+        36,
+        {
+          "label": 43,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "label": 11,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "label": 15,
+          "legend": 0
+        },
+        20,
+        25,
+        {
+          "label": 30,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "label": 8,
+          "legend": 0,
+          "arrow": "down"
+        },
+        {
+          "label": 11,
+          "legend": 0
+        },
+        {
+          "label": 15,
+          "legend": 0
+        },
+        {
+          "label": 20,
+          "arrow": "up"
+        }
+      ],
+      [
+        {
+          "label": 6,
+          "legend": 0
+        },
+        {
+          "label": 8,
+          "legend": 0
+        },
+        {
+          "label": 11,
+          "legend": 0
+        },
+        {
+          "label": 15,
+          "legend": 0,
+          "arrow": "up"
+        }
+      ]
+    ],
+    "legend": [
+      {
+        "color": "yellow",
+        "description": "Shares of this corporation do not count toward the certificate limit",
+        "icon": "certificate"
+      },
+      {
+        "color": "orange",
+        "description": "Players may own more than 70% of this corporation",
+        "icon": "percentage"
+      }
+    ]
+  },
+  "tiles": {
+    "5": 2,
+    "6": 2,
+    "7": 5,
+    "8": 5,
+    "9": 5,
+    "12": 2,
+    "205": 1,
+    "206": 1,
+    "804": 1,
+    "MAN|1": 3,
+    "MAN|2": 1,
+    "MAN|3": 5,
+    "MAN|4": 3,
+    "MAN|5": 3,
+    "MAN|6": 5,
+    "MAN|7": 5,
+    "MAN|8": 1,
+    "MAN|9": 1,
+    "MAN|10": 1,
+    "MAN|11": 1,
+    "MAN|12": 1,
+    "MAN|13": 1,
+    "MAN|14": 1,
+    "MAN|15": 1,
+    "MAN|16": 1,
+    "MAN|17": 1,
+    "MAN|18": 1,
+    "MAN|19": 1,
+    "MAN|20": 1,
+    "MAN|21": 1,
+    "MAN|22": 1,
+    "MAN|23": 1,
+    "MAN|24": 1,
+    "MAN|25": 3,
+    "MAN|26": 3,
+    "MAN|27": 3,
+    "MAN|28": 3,
+    "MAN|29": 3,
+    "MAN|B": 1,
+    "MAN|J": 1,
+    "MAN|S": 1,
+    "MAN|Pier": 1,
+    "MAN|Ja": 1,
+    "MAN|Ba": 1
+  },
+  "map": [
+    {
+      "players": {
+        "x": 140,
+        "y": 140
+      },
+      "hexes": [
+        {
+          "color": "plain",
+          "mountain": {
+            "cost": "£20/£0"
+          },
+          "hexes": ["B12", "D6", "E11", "F8", "H6"]
+        },
+        {
+          "color": "mountain",
+          "tokens": [
+            {
+              "company": "RG",
+              "destination": true,
+              "percent": 0.75,
+              "angle": 90
+            }
+          ],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": "£30/£30",
+              "angle": 180,
+              "percent": 0.5
+            }
+          ],
+          "icons": [
+            {
+              "type": "coal",
+              "angle": 270,
+              "percent": 0.5
+            }
+          ],
+          "centerTowns": [
+            {
+              "percent": 0.3,
+              "name": { "name": "South Barrule", "reverse": true }
+            }
+          ],
+          "hexes": ["C11"]
+        },
+        {
+          "color": "mountain",
+          "tokens": [
+            {
+              "company": "FOXM",
+              "destination": true,
+              "percent": 0.75,
+              "angle": 90
+            }
+          ],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": "£30/£30",
+              "angle": 180,
+              "percent": 0.5
+            }
+          ],
+          "icons": [
+            {
+              "type": "coal",
+              "angle": 270,
+              "percent": 0.5
+            }
+          ],
+          "centerTowns": [
+            { "percent": 0.3, "name": { "name": "Foxdale", "reverse": true } }
+          ],
+          "hexes": ["D10"]
+        },
+        {
+          "color": "mountain",
+          "tokens": [
+            {
+              "company": "LAX",
+              "destination": true,
+              "percent": 0.75,
+              "angle": 90
+            }
+          ],
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": "£30/£30",
+              "angle": 180,
+              "percent": 0.5
+            }
+          ],
+          "icons": [
+            {
+              "type": "coal",
+              "angle": 270,
+              "percent": 0.5
+            }
+          ],
+          "centerTowns": [
+            { "percent": 0.3, "name": { "name": "Laxey", "reverse": true } }
+          ],
+          "hexes": ["G7"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [{ "name": { "name": "Maughold", "reverse": true } }],
+          "hexes": ["H4"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [
+            { "name": { "name": "Kirk-Michael", "reverse": true } }
+          ],
+          "hexes": ["E5"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [{ "name": { "name": "Ballabeg", "reverse": true } }],
+          "hexes": ["G9"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [{ "name": { "name": "Port Erin", "reverse": true } }],
+          "hexes": ["B14"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [{ "name": { "name": "Maughold", "reverse": true } }],
+          "hexes": ["H4"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [{ "name": { "name": "Port Soderick" } }],
+          "hexes": ["F12"]
+        },
+        {
+          "color": "gray",
+          "towns": [
+            { "angle": 150, "name": { "name": "Cregneish" }, "rotate": -120 }
+          ],
+          "values": [
+            {
+              "value": 10,
+              "angle": 330,
+              "percent": 0.5
+            }
+          ],
+          "track": [
+            {
+              "side": 5
+            }
+          ],
+          "hexes": ["A15"]
+        },
+        {
+          "color": "water",
+          "removeBorders": [1, 5, 6],
+          "names": [
+            {
+              "name": "Douglas Bay",
+              "fontStyle": "italic"
+            }
+          ],
+          "hexes": ["G11"]
+        },
+        {
+          "color": "water",
+          "removeBorders": [1, 2, 6],
+          "names": [
+            {
+              "name": "Poolvash Bay",
+              "fontStyle": "italic"
+            }
+          ],
+          "hexes": ["C15"]
+        },
+        {
+          "color": "water",
+          "removeBorders": [2, 3, 4],
+          "names": [
+            {
+              "name": "Port Erin Harbour",
+              "fontStyle": "italic"
+            }
+          ],
+          "hexes": ["A13"]
+        },
+        {
+          "color": "water",
+          "removeBorders": [1, 2, 5, 6],
+          "names": [
+            {
+              "name": "Port St. Mary Harbour",
+              "fontStyle": "italic"
+            }
+          ],
+          "hexes": ["B16"]
+        },
+        {
+          "color": "gray",
+          "names": [
+            {
+              "name": "The Ayre",
+              "fontStyle": "italic"
+            }
+          ],
+          "hexes": ["F2"]
+        },
+        {
+          "color": "plain",
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": "£20/£0",
+              "angle": 180,
+              "percent": 0.5
+            }
+          ],
+          "centerTowns": [
+            { "percent": 0.3, "name": { "name": "Dalby", "reverse": true } }
+          ],
+          "hexes": ["B10"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            { "name": { "name": "Peel" } },
+            { "companies": [{ "label": "1832/NS", "color": "orange" }] }
+          ],
+          "hexes": ["C7"]
+        },
+        {
+          "color": "yellow",
+          "cities": [
+            {
+              "name": {
+                "name": "Douglas"
+              },
+              "companies": ["IOM"]
+            }
+          ],
+          "values": [
+            {
+              "value": 20,
+              "angle": 270,
+              "percent": 0.67
+            }
+          ],
+          "track": [
+            {
+              "side": 1
+            },
+            {
+              "side": 3
+            }
+          ],
+          "hexes": ["F10"]
+        },
+        {
+          "color": "plain",
+          "cities": [
+            {
+              "name": {
+                "name": "Castletown"
+              },
+              "companies": ["owl/dallas_fuel"]
+            }
+          ],
+          "hexes": ["D14"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [
+            {
+              "x": -30,
+              "name": {
+                "name": "Knockaloe",
+                "reverse": true
+              }
+            },
+            {
+              "x": 30,
+              "name": {
+                "name": "Waterfall"
+              }
+            }
+          ],
+          "hexes": ["C9"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [
+            {
+              "x": -30,
+              "name": {
+                "name": "St. John's",
+                "reverse": true
+              }
+            },
+            {
+              "x": 30,
+              "name": {
+                "name": "Ballacraine"
+              }
+            }
+          ],
+          "hexes": ["D8"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [
+            {
+              "x": -30,
+              "name": {
+                "name": "Crosby",
+                "reverse": true
+              }
+            },
+            {
+              "x": 30,
+              "name": {
+                "name": "Union Mills"
+              }
+            }
+          ],
+          "hexes": ["E9"]
+        },
+        {
+          "color": "plain",
+          "centerTowns": [
+            {
+              "x": -30,
+              "name": {
+                "name": "Ballasalla",
+                "reverse": true
+              }
+            },
+            {
+              "x": 30,
+              "name": {
+                "name": "Ballabeg"
+              }
+            }
+          ],
+          "hexes": ["D12"]
+        },
+        {
+          "color": "plain",
+          "terrain": [
+            {
+              "type": "mountain",
+              "cost": "£50/£20",
+              "angle": 180,
+              "percent": 0.5
+            }
+          ],
+          "centerTowns": [
+            { "x": -30, "name": { "name": "Bungalow", "reverse": true } },
+            { "x": 30, "name": { "name": "Injebreck", "reverse": true } }
+          ],
+          "hexes": ["E7"]
+        },
+        {
+          "color": "plain",
+          "terrain": [{ "type": "mountain", "cost": "£50/£20" }],
+          "hexes": ["G5"]
+        },
+        {
+          "color": "plain",
+          "cities": [{ "name": { "name": "Ramsey" }, "companies": ["MAXY"] }],
+          "hexes": ["G3"]
+        },
+        {
+          "color": "plain",
+          "hexes": ["C13", "E13", "F4"]
+        },
+        {
+          "color": "gray",
+          "hexes": ["E3", "G1"]
+        },
+        {
+          "color": "offboard",
+          "centerTowns": [
+            {
+              "name": {
+                "name": "",
+                "reverse": true
+              }
+            }
+          ],
+          "track": [
+            {
+              "side": 2
+            },
+            {
+              "side": 4
+            },
+            {
+              "side": 6
+            }
+          ],
+          "offBoardRevenue": {
+            "angle": 360,
+            "percent": 0.65,
+            "name": {
+              "name": "Snaefell"
+            },
+            "revenues": [
+              {
+                "color": "yellow",
+                "cost": "0"
+              },
+              {
+                "color": "green",
+                "cost": "10"
+              },
+              {
+                "color": "brown",
+                "cost": "30"
+              }
+            ]
+          },
+          "hexes": ["F6"]
+        }
+      ]
+    }
+  ]
+}

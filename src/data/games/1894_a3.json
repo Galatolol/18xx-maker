@@ -2,14 +2,14 @@
   "info": {
     "title": "1894",
     "titleFontFamily": "Public Enemy",
-    "subtitle": "",
+    "subtitle": "A3",
     "subtitleFontFamily": "Oswald",
     "designerFontFamily": "Times",
-    "designer": "Jan Kłos",
+    "designer": "",
     "background": "gray",
     "width": 150,
     "color_10": "orange",
-    "titleX": 1080,
+    "titleX": 1100,
     "titleY": -85,
     "titleSize": 120,
     "subTitleSize": 20,
@@ -2221,6 +2221,10 @@
           "B12p2",
           "B12p3"
         ]
+      },
+      {
+        "color": "water",
+        "coords": ["A5p5", "A5p6"]
       }
     ]
   }

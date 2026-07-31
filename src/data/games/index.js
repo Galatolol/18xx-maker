@@ -489,7 +489,8 @@ games["1894_a3"] = {
   slug: "1894_a3",
   file: "1894_a3.json",
   title: "1894",
-  designer: "Jan Kłos",
+  subtitle: "A3",
+  designer: "",
   minPlayers: 3,
   maxPlayers: 4,
 };
@@ -630,6 +631,16 @@ games["18LA"] = {
   title: "18 Los Angeles",
   subtitle: "Railroading in the City of Angels",
   designer: "Tony Fryer",
+  minPlayers: 2,
+  maxPlayers: 4,
+};
+games["18Man"] = {
+  id: "18Man",
+  slug: "18Man",
+  file: "18Man.json",
+  title: "18Man",
+  subtitle: "Railways and Mines on the Isle of Man",
+  designer: "Ian Scrivins",
   minPlayers: 2,
   maxPlayers: 4,
 };
