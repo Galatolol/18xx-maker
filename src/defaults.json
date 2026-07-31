@@ -95,8 +95,8 @@
   },
   "stock": {
     "cell": {
-      "width": 70,
-      "height": 85
+      "width": 95,
+      "height": 100
     },
     "value": "top",
     "arrows": "bottom",
