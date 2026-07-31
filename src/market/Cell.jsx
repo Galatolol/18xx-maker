@@ -248,7 +248,7 @@ const Cell = ({ cell, par, game, config, data }) => {
                     // textAnchor={rotated ? "end" : "middle"}
                     textDecoration={cell.underline ? "underline" : null}
                     dominantBaseline="hanging"
-                    x={rotated ? -5 : (width/2) - 47}
+                    x={rotated ? -5 : (width/2) - 45}
                     y={height - 20}
                   >
                     {text}
@@ -259,7 +259,7 @@ const Cell = ({ cell, par, game, config, data }) => {
                     transform={subRotated ? "rotate(-90)" : null}
                     fill={labelColor}
                     fontFamily="Times"
-                    fontStyle="bold"
+                    fontStyle="italic"
                     fontSize="17"
                     textAnchor={sub_anchor}
                     dominantBaseline={sub_baseline}
